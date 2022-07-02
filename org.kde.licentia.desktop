@@ -5,7 +5,7 @@
 Name=Licentia
 Comment=Choose a license for your project
 Exec=licentia
-# Icon=org.kde.licentia
+Icon=org.kde.licentia
 Type=Application
 Terminal=false
 Categories=Development;
