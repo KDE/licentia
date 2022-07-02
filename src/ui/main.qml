@@ -128,11 +128,11 @@ Kirigami.ApplicationWindow {
                                 page.spdx = model.spdx
                                 textarea.text = model.body
 
-                                licenseDrawer.description = model.description
-                                licenseDrawer.implementation = model.implementation
-                                licenseDrawer.permissions = model.permissions.toString().replace(/,/g, ', ')
-                                licenseDrawer.conditions = model.conditions.toString().replace(/,/g, ', ')
-                                licenseDrawer.limitations = model.limitations.toString().replace(/,/g, ', ')
+                                licensePanel.description = model.description
+                                licensePanel.implementation = model.implementation
+                                licensePanel.permissions = model.permissions.toString().replace(/,/g, ', ')
+                                licensePanel.conditions = model.conditions.toString().replace(/,/g, ', ')
+                                licensePanel.limitations = model.limitations.toString().replace(/,/g, ', ')
                             }
                         }
                     }
@@ -141,6 +141,7 @@ Kirigami.ApplicationWindow {
         }
     }
 
+    /*
     contextDrawer: Kirigami.OverlayDrawer {
         id: licenseDrawer
 
@@ -276,6 +277,10 @@ Kirigami.ApplicationWindow {
                 Layout.preferredHeight: Kirigami.Units.gridUnit
             }
         }
+    }*/
+
+    contextDrawer: LicensePanel {
+        id: licensePanel
     }
 
     pageStack.initialPage: Kirigami.Page {
