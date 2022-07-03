@@ -9,5 +9,6 @@ Exec=licentia
 Icon=org.kde.licentia
 Type=Application
 Terminal=false
+Keywords=licenses;copyright;
 Categories=Development;
 SingleMainWindow=true
