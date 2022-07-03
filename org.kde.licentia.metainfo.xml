@@ -32,4 +32,5 @@
   </provides>
   <url type="homepage">https://invent.kde.org/fhek/licentia</url>
   <url type="bugtracker">https://invent.kde.org/fhek/licentia/-/issues</url>
+  <url type="donation">https://kde.org/community/donations/?app=org.kde.licentia</url>
 </component>
