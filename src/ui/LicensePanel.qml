@@ -12,9 +12,9 @@ Kirigami.OverlayDrawer {
 
     property string description
     property string implementation
-    property string permissions
-    property string conditions
-    property string limitations
+    property var permissions
+    property var conditions
+    property var limitations
 
     interactive: contentHeight > height
     edge: Kirigami.Settings.isMobile ? Qt.BottomEdge : Qt.application.layoutDirection == Qt.RightToLeft ? Qt.LeftEdge : Qt.RightEdge
@@ -97,12 +97,23 @@ Kirigami.OverlayDrawer {
 
                     text: i18n("Permissions:")
                 }
-                QQC2.Label {
+                Flow {
                     Layout.fillWidth: true
                     Layout.bottomMargin: Kirigami.Units.gridUnit
 
-                    text: licensePanel.permissions
-                    wrapMode: Text.Wrap
+                    spacing: Kirigami.Units.largeSpacing
+
+                    Repeater {
+                        model: licensePanel.permissions
+                        delegate: Kirigami.Chip {
+                            checked: false
+                            checkable: false
+
+                            text: modelData
+
+                            closable: false
+                        }
+                    }
                 }
 
                 Kirigami.Heading {
@@ -113,12 +124,23 @@ Kirigami.OverlayDrawer {
 
                     text: i18n("Conditions:")
                 }
-                QQC2.Label {
+                Flow {
                     Layout.fillWidth: true
                     Layout.bottomMargin: Kirigami.Units.gridUnit
 
-                    text: licensePanel.conditions
-                    wrapMode: Text.Wrap
+                    spacing: Kirigami.Units.largeSpacing
+
+                    Repeater {
+                        model: licensePanel.conditions
+                        delegate: Kirigami.Chip {
+                            checked: false
+                            checkable: false
+
+                            text: modelData
+
+                            closable: false
+                        }
+                    }
                 }
 
                 Kirigami.Heading {
@@ -129,12 +151,23 @@ Kirigami.OverlayDrawer {
 
                     text: i18n("Limitations:")
                 }
-                QQC2.Label {
+                Flow {
                     Layout.fillWidth: true
                     Layout.bottomMargin: Kirigami.Units.gridUnit
 
-                    text: licensePanel.limitations
-                    wrapMode: Text.Wrap
+                    spacing: Kirigami.Units.largeSpacing
+
+                    Repeater {
+                        model: licensePanel.limitations
+                        delegate: Kirigami.Chip {
+                            checked: false
+                            checkable: false
+
+                            text: i18n("%1", modelData)
+
+                            closable: false
+                        }
+                    }
                 }
             }
         }

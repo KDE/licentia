@@ -130,9 +130,10 @@ Kirigami.ApplicationWindow {
 
                                 licensePanel.description = model.description
                                 licensePanel.implementation = model.implementation
-                                licensePanel.permissions = model.permissions.toString().replace(/,/g, ', ')
-                                licensePanel.conditions = model.conditions.toString().replace(/,/g, ', ')
-                                licensePanel.limitations = model.limitations.toString().replace(/,/g, ', ')
+
+                                licensePanel.permissions = model.permissions
+                                licensePanel.conditions = model.conditions
+                                licensePanel.limitations = model.limitations
                             }
                         }
                     }
