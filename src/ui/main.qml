@@ -162,6 +162,9 @@ Kirigami.ApplicationWindow {
             QQC2.TextArea {
                 id: textarea
 
+                padding: 0
+                textMargin: Kirigami.Units.largeSpacing * 2
+
                 readOnly: true
                 wrapMode: Text.Wrap
 
