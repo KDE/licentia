@@ -30,6 +30,7 @@
   <provides>
     <binary>licentia</binary>
   </provides>
+  <launchable type="desktop-id">org.kde.licentia.desktop</launchable>
   <content_rating type="oars-1.0"/>
   <url type="homepage">https://invent.kde.org/fhek/licentia</url>
   <url type="bugtracker">https://invent.kde.org/fhek/licentia/-/issues</url>
