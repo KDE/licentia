@@ -169,10 +169,10 @@ Kirigami.OverlayDrawer {
                         }
                     }
                 }
+                Item {
+                    Layout.preferredHeight: Kirigami.Units.gridUnit
+                }
             }
-        }
-        Item {
-            Layout.preferredHeight: Kirigami.Units.gridUnit
         }
     }
 }
