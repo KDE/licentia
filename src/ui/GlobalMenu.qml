@@ -17,6 +17,7 @@ Labs.MenuBar {
         Labs.MenuItem {
             text: i18nc("@menu-action", "Quit")
             icon.name: "application-exit"
+            shortcut: StandardKey.Quit
             onTriggered: Qt.quit()
         }
     }
