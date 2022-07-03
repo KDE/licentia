@@ -23,6 +23,22 @@ Labs.MenuBar {
     }
 
     Labs.Menu {
+        title: i18nc("@menu", "Edit")
+
+        Labs.MenuItem {
+            text: i18nc("@menu-action", "Copy license to clipboard")
+            icon.name: "edit-copy"
+            shortcut: StandardKey.Copy
+            onTriggered: {
+                textarea.selectAll()
+                textarea.copy()
+                textarea.moveCursorSelection(0, TextEdit.SelectCharacters)
+                textarea.deselect()
+            }
+        }
+    }
+
+    Labs.Menu {
         title: i18nc("@menu", "Help")
 
         Labs.MenuItem {
