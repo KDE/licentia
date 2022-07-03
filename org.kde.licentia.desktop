@@ -3,6 +3,7 @@
 
 [Desktop Entry]
 Name=Licentia
+GenericName=License Chooser
 Comment=Choose a license for your project
 Exec=licentia
 Icon=org.kde.licentia
