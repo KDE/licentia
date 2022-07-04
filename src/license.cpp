@@ -133,6 +133,11 @@ License License::fromJson(const QJsonObject &obj)
                 {QStringLiteral("name"), i18n("Same license (library)")},
                 {QStringLiteral("description"), i18n("Modifications must be released under the same license when distributing the licensed material. In some cases a similar or related license may be used, or this condition may not apply to works that use the licensed material as a library.")}
             };
+        } else if (i == "same-license--file") {
+            condition = {
+                {QStringLiteral("name"), i18n("Same license (file)")},
+                {QStringLiteral("description"), i18n("Modifications of existing files must be released under the same license when distributing the licensed material. In some cases a similar or related license may be used.")}
+            };
         } else if (i == "none") {
             condition = {
                 {QStringLiteral("name"), i18n("None")},
