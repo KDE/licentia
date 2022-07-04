@@ -109,9 +109,13 @@ Kirigami.OverlayDrawer {
                             checked: false
                             checkable: false
 
-                            text: modelData
+                            text: modelData.name
 
                             closable: false
+
+                            QQC2.ToolTip.visible: hovered
+                            QQC2.ToolTip.text: modelData.description
+                            QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                         }
                     }
                 }
@@ -136,9 +140,13 @@ Kirigami.OverlayDrawer {
                             checked: false
                             checkable: false
 
-                            text: modelData
+                            text: modelData.name
 
                             closable: false
+
+                            QQC2.ToolTip.visible: hovered
+                            QQC2.ToolTip.text: modelData.description
+                            QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                         }
                     }
                 }
@@ -163,9 +171,13 @@ Kirigami.OverlayDrawer {
                             checked: false
                             checkable: false
 
-                            text: i18n("%1", modelData)
+                            text: modelData.name
 
                             closable: false
+
+                            QQC2.ToolTip.visible: hovered
+                            QQC2.ToolTip.text: modelData.description
+                            QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                         }
                     }
                 }
