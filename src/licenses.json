@@ -426,8 +426,8 @@
         "patent-use"
       ],
       "conditions": [
-        "disclose-source",
         "include-copyright",
+        "disclose-source",
         "same-license--file"
       ],
       "limitations": [
