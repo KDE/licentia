@@ -18,7 +18,7 @@ To build a flatpak bundle of Licentia use the following instructions:
 ```bash
 $ git clone https://invent.kde.org/fhek/licentia.git
 $ cd licentia
-$ flatpak-builder --repo=repo build-dir --force-clean org.kde.licentia.json
+$ flatpak-builder --repo=repo build-dir --force-clean org.kde.licentia.json --install-deps-from=flathub
 $ flatpak build-bundle repo licentia.flatpak org.kde.licentia
 ```
 
