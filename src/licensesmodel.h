@@ -22,6 +22,7 @@ public:
         PermissionsRole,
         ConditionsRole,
         LimitationsRole,
+        UsingRole,
         BodyRole
     };
 

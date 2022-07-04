@@ -27,6 +27,7 @@ QHash<int, QByteArray> LicensesModel::roleNames() const
         {Roles::PermissionsRole, QByteArrayLiteral("permissions")},
         {Roles::ConditionsRole, QByteArrayLiteral("conditions")},
         {Roles::LimitationsRole, QByteArrayLiteral("limitations")},
+        {Roles::UsingRole, QByteArrayLiteral("using")},
         {Roles::BodyRole, QByteArrayLiteral("body")}
     };
 }
@@ -56,6 +57,8 @@ QVariant LicensesModel::data(const QModelIndex &index, int role) const
         return license.conditions();
     case Roles::LimitationsRole:
         return license.limitations();
+    case Roles::UsingRole:
+        return license.projectsUsing();
     case Roles::BodyRole:
         return license.body();
     }

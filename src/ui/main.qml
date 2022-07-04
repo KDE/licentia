@@ -132,6 +132,7 @@ Kirigami.ApplicationWindow {
                                 licensePanel.permissions = model.permissions
                                 licensePanel.conditions = model.conditions
                                 licensePanel.limitations = model.limitations
+                                licensePanel.using = model.using
                             }
                         }
                     }

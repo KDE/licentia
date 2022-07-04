@@ -6,7 +6,7 @@
 
 #include <KLocalizedString>
 
-License::License(QString key, QString name, QString spdx, QString description, QString implementation, QJsonArray permissions, QJsonArray conditions, QJsonArray limitations, QString body)
+License::License(QString key, QString name, QString spdx, QString description, QString implementation, QJsonArray permissions, QJsonArray conditions, QJsonArray limitations, QJsonArray projectsUsing, QString body)
 {
     m_key = key;
     m_name = name;
@@ -16,6 +16,7 @@ License::License(QString key, QString name, QString spdx, QString description, Q
     m_permissions = permissions;
     m_conditions = conditions;
     m_limitations = limitations;
+    m_projectsUsing = projectsUsing;
     m_body = body;
 }
 
@@ -57,6 +58,11 @@ QJsonArray License::conditions()
 QJsonArray License::limitations()
 {
     return m_limitations;
+}
+
+QJsonArray License::projectsUsing()
+{
+    return m_projectsUsing;
 }
 
 QString License::body()
@@ -184,6 +190,7 @@ License License::fromJson(const QJsonObject &obj)
         permissions,
         conditions,
         limitations,
+        obj.value(QStringLiteral("using")).toArray(),
         obj.value(QStringLiteral("body")).toString()
     );
 

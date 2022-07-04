@@ -16,6 +16,7 @@ Kirigami.OverlayDrawer {
     property var permissions
     property var conditions
     property var limitations
+    property var using
 
     interactive: contentHeight > height
     edge: Kirigami.Settings.isMobile ? Qt.BottomEdge : Qt.application.layoutDirection == Qt.RightToLeft ? Qt.LeftEdge : Qt.RightEdge
@@ -208,6 +209,37 @@ Kirigami.OverlayDrawer {
                         }
                     }
                 }
+
+                Kirigami.Heading {
+                    visible: licensePanel.using.length > 0
+
+                    Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
+
+                    type: Kirigami.Heading.Type.Primary
+                    level: 4
+
+                    text: i18n("Projects using:")
+                }
+                Flow {
+                    visible: licensePanel.using.length > 0
+
+                    Layout.fillWidth: true
+                    Layout.bottomMargin: Kirigami.Units.gridUnit
+
+                    spacing: Kirigami.Units.largeSpacing
+
+                    Repeater {
+                        model: licensePanel.using
+
+                        Kirigami.UrlButton {
+                            Layout.fillWidth: true
+
+                            text: modelData.name
+                            url: modelData.url
+                        }
+                    }
+                }
+
                 Item {
                     Layout.preferredHeight: Kirigami.Units.gridUnit
                 }
