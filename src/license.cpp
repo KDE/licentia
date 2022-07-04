@@ -177,6 +177,11 @@ License License::fromJson(const QJsonObject &obj)
                 {QStringLiteral("name"), i18n("Patent use")},
                 {QStringLiteral("description"), i18n("This license explicitly states that it does NOT grant any rights in the patents of contributors.")}
             };
+        } else if (i == "none") {
+            limitation = {
+                {QStringLiteral("name"), i18n("None")},
+                {QStringLiteral("description"), i18n("There's no limitations.")}
+            };
         }
         limitations.push_back(limitation);
     }
