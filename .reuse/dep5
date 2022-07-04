@@ -10,7 +10,7 @@ Files: org.kde.licentia.json
 Copyright: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 License: CC0-1.0
 
-Files: licenses.json
+Files: src/licenses.json
 Copyright: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 License: CC-BY-3.0
 
