@@ -3,6 +3,7 @@
 
 import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
+import QtQuick.Window 2.15
 import QtQuick.Layouts 1.15
 
 import org.kde.kirigami 2.20 as Kirigami
@@ -29,6 +30,23 @@ Kirigami.OverlayDrawer {
     rightPadding: 0
 
     Kirigami.Theme.colorSet: Kirigami.Theme.Window
+
+    component ToolTip : QQC2.ToolTip {
+        id: tooltip
+
+        contentItem: RowLayout {
+            QQC2.Label {
+                Layout.fillWidth: true
+                Layout.maximumWidth: Screen.pixelDensity * 63.5 * Screen.devicePixelRatio
+
+                Kirigami.Theme.colorSet: Kirigami.Theme.Tooltip
+
+                text: tooltip.text
+                wrapMode: Text.WordWrap
+                color: Kirigami.Theme.textColor
+            }
+        }
+    }
 
     contentItem: ColumnLayout {
         clip: true
@@ -113,9 +131,12 @@ Kirigami.OverlayDrawer {
 
                             closable: false
 
-                            QQC2.ToolTip.visible: hovered
-                            QQC2.ToolTip.text: modelData.description
-                            QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                            ToolTip {
+                                parent: parent
+                                visible: parent.hovered
+                                text: modelData.description
+                                delay: Kirigami.Units.toolTipDelay
+                            }
                         }
                     }
                 }
@@ -144,9 +165,12 @@ Kirigami.OverlayDrawer {
 
                             closable: false
 
-                            QQC2.ToolTip.visible: hovered
-                            QQC2.ToolTip.text: modelData.description
-                            QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                            ToolTip {
+                                parent: parent
+                                visible: parent.hovered
+                                text: modelData.description
+                                delay: Kirigami.Units.toolTipDelay
+                            }
                         }
                     }
                 }
@@ -175,9 +199,12 @@ Kirigami.OverlayDrawer {
 
                             closable: false
 
-                            QQC2.ToolTip.visible: hovered
-                            QQC2.ToolTip.text: modelData.description
-                            QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+                            ToolTip {
+                                parent: parent
+                                visible: parent.hovered
+                                text: modelData.description
+                                delay: Kirigami.Units.toolTipDelay
+                            }
                         }
                     }
                 }
