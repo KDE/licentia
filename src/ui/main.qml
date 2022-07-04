@@ -100,8 +100,6 @@ Kirigami.ApplicationWindow {
                     ListView {
                         id: listview
 
-                        interactive: contentHeight > height
-
                         Layout.fillWidth: true
                         Layout.fillHeight: true
 
