@@ -13,6 +13,7 @@ Kirigami.OverlayDrawer {
 
     property string description
     property string implementation
+    property string spdx
     property var permissions
     property var conditions
     property var limitations
@@ -86,10 +87,16 @@ Kirigami.OverlayDrawer {
 
                 QQC2.Label {
                     Layout.fillWidth: true
-                    Layout.bottomMargin: Kirigami.Units.gridUnit
 
                     text: licensePanel.description
                     wrapMode: Text.Wrap
+                }
+                Kirigami.UrlButton {
+                    Layout.alignment: Qt.AlignLeft
+                    Layout.bottomMargin: Kirigami.Units.gridUnit
+
+                    text: i18n("Source")
+                    url: `https://spdx.org/licenses/${licensePanel.spdx}`
                 }
 
                 Kirigami.Heading {

@@ -133,6 +133,7 @@ Kirigami.ApplicationWindow {
                                 licensePanel.conditions = model.conditions
                                 licensePanel.limitations = model.limitations
                                 licensePanel.using = model.using
+                                licensePanel.spdx = model.spdx
                             }
                         }
                     }
