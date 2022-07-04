@@ -191,7 +191,7 @@
       "key": "cc0-1.0",
       "name": "Creative Commons Zero v1.0 Universal",
       "spdx_id": "CC0-1.0",
-      "description": "The <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">Creative Commons CC0 Public Domain Dedication</a> waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach. As with the Unlicense and typical software licenses, CC0 disclaims warranties. CC0 is very similar to the Unlicense.",
+      "description": "The Creative Commons CC0 Public Domain Dedication waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach. As with the Unlicense and typical software licenses, CC0 disclaims warranties. CC0 is very similar to the Unlicense.",
       "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
@@ -239,7 +239,7 @@
       "key": "cc-by-sa-4.0",
       "name": "Creative Commons Attribution Share Alike 4.0 International",
       "spdx_id": "CC-BY-SA-4.0",
-      "description": "Similar to <a href='/licenses/cc-by-4.0/'>CC-BY-4.0</a> but requires derivatives be distributed under the same or a similar, compatible license. Frequently used for media assets and educational materials. A previous version is the default license for Wikipedia and other Wikimedia projects. Not recommended for software.",
+      "description": "Similar to CC-BY-4.0 but requires derivatives be distributed under the same or a similar, compatible license. Frequently used for media assets and educational materials. A previous version is the default license for Wikipedia and other Wikimedia projects. Not recommended for software.",
       "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. It is also acceptable to solely supply a link to a copy of the license, usually to the canonical URL for the license.",
       "permissions": [
         "commercial-use",
