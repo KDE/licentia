@@ -7,7 +7,7 @@
 
 Choose a license for your project
 
-![licentia window](.gitlab/licentia.png)
+![licentia window](https://cdn.kde.org/screenshots/licentia/licentia.png)
 
 Licentia helps you choose a license for your project, it allows you to check the license's permissions, conditions and limitations, how to add said license to your project and read the full license.
 
