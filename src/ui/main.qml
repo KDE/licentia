@@ -108,6 +108,7 @@ Kirigami.ApplicationWindow {
                             id: filteredModel
                             sourceModel: LicensesModel { id: licensesModel }
                             filterRole: "name"
+                            sortRole: "name"
                             filterRegularExpression: {
                                 if (searchField.text === "") return new RegExp()
                                 return new RegExp("%1".arg(searchField.text), "i")
