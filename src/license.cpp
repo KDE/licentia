@@ -1,10 +1,11 @@
 // SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
-#include "license.h"
-#include <qjsonarray.h>
+#include <QJsonArray>
 
 #include <KLocalizedString>
+
+#include "license.h"
 
 License::License(QString key, QString name, QString spdx, QString description, QString implementation, QJsonArray permissions, QJsonArray conditions, QJsonArray limitations, QJsonArray projectsUsing, QString body)
 {
