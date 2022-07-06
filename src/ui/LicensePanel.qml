@@ -74,10 +74,16 @@ Kirigami.OverlayDrawer {
                 }
 
                 QQC2.ToolButton {
-                    text: i18n("Source")
-                    icon.name: "edit-link"
+                    display: QQC2.AbstractButton.IconOnly
+                    action: Kirigami.Action {
+                        text: i18n("License Source")
+                        icon.name: "edit-link"
+                        onTriggered: Qt.openUrlExternally(`https://spdx.org/licenses/${licensePanel.spdx}`)
+                    }
 
-                    onClicked: Qt.openUrlExternally(`https://spdx.org/licenses/${licensePanel.spdx}`)
+                    QQC2.ToolTip.visible: hovered
+                    QQC2.ToolTip.text: text
+                    QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                 }
             }
         }
