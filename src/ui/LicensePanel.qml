@@ -88,7 +88,7 @@ Kirigami.OverlayDrawer {
                 QQC2.Label {
                     Layout.fillWidth: true
 
-                    text: i18n(licensePanel.description)
+                    text: licensePanel.description
                     wrapMode: Text.Wrap
                 }
                 Kirigami.UrlButton {
@@ -111,7 +111,7 @@ Kirigami.OverlayDrawer {
                     Layout.fillWidth: true
                     Layout.bottomMargin: Kirigami.Units.gridUnit
 
-                    text: i18n(licensePanel.implementation)
+                    text: licensePanel.implementation
                     wrapMode: Text.Wrap
                 }
 

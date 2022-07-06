@@ -4,8 +4,6 @@
       "key": "afl-3.0",
       "name": "Academic Free License v3.0",
       "spdx_id": "AFL-3.0",
-      "description": "The Academic Free License is a variant of the Open Software License that does not require that the source code of derivative works be disclosed. It contains explicit copyright and patent grants and reserves trademark rights in the author.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Files licensed under AFL 3.0 must also include the notice \"Licensed under the Academic Free License version 3.0\" adjacent to the copyright notice.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -28,8 +26,6 @@
       "key": "apache-2.0",
       "name": "Apache License 2.0",
       "spdx_id": "Apache-2.0",
-      "description": "A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -56,8 +52,6 @@
       "key": "0bsd",
       "name": "BSD Zero Clause License",
       "spdx_id": "0BSD",
-      "description": "The BSD Zero Clause license goes further than the BSD 2-Clause license to allow you unlimited freedom with the software without requirements to include the copyright notice, license text, or disclaimer in either source or binary forms.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.  Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders. You may take the additional step of removing the copyright notice.",
       "permissions": [
         "commercial-use",
         "distribution",
@@ -75,8 +69,6 @@
       "key": "bsd-2-clause",
       "name": "BSD 2-Clause \"Simplified\" License",
       "spdx_id": "BSD-2-Clause",
-      "description": "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-Clause. Both have very minute differences to the MIT license.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -99,8 +91,6 @@
       "key": "bsd-3-clause",
       "name": "BSD 3-Clause \"New\" or \"Revised\" License",
       "spdx_id": "BSD-3-Clause",
-      "description": "A permissive license similar to the BSD 2-Clause License, but with a 3rd clause that prohibits others from using the name of the project or its contributors to promote derived products without written consent.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -124,8 +114,6 @@
       "key": "bsd-3-clause-clear",
       "name": "BSD 3-Clause Clear License",
       "spdx_id": "BSD-3-Clause-Clear",
-      "description": "A variant of the BSD 3-Clause License that explicitly does not grant any patent rights.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -146,8 +134,6 @@
       "key": "bsd-4-clause",
       "name": "BSD 4-Clause \"Original\" or \"Old\" License",
       "spdx_id": "BSD-4-Clause",
-      "description": "A permissive license similar to the BSD 3-Clause License, but with an \"advertising clause\" that requires an acknowledgment of the original source in all advertising material.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders. Replace [project] with the project organization, if any, that sponsors this work.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -167,8 +153,6 @@
       "key": "bsl-1.0",
       "name": "Boost Software License 1.0",
       "spdx_id": "BSL-1.0",
-      "description": "A simple permissive license only requiring preservation of copyright and license notices for source (and not binary) distribution. Licensed works, modifications, and larger works may be distributed under different terms and without source code.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -191,8 +175,6 @@
       "key": "cc0-1.0",
       "name": "Creative Commons Zero v1.0 Universal",
       "spdx_id": "CC0-1.0",
-      "description": "The Creative Commons CC0 Public Domain Dedication waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach. As with the Unlicense and typical software licenses, CC0 disclaims warranties. CC0 is very similar to the Unlicense.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -215,8 +197,6 @@
       "key": "cc-by-4.0",
       "name": "Creative Commons Attribution 4.0 International",
       "spdx_id": "CC-BY-4.0",
-      "description": "Permits almost any use subject to providing credit and license notice. Frequently used for media assets and educational materials. The most common license for Open Access scientific publications. Not recommended for software.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. It is also acceptable to solely supply a link to a copy of the license, usually to the canonical URL for the license.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -239,8 +219,6 @@
       "key": "cc-by-sa-4.0",
       "name": "Creative Commons Attribution Share Alike 4.0 International",
       "spdx_id": "CC-BY-SA-4.0",
-      "description": "Similar to CC-BY-4.0 but requires derivatives be distributed under the same or a similar, compatible license. Frequently used for media assets and educational materials. A previous version is the default license for Wikipedia and other Wikimedia projects. Not recommended for software.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. It is also acceptable to solely supply a link to a copy of the license, usually to the canonical URL for the license.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -264,8 +242,6 @@
       "key": "epl-2.0",
       "name": "Eclipse Public License 2.0",
       "spdx_id": "EPL-2.0",
-      "description": "This commercially-friendly copyleft license provides the ability to commercially license binaries; a modern royalty-free patent license grant; and the ability for linked works to use other licenses, including commercial ones.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -292,8 +268,6 @@
       "key": "gpl-2.0",
       "name": "GNU General Public License v2.0",
       "spdx_id": "GPL-2.0",
-      "description": "The GNU GPL is the most widely used free software license and has a strong copyleft requirement. When distributing derived works, the source code of the work must be made available under the same license. There are multiple variants of the GNU GPL, each with different requirements.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -321,8 +295,6 @@
       "key": "gpl-3.0",
       "name": "GNU General Public License v3.0",
       "spdx_id": "GPL-3.0",
-      "description": "Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.",
-      "implementation": "Create a text file (typically named COPYING, as per GNU conventions) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -351,8 +323,6 @@
       "key": "lgpl-2.1",
       "name": "GNU Lesser General Public License v2.1",
       "spdx_id": "LGPL-2.1",
-      "description": "Primarily used for software libraries, the GNU LGPL requires that derived works be licensed under the same license, but works that only link to it do not fall under this restriction. There are two commonly used versions of the GNU LGPL.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -380,8 +350,6 @@
       "key": "lgpl-3.0",
       "name": "GNU Lesser General Public License v3.0",
       "spdx_id": "LGPL-3.0",
-      "description": "Permissions of this copyleft license are conditioned on making available complete source code of licensed works and modifications under the same license or the GNU GPLv3. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work through interfaces provided by the licensed work may be distributed under different terms and without source code for the larger work.",
-      "implementation": "This license is an additional set of permissions to the GNU GPLv3 license. Follow the instructions to apply the GNU GPLv3, in the root of your source code. Then add another file named COPYING.LESSER and copy the text.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -405,8 +373,6 @@
       "key": "agpl-3.0",
       "name": "GNU Affero General Public License v3.0",
       "spdx_id": "AGPL-3.0",
-      "description": "Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -435,8 +401,6 @@
       "key": "mit",
       "name": "MIT License",
       "spdx_id": "MIT",
-      "description": "A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -461,8 +425,6 @@
       "key": "mpl-2.0",
       "name": "Mozilla Public License 2.0",
       "spdx_id": "MPL-2.0",
-      "description": "Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work may be distributed under different terms and without source code for files added in the larger work.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -489,8 +451,6 @@
       "key": "wtfpl",
       "name": "Do What The F*ck You Want To Public License",
       "spdx_id": "WTFPL",
-      "description": "The easiest license out there. It gives the user permissions to do whatever they want with your code.",
-      "implementation": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
@@ -505,8 +465,6 @@
       "key": "unlicense",
       "name": "The Unlicense",
       "spdx_id": "Unlicense",
-      "description": "A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.",
-      "implementation": "Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root of your source code and copy the text of the license disclaimer into the file.",
       "permissions": [
         "commercial-use",
         "modifications",
