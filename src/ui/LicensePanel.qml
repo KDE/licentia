@@ -104,6 +104,7 @@ Kirigami.OverlayDrawer {
 
                 QQC2.Label {
                     Layout.fillWidth: true
+                    Layout.bottomMargin: Kirigami.Units.gridUnit
 
                     text: licensePanel.description
                     wrapMode: Text.Wrap
