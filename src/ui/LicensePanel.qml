@@ -68,6 +68,17 @@ Kirigami.OverlayDrawer {
 
                     text: i18n("About This License")
                 }
+
+                Item {
+                    Layout.fillWidth: true
+                }
+
+                QQC2.ToolButton {
+                    text: i18n("Source")
+                    icon.name: "edit-link"
+
+                    onClicked: Qt.openUrlExternally(`https://spdx.org/licenses/${licensePanel.spdx}`)
+                }
             }
         }
         QQC2.ScrollView {
@@ -90,13 +101,6 @@ Kirigami.OverlayDrawer {
 
                     text: licensePanel.description
                     wrapMode: Text.Wrap
-                }
-                Kirigami.UrlButton {
-                    Layout.alignment: Qt.AlignLeft
-                    Layout.bottomMargin: Kirigami.Units.gridUnit
-
-                    text: i18n("Source")
-                    url: `https://spdx.org/licenses/${licensePanel.spdx}`
                 }
 
                 Kirigami.Heading {
