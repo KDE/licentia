@@ -116,7 +116,7 @@ Kirigami.OverlayDrawer {
                     type: Kirigami.Heading.Type.Primary
                     level: 4
 
-                    text: i18n("Implementation:")
+                    text: i18n("How to:")
                 }
                 QQC2.Label {
                     Layout.fillWidth: true
