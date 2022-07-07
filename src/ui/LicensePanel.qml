@@ -238,7 +238,7 @@ Kirigami.OverlayDrawer {
 
                     text: i18n("Projects using:")
                 }
-                Flow {
+                ColumnLayout {
                     visible: licensePanel.using.length > 0
 
                     Layout.fillWidth: true
@@ -250,8 +250,6 @@ Kirigami.OverlayDrawer {
                         model: licensePanel.using
 
                         Kirigami.UrlButton {
-                            Layout.fillWidth: true
-
                             text: modelData.name
                             url: modelData.url
                         }
