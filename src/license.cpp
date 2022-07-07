@@ -229,7 +229,7 @@ License License::fromJson(const QJsonObject &obj)
         implementation = i18n("Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.");
     } else if (key == "gpl-2.0") {
         description = i18n("The GNU GPL is the most widely used free software license and has a strong copyleft requirement. When distributing derived works, the source code of the work must be made available under the same license. There are multiple variants of the GNU GPL, each with different requirements.");
-        implementation = i18n("Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.s");
+        implementation = i18n("Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file.");
     } else if (key == "gpl-3.0") {
         description = i18n("Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.");
         implementation = i18n("Create a text file (typically named COPYING, as per GNU conventions) in the root of your source code and copy the text of the license into the file.");
