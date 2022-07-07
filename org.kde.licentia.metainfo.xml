@@ -6,17 +6,52 @@
   -->
   <id>org.kde.licentia</id>
   <name>Licentia</name>
+  <name xml:lang="ca">Licentia</name>
+  <name xml:lang="ca-valencia">Licentia</name>
+  <name xml:lang="es">Licentia</name>
+  <name xml:lang="nl">Licentia</name>
+  <name xml:lang="pt">Licentia</name>
+  <name xml:lang="uk">Licentia</name>
+  <name xml:lang="x-test">xxLicentiaxx</name>
   <summary>Choose a license for your project</summary>
+  <summary xml:lang="ca">Trieu una llicència per al vostre projecte</summary>
+  <summary xml:lang="ca-valencia">Trieu una llicència per al vostre projecte</summary>
+  <summary xml:lang="es">Escoja una licencia para su proyecto</summary>
+  <summary xml:lang="nl">Kies een licentie voor uw project</summary>
+  <summary xml:lang="pt">Escolha uma licença para o seu projecto</summary>
+  <summary xml:lang="uk">Виберіть умови ліцензування вашого проєкту</summary>
+  <summary xml:lang="x-test">xxChoose a license for your projectxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
     <p>Licentia helps you choose a license for your project, it allows you to check the license's permissions, conditions and limitations, how to add said license to your project and read the full license.</p>
+    <p xml:lang="ca">El Licentia us ajuda a triar una llicència per al vostre projecte, permet comprovar els permisos, condicions i limitacions de la llicència, com afegir aquesta llicència al projecte i llegir la llicència completa.</p>
+    <p xml:lang="ca-valencia">Licentia us ajuda a triar una llicència per al vostre projecte, permet comprovar els permisos, condicions i limitacions de la llicència, com afegir esta llicència al projecte i llegir la llicència completa.</p>
+    <p xml:lang="es">Licentia le ayuda a escoger una licencia para su proyecto. Le permite comprobar los permisos, las condiciones y las limitaciones de la licencia, cómo añadir dicha licencia a su proyecto y leer la totalidad de la licencia.</p>
+    <p xml:lang="nl">Licentia helpt u bij het kiezen van een licentie voor uw project, het biedt u het controleren van de toestemmingen, bepalingen en beperkingen gegeven in de licentie, hoe de gekozen licentie aan uw project toevoegen en de volledige licentie te lezen.</p>
+    <p xml:lang="pt">O Licentia ajuda-o a escolher uma licença para o seu projecto; permite-lhe verificar as permissões, condições e limitações, como adicionar a dita licença ao seu projecto e ler a licença completa.</p>
+    <p xml:lang="uk">Licentia допоможе вибрати умови ліцензування для вашого проєкту. Програма надає вам змогу перевірити права доступу, умови та обмеження ліцензії, додати умови ліцензування до вашого проєкту та ознайомитися із повним текстом умов ліцензування.</p>
+    <p xml:lang="x-test">xxLicentia helps you choose a license for your project, it allows you to check the license's permissions, conditions and limitations, how to add said license to your project and read the full license.xx</p>
   </description>
   <screenshots>
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/licentia/licentia.png</image>
       <caption>Main View</caption>
+      <caption xml:lang="ca">Vista principal</caption>
+      <caption xml:lang="ca-valencia">Vista principal</caption>
+      <caption xml:lang="es">Vista principal</caption>
+      <caption xml:lang="nl">Hoofdweergave</caption>
+      <caption xml:lang="pt">Janela Principal</caption>
+      <caption xml:lang="uk">Головне вікно</caption>
+      <caption xml:lang="x-test">xxMain Viewxx</caption>
     </screenshot>
   </screenshots>
   <requires>
