@@ -11,6 +11,8 @@
   <name xml:lang="es">Licentia</name>
   <name xml:lang="nl">Licentia</name>
   <name xml:lang="pt">Licentia</name>
+  <name xml:lang="sl">Licentia</name>
+  <name xml:lang="tr">Licentia</name>
   <name xml:lang="uk">Licentia</name>
   <name xml:lang="x-test">xxLicentiaxx</name>
   <summary>Choose a license for your project</summary>
@@ -19,6 +21,8 @@
   <summary xml:lang="es">Escoja una licencia para su proyecto</summary>
   <summary xml:lang="nl">Kies een licentie voor uw project</summary>
   <summary xml:lang="pt">Escolha uma licença para o seu projecto</summary>
+  <summary xml:lang="sl">Izberite licenco za vaš projekt</summary>
+  <summary xml:lang="tr">Projeniz için bir lisans seçin</summary>
   <summary xml:lang="uk">Виберіть умови ліцензування вашого проєкту</summary>
   <summary xml:lang="x-test">xxChoose a license for your projectxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -29,6 +33,8 @@
   <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
@@ -38,6 +44,8 @@
     <p xml:lang="es">Licentia le ayuda a escoger una licencia para su proyecto. Le permite comprobar los permisos, las condiciones y las limitaciones de la licencia, cómo añadir dicha licencia a su proyecto y leer la totalidad de la licencia.</p>
     <p xml:lang="nl">Licentia helpt u bij het kiezen van een licentie voor uw project, het biedt u het controleren van de toestemmingen, bepalingen en beperkingen gegeven in de licentie, hoe de gekozen licentie aan uw project toevoegen en de volledige licentie te lezen.</p>
     <p xml:lang="pt">O Licentia ajuda-o a escolher uma licença para o seu projecto; permite-lhe verificar as permissões, condições e limitações, como adicionar a dita licença ao seu projecto e ler a licença completa.</p>
+    <p xml:lang="sl">Licentia vam pomaga izbrati licenco za vaš projekt, omogoča preverjanje dovoljenj, pogojev in omejitev licence, kako dodati zahtevano licenco za vaš projekt in prebrati celotno licenco.</p>
+    <p xml:lang="tr">Licentia; projeniz için bir lisans seçmenize; lisansın izinlerini, koşullarını, sınırlandırmalarını denetlemenize; istenen lisansı projenize eklemenize ve tüm lisansı okumanıza izin verir.</p>
     <p xml:lang="uk">Licentia допоможе вибрати умови ліцензування для вашого проєкту. Програма надає вам змогу перевірити права доступу, умови та обмеження ліцензії, додати умови ліцензування до вашого проєкту та ознайомитися із повним текстом умов ліцензування.</p>
     <p xml:lang="x-test">xxLicentia helps you choose a license for your project, it allows you to check the license's permissions, conditions and limitations, how to add said license to your project and read the full license.xx</p>
   </description>
@@ -50,6 +58,8 @@
       <caption xml:lang="es">Vista principal</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="pt">Janela Principal</caption>
+      <caption xml:lang="sl">Glavni pogled</caption>
+      <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Головне вікно</caption>
       <caption xml:lang="x-test">xxMain Viewxx</caption>
     </screenshot>
