@@ -54,12 +54,17 @@ Kirigami.OverlayDrawer {
         clip: true
         spacing: 0
 
-        QQC2.ToolBar {
+        Kirigami.AbstractApplicationHeader {
             Layout.fillWidth: true
-            implicitHeight: applicationWindow().pageStack.globalToolBar.preferredHeight
+
+            topPadding: Kirigami.Units.smallSpacing / 2;
+            bottomPadding: Kirigami.Units.smallSpacing / 2;
+            rightPadding: Kirigami.Units.smallSpacing
+            leftPadding: Kirigami.Units.smallSpacing
 
             RowLayout {
                 anchors.fill: parent
+
                 Kirigami.Heading {
                     Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
                     Layout.leftMargin: Kirigami.Units.largeSpacing + Kirigami.Units.smallSpacing
@@ -87,6 +92,7 @@ Kirigami.OverlayDrawer {
                 }
             }
         }
+
         QQC2.ScrollView {
             id: scroll
 
