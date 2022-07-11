@@ -15,6 +15,7 @@
   <name xml:lang="tr">Licentia</name>
   <name xml:lang="uk">Licentia</name>
   <name xml:lang="x-test">xxLicentiaxx</name>
+  <name xml:lang="zh-TW">Licentia</name>
   <summary>Choose a license for your project</summary>
   <summary xml:lang="ca">Trieu una llicència per al vostre projecte</summary>
   <summary xml:lang="ca-valencia">Trieu una llicència per al vostre projecte</summary>
@@ -25,6 +26,7 @@
   <summary xml:lang="tr">Projeniz için bir lisans seçin</summary>
   <summary xml:lang="uk">Виберіть умови ліцензування вашого проєкту</summary>
   <summary xml:lang="x-test">xxChoose a license for your projectxx</summary>
+  <summary xml:lang="zh-TW">選擇適合您專案的授權條款</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
@@ -37,6 +39,7 @@
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
+  <developer_name xml:lang="zh-TW">KDE Community, Felipe Kinoshita</developer_name>
   <description>
     <p>Licentia helps you choose a license for your project, it allows you to check the license's permissions, conditions and limitations, how to add said license to your project and read the full license.</p>
     <p xml:lang="ca">El Licentia us ajuda a triar una llicència per al vostre projecte, permet comprovar els permisos, condicions i limitacions de la llicència, com afegir aquesta llicència al projecte i llegir la llicència completa.</p>
@@ -48,6 +51,7 @@
     <p xml:lang="tr">Licentia; projeniz için bir lisans seçmenize; lisansın izinlerini, koşullarını, sınırlandırmalarını denetlemenize; istenen lisansı projenize eklemenize ve tüm lisansı okumanıza izin verir.</p>
     <p xml:lang="uk">Licentia допоможе вибрати умови ліцензування для вашого проєкту. Програма надає вам змогу перевірити права доступу, умови та обмеження ліцензії, додати умови ліцензування до вашого проєкту та ознайомитися із повним текстом умов ліцензування.</p>
     <p xml:lang="x-test">xxLicentia helps you choose a license for your project, it allows you to check the license's permissions, conditions and limitations, how to add said license to your project and read the full license.xx</p>
+    <p xml:lang="zh-TW">Licentia 幫助您選擇專案的授權條款。其允許您檢查授權條款的權限、條件和限制，以及如何在您的專案聲明授權條款，和閱讀完整的授權條款內容。</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -62,6 +66,7 @@
       <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Головне вікно</caption>
       <caption xml:lang="x-test">xxMain Viewxx</caption>
+      <caption xml:lang="zh-TW">主檢視</caption>
     </screenshot>
   </screenshots>
   <requires>
