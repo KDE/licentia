@@ -128,7 +128,8 @@ Kirigami.ApplicationWindow {
                                 textarea.text = model.body
 
                                 licensePanel.description = model.description
-                                licensePanel.implementation = model.implementation
+                                licensePanel.licenseImplementation = model.licenseImplementation
+                                licensePanel.spdxImplementation = model.spdxImplementation
 
                                 licensePanel.permissions = model.permissions
                                 licensePanel.conditions = model.conditions
