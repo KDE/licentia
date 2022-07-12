@@ -12,7 +12,7 @@ Kirigami.OverlayDrawer {
     id: licensePanel
 
     property string description
-    property string licenseImplementation
+    property string fileImplementation
     property string spdxImplementation
     property string spdx
     property var permissions
@@ -129,7 +129,7 @@ Kirigami.OverlayDrawer {
                     Layout.fillWidth: true
                     Layout.bottomMargin: Kirigami.Units.largeSpacing
 
-                    text: licensePanel.licenseImplementation
+                    text: licensePanel.fileImplementation
                     wrapMode: Text.Wrap
                 }
                 QQC2.Label {

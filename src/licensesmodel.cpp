@@ -23,7 +23,7 @@ QHash<int, QByteArray> LicensesModel::roleNames() const
         {Roles::NameRole, QByteArrayLiteral("name")},
         {Roles::SpdxRole, QByteArrayLiteral("spdx")},
         {Roles::DescriptionRole, QByteArrayLiteral("description")},
-        {Roles::LicenseImplemenationRole, QByteArrayLiteral("licenseImplementation")},
+        {Roles::FileImplemenationRole, QByteArrayLiteral("fileImplementation")},
         {Roles::SpdxImplemenationRole, QByteArrayLiteral("spdxImplementation")},
         {Roles::PermissionsRole, QByteArrayLiteral("permissions")},
         {Roles::ConditionsRole, QByteArrayLiteral("conditions")},
@@ -50,8 +50,8 @@ QVariant LicensesModel::data(const QModelIndex &index, int role) const
         return license.spdx();
     case Roles::DescriptionRole:
         return license.description();
-    case Roles::LicenseImplemenationRole:
-        return license.licenseImplementation();
+    case Roles::FileImplemenationRole:
+        return license.fileImplementation();
     case Roles::SpdxImplemenationRole:
         return license.spdxImplementation();
     case Roles::PermissionsRole:

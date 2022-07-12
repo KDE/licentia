@@ -10,13 +10,13 @@
 class License
 {
 public:
-    License(QString key, QString name, QString spdx, QString description, QString licenseImplementation, QString spdxImplementation, QJsonArray permissions, QJsonArray conditions, QJsonArray limitations, QJsonArray projectsUsing, QString body);
+    License(QString key, QString name, QString spdx, QString description, QString fileImplementation, QString spdxImplementation, QJsonArray permissions, QJsonArray conditions, QJsonArray limitations, QJsonArray projectsUsing, QString body);
 
     QString key();
     QString name();
     QString spdx();
     QString description();
-    QString licenseImplementation();
+    QString fileImplementation();
     QString spdxImplementation();
     QJsonArray permissions();
     QJsonArray conditions();
@@ -31,7 +31,7 @@ private:
     QString m_name;
     QString m_spdx;
     QString m_description;
-    QString m_licenseImplementation;
+    QString m_fileImplementation;
     QString m_spdxImplementation;
     QJsonArray m_permissions;
     QJsonArray m_conditions;

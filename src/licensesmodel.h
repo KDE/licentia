@@ -18,7 +18,7 @@ public:
         NameRole,
         SpdxRole,
         DescriptionRole,
-        LicenseImplemenationRole,
+        FileImplemenationRole,
         SpdxImplemenationRole,
         PermissionsRole,
         ConditionsRole,
