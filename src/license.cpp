@@ -197,7 +197,7 @@ License License::fromJson(const QJsonObject &obj)
     QString spdx = obj.value(QStringLiteral("spdx_id")).toString();
     QString description;
     QString fileImplementation;
-    QString spdxImplementation = i18n("For REUSE compliance, copy the text of the license into a file named %1.txt, it must be placed in the LICENSES/ directory in the root of your source code.").arg(spdx);
+    QString spdxImplementation = i18n("For REUSE compliance, copy the text of the license into a file named %1.txt, it must be placed in the LICENSES/ directory in the root of your source code.", spdx);
 
     if (key == "afl-3.0") {
         description = i18n("The Academic Free License is a variant of the Open Software License that does not require that the source code of derivative works be disclosed. It contains explicit copyright and patent grants and reserves trademark rights in the author.");
