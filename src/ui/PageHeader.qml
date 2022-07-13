@@ -32,7 +32,7 @@ RowLayout {
 
         display: QQC2.AbstractButton.IconOnly
         action: Kirigami.Action {
-            text: i18n("Copy license to clipboard (Ctrl+C)")
+            text: i18n("Copy License to Clipboard (Ctrl+C)")
             icon.name: "edit-copy"
             shortcut: StandardKey.Copy
             onTriggered: {
