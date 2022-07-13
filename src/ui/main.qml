@@ -75,10 +75,32 @@ Kirigami.ApplicationWindow {
 
                 RowLayout {
                     anchors.fill: parent
+                    spacing: Kirigami.Units.smallSpacing / 2
 
                     Kirigami.SearchField {
                         id: searchField
                         Layout.fillWidth: true
+                    }
+
+                    QQC2.ToolButton {
+                        focusPolicy: Qt.NoFocus
+
+                        display: QQC2.AbstractButton.IconOnly
+                        action: Kirigami.Action {
+                            text: i18nc("@menu-action", "About Licentia")
+                            icon.name: "help-about"
+                            shortcut: StandardKey.HelpContents
+                            onTriggered: pageStack.pushDialogLayer(Qt.resolvedUrl("About.qml"), {}, {
+                                title: i18n("About Licentia"),
+                                width: Kirigami.Units.gridUnit * 25,
+                                height: Kirigami.Units.gridUnit * 30
+                            })
+                            enabled: pageStack.layers.depth <= 1
+                        }
+
+                        QQC2.ToolTip.visible: hovered
+                        QQC2.ToolTip.text: text
+                        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                     }
                 }
             }

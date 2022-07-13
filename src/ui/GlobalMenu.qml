@@ -50,7 +50,12 @@ Labs.MenuBar {
         Labs.MenuItem {
             text: i18nc("@menu-action", "About Licentia")
             icon.name: "help-about"
-            onTriggered: pageStack.layers.push("About.qml")
+            shortcut: StandardKey.HelpContents
+            onTriggered: pageStack.pushDialogLayer(Qt.resolvedUrl("About.qml"), {}, {
+                title: i18n("About Licentia"),
+                width: Kirigami.Units.gridUnit * 25,
+                height: Kirigami.Units.gridUnit * 30
+            })
             enabled: pageStack.layers.depth <= 1
         }
     }
