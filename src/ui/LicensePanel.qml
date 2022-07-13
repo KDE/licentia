@@ -72,7 +72,7 @@ Kirigami.OverlayDrawer {
 
                     level: 3
 
-                    text: i18n("About This License")
+                    text: i18nc("About [License SPDX identifier]", "About %1", licensePanel.spdx)
                 }
 
                 Item {

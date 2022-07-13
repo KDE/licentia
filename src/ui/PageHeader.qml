@@ -12,8 +12,6 @@ import org.kde.licentia 1.0
 RowLayout {
     id: pageHeader
 
-    property string spdx
-
     Layout.fillWidth: true
     spacing: 0
 
@@ -21,7 +19,7 @@ RowLayout {
         Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
         Layout.leftMargin: Kirigami.Units.largeSpacing + Kirigami.Units.smallSpacing
 
-        text: pageHeader.spdx
+        text: i18n("Original License")
         level: 3
     }
 

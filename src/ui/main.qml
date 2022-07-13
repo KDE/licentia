@@ -124,7 +124,6 @@ Kirigami.ApplicationWindow {
                             onClicked: {
                                 root.title = model.name
 
-                                page.spdx = model.spdx
                                 textarea.text = model.body
 
                                 licensePanel.description = model.description
@@ -151,12 +150,8 @@ Kirigami.ApplicationWindow {
     pageStack.initialPage: Kirigami.Page {
         id: page
 
-        property string spdx
-
         padding: 0
-        titleDelegate: PageHeader {
-            spdx: page.spdx
-        }
+        titleDelegate: PageHeader {}
 
         QQC2.ScrollView {
             anchors.fill: parent
