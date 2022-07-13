@@ -93,49 +93,44 @@ Kirigami.ApplicationWindow {
 
                 QQC2.ScrollBar.horizontal.policy: QQC2.ScrollBar.AlwaysOff
 
-                ColumnLayout {
-                    anchors.fill: parent
-                    spacing: 0
+                ListView {
+                    id: listview
 
-                    ListView {
-                        id: listview
+                    Layout.fillWidth: true
+                    Layout.fillHeight: true
 
-                        Layout.fillWidth: true
-                        Layout.fillHeight: true
-
-                        currentIndex: 0
-                        model: KSortFilterProxyModel {
-                            id: filteredModel
-                            sourceModel: LicensesModel { id: licensesModel }
-                            filterRole: "name"
-                            sortRole: "name"
-                            filterRegularExpression: {
-                                if (searchField.text === "") return new RegExp()
-                                return new RegExp("%1".arg(searchField.text), "i")
-                            }
+                    currentIndex: 0
+                    model: KSortFilterProxyModel {
+                        id: filteredModel
+                        sourceModel: LicensesModel { id: licensesModel }
+                        filterRole: "name"
+                        sortRole: "name"
+                        filterRegularExpression: {
+                            if (searchField.text === "") return new RegExp()
+                            return new RegExp("%1".arg(searchField.text), "i")
                         }
-                        delegate: Kirigami.BasicListItem {
-                            id: basiclistitem
+                    }
+                    delegate: Kirigami.BasicListItem {
+                        id: basiclistitem
 
-                            separatorVisible: false
+                        separatorVisible: false
 
-                            label: model.name
+                        label: model.name
 
-                            onClicked: {
-                                root.title = model.name
+                        onClicked: {
+                            root.title = model.name
 
-                                textarea.text = model.body
+                            textarea.text = model.body
 
-                                licensePanel.description = model.description
-                                licensePanel.fileImplementation = model.fileImplementation
-                                licensePanel.spdxImplementation = model.spdxImplementation
+                            licensePanel.description = model.description
+                            licensePanel.fileImplementation = model.fileImplementation
+                            licensePanel.spdxImplementation = model.spdxImplementation
 
-                                licensePanel.permissions = model.permissions
-                                licensePanel.conditions = model.conditions
-                                licensePanel.limitations = model.limitations
-                                licensePanel.using = model.using
-                                licensePanel.spdx = model.spdx
-                            }
+                            licensePanel.permissions = model.permissions
+                            licensePanel.conditions = model.conditions
+                            licensePanel.limitations = model.limitations
+                            licensePanel.using = model.using
+                            licensePanel.spdx = model.spdx
                         }
                     }
                 }
