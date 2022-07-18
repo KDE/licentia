@@ -151,11 +151,6 @@ License License::fromJson(const QJsonObject &obj)
                 {QStringLiteral("name"), i18n("Same license (file)")},
                 {QStringLiteral("description"), i18n("Modifications of existing files must be released under the same license when distributing the licensed material. In some cases a similar or related license may be used.")}
             };
-        } else if (i == "none") {
-            condition = {
-                {QStringLiteral("name"), i18n("None")},
-                {QStringLiteral("description"), i18n("There's no conditions.")}
-            };
         }
         conditions.push_back(condition);
     }
@@ -183,11 +178,6 @@ License License::fromJson(const QJsonObject &obj)
             limitation = {
                 {QStringLiteral("name"), i18n("Patent use")},
                 {QStringLiteral("description"), i18n("This license explicitly states that it does NOT grant any rights in the patents of contributors.")}
-            };
-        } else if (i == "none") {
-            limitation = {
-                {QStringLiteral("name"), i18n("None")},
-                {QStringLiteral("description"), i18n("There's no limitations.")}
             };
         }
         limitations.push_back(limitation);

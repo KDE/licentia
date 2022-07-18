@@ -162,7 +162,17 @@ Kirigami.OverlayDrawer {
 
                     text: i18n("Conditions:")
                 }
+                QQC2.Label {
+                    visible: licensePanel.conditions.length <= 0
+
+                    Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
+                    Layout.bottomMargin: Kirigami.Units.gridUnit
+
+                    text: i18n("(no conditions)")
+                }
                 Flow {
+                    visible: licensePanel.conditions.length > 0
+
                     Layout.fillWidth: true
                     Layout.bottomMargin: Kirigami.Units.gridUnit
 
@@ -193,7 +203,17 @@ Kirigami.OverlayDrawer {
 
                     text: i18n("Limitations:")
                 }
+                QQC2.Label {
+                    visible: licensePanel.limitations.length <= 0
+
+                    Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
+                    Layout.bottomMargin: Kirigami.Units.gridUnit
+
+                    text: i18n("(no limitations)")
+                }
                 Flow {
+                    visible: licensePanel.limitations.length > 0
+
                     Layout.fillWidth: true
                     Layout.bottomMargin: Kirigami.Units.gridUnit
 
