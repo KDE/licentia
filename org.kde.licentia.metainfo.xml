@@ -14,6 +14,7 @@
   <name xml:lang="ko">Licentia</name>
   <name xml:lang="nl">Licentia</name>
   <name xml:lang="pt">Licentia</name>
+  <name xml:lang="sk">Licentia</name>
   <name xml:lang="sl">Licentia</name>
   <name xml:lang="tr">Licentia</name>
   <name xml:lang="uk">Licentia</name>
@@ -28,6 +29,7 @@
   <summary xml:lang="ko">내 프로젝트의 라이선스 선택</summary>
   <summary xml:lang="nl">Kies een licentie voor uw project</summary>
   <summary xml:lang="pt">Escolha uma licença para o seu projecto</summary>
+  <summary xml:lang="sk">Vyberte licenciu pre váš projekt</summary>
   <summary xml:lang="sl">Izberite licenco za vaš projekt</summary>
   <summary xml:lang="tr">Projeniz için bir lisans seçin</summary>
   <summary xml:lang="uk">Виберіть умови ліцензування вашого проєкту</summary>
@@ -44,6 +46,7 @@
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
@@ -77,6 +80,7 @@
       <caption xml:lang="ko">주 보기</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="pt">Janela Principal</caption>
+      <caption xml:lang="sk">Hlavný pohľad</caption>
       <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Головне вікно</caption>
