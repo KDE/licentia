@@ -80,10 +80,15 @@ Kirigami.ApplicationWindow {
                     Kirigami.SearchField {
                         id: searchField
                         Layout.fillWidth: true
+
+                        KeyNavigation.tab: aboutButton
                     }
 
                     QQC2.ToolButton {
+                        id: aboutButton
+
                         focusPolicy: Qt.NoFocus
+                        KeyNavigation.tab: listview
 
                         display: QQC2.AbstractButton.IconOnly
                         action: Kirigami.Action {
@@ -117,6 +122,9 @@ Kirigami.ApplicationWindow {
 
                 ListView {
                     id: listview
+
+                    KeyNavigation.tab: page
+                    activeFocusOnTab: true
 
                     Layout.fillWidth: true
                     Layout.fillHeight: true
