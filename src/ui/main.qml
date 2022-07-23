@@ -154,6 +154,10 @@ Kirigami.ApplicationWindow {
                             licensePanel.using = model.using
                             licensePanel.spdx = model.spdx
                         }
+
+                        QQC2.ToolTip.visible: hovered && labelItem.truncated
+                        QQC2.ToolTip.text: label
+                        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                     }
                 }
             }
