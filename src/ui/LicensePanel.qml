@@ -66,7 +66,7 @@ Kirigami.OverlayDrawer {
                     display: QQC2.AbstractButton.IconOnly
                     action: Kirigami.Action {
                         text: i18n("License Source")
-                        icon.name: "edit-link"
+                        icon.name: "link"
                         onTriggered: Qt.openUrlExternally(`https://spdx.org/licenses/${licensePanel.spdx}`)
                     }
 
