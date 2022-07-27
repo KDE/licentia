@@ -47,4 +47,23 @@ RowLayout {
         QQC2.ToolTip.text: text
         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
     }
+
+    QQC2.ToolButton {
+        visible: Kirigami.Settings.isMobile
+
+        focusPolicy: Qt.NoFocus
+
+        display: QQC2.AbstractButton.IconOnly
+        action: Kirigami.Action {
+            text: i18n("About License")
+            icon.name: "help-about"
+            onTriggered: {
+                licensePanel.drawerOpen = true
+            }
+        }
+
+        QQC2.ToolTip.visible: hovered
+        QQC2.ToolTip.text: text
+        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
+    }
 }

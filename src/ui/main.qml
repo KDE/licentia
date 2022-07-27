@@ -15,10 +15,8 @@ Kirigami.ApplicationWindow {
 
     title: i18n("Licentia")
 
-    width: Kirigami.Units.gridUnit * 71
-    height: Kirigami.Units.gridUnit * 43
-    minimumWidth: Kirigami.Units.gridUnit * 50
-    minimumHeight: Kirigami.Units.gridUnit * 20
+    minimumWidth: !Kirigami.Settings.isMobile ? Kirigami.Units.gridUnit * 50 : 0
+    minimumHeight: !Kirigami.Settings.isMobile ? Kirigami.Units.gridUnit * 20 : 0
 
     Timer {
         id: saveWindowGeometryTimer

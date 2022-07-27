@@ -8,7 +8,7 @@ import QtQuick.Layouts 1.15
 
 import org.kde.kirigami 2.20 as Kirigami
 
-Kirigami.OverlayDrawer {
+Kirigami.ContextDrawer {
     id: licensePanel
 
     property string description
@@ -22,10 +22,11 @@ Kirigami.OverlayDrawer {
 
     interactive: contentHeight > height
     edge: Kirigami.Settings.isMobile ? Qt.BottomEdge : Qt.application.layoutDirection == Qt.RightToLeft ? Qt.LeftEdge : Qt.RightEdge
-    modal: false
+    modal: Kirigami.Settings.isMobile
+    drawerOpen: !Kirigami.Settings.isMobile
 
-    width: Kirigami.Units.gridUnit * 21
-    height: applicationWindow().height
+    width: Kirigami.Settings.isMobile ? applicationWindow().width : Kirigami.Units.gridUnit * 20
+    height: Kirigami.Settings.isMobile ? applicationWindow().height / 1.5 : applicationWindow().height
 
     topPadding: 0
     bottomPadding: 0
