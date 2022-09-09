@@ -8,6 +8,7 @@
   <name>Licentia</name>
   <name xml:lang="ca">Licentia</name>
   <name xml:lang="ca-valencia">Licentia</name>
+  <name xml:lang="cs">Licentia</name>
   <name xml:lang="en-GB">Licentia</name>
   <name xml:lang="es">Licentia</name>
   <name xml:lang="fi">Licentia</name>
@@ -25,6 +26,7 @@
   <summary>Choose a license for your project</summary>
   <summary xml:lang="ca">Trieu una llicència per al vostre projecte</summary>
   <summary xml:lang="ca-valencia">Seleccioneu una llicència per al vostre projecte</summary>
+  <summary xml:lang="cs">Zvolte si licenci pro svůj projekt</summary>
   <summary xml:lang="en-GB">Choose a licence for your project</summary>
   <summary xml:lang="es">Escoja una licencia para su proyecto</summary>
   <summary xml:lang="fi">Valitse projektillesi lisenssi</summary>
@@ -82,6 +84,7 @@
       <caption>Main View</caption>
       <caption xml:lang="ca">Vista principal</caption>
       <caption xml:lang="ca-valencia">Vista principal</caption>
+      <caption xml:lang="cs">Hlavní pohled</caption>
       <caption xml:lang="en-GB">Main View</caption>
       <caption xml:lang="es">Vista principal</caption>
       <caption xml:lang="fi">Päänäkymä</caption>
