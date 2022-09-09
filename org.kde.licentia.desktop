@@ -5,6 +5,7 @@
 Name=Licentia
 Name[ca]=Licentia
 Name[ca@valencia]=Licentia
+Name[cs]=Licentia
 Name[de]=Licentia
 Name[en_GB]=Licentia
 Name[es]=Licentia
@@ -41,6 +42,7 @@ GenericName[zh_TW]=授權條款選擇工具
 Comment=Choose a license for your project
 Comment[ca]=Trieu una llicència per al vostre projecte
 Comment[ca@valencia]=Seleccioneu una llicència per al vostre projecte
+Comment[cs]=Zvolte si licenci pro svůj projekt
 Comment[de]=Wählen Sie eine Lizenz für Ihr Projekt
 Comment[en_GB]=Choose a licence for your project
 Comment[es]=Escoja una licencia para su proyecto
