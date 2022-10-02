@@ -1,0 +1,781 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: licentia\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-29 00:50+0000\n"
+"PO-Revision-Date: 2022-07-29 09:27+0100\n"
+"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+"Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-SpellExtra: Licentia Felipe Kinoshita Academic Free License Open\n"
+"X-POFile-IgnoreConsistency: Liability\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: LICENSE txt AFL year fullname MIT project Creative\n"
+"X-POFile-SpellExtra: Commons Public Domain Dedication Unlicense BY\n"
+"X-POFile-SpellExtra: Wikimedia copyleft COPYING GPLv LESSER\n"
+"X-POFile-SpellExtra: UNLICENSE REUSE LICENSES\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "José Nuno Pires"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zepires@gmail.com"
+
+#: src/license.cpp:88
+#, kde-format
+msgid "Commercial use"
+msgstr "Uso comercial"
+
+#: src/license.cpp:89 src/license.cpp:122
+#, kde-format
+msgid ""
+"The licensed material and derivatives may be used for commercial purposes."
+msgstr ""
+"O material licenciado e os seus derivados podem ser usados para fins "
+"comerciais."
+
+#: src/license.cpp:93
+#, kde-format
+msgid "Modification"
+msgstr "Modificação"
+
+#: src/license.cpp:94
+#, kde-format
+msgid "The licensed material may be modified."
+msgstr "O material licenciado pode ser modificado."
+
+#: src/license.cpp:98
+#, kde-format
+msgid "Distribution"
+msgstr "Distribuição"
+
+#: src/license.cpp:99
+#, kde-format
+msgid "The licensed material may be distributed."
+msgstr "O material licenciado pode ser distribuído."
+
+#: src/license.cpp:103
+#, kde-format
+msgid "Private use"
+msgstr "Uso privado"
+
+#: src/license.cpp:104
+#, kde-format
+msgid "The licensed material may be used and modified in private."
+msgstr "O material licenciado pode ser usado e modificado em privado."
+
+#: src/license.cpp:108 src/license.cpp:179
+#, kde-format
+msgid "Patent use"
+msgstr "Uso de patentes"
+
+#: src/license.cpp:109
+#, kde-format
+msgid ""
+"The licensed provides and express grant of patent rights from contributors."
+msgstr ""
+"O licenciado fornece e expressa a cedência de direitos das patentes dos "
+"contribuintes."
+
+#: src/license.cpp:121
+#, kde-format
+msgid "License and copyright notice"
+msgstr "Licença e aviso de direitos de cópia"
+
+#: src/license.cpp:126
+#, kde-format
+msgid "State changes"
+msgstr "Mudanças do estado"
+
+#: src/license.cpp:127
+#, kde-format
+msgid "Changes made to the licensed material must be documented."
+msgstr ""
+"As alterações feitas ao material licenciado deverão estar documentadas."
+
+#: src/license.cpp:131
+#, kde-format
+msgid "Disclose source"
+msgstr "Divulgação do código"
+
+#: src/license.cpp:132
+#, kde-format
+msgid ""
+"Source code must be made available when the licensed material is distributed."
+msgstr ""
+"O código-fonte deverá ser disponibilizado quando o material licenciado foi "
+"distribuído."
+
+#: src/license.cpp:136
+#, kde-format
+msgid "Network use is distribution"
+msgstr "O uso da rede é a distribuição"
+
+#: src/license.cpp:137
+#, kde-format
+msgid ""
+"Users who interact with the licensed material via network are given the "
+"right to receive a copy of the source code."
+msgstr ""
+"Os utilizadores que interagem com o material licenciado pela rede têm o "
+"direito de receber uma cópia do código-fonte."
+
+#: src/license.cpp:141
+#, kde-format
+msgid "Same license"
+msgstr "Mesma licença"
+
+#: src/license.cpp:142
+#, kde-format
+msgid ""
+"Modifications must be released under the same license when distributing the "
+"licensed material. In some cases a similar or related license may be used."
+msgstr ""
+"As modificações deverão ser lançadas segundo a mesma licença que a do "
+"material licenciado. Em alguns casos, poderá usar uma licença semelhante ou "
+"relacionada."
+
+#: src/license.cpp:146
+#, kde-format
+msgid "Same license (library)"
+msgstr "Mesma licença (biblioteca)"
+
+#: src/license.cpp:147
+#, kde-format
+msgid ""
+"Modifications must be released under the same license when distributing the "
+"licensed material. In some cases a similar or related license may be used, "
+"or this condition may not apply to works that use the licensed material as a "
+"library."
+msgstr ""
+"As modificações deverão ser lançadas segundo a mesma licença que a do "
+"material licenciado. Em alguns casos, poderá usar uma licença semelhante ou "
+"relacionada, ou então esta condição poderá não ser aplicada aos trabalhos "
+"que usam o material licenciado como uma biblioteca."
+
+#: src/license.cpp:151
+#, kde-format
+msgid "Same license (file)"
+msgstr "Mesma licença (ficheiro)"
+
+#: src/license.cpp:152
+#, kde-format
+msgid ""
+"Modifications of existing files must be released under the same license when "
+"distributing the licensed material. In some cases a similar or related "
+"license may be used."
+msgstr ""
+"As modificações dos ficheiros existentes deverão ser lançadas segundo a "
+"mesma licença que a do material licenciado. Em alguns casos, poderá usar uma "
+"licença semelhante ou relacionada."
+
+#: src/license.cpp:164
+#, kde-format
+msgid "Liability"
+msgstr "Responsabilidade"
+
+#: src/license.cpp:165
+#, kde-format
+msgid "This license includes a limitation of liability."
+msgstr "Esta licença inclui uma limitação da responsabilidade."
+
+#: src/license.cpp:169
+#, kde-format
+msgid "Warranty"
+msgstr "Garantia"
+
+#: src/license.cpp:170
+#, kde-format
+msgid "This license explicitly states that it does NOT provide any warranty."
+msgstr "Esta licença indica explicitamente que NÃO oferece qualquer garantia."
+
+#: src/license.cpp:174
+#, kde-format
+msgid "Trademark use"
+msgstr "Uso de marca registada"
+
+#: src/license.cpp:175
+#, kde-format
+msgid ""
+"This license explicitly states that it does NOT grant trademark rights, even "
+"though licenses without such a statement probably do not grant any implicit "
+"trademark rights."
+msgstr ""
+"Esta licença indica explicitamente que NÃO concede direitos de marcas "
+"registadas, ainda que as licenças sem essa instrução não concedam "
+"provavelmente quaisquer direitos de marcas registadas implícitos."
+
+#: src/license.cpp:180
+#, kde-format
+msgid ""
+"This license explicitly states that it does NOT grant any rights in the "
+"patents of contributors."
+msgstr ""
+"Esta licença indica explicitamente que NÃO concede direitos nas patentes dos "
+"contribuintes."
+
+#: src/license.cpp:190
+#, kde-format
+msgid ""
+"For REUSE compliance, copy the text of the license into a file named %1.txt, "
+"it must be placed in the LICENSES/ directory in the root of your source code."
+msgstr ""
+"Para conformidade com o REUSE, copie o texto da licença para um ficheiro "
+"chamado %1.txt, que deverá ser colocado na pasta LICENSES/ no topo do seu "
+"código-fonte."
+
+#: src/license.cpp:193
+#, kde-format
+msgid ""
+"The Academic Free License is a variant of the Open Software License that "
+"does not require that the source code of derivative works be disclosed. It "
+"contains explicit copyright and patent grants and reserves trademark rights "
+"in the author."
+msgstr ""
+"A Academic Free License é uma variante da Open Software License que não "
+"obriga que o código-fonte do trabalho derivado seja divulgado. Contém a "
+"cedência de patentes e direitos de cópia e reserva os direitos de marcas "
+"registadas no autor."
+
+#: src/license.cpp:194
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Files "
+"licensed under AFL 3.0 must also include the notice \"Licensed under the "
+"Academic Free License version 3.0\" adjacent to the copyright notice."
+msgstr ""
+"Crie um ficheiro de texto (tipicamente chamado LICENSE ou LICENSE.txt) na "
+"raiz do seu código-fonte e copie o texto da licença para o ficheiro. Os "
+"ficheiros licenciados com a AFL 3.0 deverá incluir também a nota "
+"\"Licenciado segundo a Academic Free License na versão 3.0\" adjacente à "
+"nota de direitos de cópia."
+
+#: src/license.cpp:196
+#, kde-format
+msgid ""
+"A permissive license whose main conditions require preservation of copyright "
+"and license notices. Contributors provide an express grant of patent rights. "
+"Licensed works, modifications, and larger works may be distributed under "
+"different terms and without source code."
+msgstr ""
+"Uma licença permissiva cujas condições principais obrigam à preservação das "
+"notas de direitos de cópia e da licença. Os contribuintes fornecem uma "
+"cedência expressa dos direitos de patentes. Os trabalhos licenciados, "
+"modificações e trabalhos de maior dimensão poderão ser distribuídos segundo "
+"diferentes termos e sem código-fonte."
+
+#: src/license.cpp:197 src/license.cpp:215 src/license.cpp:218
+#: src/license.cpp:227 src/license.cpp:230 src/license.cpp:236
+#: src/license.cpp:242 src/license.cpp:248 src/license.cpp:251
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file."
+msgstr ""
+"Crie um ficheiro de texto (tipicamente chamado LICENSE ou LICENSE.txt) na "
+"raiz do seu código-fonte e copie o texto da licença para o ficheiro."
+
+#: src/license.cpp:199
+#, kde-format
+msgid ""
+"The BSD Zero Clause license goes further than the BSD 2-Clause license to "
+"allow you unlimited freedom with the software without requirements to "
+"include the copyright notice, license text, or disclaimer in either source "
+"or binary forms."
+msgstr ""
+"A licença BSD Zero Cláusulas vai mais além da licença BSD de 2-Cláusulas, "
+"permitindo-lhe uma liberdade ilimitada com o 'software' sem quaisquer "
+"requisitos para incluir a nota de direitos de cópia, texto da licença ou "
+"quaisquer avisos sob a forma de código ou binários."
+
+#: src/license.cpp:200
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file.  Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders. You may take the additional step of removing the "
+"copyright notice."
+msgstr ""
+"Crie um ficheiro de texto (tipicamente chamado LICENSE ou LICENSE.txt) na "
+"raiz do seu código-fonte e copie o texto da licença para o ficheiro. "
+"Substitua [year] pelo ano actual e [fullname] pelo nome (ou nomes) dos "
+"detentores dos direitos de cópia. Poderá aplicar o passo adicional de "
+"remover o aviso de direitos de cópia."
+
+#: src/license.cpp:202
+#, kde-format
+msgid ""
+"A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
+"Clause. Both have very minute differences to the MIT license."
+msgstr ""
+"Uma licença permissiva que vem em duas variantes, a BSD de 2-Cláusulas e a "
+"BSD 3-Cláusulas. Ambas têm diferenças muito pequenas face à MIT License."
+
+#: src/license.cpp:203 src/license.cpp:206 src/license.cpp:209
+#: src/license.cpp:245
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders."
+msgstr ""
+"Crie um ficheiro de texto (tipicamente chamado LICENSE ou LICENSE.txt) na "
+"raiz do seu código-fonte e copie o texto da licença para o ficheiro. "
+"Substitua [year] pelo ano actual e [fullname] pelo nome (ou nomes) dos "
+"detentores dos direitos de cópia."
+
+#: src/license.cpp:205
+#, kde-format
+msgid ""
+"A permissive license similar to the BSD 2-Clause License, but with a 3rd "
+"clause that prohibits others from using the name of the project or its "
+"contributors to promote derived products without written consent."
+msgstr ""
+"Uma licença permissiva e semelhante à BSD de 2 Cláusulas, mas com uma 3a "
+"cláusula que proíbe os outros de usar o nome do projecto ou os seus "
+"contribuintes para promover produtos derivados sem um consentimento escrito."
+
+#: src/license.cpp:208
+#, kde-format
+msgid ""
+"A variant of the BSD 3-Clause License that explicitly does not grant any "
+"patent rights."
+msgstr ""
+"Uma variante da licença BSD de 3 Cláusulas que explicitamente não concede "
+"quaisquer direitos de patentes."
+
+#: src/license.cpp:211
+#, kde-format
+msgid ""
+"A permissive license similar to the BSD 3-Clause License, but with an "
+"\"advertising clause\" that requires an acknowledgment of the original "
+"source in all advertising material."
+msgstr ""
+"Uma licença permissiva e semelhante à BSD de 3 Cláusulas, mas com uma "
+"\"cláusula de publicidade\" que obriga a um reconhecimento do código "
+"original em todo o material de publicidade."
+
+#: src/license.cpp:212
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders. Replace [project] with the project organization, if any, "
+"that sponsors this work."
+msgstr ""
+"Crie um ficheiro de texto (tipicamente chamado LICENSE ou LICENSE.txt) na "
+"raiz do seu código-fonte e copie o texto da licença para o ficheiro. "
+"Substitua [year] pelo ano actual e [fullname] pelo nome (ou nomes) dos "
+"detentores dos direitos de cópia. Substitua [project] pela organização do "
+"projecto, se existir, que patrocina este projecto."
+
+#: src/license.cpp:214
+#, kde-format
+msgid ""
+"A simple permissive license only requiring preservation of copyright and "
+"license notices for source (and not binary) distribution. Licensed works, "
+"modifications, and larger works may be distributed under different terms and "
+"without source code."
+msgstr ""
+"Uma licença simples e permissiva que só necessita da preservação dos avisos "
+"de direitos de cópia e da licença na distribuição do código (e não dos "
+"binários). Os trabalhos licenciados, as modificações e os trabalhos maiores "
+"poderão ser distribuídos segundo termos diferentes e sem código-fonte."
+
+#: src/license.cpp:217
+#, kde-format
+msgid ""
+"The Creative Commons CC0 Public Domain Dedication waives copyright interest "
+"in a work you've created and dedicates it to the world-wide public domain. "
+"Use CC0 to opt out of copyright entirely and ensure your work has the widest "
+"reach. As with the Unlicense and typical software licenses, CC0 disclaims "
+"warranties. CC0 is very similar to the Unlicense."
+msgstr ""
+"A Creative Commons CC0 Public Domain Dedication abdica dos interesses de "
+"direitos de cópia num trabalho criado por si e dedica-o ao domínio público a "
+"nível mundial. Use a CC0 para abdicar de direitos de cópia por inteiro e "
+"garantir que o seu trabalho atinge o máximo de divulgação possível. Como nas "
+"licenças típicas de 'software' e na Unlicense, a CC0 não aplica quaisquer "
+"garantias. A CC0 é muito semelhante à Unlicense."
+
+#: src/license.cpp:220
+#, kde-format
+msgid ""
+"Permits almost any use subject to providing credit and license notice. "
+"Frequently used for media assets and educational materials. The most common "
+"license for Open Access scientific publications. Not recommended for "
+"software."
+msgstr ""
+"Permite quase qualquer uso, desde que sujeito a fornecer o aviso de créditos "
+"e licença. É frequentemente usado para conteúdos multimédia e para materiais "
+"educativos. A licença mais comum para publicações científicas de acesso "
+"aberto. Não é recomendada para 'software'."
+
+#: src/license.cpp:221 src/license.cpp:224
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. It is also "
+"acceptable to solely supply a link to a copy of the license, usually to the "
+"canonical URL for the license."
+msgstr ""
+"Crie um ficheiro de texto (tipicamente chamado de LICENSE ou LICENSE.txt) na "
+"raiz do seu código-fonte e copie o texto da licença para o ficheiro. Também "
+"é aceitável fornecer simplesmente uma ligação para uma cópia da licença, "
+"sendo normalmente o URL canónico da licença."
+
+#: src/license.cpp:223
+#, kde-format
+msgid ""
+"Similar to CC-BY-4.0 but requires derivatives be distributed under the same "
+"or a similar, compatible license. Frequently used for media assets and "
+"educational materials. A previous version is the default license for "
+"Wikipedia and other Wikimedia projects. Not recommended for software."
+msgstr ""
+"Semelhante à CC-BY-4.0 mas necessita que os trabalhos derivados sejam "
+"distribuídos segundo uma licença igual ou semelhante ou compatível. É usada "
+"frequentemente para conteúdos multimédia e material educativo. Uma versão "
+"anterior é a versão predefinida para a Wikipédia e outros projectos do "
+"Wikimedia. Não é recomendado para 'software'."
+
+#: src/license.cpp:226
+#, kde-format
+msgid ""
+"This commercially-friendly copyleft license provides the ability to "
+"commercially license binaries; a modern royalty-free patent license grant; "
+"and the ability for linked works to use other licenses, including commercial "
+"ones."
+msgstr ""
+"Esta licença de 'copyleft' amigável para fins comerciais oferece a "
+"capacidade de licenciar binários a título comercial; uma cedência de "
+"licenças de patentes moderna e sem contrapartidas; e a capacidade de os "
+"trabalhos ligados a ela poderem usar outras licenças, incluindo as "
+"comerciais."
+
+#: src/license.cpp:229
+#, kde-format
+msgid ""
+"The GNU GPL is the most widely used free software license and has a strong "
+"copyleft requirement. When distributing derived works, the source code of "
+"the work must be made available under the same license. There are multiple "
+"variants of the GNU GPL, each with different requirements."
+msgstr ""
+"A GPL da GNU é a licença de 'software' mais usada em todo o lado e tem um "
+"requisito de 'copyleft' bastante forte. Ao distribuir trabalhos derivados, o "
+"código-fonte desse trabalho também tem de estar disponível segundo a mesma "
+"licença. Existem muitas variantes da GPL da GNU, cada uma delas com "
+"requisitos diferentes."
+
+#: src/license.cpp:232
+#, kde-format
+msgid ""
+"Permissions of this strong copyleft license are conditioned on making "
+"available complete source code of licensed works and modifications, which "
+"include larger works using a licensed work, under the same license. "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights."
+msgstr ""
+"As permissões desta licença de 'copyleft' forte estão condicionadas na "
+"disponibilização do código-fonte completo dos trabalhos licenciados e das "
+"modificações, as quais incluem os trabalhos maiores que usam um trabalho "
+"licenciado segundo a mesma licença. As notas de direitos de cópia e das "
+"licenças devem ser preservados. Os contribuintes fornecem uma cedência "
+"expressa dos direitos de patentes."
+
+#: src/license.cpp:233
+#, kde-format
+msgid ""
+"Create a text file (typically named COPYING, as per GNU conventions) in the "
+"root of your source code and copy the text of the license into the file."
+msgstr ""
+"Crie um ficheiro de texto (tipicamente chamado COPYING, pelas convenções da "
+"GNU) na raiz do seu código-fonte e copie o texto da licença para o ficheiro."
+
+#: src/license.cpp:235
+#, kde-format
+msgid ""
+"Primarily used for software libraries, the GNU LGPL requires that derived "
+"works be licensed under the same license, but works that only link to it do "
+"not fall under this restriction. There are two commonly used versions of the "
+"GNU LGPL."
+msgstr ""
+"É normalmente usada para bibliotecas de 'software'. A LGPL da GNU obriga que "
+"os trabalhos derivados sejam licenciados segundo a mesma licença, mas os "
+"trabalhos que apenas compilem contra essas bibliotecas não caiam nesta "
+"restrição. Existem duas versões usadas a título comum da LGPL da GNU."
+
+#: src/license.cpp:238
+#, kde-format
+msgid ""
+"Permissions of this copyleft license are conditioned on making available "
+"complete source code of licensed works and modifications under the same "
+"license or the GNU GPLv3. Copyright and license notices must be preserved. "
+"Contributors provide an express grant of patent rights. However, a larger "
+"work using the licensed work through interfaces provided by the licensed "
+"work may be distributed under different terms and without source code for "
+"the larger work."
+msgstr ""
+"As permissões desta licença 'copyleft' estão condicionadas em tornar "
+"disponível o código-fonte completo dos trabalhos licenciados e das "
+"modificações segundo a mesma licença ou a GPLv3 da GNU. As notas de direitos "
+"de cópia e da licença deverão ser preservadas. Contudo, um trabalho de maior "
+"dimensão que use o trabalho licenciado através de interfaces fornecidas pelo "
+"trabalho licenciado poderão ser distribuídas segundo diferentes termos e sem "
+"o código-fonte do trabalho de maior dimensão."
+
+#: src/license.cpp:239
+#, kde-format
+msgid ""
+"This license is an additional set of permissions to the GNU GPLv3 license. "
+"Follow the instructions to apply the GNU GPLv3, in the root of your source "
+"code. Then add another file named COPYING.LESSER and copy the text."
+msgstr ""
+"Esta licença é um conjunto adicional de permissões à licença GPLv3 da GNU. "
+"Siga as instruções para aplicar a GPLv3 da GNU, na raiz do seu código-fonte. "
+"Depois adicione outro ficheiro chamado COPYING.LESSER e copie o texto."
+
+#: src/license.cpp:241
+#, kde-format
+msgid ""
+"Permissions of this strongest copyleft license are conditioned on making "
+"available complete source code of licensed works and modifications, which "
+"include larger works using a licensed work, under the same license. "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights. When a modified version is used to provide a "
+"service over a network, the complete source code of the modified version "
+"must be made available."
+msgstr ""
+"As permissões desta licença 'copyleft' mais forte estão condicionadas em "
+"tornar disponível o código-fonte completo dos trabalhos licenciados e das "
+"modificações, e incluindo trabalhos maiores que usem um trabalho licenciado, "
+"segundo a mesma licença. As notas de direitos de cópia e da licença deverão "
+"ser preservadas. Os contribuintes fornecem uma cedência expressa dos "
+"direitos das patentes. Quando for usada uma versão modificada para fornecer "
+"um serviço numa rede, o código-fonte completo da versão modificada deverá "
+"estar disponível."
+
+#: src/license.cpp:244
+#, kde-format
+msgid ""
+"A short and simple permissive license with conditions only requiring "
+"preservation of copyright and license notices. Licensed works, "
+"modifications, and larger works may be distributed under different terms and "
+"without source code."
+msgstr ""
+"Uma licença curta, permissiva e simples cujas condições só necessitam da "
+"preservação das notas de direitos de cópia e da licença. Os trabalhos "
+"derivados, modificações e trabalhos de maior dimensão podem ser distribuídos "
+"segundo diferentes termos e sem código-fonte."
+
+#: src/license.cpp:247
+#, kde-format
+msgid ""
+"Permissions of this weak copyleft license are conditioned on making "
+"available source code of licensed files and modifications of those files "
+"under the same license (or in certain cases, one of the GNU licenses). "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights. However, a larger work using the licensed "
+"work may be distributed under different terms and without source code for "
+"files added in the larger work."
+msgstr ""
+"As permissões desta licença 'copyleft' mais leve estão condicionadas em "
+"tornar disponível o código-fonte completo dos trabalhos licenciados e das "
+"modificações segundo a mesma licença (ou, em certos casos de uma das "
+"licenças da GNU). As notas de direitos de cópia e da licença deverão ser "
+"preservadas. Os contribuintes fornecem uma cedência expressa dos direitos "
+"das patentes. Contudo, um trabalho de maior dimensão que use o trabalho "
+"licenciado poderá ser distribuído segundo diferentes termos e sem o código-"
+"fonte do trabalho de maior dimensão."
+
+#: src/license.cpp:250
+#, kde-format
+msgid ""
+"The easiest license out there. It gives the user permissions to do whatever "
+"they want with your code."
+msgstr ""
+"A licença mais fácil que existe por aí. Dá ao utilizador a permissão para "
+"fazer tudo o que quiser com o seu código."
+
+#: src/license.cpp:253
+#, kde-format
+msgid ""
+"A license with no conditions whatsoever which dedicates works to the public "
+"domain. Unlicensed works, modifications, and larger works may be distributed "
+"under different terms and without source code."
+msgstr ""
+"Uma licença sem quaisquer condições e que se dedica apenas a trabalhos no "
+"domínio público. Os trabalhos não licenciados, as modificações e os "
+"trabalhos de maior dimensão podem ser distribuídos segundo diferentes termos "
+"e sem código-fonte."
+
+#: src/license.cpp:254
+#, kde-format
+msgid ""
+"Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root "
+"of your source code and copy the text of the license disclaimer into the "
+"file."
+msgstr ""
+"Crie um ficheiro de texto (tipicamente chamado de UNLICENSE ou UNLICENSE."
+"txt) na raiz do seu código-fonte e copie o texto das notas da licença para o "
+"ficheiro."
+
+#: src/main.cpp:34
+#, kde-format
+msgctxt "@title"
+msgid "Licentia"
+msgstr "Licentia"
+
+#: src/main.cpp:38
+#, kde-format
+msgid "Choose a license for your project"
+msgstr "Escolha uma licença para o seu projecto"
+
+#: src/main.cpp:42
+#, kde-format
+msgid "© Felipe 2022"
+msgstr "© Felipe 2022"
+
+#: src/main.cpp:43
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:43
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autoria"
+
+#: src/ui/GlobalMenu.qml:15
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Ficheiro"
+
+#: src/ui/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Sair"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Editar"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Copy license to clipboard"
+msgstr "Copiar a licença para a área de transferência"
+
+#: src/ui/GlobalMenu.qml:42
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Ajuda"
+
+#: src/ui/GlobalMenu.qml:45
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Comunicar um Erro…"
+
+#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:93
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Licentia"
+msgstr "Acerca do Licentia"
+
+#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:97
+#, kde-format
+msgid "About Licentia"
+msgstr "Acerca do Licentia"
+
+#: src/ui/LicensePanel.qml:59
+#, kde-format
+msgctxt "About [License SPDX identifier]"
+msgid "About %1"
+msgstr "Acerca do %1"
+
+#: src/ui/LicensePanel.qml:69
+#, kde-format
+msgid "License Source"
+msgstr "Origem da Licença"
+
+#: src/ui/LicensePanel.qml:110
+#, kde-format
+msgid "How to:"
+msgstr "Como:"
+
+#: src/ui/LicensePanel.qml:133
+#, kde-format
+msgid "Permissions:"
+msgstr "Permissões:"
+
+#: src/ui/LicensePanel.qml:164
+#, kde-format
+msgid "Conditions:"
+msgstr "Condições:"
+
+#: src/ui/LicensePanel.qml:172
+#, kde-format
+msgid "(no conditions)"
+msgstr "(sem condições)"
+
+#: src/ui/LicensePanel.qml:205
+#, kde-format
+msgid "Limitations:"
+msgstr "Limitações:"
+
+#: src/ui/LicensePanel.qml:213
+#, kde-format
+msgid "(no limitations)"
+msgstr "(sem limitações)"
+
+#: src/ui/LicensePanel.qml:248
+#, kde-format
+msgid "Projects using:"
+msgstr "Projectos que usam:"
+
+#: src/ui/main.qml:16
+#, kde-format
+msgid "Licentia"
+msgstr "Licentia"
+
+#: src/ui/PageHeader.qml:22
+#, kde-format
+msgid "Original License"
+msgstr "Licença Original"
+
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "Copy License to Clipboard (Ctrl+C)"
+msgstr "Copiar a Licença para a Área de Transferência (Ctrl+C)"
+
+#: src/ui/PageHeader.qml:58
+#, kde-format
+msgid "About License"
+msgstr "Acerca da Licença"

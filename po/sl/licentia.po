@@ -1,0 +1,782 @@
+# Martin Srebotnjak <miles@filmsi.net>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: licentia\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-29 00:50+0000\n"
+"PO-Revision-Date: 2022-07-30 08:04+0200\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Martin Srebotnjak"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "miles@filmsi.net"
+
+#: src/license.cpp:88
+#, kde-format
+msgid "Commercial use"
+msgstr "Komercialna raba"
+
+#: src/license.cpp:89 src/license.cpp:122
+#, kde-format
+msgid ""
+"The licensed material and derivatives may be used for commercial purposes."
+msgstr ""
+"Gradivo, objavljeno pod tem dovoljenjem, in izvedeno gradivo je dovoljeno "
+"uporabljati v komercialne namene."
+
+#: src/license.cpp:93
+#, kde-format
+msgid "Modification"
+msgstr "Spreminjanje"
+
+#: src/license.cpp:94
+#, kde-format
+msgid "The licensed material may be modified."
+msgstr ""
+"Gradivo, objavljeno pod tem dovoljenjem, in izvedeno gradivo je dovoljeno "
+"spreminjati."
+
+#: src/license.cpp:98
+#, kde-format
+msgid "Distribution"
+msgstr "Razširjanje"
+
+#: src/license.cpp:99
+#, kde-format
+msgid "The licensed material may be distributed."
+msgstr ""
+"Gradivo, objavljeno pod tem dovoljenjem, in izvedeno gradivo je dovoljeno "
+"razširjati."
+
+#: src/license.cpp:103
+#, kde-format
+msgid "Private use"
+msgstr "Zasebna raba"
+
+#: src/license.cpp:104
+#, kde-format
+msgid "The licensed material may be used and modified in private."
+msgstr ""
+"Gradivo, objavljeno pod tem dovoljenjem, je dovoljeno uporabljati in "
+"spreminjati zasebno."
+
+#: src/license.cpp:108 src/license.cpp:179
+#, kde-format
+msgid "Patent use"
+msgstr "Raba patenta"
+
+#: src/license.cpp:109
+#, kde-format
+msgid ""
+"The licensed provides and express grant of patent rights from contributors."
+msgstr ""
+"Delo, izdano pod tem dovoljenjem, zagotavlja in izreka podelitev patentnih "
+"pravic avtorjev prispevkov."
+
+#: src/license.cpp:121
+#, kde-format
+msgid "License and copyright notice"
+msgstr "Obvestilo o dovoljenju in avtorskih pravicah"
+
+#: src/license.cpp:126
+#, kde-format
+msgid "State changes"
+msgstr "Spremembe stanj"
+
+#: src/license.cpp:127
+#, kde-format
+msgid "Changes made to the licensed material must be documented."
+msgstr ""
+"Spremembe gradiva, objavljenega pod tem dovoljenjem, morajo biti "
+"dokumentirane."
+
+#: src/license.cpp:131
+#, kde-format
+msgid "Disclose source"
+msgstr "Razkritje izvorne kode"
+
+#: src/license.cpp:132
+#, kde-format
+msgid ""
+"Source code must be made available when the licensed material is distributed."
+msgstr ""
+"Izvorna koda mora biti na voljo, ko se razširja gradivo, objavljeno pod tem "
+"dovoljenjem."
+
+#: src/license.cpp:136
+#, kde-format
+msgid "Network use is distribution"
+msgstr "Uporaba v omrežju velja za razširjanje"
+
+#: src/license.cpp:137
+#, kde-format
+msgid ""
+"Users who interact with the licensed material via network are given the "
+"right to receive a copy of the source code."
+msgstr ""
+"Uporabniki, ki so prek omrežja v interakciji z gradivom, objavljenim pod tem "
+"dovoljenjem, imajo pravico prejeti kopijo izvorne kode."
+
+#: src/license.cpp:141
+#, kde-format
+msgid "Same license"
+msgstr "Isto dovoljenje"
+
+#: src/license.cpp:142
+#, kde-format
+msgid ""
+"Modifications must be released under the same license when distributing the "
+"licensed material. In some cases a similar or related license may be used."
+msgstr ""
+"Spremembe morajo biti objavljene pod istim dovoljenjem pri razširjanju "
+"gradiva, objavljeno pod tem dovoljenjem. V nekaterih primerih se lahko "
+"uporabi podobno ali sorodno dovoljenje."
+
+#: src/license.cpp:146
+#, kde-format
+msgid "Same license (library)"
+msgstr "Isto dovoljenje (knjižnica)"
+
+#: src/license.cpp:147
+#, kde-format
+msgid ""
+"Modifications must be released under the same license when distributing the "
+"licensed material. In some cases a similar or related license may be used, "
+"or this condition may not apply to works that use the licensed material as a "
+"library."
+msgstr ""
+"Spremembe morajo biti objavljene pod istim dovoljenjem pri razširjanju "
+"gradiva, objavljenega pod tem dovoljenjem. V nekaterih primerih se lahko "
+"uporabi podobno ali sorodno dovoljenje, ali pa ta pogoj ne velja za dela, ki "
+"uporabljajo zaščiteno gradivo kot knjižnico."
+
+#: src/license.cpp:151
+#, kde-format
+msgid "Same license (file)"
+msgstr "Isto dovoljenje (datoteka)"
+
+#: src/license.cpp:152
+#, kde-format
+msgid ""
+"Modifications of existing files must be released under the same license when "
+"distributing the licensed material. In some cases a similar or related "
+"license may be used."
+msgstr ""
+"Spremembe obstoječih datotek morajo biti objavljene pod istim dovoljenjem, "
+"ko se razširja gradivo pod tem dovoljenjem. V nekaterih primerih se lahko "
+"uporabi podobno ali sorodno dovoljenje."
+
+#: src/license.cpp:164
+#, kde-format
+msgid "Liability"
+msgstr "Odgovornost"
+
+#: src/license.cpp:165
+#, kde-format
+msgid "This license includes a limitation of liability."
+msgstr "To dovoljenje vključuje omejitev odgovornosti."
+
+#: src/license.cpp:169
+#, kde-format
+msgid "Warranty"
+msgstr "Garancija"
+
+#: src/license.cpp:170
+#, kde-format
+msgid "This license explicitly states that it does NOT provide any warranty."
+msgstr "To dovoljenje izrecno navaja, da NE zagotavlja nobene garancije."
+
+#: src/license.cpp:174
+#, kde-format
+msgid "Trademark use"
+msgstr "Raba blagovne znamke"
+
+#: src/license.cpp:175
+#, kde-format
+msgid ""
+"This license explicitly states that it does NOT grant trademark rights, even "
+"though licenses without such a statement probably do not grant any implicit "
+"trademark rights."
+msgstr ""
+"To dovoljenje izrecno navaja, da NE podeljuje pravic do blagovnih znamk, "
+"čeprav dovoljenja brez takšne izjave verjetno ne dodeljujejo nobenih "
+"implicitnih pravic blagovne znamke."
+
+#: src/license.cpp:180
+#, kde-format
+msgid ""
+"This license explicitly states that it does NOT grant any rights in the "
+"patents of contributors."
+msgstr ""
+"To dovoljenje izrecno navaja, da NE dodeljuje nobenih pravic do patentov "
+"avtorjev prispevkov."
+
+#: src/license.cpp:190
+#, kde-format
+msgid ""
+"For REUSE compliance, copy the text of the license into a file named %1.txt, "
+"it must be placed in the LICENSES/ directory in the root of your source code."
+msgstr ""
+"Za skladnost z določili ponovne rabe (REUSE) kopirajte besedilo dovoljenja v "
+"datoteko z imenom %1.txt in jo postavite v imenik LICENCES/ v korenski mapi "
+"izvorne kode."
+
+#: src/license.cpp:193
+#, kde-format
+msgid ""
+"The Academic Free License is a variant of the Open Software License that "
+"does not require that the source code of derivative works be disclosed. It "
+"contains explicit copyright and patent grants and reserves trademark rights "
+"in the author."
+msgstr ""
+"Dovoljenje AFL (Academic Free License) je različica dovoljenja za odprto "
+"programsko opremo, ki ne zahteva razkritja izvorne kode izvedenih del. "
+"Vsebuje izrecno avtorsko pravico in dodelitev patenta ter pridržuje pravice "
+"do blagovne znamke avtorju."
+
+#: src/license.cpp:194
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Files "
+"licensed under AFL 3.0 must also include the notice \"Licensed under the "
+"Academic Free License version 3.0\" adjacent to the copyright notice."
+msgstr ""
+"Ustvarite besedilno datoteko (običajno imenovano LICENCA ali LICENCA.txt) v "
+"korenski mapi izvorne kode in kopirajte besedilo dovoljenja v datoteko. "
+"Datoteke z dovoljenjem AFL 3.0 morajo vključevati tudi obvestilo »Objavljeno "
+"pod dovoljenjem AFL 3.0 / Licensed under the Academic Free License version "
+"3.0« poleg obvestila o avtorski pravici."
+
+#: src/license.cpp:196
+#, kde-format
+msgid ""
+"A permissive license whose main conditions require preservation of copyright "
+"and license notices. Contributors provide an express grant of patent rights. "
+"Licensed works, modifications, and larger works may be distributed under "
+"different terms and without source code."
+msgstr ""
+"Permisivna licenca, katere glavni pogoji zahtevajo ohranitev obvestil o "
+"avtorski pravici in dovoljenju. Avtorji prispevkov zagotavljajo izrecno "
+"podelitev patentnih pravic. Licencirana dela, spremembe in večja dela se "
+"lahko razširjajo pod različnimi pogoji in brez izvorne kode."
+
+#: src/license.cpp:197 src/license.cpp:215 src/license.cpp:218
+#: src/license.cpp:227 src/license.cpp:230 src/license.cpp:236
+#: src/license.cpp:242 src/license.cpp:248 src/license.cpp:251
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file."
+msgstr ""
+"Ustvarite besedilno datoteko (običajno imenovano LICENSE ali LICENSE.txt) v "
+"korenski mapi izvorne kode in kopirajte besedilo dovoljenja v datoteko."
+
+#: src/license.cpp:199
+#, kde-format
+msgid ""
+"The BSD Zero Clause license goes further than the BSD 2-Clause license to "
+"allow you unlimited freedom with the software without requirements to "
+"include the copyright notice, license text, or disclaimer in either source "
+"or binary forms."
+msgstr ""
+"Dovoljenje BSD Zero Clause gre dlje od dovoljenja BSD 2-Clause, ki vam "
+"omogoča neomejeno svobodo s programsko opremo brez zahtev za vključitev "
+"obvestila o avtorski pravici, besedila dovoljenja ali omejitve odgovornosti "
+"v izvorni kodi ali binarni obliki."
+
+#: src/license.cpp:200
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file.  Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders. You may take the additional step of removing the "
+"copyright notice."
+msgstr ""
+"Ustvarite besedilno datoteko (običajno imenovano LICENSE ali LICENSE.txt) v "
+"korenski mapi izvorne kode in kopirajte besedilo dovoljenja v datoteko.  "
+"Zamenjajte [letnico] s trenutno letnico in [polnoime] z imenom (ali imeni) "
+"imetnikov avtorske in sorodnih pravic. Lahko sprejmete dodaten korak in "
+"odstranite obvestila o avtorski pravici."
+
+#: src/license.cpp:202
+#, kde-format
+msgid ""
+"A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
+"Clause. Both have very minute differences to the MIT license."
+msgstr ""
+"Dovoljenje, ki je v dveh različicah, BSD 2-Clause in BSD 3-Clause. Obe se "
+"zelo malo razlikujeta od dovoljenja MIT."
+
+#: src/license.cpp:203 src/license.cpp:206 src/license.cpp:209
+#: src/license.cpp:245
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders."
+msgstr ""
+"Ustvarite besedilno datoteko (običajno imenovano LICENSE ali LICENSE.txt) v "
+"korenski mapi izvorne kode in kopirajte besedilo dovoljenja v datoteko. "
+"Zamenjajte [letnico] s trenutno letnico in [polnoime] z imenom (ali imeni) "
+"imetnikov avtorske in sorodnih pravic."
+
+#: src/license.cpp:205
+#, kde-format
+msgid ""
+"A permissive license similar to the BSD 2-Clause License, but with a 3rd "
+"clause that prohibits others from using the name of the project or its "
+"contributors to promote derived products without written consent."
+msgstr ""
+"Permisivno dovoljenje, podobno dovoljenju BSD 2-Clause, vendar s 3. "
+"klavzulo, ki drugim prepoveduje rabo imena projekta ali njegovih avtorjev "
+"prispevkov, s čimer podpira izvedene izdelke brez pisne privolitve."
+
+#: src/license.cpp:208
+#, kde-format
+msgid ""
+"A variant of the BSD 3-Clause License that explicitly does not grant any "
+"patent rights."
+msgstr ""
+"Različica dovoljenja BSD 3-Clause, ki izrecno ne podeli nobenih patentnih "
+"pravic."
+
+#: src/license.cpp:211
+#, kde-format
+msgid ""
+"A permissive license similar to the BSD 3-Clause License, but with an "
+"\"advertising clause\" that requires an acknowledgment of the original "
+"source in all advertising material."
+msgstr ""
+"Permisivno dovoljenje, podobno dovoljenju BSD 3-Clause, vendar z "
+"»oglaševalsko klavzulo«, ki zahteva potrditev izvirnega vira v vseh oglasnih "
+"gradivih."
+
+#: src/license.cpp:212
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders. Replace [project] with the project organization, if any, "
+"that sponsors this work."
+msgstr ""
+"Ustvarite besedilno datoteko (običajno imenovano LICENSE ali LICENSE.txt) v "
+"korenski mapi izvorne kode in kopirajte besedilo dovoljenja v datoteko. "
+"Zamenjajte [letnico] s trenutno letnico in [polnoime] z imenom (ali imeni) "
+"imetnikov avtorske in sorodnih pravic. Zamenjajte [projekt] s projektno "
+"organizacijo, če obstaja, ki sponzorira to delo."
+
+#: src/license.cpp:214
+#, kde-format
+msgid ""
+"A simple permissive license only requiring preservation of copyright and "
+"license notices for source (and not binary) distribution. Licensed works, "
+"modifications, and larger works may be distributed under different terms and "
+"without source code."
+msgstr ""
+"Preprosto permisivno dovoljenje, ki zahteva le ohranitev avtorskih in "
+"licenčnih obvestil za izvorno (in ne binarno) razširjanje. Licencirana dela, "
+"spremembe in večja dela se lahko razširjajo pod različnimi pogoji in brez "
+"izvorne kode."
+
+#: src/license.cpp:217
+#, kde-format
+msgid ""
+"The Creative Commons CC0 Public Domain Dedication waives copyright interest "
+"in a work you've created and dedicates it to the world-wide public domain. "
+"Use CC0 to opt out of copyright entirely and ensure your work has the widest "
+"reach. As with the Unlicense and typical software licenses, CC0 disclaims "
+"warranties. CC0 is very similar to the Unlicense."
+msgstr ""
+"Dovoljenje Creative Commons CC0 Public Domain Dedication se odreka od "
+"avtorskega interesa za delo, ki ste ga ustvarili in ga posveča svetovni "
+"javni domeni. Uporabite CC0, da se v celoti odpoveste avtorskim pravicam in "
+"zagotovite, da ima vaše delo najširši doseg. Kot pri dovoljenju Unlicense in "
+"tipičnih dovoljenjih za programsko opremo CC0 odklanja vsakršno jamstvo. CC0 "
+"je zelo podobna Unlicense."
+
+#: src/license.cpp:220
+#, kde-format
+msgid ""
+"Permits almost any use subject to providing credit and license notice. "
+"Frequently used for media assets and educational materials. The most common "
+"license for Open Access scientific publications. Not recommended for "
+"software."
+msgstr ""
+"Omogoča skoraj vsakršno rabo, pod pogojem, da je podano obvestilo o zaslugah "
+"in dovoljenju. Pogosto se uporablja za medijske vsebine in izobraževalna "
+"gradiva. Najbolj pogosto dovoljenje za znanstvene publikacije z odprtim "
+"dostopom (Open Access). Ni priporočljivo za programsko opremo."
+
+#: src/license.cpp:221 src/license.cpp:224
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. It is also "
+"acceptable to solely supply a link to a copy of the license, usually to the "
+"canonical URL for the license."
+msgstr ""
+"Ustvarite besedilno datoteko (običajno imenovano LICENSE ali LICENSE.txt) v "
+"korenski mapi izvorne kode in kopirajte besedilo dovoljenja v datoteko. "
+"Sprejemljivo je tudi, da zgolj podate povezavo do kopije dovoljenja, "
+"običajno na splošno uveljavljeni URL za dovoljenje."
+
+#: src/license.cpp:223
+#, kde-format
+msgid ""
+"Similar to CC-BY-4.0 but requires derivatives be distributed under the same "
+"or a similar, compatible license. Frequently used for media assets and "
+"educational materials. A previous version is the default license for "
+"Wikipedia and other Wikimedia projects. Not recommended for software."
+msgstr ""
+"Podobno kot CC-BY-4.0, vendar zahteva razširjanje izvedenih del pod istim "
+"ali podobnim, združljivim dovoljenjem. Pogosto se uporablja za medijske "
+"vsebine in izobraževalna gradiva. Prejšnja različica je privzeto dovoljenje "
+"za Wikipedijo in druge projekte Wikimedia. Ni priporočljivo za programsko "
+"opremo."
+
+#: src/license.cpp:226
+#, kde-format
+msgid ""
+"This commercially-friendly copyleft license provides the ability to "
+"commercially license binaries; a modern royalty-free patent license grant; "
+"and the ability for linked works to use other licenses, including commercial "
+"ones."
+msgstr ""
+"To komercialni rabi prijazno dovoljenje s prepuščanjem pravic ponuja možnost "
+"za komercialno licenciranje izvajalnih datotek, sodobno dodelitev licence "
+"patenta brez tantiem ter možnost, da izvedena oz. povezana dela uporabijo "
+"drugo dovoljenje, vključno s komercialnimi."
+
+#: src/license.cpp:229
+#, kde-format
+msgid ""
+"The GNU GPL is the most widely used free software license and has a strong "
+"copyleft requirement. When distributing derived works, the source code of "
+"the work must be made available under the same license. There are multiple "
+"variants of the GNU GPL, each with different requirements."
+msgstr ""
+"GNU GPL je najbolj razširjeno dovoljenje proste programske opreme in ima "
+"močno zahtevo prepuščanja avtorske pravice. Pri razširjanju izvedenih del "
+"mora biti izvorna koda dela na voljo pod istim dovoljenjem. Obstaja več "
+"različic GNU GPL, vsaka z različnimi zahtevami."
+
+#: src/license.cpp:232
+#, kde-format
+msgid ""
+"Permissions of this strong copyleft license are conditioned on making "
+"available complete source code of licensed works and modifications, which "
+"include larger works using a licensed work, under the same license. "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights."
+msgstr ""
+"Pravice tega dovoljenja z močnim prepuščanjem pravic so pogojene z dajanjem "
+"na voljo javnosti celotne izvorne kode licenciranih del in spremenjenih del, "
+"kar vključuje večja dela, ki uporabljajo licencirano delo, pod istim "
+"dovoljenjem. Obvestila o avtorski pravici oz. pridržanju pravic in "
+"dovoljenju je potrebno ohraniti. Avtorji prispevkov zagotovijo izrecno "
+"podelitev patentnih pravic."
+
+#: src/license.cpp:233
+#, kde-format
+msgid ""
+"Create a text file (typically named COPYING, as per GNU conventions) in the "
+"root of your source code and copy the text of the license into the file."
+msgstr ""
+"Ustvarite besedilno datoteko (običajno imenovano COPYING po konvencijah GNU) "
+"v korenski mapi izvorne kode in kopirajte besedilo dovoljenja v datoteko."
+
+#: src/license.cpp:235
+#, kde-format
+msgid ""
+"Primarily used for software libraries, the GNU LGPL requires that derived "
+"works be licensed under the same license, but works that only link to it do "
+"not fall under this restriction. There are two commonly used versions of the "
+"GNU LGPL."
+msgstr ""
+"V prvi vrsti se uporablja za knjižnice programske opreme; GNU LGPL zahteva, "
+"da so izvedena dela objavljena pod istim dovoljenjem, vendar dela, ki samo "
+"povezujejo do tega, ne sodijo pod to omejitev. Obstajata dve pogosto "
+"uporabljeni različici GNU LGPL."
+
+#: src/license.cpp:238
+#, kde-format
+msgid ""
+"Permissions of this copyleft license are conditioned on making available "
+"complete source code of licensed works and modifications under the same "
+"license or the GNU GPLv3. Copyright and license notices must be preserved. "
+"Contributors provide an express grant of patent rights. However, a larger "
+"work using the licensed work through interfaces provided by the licensed "
+"work may be distributed under different terms and without source code for "
+"the larger work."
+msgstr ""
+"Pravice tega dovoljenja s prepuščanjem pravic so pogojene z dajanjem na "
+"voljo javnosti celotne izvorne kode licenciranih del in spremenjenih del pod "
+"istim dovoljenjem ali pod dovoljenjem GNU GPLv3. Obvestila o avtorski "
+"pravici oz. pridržanju pravic in dovoljenju je potrebno ohraniti. Avtorji "
+"prispevkov zagotovijo izrecno podelitev patentnih pravic. Vendar se lahko "
+"večje delo, ki uporablja licencirano delo prek vmesnikov, ki jih zagotavlja "
+"licencirano delo, razširja pod drugačnimi pogoji in brez izvorne kode "
+"večjega dela."
+
+#: src/license.cpp:239
+#, kde-format
+msgid ""
+"This license is an additional set of permissions to the GNU GPLv3 license. "
+"Follow the instructions to apply the GNU GPLv3, in the root of your source "
+"code. Then add another file named COPYING.LESSER and copy the text."
+msgstr ""
+"To dovoljenje predstavlja dodaten nabor pravic k dovoljenju GNU GPLv3. "
+"Sledite navodilom za uporabo GNU GPLv3 v korenski mapi izvorne kode. Nato "
+"dodajte še eno datoteko z imenom COPYING.LESSER in kopirajte besedilo."
+
+#: src/license.cpp:241
+#, kde-format
+msgid ""
+"Permissions of this strongest copyleft license are conditioned on making "
+"available complete source code of licensed works and modifications, which "
+"include larger works using a licensed work, under the same license. "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights. When a modified version is used to provide a "
+"service over a network, the complete source code of the modified version "
+"must be made available."
+msgstr ""
+"Pravice tega dovoljenja z najobsežnejšim prepuščanjem pravic so pogojene z "
+"dajanjem na voljo javnosti celotne izvorne kode licenciranih del in "
+"spremenjenih del, kar vključuje večja dela, ki uporabljajo licencirano delo, "
+"pod istim dovoljenjem. Obvestila o avtorski pravici oz. pridržanju pravic in "
+"dovoljenju je potrebno ohraniti. Avtorji prispevkov zagotovijo izrecno "
+"podelitev patentnih pravic. Če se spremenjeno delo uporablja za "
+"zagotavljanje storitve prek omrežja, mora biti tudi celotna izvorna koda "
+"spremenjene različice dana na voljo."
+
+#: src/license.cpp:244
+#, kde-format
+msgid ""
+"A short and simple permissive license with conditions only requiring "
+"preservation of copyright and license notices. Licensed works, "
+"modifications, and larger works may be distributed under different terms and "
+"without source code."
+msgstr ""
+"Kratko in preprosto permisivno dovoljenje s pogoji, ki zahtevajo le "
+"ohranitev obvestil o avtorski in sorodnih pravicah in dovoljenju. "
+"Licencirana dela, spremembe in večja dela se lahko razširjajo pod različnimi "
+"pogoji in brez izvorne kode."
+
+#: src/license.cpp:247
+#, kde-format
+msgid ""
+"Permissions of this weak copyleft license are conditioned on making "
+"available source code of licensed files and modifications of those files "
+"under the same license (or in certain cases, one of the GNU licenses). "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights. However, a larger work using the licensed "
+"work may be distributed under different terms and without source code for "
+"files added in the larger work."
+msgstr ""
+"Pravice tega dovoljenja s šibkim prepuščanjem pravic so pogojene z dajanjem "
+"na voljo javnosti izvorne kode licenciranih del in sprememb teh datotek pod "
+"istim dovoljenjem (ali v nekaterih primerih enega od dovoljenj GNU). "
+"Obvestila o avtorski pravici oz. pridržanju pravic in dovoljenju je potrebno "
+"ohraniti. Avtorji prispevkov zagotovijo izrecno podelitev patentnih pravic. "
+"Vendar se lahko večje delo, ki uporablja licencirano delo, razširja pod "
+"drugačnimi pogoji in brez izvorne kode za datoteke, dodane večjemu delu."
+
+#: src/license.cpp:250
+#, kde-format
+msgid ""
+"The easiest license out there. It gives the user permissions to do whatever "
+"they want with your code."
+msgstr ""
+"Najenostavnejše dovoljenje, kar jih je. Uporabniku dovoljuje, da z vašo kodo "
+"počne vse, kar želi."
+
+#: src/license.cpp:253
+#, kde-format
+msgid ""
+"A license with no conditions whatsoever which dedicates works to the public "
+"domain. Unlicensed works, modifications, and larger works may be distributed "
+"under different terms and without source code."
+msgstr ""
+"Dovoljenje brez vsakršnih pogojev, ki posveti dela v javno domeno. Dela, ki "
+"niso objavljena pod dovoljenjem, spremembe in večja dela se lahko razširjajo "
+"pod različnimi pogoji in brez izvorne kode."
+
+#: src/license.cpp:254
+#, kde-format
+msgid ""
+"Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root "
+"of your source code and copy the text of the license disclaimer into the "
+"file."
+msgstr ""
+"Ustvarite besedilno datoteko (običajno imenovano UNLICENSE ali UNLICENSE."
+"txt) v korenski mapi izvorne kode in kopirajte besedilo opozorila o "
+"dovoljenju v datoteko."
+
+#: src/main.cpp:34
+#, kde-format
+msgctxt "@title"
+msgid "Licentia"
+msgstr "Licentia"
+
+#: src/main.cpp:38
+#, kde-format
+msgid "Choose a license for your project"
+msgstr "Izberite dovoljenje, pod katerim boste objavili svoj projekt"
+
+#: src/main.cpp:42
+#, kde-format
+msgid "© Felipe 2022"
+msgstr "© Felipe 2022"
+
+#: src/main.cpp:43
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:43
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Avtor"
+
+#: src/ui/GlobalMenu.qml:15
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Datoteka"
+
+#: src/ui/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Izhod"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Uredi"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Copy license to clipboard"
+msgstr "Kopiraj dovoljenje na odložišče"
+
+#: src/ui/GlobalMenu.qml:42
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Pomoč"
+
+#: src/ui/GlobalMenu.qml:45
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Poročajte o napaki …"
+
+#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:93
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Licentia"
+msgstr "O programu Licentia"
+
+#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:97
+#, kde-format
+msgid "About Licentia"
+msgstr "O programu Licentia"
+
+#: src/ui/LicensePanel.qml:59
+#, kde-format
+msgctxt "About [License SPDX identifier]"
+msgid "About %1"
+msgstr "O %1"
+
+#: src/ui/LicensePanel.qml:69
+#, kde-format
+msgid "License Source"
+msgstr "Vir besedila dovoljenja"
+
+#: src/ui/LicensePanel.qml:110
+#, kde-format
+msgid "How to:"
+msgstr "Kako:"
+
+#: src/ui/LicensePanel.qml:133
+#, kde-format
+msgid "Permissions:"
+msgstr "Dovoljenja:"
+
+#: src/ui/LicensePanel.qml:164
+#, kde-format
+msgid "Conditions:"
+msgstr "Pogoji:"
+
+#: src/ui/LicensePanel.qml:172
+#, kde-format
+msgid "(no conditions)"
+msgstr "(brez pogojev)"
+
+#: src/ui/LicensePanel.qml:205
+#, kde-format
+msgid "Limitations:"
+msgstr "Omejitve:"
+
+#: src/ui/LicensePanel.qml:213
+#, kde-format
+msgid "(no limitations)"
+msgstr "(brez omejitev)"
+
+#: src/ui/LicensePanel.qml:248
+#, kde-format
+msgid "Projects using:"
+msgstr "Projekti, ki uporabljajo:"
+
+#: src/ui/main.qml:16
+#, kde-format
+msgid "Licentia"
+msgstr "Licentia"
+
+#: src/ui/PageHeader.qml:22
+#, kde-format
+msgid "Original License"
+msgstr "Izvorno dovoljenje"
+
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "Copy License to Clipboard (Ctrl+C)"
+msgstr "Kopiraj dovoljenje na odložišče (krmilka+C)"
+
+#: src/ui/PageHeader.qml:58
+#, kde-format
+msgid "About License"
+msgstr "O dovoljenju"

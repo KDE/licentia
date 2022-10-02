@@ -1,0 +1,785 @@
+# Translation of licentia.po to Catalan (Valencian)
+# Copyright (C) 2022 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Josep M. Ferrer <txemaq@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: licentia\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-29 00:50+0000\n"
+"PO-Revision-Date: 2022-07-29 08:55+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Josep M. Ferrer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "txemaq@gmail.com"
+
+#: src/license.cpp:88
+#, kde-format
+msgid "Commercial use"
+msgstr "Ús comercial"
+
+#: src/license.cpp:89 src/license.cpp:122
+#, kde-format
+msgid ""
+"The licensed material and derivatives may be used for commercial purposes."
+msgstr ""
+"El material amb llicència i els derivats es poden utilitzar amb finalitats "
+"comercials."
+
+#: src/license.cpp:93
+#, kde-format
+msgid "Modification"
+msgstr "Modificació"
+
+#: src/license.cpp:94
+#, kde-format
+msgid "The licensed material may be modified."
+msgstr "El material amb llicència es pot modificar."
+
+#: src/license.cpp:98
+#, kde-format
+msgid "Distribution"
+msgstr "Distribució"
+
+#: src/license.cpp:99
+#, kde-format
+msgid "The licensed material may be distributed."
+msgstr "El material amb llicència es pot distribuir."
+
+#: src/license.cpp:103
+#, kde-format
+msgid "Private use"
+msgstr "Ús privat"
+
+#: src/license.cpp:104
+#, kde-format
+msgid "The licensed material may be used and modified in private."
+msgstr "El material amb llicència es pot utilitzar i modificar en privat."
+
+#: src/license.cpp:108 src/license.cpp:179
+#, kde-format
+msgid "Patent use"
+msgstr "Ús de patents"
+
+#: src/license.cpp:109
+#, kde-format
+msgid ""
+"The licensed provides and express grant of patent rights from contributors."
+msgstr ""
+"El material amb llicència proporciona i atorga expressament drets de patents "
+"dels col·laboradors."
+
+#: src/license.cpp:121
+#, kde-format
+msgid "License and copyright notice"
+msgstr "Avís de llicència i copyright"
+
+#: src/license.cpp:126
+#, kde-format
+msgid "State changes"
+msgstr "Canvis de condicions"
+
+#: src/license.cpp:127
+#, kde-format
+msgid "Changes made to the licensed material must be documented."
+msgstr "Els canvis efectuats al material amb llicència cal que es documenten."
+
+#: src/license.cpp:131
+#, kde-format
+msgid "Disclose source"
+msgstr "Divulgar el codi font"
+
+#: src/license.cpp:132
+#, kde-format
+msgid ""
+"Source code must be made available when the licensed material is distributed."
+msgstr ""
+"Cal fer disponible el codi font quan es distribuïsca el material amb "
+"llicència."
+
+#: src/license.cpp:136
+#, kde-format
+msgid "Network use is distribution"
+msgstr "L'ús de les xarxes és la distribució"
+
+#: src/license.cpp:137
+#, kde-format
+msgid ""
+"Users who interact with the licensed material via network are given the "
+"right to receive a copy of the source code."
+msgstr ""
+"Els usuaris que interactuen amb el material amb llicència a través de les "
+"xarxes tenen el dret de rebre una còpia del codi font."
+
+#: src/license.cpp:141
+#, kde-format
+msgid "Same license"
+msgstr "La mateixa llicència"
+
+#: src/license.cpp:142
+#, kde-format
+msgid ""
+"Modifications must be released under the same license when distributing the "
+"licensed material. In some cases a similar or related license may be used."
+msgstr ""
+"Les modificacions s'han de publicar amb la mateixa llicència amb la qual es "
+"distribuïx el material amb llicència. En alguns casos es pot utilitzar una "
+"llicència pareixent o relacionada."
+
+#: src/license.cpp:146
+#, kde-format
+msgid "Same license (library)"
+msgstr "La mateixa llicència (biblioteca)"
+
+#: src/license.cpp:147
+#, kde-format
+msgid ""
+"Modifications must be released under the same license when distributing the "
+"licensed material. In some cases a similar or related license may be used, "
+"or this condition may not apply to works that use the licensed material as a "
+"library."
+msgstr ""
+"Les modificacions s'han de publicar amb la mateixa llicència amb la qual es "
+"distribuïx el material amb llicència. En alguns casos es pot utilitzar una "
+"llicència pareixent o relacionada, o esta condició no és d'aplicació a "
+"treballs que utilitzen el material amb llicència com una biblioteca."
+
+#: src/license.cpp:151
+#, kde-format
+msgid "Same license (file)"
+msgstr "La mateixa llicència (fitxer)"
+
+#: src/license.cpp:152
+#, kde-format
+msgid ""
+"Modifications of existing files must be released under the same license when "
+"distributing the licensed material. In some cases a similar or related "
+"license may be used."
+msgstr ""
+"Les modificacions dels fitxers existents s'han de publicar amb la mateixa "
+"llicència amb la qual es distribuïx el material amb llicència. En alguns "
+"casos es pot utilitzar una llicència pareixent o relacionada."
+
+#: src/license.cpp:164
+#, kde-format
+msgid "Liability"
+msgstr "Responsabilitat"
+
+#: src/license.cpp:165
+#, kde-format
+msgid "This license includes a limitation of liability."
+msgstr "Esta llicència inclou una limitació de responsabilitat."
+
+#: src/license.cpp:169
+#, kde-format
+msgid "Warranty"
+msgstr "Garantia"
+
+#: src/license.cpp:170
+#, kde-format
+msgid "This license explicitly states that it does NOT provide any warranty."
+msgstr "Esta llicència indica explícitament que NO proporciona cap garantia."
+
+#: src/license.cpp:174
+#, kde-format
+msgid "Trademark use"
+msgstr "Ús de marques comercials"
+
+#: src/license.cpp:175
+#, kde-format
+msgid ""
+"This license explicitly states that it does NOT grant trademark rights, even "
+"though licenses without such a statement probably do not grant any implicit "
+"trademark rights."
+msgstr ""
+"Esta llicència indica explícitament que NO atorga cap dret de marca "
+"comercial, tot i que les llicències sense esta declaració probablement no "
+"atorguen cap dret de marca comercial implícit."
+
+#: src/license.cpp:180
+#, kde-format
+msgid ""
+"This license explicitly states that it does NOT grant any rights in the "
+"patents of contributors."
+msgstr ""
+"Esta llicència indica explícitament que NO atorga cap dret de patent dels "
+"col·laboradors."
+
+#: src/license.cpp:190
+#, kde-format
+msgid ""
+"For REUSE compliance, copy the text of the license into a file named %1.txt, "
+"it must be placed in the LICENSES/ directory in the root of your source code."
+msgstr ""
+"Per al compliment de REUSE, copieu el text de la llicència a un fitxer "
+"anomenat %1.txt, que s'ha de situar en el directori LICENSES/ en l'arrel del "
+"codi font."
+
+#: src/license.cpp:193
+#, kde-format
+msgid ""
+"The Academic Free License is a variant of the Open Software License that "
+"does not require that the source code of derivative works be disclosed. It "
+"contains explicit copyright and patent grants and reserves trademark rights "
+"in the author."
+msgstr ""
+"La Llicència Lliure Acadèmica és una variant de la Llicència de Programari "
+"Obert que no requerix que el codi font d'òbrigues derivades es divulgui. "
+"Conté drets d'autoria explícits i concessió de patents i reserva els drets "
+"de marca comercial a l'autor."
+
+#: src/license.cpp:194
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Files "
+"licensed under AFL 3.0 must also include the notice \"Licensed under the "
+"Academic Free License version 3.0\" adjacent to the copyright notice."
+msgstr ""
+"Creeu un fitxer de text (normalment anomenat LICENSE o LICENSE.txt) en "
+"l'arrel del codi font i copieu el text de la llicència en el fitxer. Els "
+"fitxers amb llicència AFL 3.0 també han d'incloure l'avís «Licensed under "
+"the Academic Free License version 3.0» («Llicència segons la versió 3.0 de "
+"la Llicència lliure acadèmica») adjacent a la nota de copyright."
+
+#: src/license.cpp:196
+#, kde-format
+msgid ""
+"A permissive license whose main conditions require preservation of copyright "
+"and license notices. Contributors provide an express grant of patent rights. "
+"Licensed works, modifications, and larger works may be distributed under "
+"different terms and without source code."
+msgstr ""
+"Una llicència permissiva les condicions principals de la qual requerixen el "
+"manteniment dels drets d'autoria i els avisos de la llicència. Els "
+"col·laboradors proporcionen un atorgament exprés dels drets de patent. Les "
+"òbrigues llicenciades, les modificacions i les òbrigues més grans es poden "
+"distribuir segons diferents termes i sense codi font."
+
+#: src/license.cpp:197 src/license.cpp:215 src/license.cpp:218
+#: src/license.cpp:227 src/license.cpp:230 src/license.cpp:236
+#: src/license.cpp:242 src/license.cpp:248 src/license.cpp:251
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file."
+msgstr ""
+"Creeu un fitxer de text (normalment anomenat LICENSE o LICENSE.txt) en "
+"l'arrel del codi font i copieu el text de la llicència en el fitxer."
+
+#: src/license.cpp:199
+#, kde-format
+msgid ""
+"The BSD Zero Clause license goes further than the BSD 2-Clause license to "
+"allow you unlimited freedom with the software without requirements to "
+"include the copyright notice, license text, or disclaimer in either source "
+"or binary forms."
+msgstr ""
+"La llicència BSD de clàusula zero va més enllà de la llicència BSD de 2 "
+"clàusules per us permet una llibertat il·limitada amb el programari sense "
+"requisits per incloure l'avís de copyright, el text de la llicència, o "
+"l'exempció de responsabilitat en forma de codi font o de binari."
+
+#: src/license.cpp:200
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file.  Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders. You may take the additional step of removing the "
+"copyright notice."
+msgstr ""
+"Creeu un fitxer de text (normalment anomenat LICENSE o LICENSE.txt) en "
+"l'arrel del codi font i copieu el text de la llicència en el fitxer. "
+"Substituïu [year] per l'any actual i [fullname] pel nom (o noms) dels "
+"titulars dels drets d'autoria. Podeu fer el pas addicional d'eliminar l'avís "
+"de copyright."
+
+#: src/license.cpp:202
+#, kde-format
+msgid ""
+"A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
+"Clause. Both have very minute differences to the MIT license."
+msgstr ""
+"Una llicència permissiva que ve en dues variants, la versió BSD de 2 "
+"clàusules i la versió BSD de 3 clàusules. Tots dos tenen diferències molt "
+"xicotetes amb la llicència del MIT."
+
+#: src/license.cpp:203 src/license.cpp:206 src/license.cpp:209
+#: src/license.cpp:245
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders."
+msgstr ""
+"Creeu un fitxer de text (normalment anomenat LICENSE o LICENSE.txt) en "
+"l'arrel del codi font i copieu el text de la llicència en el fitxer. "
+"Substituïu [year] per l'any actual i [fullname] pel nom (o noms) dels "
+"titulars dels drets d'autoria."
+
+#: src/license.cpp:205
+#, kde-format
+msgid ""
+"A permissive license similar to the BSD 2-Clause License, but with a 3rd "
+"clause that prohibits others from using the name of the project or its "
+"contributors to promote derived products without written consent."
+msgstr ""
+"Una llicència permissiva similar a la llicència BSD de 2 clàusules, però amb "
+"una tercera clàusula que prohibix als altres utilitzar el nom del projecte o "
+"els seus col·laboradors per promocionar productes derivats sense un "
+"consentiment escrit."
+
+#: src/license.cpp:208
+#, kde-format
+msgid ""
+"A variant of the BSD 3-Clause License that explicitly does not grant any "
+"patent rights."
+msgstr ""
+"Una variant de la llicència BSD de 3 clàusules que explícitament no atorga "
+"cap dret de patent."
+
+#: src/license.cpp:211
+#, kde-format
+msgid ""
+"A permissive license similar to the BSD 3-Clause License, but with an "
+"\"advertising clause\" that requires an acknowledgment of the original "
+"source in all advertising material."
+msgstr ""
+"Una llicència permissiva similar a la llicència BSD de 3 clàusules, però amb "
+"una «clàusula de publicitat» que requerix un reconeixement del codi font "
+"original en tot el material publicitari."
+
+#: src/license.cpp:212
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders. Replace [project] with the project organization, if any, "
+"that sponsors this work."
+msgstr ""
+"Creeu un fitxer de text (normalment anomenat LICENSE o LICENSE.txt) en "
+"l'arrel del codi font i copieu el text de la llicència en el fitxer. "
+"Substituïu [year] per l'any actual i [fullname] pel nom (o noms) dels "
+"titulars dels drets d'autoria. Substituïu [project] per l'organització del "
+"projecte, si n'hi ha, que patrocina esta obra."
+
+#: src/license.cpp:214
+#, kde-format
+msgid ""
+"A simple permissive license only requiring preservation of copyright and "
+"license notices for source (and not binary) distribution. Licensed works, "
+"modifications, and larger works may be distributed under different terms and "
+"without source code."
+msgstr ""
+"Una llicència permissiva senzilla només requerix el manteniment dels drets "
+"d'autoria i els avisos de llicència per a la distribució del codi font (i no "
+"el binari). Les òbrigues llicenciades, les modificacions i les òbrigues més "
+"grans es poden distribuir segons diferents termes i sense codi font."
+
+#: src/license.cpp:217
+#, kde-format
+msgid ""
+"The Creative Commons CC0 Public Domain Dedication waives copyright interest "
+"in a work you've created and dedicates it to the world-wide public domain. "
+"Use CC0 to opt out of copyright entirely and ensure your work has the widest "
+"reach. As with the Unlicense and typical software licenses, CC0 disclaims "
+"warranties. CC0 is very similar to the Unlicense."
+msgstr ""
+"La Creative Commons CC0 Public Domain Dedication (D'oferiment al domini "
+"públic) renuncia a l'interés pels drets d'autoria en una obra que heu creat "
+"i la dedica al domini públic mundial. Utilitzeu la CC0 per a excloure'n "
+"completament els drets d'autoria i assegurar-vos que el vostre treball té "
+"l'abast més ampli. Igual que amb les llicències de programari «Unlicense» i "
+"semblants, la CC0 té exempció de responsabilitat de garanties. La CC0 és "
+"molt similar a la «Unlicense»."
+
+#: src/license.cpp:220
+#, kde-format
+msgid ""
+"Permits almost any use subject to providing credit and license notice. "
+"Frequently used for media assets and educational materials. The most common "
+"license for Open Access scientific publications. Not recommended for "
+"software."
+msgstr ""
+"Permet quasi qualsevol ús subjecte a proporcionar un avís d'atribució i "
+"llicència. Freqüentment utilitzat per a mitjans multimèdia i materials "
+"educatius. La llicència més comuna per a publicacions científiques d'«Open "
+"Access». No es recomana per al programari."
+
+#: src/license.cpp:221 src/license.cpp:224
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. It is also "
+"acceptable to solely supply a link to a copy of the license, usually to the "
+"canonical URL for the license."
+msgstr ""
+"Creeu un fitxer de text (normalment anomenat LICENSE o LICENSE.txt) en "
+"l'arrel del codi font i copieu el text de la llicència en el fitxer. També "
+"és acceptable subministrar únicament un enllaç a una còpia de la llicència, "
+"normalment a l'URL canònic de la llicència."
+
+#: src/license.cpp:223
+#, kde-format
+msgid ""
+"Similar to CC-BY-4.0 but requires derivatives be distributed under the same "
+"or a similar, compatible license. Frequently used for media assets and "
+"educational materials. A previous version is the default license for "
+"Wikipedia and other Wikimedia projects. Not recommended for software."
+msgstr ""
+"Similar a CC-BY-4.0, però requerix que els treballs derivats es "
+"distribuïsquen segons la mateixa llicència o una de similar i compatible. "
+"Freqüentment utilitzat per a mitjans multimèdia i materials educatius. Una "
+"versió anterior és la llicència per defecte de la Viquipèdia i altres "
+"projectes Wikimedia. No es recomana per al programari."
+
+#: src/license.cpp:226
+#, kde-format
+msgid ""
+"This commercially-friendly copyleft license provides the ability to "
+"commercially license binaries; a modern royalty-free patent license grant; "
+"and the ability for linked works to use other licenses, including commercial "
+"ones."
+msgstr ""
+"Esta llicència de «copyleft» comercial proporciona la capacitat de "
+"llicenciar comercialment fitxers binaris; un atorgament modern de llicència "
+"de patent lliure de cànons; i la capacitat de les òbrigues enllaçades per "
+"utilitzar altres llicències, incloses les comercials."
+
+#: src/license.cpp:229
+#, kde-format
+msgid ""
+"The GNU GPL is the most widely used free software license and has a strong "
+"copyleft requirement. When distributing derived works, the source code of "
+"the work must be made available under the same license. There are multiple "
+"variants of the GNU GPL, each with different requirements."
+msgstr ""
+"La GPL de GNU és la llicència de programari lliure més àmpliament utilitzada "
+"i té un requisit de «copyleft» fort. Quan es distribuïxen òbrigues "
+"derivades, el codi font de l'obra ha de ser disponible segons la mateixa "
+"llicència. Hi ha múltiples variants de la GPL de GNU, cadascuna amb "
+"requisits diferents."
+
+#: src/license.cpp:232
+#, kde-format
+msgid ""
+"Permissions of this strong copyleft license are conditioned on making "
+"available complete source code of licensed works and modifications, which "
+"include larger works using a licensed work, under the same license. "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights."
+msgstr ""
+"Els permisos d'esta llicència de «copyleft» fort estan condicionats a fer "
+"disponible el codi font complet d'òbrigues i modificacions llicenciades, que "
+"inclouen òbrigues més grans utilitzant una obra llicenciada, segons la "
+"mateixa llicència. Cal mantindre els drets d'autoria i els avisos de "
+"llicència. Els col·laboradors proporcionen un atorgament exprés dels drets "
+"de patent."
+
+#: src/license.cpp:233
+#, kde-format
+msgid ""
+"Create a text file (typically named COPYING, as per GNU conventions) in the "
+"root of your source code and copy the text of the license into the file."
+msgstr ""
+"Creeu un fitxer de text (normalment anomenat COPYING, segons les convencions "
+"de GNU) en l'arrel del codi font i copieu el text de la llicència en el "
+"fitxer."
+
+#: src/license.cpp:235
+#, kde-format
+msgid ""
+"Primarily used for software libraries, the GNU LGPL requires that derived "
+"works be licensed under the same license, but works that only link to it do "
+"not fall under this restriction. There are two commonly used versions of the "
+"GNU LGPL."
+msgstr ""
+"Principalment utilitzat per a les biblioteques de programari, la LGPL de GNU "
+"requerix que les òbrigues derivades estiguen llicenciades segons la mateixa "
+"llicència, però les òbrigues que només enllacen amb ella no estan obligades "
+"a esta restricció. Hi ha dues versions d'ús habitual de la LGPL de GNU."
+
+#: src/license.cpp:238
+#, kde-format
+msgid ""
+"Permissions of this copyleft license are conditioned on making available "
+"complete source code of licensed works and modifications under the same "
+"license or the GNU GPLv3. Copyright and license notices must be preserved. "
+"Contributors provide an express grant of patent rights. However, a larger "
+"work using the licensed work through interfaces provided by the licensed "
+"work may be distributed under different terms and without source code for "
+"the larger work."
+msgstr ""
+"Els permisos d'esta llicència «copyleft» estan condicionats a fer disponible "
+"el codi font complet d'òbrigues i modificacions segons la mateixa llicència "
+"o la GPLv3 de GNU. Cal mantindre els drets d'autoria i els avisos de "
+"llicència. Els col·laboradors proporcionen un atorgament exprés dels drets "
+"de patent. No obstant açò, un treball més gran utilitzant el treball amb "
+"llicència a través d'interfícies proporcionades per l'obra amb llicència es "
+"pot distribuir segons termes diferents i sense codi font per a l'obra més "
+"gran."
+
+#: src/license.cpp:239
+#, kde-format
+msgid ""
+"This license is an additional set of permissions to the GNU GPLv3 license. "
+"Follow the instructions to apply the GNU GPLv3, in the root of your source "
+"code. Then add another file named COPYING.LESSER and copy the text."
+msgstr ""
+"Esta llicència és un conjunt addicional de permisos per a la llicència GPLv3 "
+"de GNU. Seguiu les instruccions per aplicar la GPLv3 de GNU, en l'arrel del "
+"codi font. A continuació, afegiu un altre fitxer anomenat COPYING.LESSER i "
+"copieu el text."
+
+#: src/license.cpp:241
+#, kde-format
+msgid ""
+"Permissions of this strongest copyleft license are conditioned on making "
+"available complete source code of licensed works and modifications, which "
+"include larger works using a licensed work, under the same license. "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights. When a modified version is used to provide a "
+"service over a network, the complete source code of the modified version "
+"must be made available."
+msgstr ""
+"Els permisos d'esta llicència de «copyleft» fort estan condicionats a fer "
+"disponible el codi font complet d'òbrigues i modificacions llicenciades, que "
+"inclouen òbrigues més grans utilitzant una obra llicenciada, segons la "
+"mateixa llicència. Cal mantindre els drets d'autoria i els avisos de "
+"llicència. Els col·laboradors proporcionen una concessió expressa dels drets "
+"de patent. Quan s'utilitza una versió modificada per proporcionar un servei "
+"a través d'una xarxa, s'ha de posar a disposició el codi font complet de la "
+"versió modificada."
+
+#: src/license.cpp:244
+#, kde-format
+msgid ""
+"A short and simple permissive license with conditions only requiring "
+"preservation of copyright and license notices. Licensed works, "
+"modifications, and larger works may be distributed under different terms and "
+"without source code."
+msgstr ""
+"Una llicència curta i senzilla amb condicions que només requerixen el "
+"manteniment dels drets d'autoria i els avisos de llicència. Les òbrigues "
+"llicenciades, les modificacions i les òbrigues més grans es poden distribuir "
+"segons diferents termes i sense codi font."
+
+#: src/license.cpp:247
+#, kde-format
+msgid ""
+"Permissions of this weak copyleft license are conditioned on making "
+"available source code of licensed files and modifications of those files "
+"under the same license (or in certain cases, one of the GNU licenses). "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights. However, a larger work using the licensed "
+"work may be distributed under different terms and without source code for "
+"files added in the larger work."
+msgstr ""
+"Els permisos d'esta llicència de «copyleft» feble estan condicionats per fer "
+"disponible el codi font dels fitxers llicenciats i les modificacions d'estos "
+"fitxers segons la mateixa llicència (o en certs casos, una de les llicències "
+"de GNU). Cal mantindre els drets d'autoria i els avisos de llicència. Els "
+"col·laboradors proporcionen un atorgament exprés dels drets de patent. No "
+"obstant açò, una obra més gran que utilitze l'obra amb llicència es pot "
+"distribuir segons termes diferents i sense codi font per als fitxers afegits "
+"en l'obra més gran."
+
+#: src/license.cpp:250
+#, kde-format
+msgid ""
+"The easiest license out there. It gives the user permissions to do whatever "
+"they want with your code."
+msgstr ""
+"La llicència més fàcil de totes. Dona permís a l'usuari per fer el que "
+"vullga amb el vostre codi."
+
+#: src/license.cpp:253
+#, kde-format
+msgid ""
+"A license with no conditions whatsoever which dedicates works to the public "
+"domain. Unlicensed works, modifications, and larger works may be distributed "
+"under different terms and without source code."
+msgstr ""
+"Una llicència sense cap mena de condicions que dedica òbrigues al domini "
+"públic. Les òbrigues sense llicència, les modificacions i les òbrigues més "
+"grans es poden distribuir segons termes diferents i sense codi font."
+
+#: src/license.cpp:254
+#, kde-format
+msgid ""
+"Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root "
+"of your source code and copy the text of the license disclaimer into the "
+"file."
+msgstr ""
+"Creeu un fitxer de text (normalment anomenat UNLICENSE o UNLICENSE.txt) en "
+"l'arrel del codi font i copieu el text de la renúncia de llicència en el "
+"fitxer."
+
+#: src/main.cpp:34
+#, kde-format
+msgctxt "@title"
+msgid "Licentia"
+msgstr "Licentia"
+
+#: src/main.cpp:38
+#, kde-format
+msgid "Choose a license for your project"
+msgstr "Seleccioneu una llicència per al vostre projecte"
+
+#: src/main.cpp:42
+#, kde-format
+msgid "© Felipe 2022"
+msgstr "© Felipe 2022"
+
+#: src/main.cpp:43
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:43
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autoria"
+
+#: src/ui/GlobalMenu.qml:15
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Fitxer"
+
+#: src/ui/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Ix"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Edita"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Copy license to clipboard"
+msgstr "Copia la llicència al porta-retalls"
+
+#: src/ui/GlobalMenu.qml:42
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Ajuda"
+
+#: src/ui/GlobalMenu.qml:45
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Informeu d'un error…"
+
+#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:93
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Licentia"
+msgstr "Quant a Licentia"
+
+#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:97
+#, kde-format
+msgid "About Licentia"
+msgstr "Quant a Licentia"
+
+#: src/ui/LicensePanel.qml:59
+#, kde-format
+msgctxt "About [License SPDX identifier]"
+msgid "About %1"
+msgstr "Quant a %1"
+
+#: src/ui/LicensePanel.qml:69
+#, kde-format
+msgid "License Source"
+msgstr "Llicència del codi font"
+
+#: src/ui/LicensePanel.qml:110
+#, kde-format
+msgid "How to:"
+msgstr "Com:"
+
+#: src/ui/LicensePanel.qml:133
+#, kde-format
+msgid "Permissions:"
+msgstr "Permisos:"
+
+#: src/ui/LicensePanel.qml:164
+#, kde-format
+msgid "Conditions:"
+msgstr "Condicions:"
+
+#: src/ui/LicensePanel.qml:172
+#, kde-format
+msgid "(no conditions)"
+msgstr "(sense cap condició)"
+
+#: src/ui/LicensePanel.qml:205
+#, kde-format
+msgid "Limitations:"
+msgstr "Limitacions:"
+
+#: src/ui/LicensePanel.qml:213
+#, kde-format
+msgid "(no limitations)"
+msgstr "(sense cap limitació)"
+
+#: src/ui/LicensePanel.qml:248
+#, kde-format
+msgid "Projects using:"
+msgstr "Projectes que l'utilitzen:"
+
+#: src/ui/main.qml:16
+#, kde-format
+msgid "Licentia"
+msgstr "Licentia"
+
+#: src/ui/PageHeader.qml:22
+#, kde-format
+msgid "Original License"
+msgstr "Llicència original"
+
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "Copy License to Clipboard (Ctrl+C)"
+msgstr "Copia la llicència al porta-retalls (Ctrl+C)"
+
+#: src/ui/PageHeader.qml:58
+#, kde-format
+msgid "About License"
+msgstr "Quant a la llicència"
