@@ -14,6 +14,7 @@
   <name xml:lang="fi">Licentia</name>
   <name xml:lang="fr">Licentia</name>
   <name xml:lang="it">Licentia</name>
+  <name xml:lang="ka">Licentia</name>
   <name xml:lang="ko">Licentia</name>
   <name xml:lang="nl">Licentia</name>
   <name xml:lang="pt">Licentia</name>
@@ -32,6 +33,7 @@
   <summary xml:lang="fi">Valitse projektillesi lisenssi</summary>
   <summary xml:lang="fr">Sélectionner une licence pour votre projet</summary>
   <summary xml:lang="it">Scegli una licenza per il tuo progetto</summary>
+  <summary xml:lang="ka">აირჩიეთ თქვენი პროექტის ლიცენზია</summary>
   <summary xml:lang="ko">내 프로젝트의 라이선스 선택</summary>
   <summary xml:lang="nl">Kies een licentie voor uw project</summary>
   <summary xml:lang="pt">Escolha uma licença para o seu projecto</summary>
@@ -51,6 +53,7 @@
   <developer_name xml:lang="fi">KDE-yhteisö, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
@@ -90,6 +93,7 @@
       <caption xml:lang="fi">Päänäkymä</caption>
       <caption xml:lang="fr">Vue principale</caption>
       <caption xml:lang="it">Vista principale</caption>
+      <caption xml:lang="ka">მთავარი ხედი</caption>
       <caption xml:lang="ko">주 보기</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="pt">Janela Principal</caption>
