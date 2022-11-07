@@ -610,7 +610,7 @@ msgstr ""
 "col·laboradors proporcionen un atorgament exprés dels drets de patent. No "
 "obstant açò, una obra més gran que utilitze l'obra amb llicència es pot "
 "distribuir segons termes diferents i sense codi font per als fitxers afegits "
-"en l'obra més gran."
+"a l'obra més gran."
 
 #: src/license.cpp:250
 #, kde-format
