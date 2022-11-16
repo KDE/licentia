@@ -4,13 +4,14 @@
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Josep M. Ferrer <txemaq@gmail.com>, 2022.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-29 00:50+0000\n"
-"PO-Revision-Date: 2022-07-29 08:55+0200\n"
-"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"PO-Revision-Date: 2022-11-15 18:09+0100\n"
+"Last-Translator: Antoni Bella <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -471,7 +472,7 @@ msgid ""
 msgstr ""
 "Esta llicència de «copyleft» comercial proporciona la capacitat de "
 "llicenciar comercialment fitxers binaris; un atorgament modern de llicència "
-"de patent lliure de cànons; i la capacitat de les òbrigues enllaçades per "
+"de patent lliure de cànons; i la capacitat de les òbrigues enllaçades per a "
 "utilitzar altres llicències, incloses les comercials."
 
 #: src/license.cpp:229
@@ -555,9 +556,9 @@ msgid ""
 "code. Then add another file named COPYING.LESSER and copy the text."
 msgstr ""
 "Esta llicència és un conjunt addicional de permisos per a la llicència GPLv3 "
-"de GNU. Seguiu les instruccions per aplicar la GPLv3 de GNU, en l'arrel del "
-"codi font. A continuació, afegiu un altre fitxer anomenat COPYING.LESSER i "
-"copieu el text."
+"de GNU. Seguiu les instruccions per a aplicar la GPLv3 de GNU, en l'arrel "
+"del codi font. A continuació, afegiu un altre fitxer anomenat COPYING.LESSER "
+"i copieu el text."
 
 #: src/license.cpp:241
 #, kde-format
@@ -575,9 +576,9 @@ msgstr ""
 "inclouen òbrigues més grans utilitzant una obra llicenciada, segons la "
 "mateixa llicència. Cal mantindre els drets d'autoria i els avisos de "
 "llicència. Els col·laboradors proporcionen una concessió expressa dels drets "
-"de patent. Quan s'utilitza una versió modificada per proporcionar un servei "
-"a través d'una xarxa, s'ha de posar a disposició el codi font complet de la "
-"versió modificada."
+"de patent. Quan s'utilitza una versió modificada per a proporcionar un "
+"servei a través d'una xarxa, s'ha de posar a disposició el codi font complet "
+"de la versió modificada."
 
 #: src/license.cpp:244
 #, kde-format
