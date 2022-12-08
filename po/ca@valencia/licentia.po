@@ -294,7 +294,7 @@ msgid ""
 msgstr ""
 "La llicència BSD de clàusula zero va més enllà de la llicència BSD de 2 "
 "clàusules per us permet una llibertat il·limitada amb el programari sense "
-"requisits per incloure l'avís de copyright, el text de la llicència, o "
+"requisits per a incloure l'avís de copyright, el text de la llicència, o "
 "l'exempció de responsabilitat en forma de codi font o de binari."
 
 #: src/license.cpp:200
@@ -459,7 +459,7 @@ msgstr ""
 "Similar a CC-BY-4.0, però requerix que els treballs derivats es "
 "distribuïsquen segons la mateixa llicència o una de similar i compatible. "
 "Freqüentment utilitzat per a mitjans multimèdia i materials educatius. Una "
-"versió anterior és la llicència per defecte de la Viquipèdia i altres "
+"versió anterior és la llicència predeterminada de la Viquipèdia i altres "
 "projectes Wikimedia. No es recomana per al programari."
 
 #: src/license.cpp:226
