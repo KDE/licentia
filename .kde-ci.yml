@@ -15,3 +15,5 @@ Dependencies:
   'require':
     'frameworks/kdbusaddons': '@stable'
 
+Options:
+  require-passing-tests-on: [ '@all' ]
