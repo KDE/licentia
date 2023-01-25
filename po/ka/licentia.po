@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-29 00:50+0000\n"
-"PO-Revision-Date: 2022-10-08 10:40+0200\n"
+"PO-Revision-Date: 2023-01-24 07:15+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -31,7 +31,7 @@ msgstr "Temuri.doghonadze@gmail.com"
 #: src/license.cpp:88
 #, kde-format
 msgid "Commercial use"
-msgstr ""
+msgstr "კომერციული გამოყენება"
 
 #: src/license.cpp:89 src/license.cpp:122
 #, kde-format
@@ -42,12 +42,12 @@ msgstr ""
 #: src/license.cpp:93
 #, kde-format
 msgid "Modification"
-msgstr ""
+msgstr "ცვლილება"
 
 #: src/license.cpp:94
 #, kde-format
 msgid "The licensed material may be modified."
-msgstr ""
+msgstr "ლიცენზირებული მასალა შეიძლება შეიცვალოს."
 
 #: src/license.cpp:98
 #, kde-format
@@ -57,12 +57,12 @@ msgstr "გავრცელება"
 #: src/license.cpp:99
 #, kde-format
 msgid "The licensed material may be distributed."
-msgstr ""
+msgstr "ლიცენზირებული მასალა შეიძლება გავრცელდეს."
 
 #: src/license.cpp:103
 #, kde-format
 msgid "Private use"
-msgstr ""
+msgstr "პირადი გამოყენებისთვის"
 
 #: src/license.cpp:104
 #, kde-format
@@ -72,7 +72,7 @@ msgstr ""
 #: src/license.cpp:108 src/license.cpp:179
 #, kde-format
 msgid "Patent use"
-msgstr ""
+msgstr "პატენტის გამოყენება"
 
 #: src/license.cpp:109
 #, kde-format
@@ -83,12 +83,12 @@ msgstr ""
 #: src/license.cpp:121
 #, kde-format
 msgid "License and copyright notice"
-msgstr ""
+msgstr "ლიცენზიისა და საავტორო უფლებების შეტყობინება"
 
 #: src/license.cpp:126
 #, kde-format
 msgid "State changes"
-msgstr ""
+msgstr "მდგომარეობის ცვლილებები"
 
 #: src/license.cpp:127
 #, kde-format
@@ -98,7 +98,7 @@ msgstr ""
 #: src/license.cpp:131
 #, kde-format
 msgid "Disclose source"
-msgstr ""
+msgstr "წყაროს გამოჩენა"
 
 #: src/license.cpp:132
 #, kde-format
@@ -109,7 +109,7 @@ msgstr ""
 #: src/license.cpp:136
 #, kde-format
 msgid "Network use is distribution"
-msgstr ""
+msgstr "ქსელური გამოყენება გავრცელებაა"
 
 #: src/license.cpp:137
 #, kde-format
@@ -121,7 +121,7 @@ msgstr ""
 #: src/license.cpp:141
 #, kde-format
 msgid "Same license"
-msgstr ""
+msgstr "იგივე ლიცენზია"
 
 #: src/license.cpp:142
 #, kde-format
@@ -133,7 +133,7 @@ msgstr ""
 #: src/license.cpp:146
 #, kde-format
 msgid "Same license (library)"
-msgstr ""
+msgstr "იგივე ლიცენზია (ბიბლიოთეკა)"
 
 #: src/license.cpp:147
 #, kde-format
@@ -147,7 +147,7 @@ msgstr ""
 #: src/license.cpp:151
 #, kde-format
 msgid "Same license (file)"
-msgstr ""
+msgstr "იგივე ლიცენზია (ფაილი)"
 
 #: src/license.cpp:152
 #, kde-format
@@ -160,7 +160,7 @@ msgstr ""
 #: src/license.cpp:164
 #, kde-format
 msgid "Liability"
-msgstr ""
+msgstr "პასუხიმგებლობა"
 
 #: src/license.cpp:165
 #, kde-format
@@ -170,7 +170,7 @@ msgstr ""
 #: src/license.cpp:169
 #, kde-format
 msgid "Warranty"
-msgstr ""
+msgstr "გარანტია"
 
 #: src/license.cpp:170
 #, kde-format
@@ -180,7 +180,7 @@ msgstr ""
 #: src/license.cpp:174
 #, kde-format
 msgid "Trademark use"
-msgstr ""
+msgstr "სავაჭრო ნიშნის გამოყენება"
 
 #: src/license.cpp:175
 #, kde-format
@@ -498,7 +498,7 @@ msgstr "აირჩიეთ თქვენი პროექტის ლი
 #: src/main.cpp:42
 #, kde-format
 msgid "© Felipe 2022"
-msgstr ""
+msgstr "© Felipe 2022"
 
 #: src/main.cpp:43
 #, kde-format
@@ -534,7 +534,7 @@ msgstr "ჩასწორება"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Copy license to clipboard"
-msgstr ""
+msgstr "ლიცენზის ბუფერში კოპირება"
 
 #: src/ui/GlobalMenu.qml:42
 #, kde-format
@@ -588,7 +588,7 @@ msgstr "პირობები:"
 #: src/ui/LicensePanel.qml:172
 #, kde-format
 msgid "(no conditions)"
-msgstr ""
+msgstr "(პირობების გარეშე)"
 
 #: src/ui/LicensePanel.qml:205
 #, kde-format
@@ -598,12 +598,12 @@ msgstr "ლიმიტები:"
 #: src/ui/LicensePanel.qml:213
 #, kde-format
 msgid "(no limitations)"
-msgstr ""
+msgstr "(შეზღუდვების გარეშე)"
 
 #: src/ui/LicensePanel.qml:248
 #, kde-format
 msgid "Projects using:"
-msgstr ""
+msgstr "პროექტები იყენებენ:"
 
 #: src/ui/main.qml:16
 #, kde-format
@@ -613,14 +613,14 @@ msgstr "Licentia"
 #: src/ui/PageHeader.qml:22
 #, kde-format
 msgid "Original License"
-msgstr ""
+msgstr "ორიგინალური ლიცენზია"
 
 #: src/ui/PageHeader.qml:35
 #, kde-format
 msgid "Copy License to Clipboard (Ctrl+C)"
-msgstr ""
+msgstr "ლიცენზის ბუფერში კოპირება (Ctrl+C)"
 
 #: src/ui/PageHeader.qml:58
 #, kde-format
 msgid "About License"
-msgstr ""
+msgstr "ლიცენზიის შესახებ"
