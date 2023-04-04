@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-29 00:50+0000\n"
-"PO-Revision-Date: 2023-02-26 16:17+0200\n"
+"PO-Revision-Date: 2023-03-17 17:35+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -407,6 +407,10 @@ msgid ""
 "license for Open Access scientific publications. Not recommended for "
 "software."
 msgstr ""
+"Sallii lähes minkä tahansa käytön, kunhan kiitokset ja lisenssitiedot "
+"tarjotaan. Käytetään usein mediaresursseissa ja opetusmateriaaleissa, ja on "
+"yleinen tietellisten Open Access -julkaisujen lisenssi. Ei suositella "
+"ohjelmille."
 
 #: src/license.cpp:221 src/license.cpp:224
 #, kde-format
@@ -483,6 +487,10 @@ msgid ""
 "not fall under this restriction. There are two commonly used versions of the "
 "GNU LGPL."
 msgstr ""
+"GNU LGPL:ää käytetään ensi sijassa ohjelmakirjastoihin. Se vaatii "
+"johdannaisteosten lisensoimisen samalle lisenssille, mutta rajoitus ei koske "
+"teoksia, jotka vain viittaavat siihen. GNU LGPL:stä on kaksi yleisesti "
+"käytössä olevaa versiota."
 
 #: src/license.cpp:238
 #, kde-format
@@ -503,6 +511,9 @@ msgid ""
 "Follow the instructions to apply the GNU GPLv3, in the root of your source "
 "code. Then add another file named COPYING.LESSER and copy the text."
 msgstr ""
+"Tämä lisenssi on joukko lisäoikeuksia GNU GPL v3 -lisenssiin. Noudata "
+"käyttöönotossa jälkimmäisen ohjeita lähdekoodisi juuressa, lisää sitten "
+"ylimääräinen tiedosto nimeltä COPYING.LESSER ja kopioi sen teksti."
 
 #: src/license.cpp:241
 #, kde-format
