@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-29 00:50+0000\n"
-"PO-Revision-Date: 2023-04-17 13:07+0300\n"
+"PO-Revision-Date: 2023-06-02 20:52+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -452,6 +452,10 @@ msgid ""
 "and the ability for linked works to use other licenses, including commercial "
 "ones."
 msgstr ""
+"Tämä kaupalliselle näkökulmalle ystävällinen copyleft-lisenssi tarjoaa "
+"binaarien kaupallisen lisensointimahdollisuuden, nykyaikaisen "
+"tekijänoikeuskorvauksettoman patenttilisenssioikeuden ja linkitetyille "
+"teoksille mahdollisuuden käyttää muuta, myös kaupallista lisenssiä."
 
 #: src/license.cpp:229
 #, kde-format
@@ -475,6 +479,11 @@ msgid ""
 "Copyright and license notices must be preserved. Contributors provide an "
 "express grant of patent rights."
 msgstr ""
+"Tämän vahvan copyleft-lisenssin käyttöehtona on lisensoitujen teosten ja "
+"muutosten täyden lähdekoodin saataville saattaminen, mihin samalla "
+"lisenssillä sisältyvät lisensoitua teosta käyttävät laajemmat teokset. "
+"Tekijänoikeus- ja käyttöehtoilmoitukset tulee säilyttää. Avustajat tarjoavat "
+"eksplisiittisesti vapautuksen patenttioikeuksista."
 
 #: src/license.cpp:233
 #, kde-format
@@ -509,6 +518,13 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "the larger work."
 msgstr ""
+"Tämän copyleft-lisenssin käyttöehtona on lisensoitujen teosten ja muutosten "
+"täyden lähdekoodin saattaminen saataville samalla tai GNU GPLv3 -"
+"lisenssillä. Tekijänoikeus- ja käyttöehtoilmoitukset tulee säilyttää. "
+"Avustajat tarjoavat eksplisiittisesti vapautuksen patenttioikeuksista. "
+"Lisensoitua teosta sen tarjoamien käyttöliittymien kautta käyttävää "
+"laajempaa teosta saa kuitenkin levittää eri ehdoin ja ilman laajemman "
+"teoksen lähdekoodia."
 
 #: src/license.cpp:239
 #, kde-format
@@ -532,6 +548,13 @@ msgid ""
 "service over a network, the complete source code of the modified version "
 "must be made available."
 msgstr ""
+"Tämän vahvimman copyleft-lisenssin käyttöehtona on lisensoitujen teosten ja "
+"muutosten täyden lähdekoodin saattaminen saataville, mihin samalla "
+"lisenssillä sisältyvät lisensoitua teosta käyttävät laajemmat teokset. "
+"Tekijänoikeus- ja käyttöehtoilmoitukset tulee säilyttää. Avustajat tarjoavat "
+"eksplisiittisesti vapautuksen patenttioikeuksista. Kun muutettua versiota "
+"käytetään tarjoamaan palvelua verkossa, muutetun version täysi lähdekoodi "
+"tulee saattaa saataville."
 
 #: src/license.cpp:244
 #, kde-format
