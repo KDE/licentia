@@ -35,11 +35,9 @@ QHash<int, QByteArray> LicensesModel::roleNames() const
 
 QVariant LicensesModel::data(const QModelIndex &index, int role) const
 {
-    if (!index.isValid() || index.row() < 0 || index.row() >= m_licenses.count()) {
-        return {};
-    }
+    Q_ASSERT(checkIndex(index, QAbstractItemModel::CheckIndexOption::IndexIsValid));
 
-    auto license = m_licenses.at(index.row());
+    const auto &license = m_licenses.at(index.row());
 
     switch (role) {
     case Roles::KeyRole:
