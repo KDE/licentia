@@ -7,6 +7,7 @@
 #include <QUrl>
 #include <QtQml>
 #include <QQuickWindow>
+#include <QQuickStyle>
 
 #include <KAboutData>
 #include <KLocalizedContext>
@@ -27,7 +28,21 @@ constexpr auto APPLICATION_ID = "org.kde.licentia";
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+
+#ifdef Q_OS_ANDROID
+    QGuiApplication app(argc, argv);
+    QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
+#else
+    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
     QApplication app(argc, argv);
+    // Default to org.kde.desktop style unless the user forces another style
+    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
+        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+    }
+#endif
+
+    KLocalizedString::setApplicationDomain("licentia");
+
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
 
     KAboutData aboutData(
@@ -45,6 +60,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
                          i18n("© Felipe 2022"));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io"));
     aboutData.setBugAddress("https://bugs.kde.org/enter_bug.cgi?product=Licentia&amp;component=general");
+    aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
     KAboutData::setApplicationData(aboutData);
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.licentia")));
 
