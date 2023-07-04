@@ -82,28 +82,29 @@ License License::fromJson(const QJsonObject &obj)
     QJsonArray permissions;
     QJsonObject permission;
 
-    for (auto i : obj.value(QStringLiteral("permissions")).toArray()) {
-        if (i == "commercial-use") {
+    const auto permissionsArray = obj.value(QStringLiteral("permissions")).toArray();
+    for (const auto &i : permissionsArray) {
+        if (i == QStringLiteral("commercial-use")) {
             permission = {
                 {QStringLiteral("name"), i18n("Commercial use")},
                 {QStringLiteral("description"), i18n("The licensed material and derivatives may be used for commercial purposes.")}
             };
-        } else if (i == "modifications") {
+        } else if (i == QStringLiteral("modifications")) {
             permission = {
                 {QStringLiteral("name"), i18n("Modification")},
                 {QStringLiteral("description"), i18n("The licensed material may be modified.")}
             };
-        } else if (i == "distribution") {
+        } else if (i == QStringLiteral("distribution")) {
             permission = {
                 {QStringLiteral("name"), i18n("Distribution")},
                 {QStringLiteral("description"), i18n("The licensed material may be distributed.")}
             };
-        } else if (i == "private-use") {
+        } else if (i == QStringLiteral("private-use")) {
             permission = {
                 {QStringLiteral("name"), i18n("Private use")},
                 {QStringLiteral("description"), i18n("The licensed material may be used and modified in private.")}
             };
-        } else if (i == "patent-use") {
+        } else if (i == QStringLiteral("patent-use")) {
             permission = {
                 {QStringLiteral("name"), i18n("Patent use")},
                 {QStringLiteral("description"), i18n("The licensed provides and express grant of patent rights from contributors.")}
@@ -115,38 +116,39 @@ License License::fromJson(const QJsonObject &obj)
     QJsonArray conditions;
     QJsonObject condition;
 
-    for (auto i : obj.value(QStringLiteral("conditions")).toArray()) {
-        if (i == "include-copyright") {
+    const auto conditionsArray = obj.value(QStringLiteral("conditions")).toArray();
+    for (const auto &i : conditionsArray) {
+        if (i == QStringLiteral("include-copyright")) {
             condition = {
                 {QStringLiteral("name"), i18n("License and copyright notice")},
                 {QStringLiteral("description"), i18n("The licensed material and derivatives may be used for commercial purposes.")}
             };
-        } else if (i == "document-changes") {
+        } else if (i == QStringLiteral("document-changes")) {
             condition = {
                 {QStringLiteral("name"), i18n("State changes")},
                 {QStringLiteral("description"), i18n("Changes made to the licensed material must be documented.")}
             };
-        } else if (i == "disclose-source") {
+        } else if (i == QStringLiteral("disclose-source")) {
             condition = {
                 {QStringLiteral("name"), i18n("Disclose source")},
                 {QStringLiteral("description"), i18n("Source code must be made available when the licensed material is distributed.")}
             };
-        } else if (i == "network-use-disclose") {
+        } else if (i == QStringLiteral("network-use-disclose")) {
             condition = {
                 {QStringLiteral("name"), i18n("Network use is distribution")},
                 {QStringLiteral("description"), i18n("Users who interact with the licensed material via network are given the right to receive a copy of the source code.")}
             };
-        } else if (i == "same-license") {
+        } else if (i == QStringLiteral("same-license")) {
             condition = {
                 {QStringLiteral("name"), i18n("Same license")},
                 {QStringLiteral("description"), i18n("Modifications must be released under the same license when distributing the licensed material. In some cases a similar or related license may be used.")}
             };
-        } else if (i == "same-license--library") {
+        } else if (i == QStringLiteral("same-license--library")) {
             condition = {
                 {QStringLiteral("name"), i18n("Same license (library)")},
                 {QStringLiteral("description"), i18n("Modifications must be released under the same license when distributing the licensed material. In some cases a similar or related license may be used, or this condition may not apply to works that use the licensed material as a library.")}
             };
-        } else if (i == "same-license--file") {
+        } else if (i == QStringLiteral("same-license--file")) {
             condition = {
                 {QStringLiteral("name"), i18n("Same license (file)")},
                 {QStringLiteral("description"), i18n("Modifications of existing files must be released under the same license when distributing the licensed material. In some cases a similar or related license may be used.")}
@@ -158,7 +160,8 @@ License License::fromJson(const QJsonObject &obj)
     QJsonArray limitations;
     QJsonObject limitation;
 
-    for (auto i : obj.value(QStringLiteral("limitations")).toArray()) {
+    const auto limitationsArray = obj.value(QStringLiteral("limitations")).toArray();
+    for (const auto &i : limitationsArray) {
         if (i == "liability") {
             limitation = {
                 {QStringLiteral("name"), i18n("Liability")},
