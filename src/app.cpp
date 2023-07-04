@@ -16,7 +16,7 @@ App::App(QObject *parent)
 
 void App::restoreWindowGeometry(QQuickWindow *window)
 {
-    KConfig dataResource("data", KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
+    KConfig dataResource(QStringLiteral("data"), KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
     KConfigGroup windowGroup(&dataResource, "Window");
     KWindowConfig::restoreWindowSize(window, windowGroup);
     KWindowConfig::restoreWindowPosition(window, windowGroup);
@@ -24,7 +24,7 @@ void App::restoreWindowGeometry(QQuickWindow *window)
 
 void App::saveWindowGeometry(QQuickWindow *window)
 {
-    KConfig dataResource("data", KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
+    KConfig dataResource(QStringLiteral("data"), KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
     KConfigGroup windowGroup(&dataResource, "Window");
     KWindowConfig::saveWindowPosition(window, windowGroup);
     KWindowConfig::saveWindowSize(window, windowGroup);

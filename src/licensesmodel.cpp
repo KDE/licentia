@@ -69,15 +69,14 @@ QVariant LicensesModel::data(const QModelIndex &index, int role) const
 
 int LicensesModel::rowCount(const QModelIndex &parent) const
 {
-    Q_UNUSED(parent)
-    return m_licenses.size();
+    return parent.isValid() ? 0 : m_licenses.size();
 }
 
 bool LicensesModel::loadLicenses()
 {
     beginResetModel();
 
-    QFile inputFile(":/licenses.json");
+    QFile inputFile(QStringLiteral(":/licenses.json"));
     if (!inputFile.exists()) {
         return false;
     }
@@ -89,7 +88,7 @@ bool LicensesModel::loadLicenses()
     const auto licensesStorage = QJsonDocument::fromJson(inputFile.readAll()).object();
     m_licenses.clear();
 
-    const auto licenses = licensesStorage.value("licenses").toArray();
+    const auto licenses = licensesStorage.value(QStringLiteral("licenses")).toArray();
 
     std::transform(licenses.cbegin(), licenses.cend(), std::back_inserter(m_licenses), [](const QJsonValue &license) {
         return License::fromJson(license.toObject());
