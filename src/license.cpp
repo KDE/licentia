@@ -7,72 +7,72 @@
 
 #include "license.h"
 
-License::License(QString key, QString name, QString spdx, QString description, QString fileImplementation, QString spdxImplementation, QJsonArray permissions, QJsonArray conditions, QJsonArray limitations, QJsonArray projectsUsing, QString body)
+License::License(const QString &key, const QString &name, const QString &spdx, const QString &description, const QString &fileImplementation, const QString &spdxImplementation, const QJsonArray &permissions, const QJsonArray &conditions, const QJsonArray &limitations, const QJsonArray &projectsUsing, const QString &body)
+    : m_key(key)
+    , m_name(name)
+    , m_spdx(spdx)
+    , m_description(description)
+    , m_fileImplementation(fileImplementation)
+    , m_spdxImplementation(spdxImplementation)
+    , m_permissions(permissions)
+    , m_conditions(conditions)
+    , m_limitations(limitations)
+    , m_projectsUsing(projectsUsing)
+    , m_body(body)
 {
-    m_key = key;
-    m_name = name;
-    m_spdx = spdx;
-    m_description = description;
-    m_fileImplementation = fileImplementation;
-    m_spdxImplementation = spdxImplementation;
-    m_permissions = permissions;
-    m_conditions = conditions;
-    m_limitations = limitations;
-    m_projectsUsing = projectsUsing;
-    m_body = body;
 }
 
-QString License::key()
+QString License::key() const
 {
     return m_key;
 }
 
-QString License::name()
+QString License::name() const
 {
     return m_name;
 }
 
-QString License::spdx()
+QString License::spdx() const
 {
     return m_spdx;
 }
 
-QString License::description()
+QString License::description() const
 {
     return m_description;
 }
 
-QString License::fileImplementation()
+QString License::fileImplementation() const
 {
     return m_fileImplementation;
 }
 
-QString License::spdxImplementation()
+QString License::spdxImplementation() const
 {
     return m_spdxImplementation;
 }
 
-QJsonArray License::permissions()
+QJsonArray License::permissions() const
 {
     return m_permissions;
 }
 
-QJsonArray License::conditions()
+QJsonArray License::conditions() const
 {
     return m_conditions;
 }
 
-QJsonArray License::limitations()
+QJsonArray License::limitations() const
 {
     return m_limitations;
 }
 
-QJsonArray License::projectsUsing()
+QJsonArray License::projectsUsing() const
 {
     return m_projectsUsing;
 }
 
-QString License::body()
+QString License::body() const
 {
     return m_body;
 }
@@ -186,11 +186,11 @@ License License::fromJson(const QJsonObject &obj)
         limitations.push_back(limitation);
     }
 
-    QString key = obj.value(QStringLiteral("key")).toString();
-    QString spdx = obj.value(QStringLiteral("spdx_id")).toString();
+    const QString key = obj.value(QStringLiteral("key")).toString();
+    const QString spdx = obj.value(QStringLiteral("spdx_id")).toString();
     QString description;
     QString fileImplementation;
-    QString spdxImplementation = i18n("For REUSE compliance, copy the text of the license into a file named %1.txt, it must be placed in the LICENSES/ directory in the root of your source code.", spdx);
+    const QString spdxImplementation = i18n("For REUSE compliance, copy the text of the license into a file named %1.txt, it must be placed in the LICENSES/ directory in the root of your source code.", spdx);
 
     if (key == "afl-3.0") {
         description = i18n("The Academic Free License is a variant of the Open Software License that does not require that the source code of derivative works be disclosed. It contains explicit copyright and patent grants and reserves trademark rights in the author.");
@@ -257,7 +257,7 @@ License License::fromJson(const QJsonObject &obj)
         fileImplementation = i18n("Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root of your source code and copy the text of the license disclaimer into the file.");
     }
 
-    License l(
+    return License(
         key,
         obj.value(QStringLiteral("name")).toString(),
         spdx,
@@ -270,6 +270,4 @@ License License::fromJson(const QJsonObject &obj)
         obj.value(QStringLiteral("using")).toArray(),
         obj.value(QStringLiteral("body")).toString()
     );
-
-    return l;
 }
