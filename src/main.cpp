@@ -74,6 +74,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
     qmlRegisterType<LicensesModel>(APPLICATION_ID, 1, 0, "LicensesModel");
+    qmlRegisterSingletonType(APPLICATION_ID, 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
+        return engine->toScriptValue(KAboutData::applicationData());
+    });
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     KLocalizedString::setApplicationDomain("licentia");

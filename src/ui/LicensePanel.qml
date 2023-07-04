@@ -20,47 +20,52 @@ Kirigami.ContextDrawer {
     property var limitations
     property var using
 
-    interactive: contentHeight > height
-    edge: Kirigami.Settings.isMobile ? Qt.BottomEdge : Qt.application.layoutDirection == Qt.RightToLeft ? Qt.LeftEdge : Qt.RightEdge
-    modal: Kirigami.Settings.isMobile
-    drawerOpen: !Kirigami.Settings.isMobile
+    readonly property bool smallScreen: applicationWindow().width < Kirigami.Units.gridUnit * 40
 
-    width: Kirigami.Settings.isMobile ? applicationWindow().width : Kirigami.Units.gridUnit * 20
-    height: Kirigami.Settings.isMobile ? applicationWindow().height / 1.5 : applicationWindow().height
+    interactive: modal || contentHeight > height
+    edge: Qt.application.layoutDirection == Qt.RightToLeft ? Qt.LeftEdge : Qt.RightEdge
+    modal: smallScreen
+    onModalChanged: drawerOpen = !modal;
+    drawerOpen: !modal
+
+    width: Math.min(applicationWindow().width, Kirigami.Units.gridUnit * 20)
+
+    handleVisible: true
+    handleClosedIcon.source: modal ? null : "sidebar-expand-left"
+    handleOpenIcon.source: modal ? null : "sidebar-collapse-left"
 
     topPadding: 0
     bottomPadding: 0
     leftPadding: 0
     rightPadding: 0
 
+    enabled: true
+
     Kirigami.Theme.colorSet: Kirigami.Theme.Window
+    Kirigami.Theme.inherit: false
 
     contentItem: ColumnLayout {
         clip: true
         spacing: 0
 
-        Kirigami.AbstractApplicationHeader {
+        QQC2.ToolBar {
             Layout.fillWidth: true
+            Layout.preferredHeight: applicationWindow().pageStack.globalToolBar.preferredHeight
 
-            topPadding: Kirigami.Units.smallSpacing / 2;
-            bottomPadding: Kirigami.Units.smallSpacing / 2;
-            rightPadding: Kirigami.Units.smallSpacing
-            leftPadding: Kirigami.Units.smallSpacing
+            leftPadding: 3
+            rightPadding: 3
+            topPadding: 3
+            bottomPadding: 3
 
-            RowLayout {
-                anchors.fill: parent
-
+            contentItem: RowLayout {
                 Kirigami.Heading {
-                    Layout.alignment: Qt.AlignLeft | Qt.AlignVCenter
+                    Layout.alignment: Qt.AlignVCenter
                     Layout.leftMargin: Kirigami.Units.largeSpacing + Kirigami.Units.smallSpacing
+                    Layout.fillWidth: true
 
                     level: 3
 
                     text: i18nc("About [License SPDX identifier]", "About %1", licensePanel.spdx)
-                }
-
-                Item {
-                    Layout.fillWidth: true
                 }
 
                 QQC2.ToolButton {

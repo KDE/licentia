@@ -15,8 +15,8 @@ Kirigami.ApplicationWindow {
 
     title: i18n("Licentia")
 
-    minimumWidth: !Kirigami.Settings.isMobile ? Kirigami.Units.gridUnit * 50 : 0
-    minimumHeight: !Kirigami.Settings.isMobile ? Kirigami.Units.gridUnit * 20 : 0
+    minimumWidth: Kirigami.Units.gridUnit * 10
+    minimumHeight: Kirigami.Units.gridUnit * 10
 
     Timer {
         id: saveWindowGeometryTimer
@@ -43,10 +43,12 @@ Kirigami.ApplicationWindow {
 
     globalDrawer: Kirigami.OverlayDrawer {
         edge: Qt.application.layoutDirection === Qt.RightToLeft ? Qt.RightEdge : Qt.LeftEdge
-        modal: Kirigami.Settings.isMobile
+        modal: Kirigami.Settings.isMobile || (applicationWindow().width < Kirigami.Units.gridUnit * 50 && !collapsed) // Only modal when not collapsed, otherwise collapsed won't show.
+        onModalChanged: drawerOpen = !modal;
+        drawerOpen: !Kirigami.Settings.isMobile
         handleVisible: modal
-        handleClosedIcon.source: null
-        handleOpenIcon.source: null
+        handleClosedIcon.source: modal ? null : "sidebar-expand-left"
+        handleOpenIcon.source: modal ? null : "sidebar-collapse-left"
         width: Kirigami.Units.gridUnit * 16
 
         Kirigami.Theme.colorSet: Kirigami.Theme.Window
@@ -95,7 +97,7 @@ Kirigami.ApplicationWindow {
                             shortcut: StandardKey.HelpContents
                             onTriggered: pageStack.pushDialogLayer(Qt.resolvedUrl("About.qml"), {}, {
                                 title: i18n("About Licentia"),
-                                width: Kirigami.Units.gridUnit * 25,
+                                width: Kirigami.Units.gridUnit * 20,
                                 height: Kirigami.Units.gridUnit * 30
                             })
                             enabled: pageStack.layers.depth <= 1
