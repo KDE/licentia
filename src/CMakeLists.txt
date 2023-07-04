@@ -22,7 +22,6 @@ PUBLIC
     KF${QT_MAJOR_VERSION}::CoreAddons
     KF${QT_MAJOR_VERSION}::ConfigCore
     KF${QT_MAJOR_VERSION}::ConfigGui
-    KF${QT_MAJOR_VERSION}::DBusAddons
 )
 
 if(TARGET KF${QT_MAJOR_VERSION}::DBusAddons)
