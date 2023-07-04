@@ -43,6 +43,7 @@ if (NOT ANDROID)
 endif()
 
 find_package(KF${QT_MAJOR_VERSION} ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n ItemModels)
+find_package(KF${QT_MAJOR_VERSION}KirigamiAddons 0.9.0 REQUIRED)
 
 add_subdirectory(src)
 
