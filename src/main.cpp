@@ -83,7 +83,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         return -1;
     }
 
+#ifdef HAVE_KDBUSADDONS
     KDBusService service(KDBusService::Unique);
+#endif
 
     // Restore window size and position
     const auto rootObjects = engine.rootObjects();
