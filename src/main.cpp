@@ -11,7 +11,10 @@
 #include <KAboutData>
 #include <KLocalizedContext>
 #include <KLocalizedString>
+
+#ifdef HAVE_KDBUSADDONS
 #include <KDBusService>
+#endif
 
 constexpr auto APPLICATION_ID = "org.kde.licentia";
 
