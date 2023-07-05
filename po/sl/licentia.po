@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-29 00:50+0000\n"
+"POT-Creation-Date: 2023-07-05 01:03+0000\n"
 "PO-Revision-Date: 2022-07-30 08:04+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -16,22 +16,12 @@ msgstr ""
 "%100==4 ? 3 : 0);\n"
 "X-Generator: Poedit 3.1.1\n"
 
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Martin Srebotnjak"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "miles@filmsi.net"
-
-#: src/license.cpp:88
+#: src/license.cpp:89
 #, kde-format
 msgid "Commercial use"
 msgstr "Komercialna raba"
 
-#: src/license.cpp:89 src/license.cpp:122
+#: src/license.cpp:90 src/license.cpp:124
 #, kde-format
 msgid ""
 "The licensed material and derivatives may be used for commercial purposes."
@@ -39,48 +29,48 @@ msgstr ""
 "Gradivo, objavljeno pod tem dovoljenjem, in izvedeno gradivo je dovoljeno "
 "uporabljati v komercialne namene."
 
-#: src/license.cpp:93
+#: src/license.cpp:94
 #, kde-format
 msgid "Modification"
 msgstr "Spreminjanje"
 
-#: src/license.cpp:94
+#: src/license.cpp:95
 #, kde-format
 msgid "The licensed material may be modified."
 msgstr ""
 "Gradivo, objavljeno pod tem dovoljenjem, in izvedeno gradivo je dovoljeno "
 "spreminjati."
 
-#: src/license.cpp:98
+#: src/license.cpp:99
 #, kde-format
 msgid "Distribution"
 msgstr "Razširjanje"
 
-#: src/license.cpp:99
+#: src/license.cpp:100
 #, kde-format
 msgid "The licensed material may be distributed."
 msgstr ""
 "Gradivo, objavljeno pod tem dovoljenjem, in izvedeno gradivo je dovoljeno "
 "razširjati."
 
-#: src/license.cpp:103
+#: src/license.cpp:104
 #, kde-format
 msgid "Private use"
 msgstr "Zasebna raba"
 
-#: src/license.cpp:104
+#: src/license.cpp:105
 #, kde-format
 msgid "The licensed material may be used and modified in private."
 msgstr ""
 "Gradivo, objavljeno pod tem dovoljenjem, je dovoljeno uporabljati in "
 "spreminjati zasebno."
 
-#: src/license.cpp:108 src/license.cpp:179
+#: src/license.cpp:109 src/license.cpp:182
 #, kde-format
 msgid "Patent use"
 msgstr "Raba patenta"
 
-#: src/license.cpp:109
+#: src/license.cpp:110
 #, kde-format
 msgid ""
 "The licensed provides and express grant of patent rights from contributors."
@@ -88,29 +78,29 @@ msgstr ""
 "Delo, izdano pod tem dovoljenjem, zagotavlja in izreka podelitev patentnih "
 "pravic avtorjev prispevkov."
 
-#: src/license.cpp:121
+#: src/license.cpp:123
 #, kde-format
 msgid "License and copyright notice"
 msgstr "Obvestilo o dovoljenju in avtorskih pravicah"
 
-#: src/license.cpp:126
+#: src/license.cpp:128
 #, kde-format
 msgid "State changes"
 msgstr "Spremembe stanj"
 
-#: src/license.cpp:127
+#: src/license.cpp:129
 #, kde-format
 msgid "Changes made to the licensed material must be documented."
 msgstr ""
 "Spremembe gradiva, objavljenega pod tem dovoljenjem, morajo biti "
 "dokumentirane."
 
-#: src/license.cpp:131
+#: src/license.cpp:133
 #, kde-format
 msgid "Disclose source"
 msgstr "Razkritje izvorne kode"
 
-#: src/license.cpp:132
+#: src/license.cpp:134
 #, kde-format
 msgid ""
 "Source code must be made available when the licensed material is distributed."
@@ -118,12 +108,12 @@ msgstr ""
 "Izvorna koda mora biti na voljo, ko se razširja gradivo, objavljeno pod tem "
 "dovoljenjem."
 
-#: src/license.cpp:136
+#: src/license.cpp:138
 #, kde-format
 msgid "Network use is distribution"
 msgstr "Uporaba v omrežju velja za razširjanje"
 
-#: src/license.cpp:137
+#: src/license.cpp:139
 #, kde-format
 msgid ""
 "Users who interact with the licensed material via network are given the "
@@ -132,12 +122,12 @@ msgstr ""
 "Uporabniki, ki so prek omrežja v interakciji z gradivom, objavljenim pod tem "
 "dovoljenjem, imajo pravico prejeti kopijo izvorne kode."
 
-#: src/license.cpp:141
+#: src/license.cpp:143
 #, kde-format
 msgid "Same license"
 msgstr "Isto dovoljenje"
 
-#: src/license.cpp:142
+#: src/license.cpp:144
 #, kde-format
 msgid ""
 "Modifications must be released under the same license when distributing the "
@@ -147,12 +137,12 @@ msgstr ""
 "gradiva, objavljeno pod tem dovoljenjem. V nekaterih primerih se lahko "
 "uporabi podobno ali sorodno dovoljenje."
 
-#: src/license.cpp:146
+#: src/license.cpp:148
 #, kde-format
 msgid "Same license (library)"
 msgstr "Isto dovoljenje (knjižnica)"
 
-#: src/license.cpp:147
+#: src/license.cpp:149
 #, kde-format
 msgid ""
 "Modifications must be released under the same license when distributing the "
@@ -165,12 +155,12 @@ msgstr ""
 "uporabi podobno ali sorodno dovoljenje, ali pa ta pogoj ne velja za dela, ki "
 "uporabljajo zaščiteno gradivo kot knjižnico."
 
-#: src/license.cpp:151
+#: src/license.cpp:153
 #, kde-format
 msgid "Same license (file)"
 msgstr "Isto dovoljenje (datoteka)"
 
-#: src/license.cpp:152
+#: src/license.cpp:154
 #, kde-format
 msgid ""
 "Modifications of existing files must be released under the same license when "
@@ -181,32 +171,32 @@ msgstr ""
 "ko se razširja gradivo pod tem dovoljenjem. V nekaterih primerih se lahko "
 "uporabi podobno ali sorodno dovoljenje."
 
-#: src/license.cpp:164
+#: src/license.cpp:167
 #, kde-format
 msgid "Liability"
 msgstr "Odgovornost"
 
-#: src/license.cpp:165
+#: src/license.cpp:168
 #, kde-format
 msgid "This license includes a limitation of liability."
 msgstr "To dovoljenje vključuje omejitev odgovornosti."
 
-#: src/license.cpp:169
+#: src/license.cpp:172
 #, kde-format
 msgid "Warranty"
 msgstr "Garancija"
 
-#: src/license.cpp:170
+#: src/license.cpp:173
 #, kde-format
 msgid "This license explicitly states that it does NOT provide any warranty."
 msgstr "To dovoljenje izrecno navaja, da NE zagotavlja nobene garancije."
 
-#: src/license.cpp:174
+#: src/license.cpp:177
 #, kde-format
 msgid "Trademark use"
 msgstr "Raba blagovne znamke"
 
-#: src/license.cpp:175
+#: src/license.cpp:178
 #, kde-format
 msgid ""
 "This license explicitly states that it does NOT grant trademark rights, even "
@@ -217,7 +207,7 @@ msgstr ""
 "čeprav dovoljenja brez takšne izjave verjetno ne dodeljujejo nobenih "
 "implicitnih pravic blagovne znamke."
 
-#: src/license.cpp:180
+#: src/license.cpp:183
 #, kde-format
 msgid ""
 "This license explicitly states that it does NOT grant any rights in the "
@@ -226,7 +216,7 @@ msgstr ""
 "To dovoljenje izrecno navaja, da NE dodeljuje nobenih pravic do patentov "
 "avtorjev prispevkov."
 
-#: src/license.cpp:190
+#: src/license.cpp:193
 #, kde-format
 msgid ""
 "For REUSE compliance, copy the text of the license into a file named %1.txt, "
@@ -236,7 +226,7 @@ msgstr ""
 "datoteko z imenom %1.txt in jo postavite v imenik LICENCES/ v korenski mapi "
 "izvorne kode."
 
-#: src/license.cpp:193
+#: src/license.cpp:196
 #, kde-format
 msgid ""
 "The Academic Free License is a variant of the Open Software License that "
@@ -249,7 +239,7 @@ msgstr ""
 "Vsebuje izrecno avtorsko pravico in dodelitev patenta ter pridržuje pravice "
 "do blagovne znamke avtorju."
 
-#: src/license.cpp:194
+#: src/license.cpp:197
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -263,7 +253,7 @@ msgstr ""
 "pod dovoljenjem AFL 3.0 / Licensed under the Academic Free License version "
 "3.0« poleg obvestila o avtorski pravici."
 
-#: src/license.cpp:196
+#: src/license.cpp:199
 #, kde-format
 msgid ""
 "A permissive license whose main conditions require preservation of copyright "
@@ -276,9 +266,9 @@ msgstr ""
 "podelitev patentnih pravic. Licencirana dela, spremembe in večja dela se "
 "lahko razširjajo pod različnimi pogoji in brez izvorne kode."
 
-#: src/license.cpp:197 src/license.cpp:215 src/license.cpp:218
-#: src/license.cpp:227 src/license.cpp:230 src/license.cpp:236
-#: src/license.cpp:242 src/license.cpp:248 src/license.cpp:251
+#: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
+#: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
+#: src/license.cpp:245 src/license.cpp:251 src/license.cpp:254
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -287,7 +277,7 @@ msgstr ""
 "Ustvarite besedilno datoteko (običajno imenovano LICENSE ali LICENSE.txt) v "
 "korenski mapi izvorne kode in kopirajte besedilo dovoljenja v datoteko."
 
-#: src/license.cpp:199
+#: src/license.cpp:202
 #, kde-format
 msgid ""
 "The BSD Zero Clause license goes further than the BSD 2-Clause license to "
@@ -300,7 +290,7 @@ msgstr ""
 "obvestila o avtorski pravici, besedila dovoljenja ali omejitve odgovornosti "
 "v izvorni kodi ali binarni obliki."
 
-#: src/license.cpp:200
+#: src/license.cpp:203
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -318,7 +308,7 @@ msgstr ""
 "imetnikov avtorske in sorodnih pravic. Lahko sprejmete dodaten korak in "
 "odstranite obvestila o avtorski pravici."
 
-#: src/license.cpp:202
+#: src/license.cpp:205
 #, kde-format
 msgid ""
 "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
@@ -327,8 +317,8 @@ msgstr ""
 "Dovoljenje, ki je v dveh različicah, BSD 2-Clause in BSD 3-Clause. Obe se "
 "zelo malo razlikujeta od dovoljenja MIT."
 
-#: src/license.cpp:203 src/license.cpp:206 src/license.cpp:209
-#: src/license.cpp:245
+#: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
+#: src/license.cpp:248
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -344,7 +334,7 @@ msgstr ""
 "Zamenjajte [letnico] s trenutno letnico in [polnoime] z imenom (ali imeni) "
 "imetnikov avtorske in sorodnih pravic."
 
-#: src/license.cpp:205
+#: src/license.cpp:208
 #, kde-format
 msgid ""
 "A permissive license similar to the BSD 2-Clause License, but with a 3rd "
@@ -355,7 +345,7 @@ msgstr ""
 "klavzulo, ki drugim prepoveduje rabo imena projekta ali njegovih avtorjev "
 "prispevkov, s čimer podpira izvedene izdelke brez pisne privolitve."
 
-#: src/license.cpp:208
+#: src/license.cpp:211
 #, kde-format
 msgid ""
 "A variant of the BSD 3-Clause License that explicitly does not grant any "
@@ -364,7 +354,7 @@ msgstr ""
 "Različica dovoljenja BSD 3-Clause, ki izrecno ne podeli nobenih patentnih "
 "pravic."
 
-#: src/license.cpp:211
+#: src/license.cpp:214
 #, kde-format
 msgid ""
 "A permissive license similar to the BSD 3-Clause License, but with an "
@@ -375,7 +365,7 @@ msgstr ""
 "»oglaševalsko klavzulo«, ki zahteva potrditev izvirnega vira v vseh oglasnih "
 "gradivih."
 
-#: src/license.cpp:212
+#: src/license.cpp:215
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -393,7 +383,7 @@ msgstr ""
 "imetnikov avtorske in sorodnih pravic. Zamenjajte [projekt] s projektno "
 "organizacijo, če obstaja, ki sponzorira to delo."
 
-#: src/license.cpp:214
+#: src/license.cpp:217
 #, kde-format
 msgid ""
 "A simple permissive license only requiring preservation of copyright and "
@@ -406,7 +396,7 @@ msgstr ""
 "spremembe in večja dela se lahko razširjajo pod različnimi pogoji in brez "
 "izvorne kode."
 
-#: src/license.cpp:217
+#: src/license.cpp:220
 #, kde-format
 msgid ""
 "The Creative Commons CC0 Public Domain Dedication waives copyright interest "
@@ -422,7 +412,7 @@ msgstr ""
 "tipičnih dovoljenjih za programsko opremo CC0 odklanja vsakršno jamstvo. CC0 "
 "je zelo podobna Unlicense."
 
-#: src/license.cpp:220
+#: src/license.cpp:223
 #, kde-format
 msgid ""
 "Permits almost any use subject to providing credit and license notice. "
@@ -435,7 +425,7 @@ msgstr ""
 "gradiva. Najbolj pogosto dovoljenje za znanstvene publikacije z odprtim "
 "dostopom (Open Access). Ni priporočljivo za programsko opremo."
 
-#: src/license.cpp:221 src/license.cpp:224
+#: src/license.cpp:224 src/license.cpp:227
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -448,7 +438,7 @@ msgstr ""
 "Sprejemljivo je tudi, da zgolj podate povezavo do kopije dovoljenja, "
 "običajno na splošno uveljavljeni URL za dovoljenje."
 
-#: src/license.cpp:223
+#: src/license.cpp:226
 #, kde-format
 msgid ""
 "Similar to CC-BY-4.0 but requires derivatives be distributed under the same "
@@ -462,7 +452,7 @@ msgstr ""
 "za Wikipedijo in druge projekte Wikimedia. Ni priporočljivo za programsko "
 "opremo."
 
-#: src/license.cpp:226
+#: src/license.cpp:229
 #, kde-format
 msgid ""
 "This commercially-friendly copyleft license provides the ability to "
@@ -475,7 +465,7 @@ msgstr ""
 "patenta brez tantiem ter možnost, da izvedena oz. povezana dela uporabijo "
 "drugo dovoljenje, vključno s komercialnimi."
 
-#: src/license.cpp:229
+#: src/license.cpp:232
 #, kde-format
 msgid ""
 "The GNU GPL is the most widely used free software license and has a strong "
@@ -488,7 +478,7 @@ msgstr ""
 "mora biti izvorna koda dela na voljo pod istim dovoljenjem. Obstaja več "
 "različic GNU GPL, vsaka z različnimi zahtevami."
 
-#: src/license.cpp:232
+#: src/license.cpp:235
 #, kde-format
 msgid ""
 "Permissions of this strong copyleft license are conditioned on making "
@@ -504,7 +494,7 @@ msgstr ""
 "dovoljenju je potrebno ohraniti. Avtorji prispevkov zagotovijo izrecno "
 "podelitev patentnih pravic."
 
-#: src/license.cpp:233
+#: src/license.cpp:236
 #, kde-format
 msgid ""
 "Create a text file (typically named COPYING, as per GNU conventions) in the "
@@ -513,7 +503,7 @@ msgstr ""
 "Ustvarite besedilno datoteko (običajno imenovano COPYING po konvencijah GNU) "
 "v korenski mapi izvorne kode in kopirajte besedilo dovoljenja v datoteko."
 
-#: src/license.cpp:235
+#: src/license.cpp:238
 #, kde-format
 msgid ""
 "Primarily used for software libraries, the GNU LGPL requires that derived "
@@ -526,7 +516,7 @@ msgstr ""
 "povezujejo do tega, ne sodijo pod to omejitev. Obstajata dve pogosto "
 "uporabljeni različici GNU LGPL."
 
-#: src/license.cpp:238
+#: src/license.cpp:241
 #, kde-format
 msgid ""
 "Permissions of this copyleft license are conditioned on making available "
@@ -546,7 +536,7 @@ msgstr ""
 "licencirano delo, razširja pod drugačnimi pogoji in brez izvorne kode "
 "večjega dela."
 
-#: src/license.cpp:239
+#: src/license.cpp:242
 #, kde-format
 msgid ""
 "This license is an additional set of permissions to the GNU GPLv3 license. "
@@ -557,7 +547,7 @@ msgstr ""
 "Sledite navodilom za uporabo GNU GPLv3 v korenski mapi izvorne kode. Nato "
 "dodajte še eno datoteko z imenom COPYING.LESSER in kopirajte besedilo."
 
-#: src/license.cpp:241
+#: src/license.cpp:244
 #, kde-format
 msgid ""
 "Permissions of this strongest copyleft license are conditioned on making "
@@ -577,7 +567,7 @@ msgstr ""
 "zagotavljanje storitve prek omrežja, mora biti tudi celotna izvorna koda "
 "spremenjene različice dana na voljo."
 
-#: src/license.cpp:244
+#: src/license.cpp:247
 #, kde-format
 msgid ""
 "A short and simple permissive license with conditions only requiring "
@@ -590,7 +580,7 @@ msgstr ""
 "Licencirana dela, spremembe in večja dela se lahko razširjajo pod različnimi "
 "pogoji in brez izvorne kode."
 
-#: src/license.cpp:247
+#: src/license.cpp:250
 #, kde-format
 msgid ""
 "Permissions of this weak copyleft license are conditioned on making "
@@ -609,7 +599,7 @@ msgstr ""
 "Vendar se lahko večje delo, ki uporablja licencirano delo, razširja pod "
 "drugačnimi pogoji in brez izvorne kode za datoteke, dodane večjemu delu."
 
-#: src/license.cpp:250
+#: src/license.cpp:253
 #, kde-format
 msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
@@ -618,7 +608,7 @@ msgstr ""
 "Najenostavnejše dovoljenje, kar jih je. Uporabniku dovoljuje, da z vašo kodo "
 "počne vse, kar želi."
 
-#: src/license.cpp:253
+#: src/license.cpp:256
 #, kde-format
 msgid ""
 "A license with no conditions whatsoever which dedicates works to the public "
@@ -629,7 +619,7 @@ msgstr ""
 "niso objavljena pod dovoljenjem, spremembe in večja dela se lahko razširjajo "
 "pod različnimi pogoji in brez izvorne kode."
 
-#: src/license.cpp:254
+#: src/license.cpp:257
 #, kde-format
 msgid ""
 "Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root "
@@ -640,33 +630,45 @@ msgstr ""
 "txt) v korenski mapi izvorne kode in kopirajte besedilo opozorila o "
 "dovoljenju v datoteko."
 
-#: src/main.cpp:34
+#: src/main.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Licentia"
 msgstr "Licentia"
 
-#: src/main.cpp:38
+#: src/main.cpp:56
 #, kde-format
 msgid "Choose a license for your project"
 msgstr "Izberite dovoljenje, pod katerim boste objavili svoj projekt"
 
-#: src/main.cpp:42
+#: src/main.cpp:60
 #, kde-format
 msgid "© Felipe 2022"
 msgstr "© Felipe 2022"
 
-#: src/main.cpp:43
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:43
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Avtor"
+
+#: src/main.cpp:63
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Martin Srebotnjak"
+
+#: src/main.cpp:63
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "miles@filmsi.net"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -704,59 +706,59 @@ msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Poročajte o napaki …"
 
-#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:93
+#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:95
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Licentia"
 msgstr "O programu Licentia"
 
-#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:97
+#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:99
 #, kde-format
 msgid "About Licentia"
 msgstr "O programu Licentia"
 
-#: src/ui/LicensePanel.qml:59
+#: src/ui/LicensePanel.qml:68
 #, kde-format
 msgctxt "About [License SPDX identifier]"
 msgid "About %1"
 msgstr "O %1"
 
-#: src/ui/LicensePanel.qml:69
+#: src/ui/LicensePanel.qml:74
 #, kde-format
 msgid "License Source"
 msgstr "Vir besedila dovoljenja"
 
-#: src/ui/LicensePanel.qml:110
+#: src/ui/LicensePanel.qml:115
 #, kde-format
 msgid "How to:"
 msgstr "Kako:"
 
-#: src/ui/LicensePanel.qml:133
+#: src/ui/LicensePanel.qml:138
 #, kde-format
 msgid "Permissions:"
 msgstr "Dovoljenja:"
 
-#: src/ui/LicensePanel.qml:164
+#: src/ui/LicensePanel.qml:169
 #, kde-format
 msgid "Conditions:"
 msgstr "Pogoji:"
 
-#: src/ui/LicensePanel.qml:172
+#: src/ui/LicensePanel.qml:177
 #, kde-format
 msgid "(no conditions)"
 msgstr "(brez pogojev)"
 
-#: src/ui/LicensePanel.qml:205
+#: src/ui/LicensePanel.qml:210
 #, kde-format
 msgid "Limitations:"
 msgstr "Omejitve:"
 
-#: src/ui/LicensePanel.qml:213
+#: src/ui/LicensePanel.qml:218
 #, kde-format
 msgid "(no limitations)"
 msgstr "(brez omejitev)"
 
-#: src/ui/LicensePanel.qml:248
+#: src/ui/LicensePanel.qml:253
 #, kde-format
 msgid "Projects using:"
 msgstr "Projekti, ki uporabljajo:"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-29 00:50+0000\n"
+"POT-Creation-Date: 2023-07-05 01:03+0000\n"
 "PO-Revision-Date: 2022-07-29 08:26+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -18,22 +18,12 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Юрій Чорноіван"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "yurchor@ukr.net"
-
-#: src/license.cpp:88
+#: src/license.cpp:89
 #, kde-format
 msgid "Commercial use"
 msgstr "Комерційне використання"
 
-#: src/license.cpp:89 src/license.cpp:122
+#: src/license.cpp:90 src/license.cpp:124
 #, kde-format
 msgid ""
 "The licensed material and derivatives may be used for commercial purposes."
@@ -41,70 +31,70 @@ msgstr ""
 "Ліцензований матеріал і його похідні може бути використано з комерційною "
 "метою."
 
-#: src/license.cpp:93
+#: src/license.cpp:94
 #, kde-format
 msgid "Modification"
 msgstr "Зміна"
 
-#: src/license.cpp:94
+#: src/license.cpp:95
 #, kde-format
 msgid "The licensed material may be modified."
 msgstr "До ліцензованого матеріалу можна вносити зміни."
 
-#: src/license.cpp:98
+#: src/license.cpp:99
 #, kde-format
 msgid "Distribution"
 msgstr "Поширення"
 
-#: src/license.cpp:99
+#: src/license.cpp:100
 #, kde-format
 msgid "The licensed material may be distributed."
 msgstr "Ліцензований матеріал можна поширювати."
 
-#: src/license.cpp:103
+#: src/license.cpp:104
 #, kde-format
 msgid "Private use"
 msgstr "Особисте використання"
 
-#: src/license.cpp:104
+#: src/license.cpp:105
 #, kde-format
 msgid "The licensed material may be used and modified in private."
 msgstr ""
 "До ліцензованого матеріалу можна використовувати особисто і вносити зміни "
 "для особистого використання."
 
-#: src/license.cpp:108 src/license.cpp:179
+#: src/license.cpp:109 src/license.cpp:182
 #, kde-format
 msgid "Patent use"
 msgstr "Патентоване використання"
 
-#: src/license.cpp:109
+#: src/license.cpp:110
 #, kde-format
 msgid ""
 "The licensed provides and express grant of patent rights from contributors."
 msgstr "Ліцензований матеріал є патентованою власністю учасників розробки."
 
-#: src/license.cpp:121
+#: src/license.cpp:123
 #, kde-format
 msgid "License and copyright notice"
 msgstr "Умови ліцензування та авторські права"
 
-#: src/license.cpp:126
+#: src/license.cpp:128
 #, kde-format
 msgid "State changes"
 msgstr "Зміни стану"
 
-#: src/license.cpp:127
+#: src/license.cpp:129
 #, kde-format
 msgid "Changes made to the licensed material must be documented."
 msgstr "Зміни у ліцензованому матеріалі має бути документовано."
 
-#: src/license.cpp:131
+#: src/license.cpp:133
 #, kde-format
 msgid "Disclose source"
 msgstr "Розкриття початкового коду"
 
-#: src/license.cpp:132
+#: src/license.cpp:134
 #, kde-format
 msgid ""
 "Source code must be made available when the licensed material is distributed."
@@ -112,12 +102,12 @@ msgstr ""
 "При поширенні ліцензованого матеріалу має бути забезпечено доступу до "
 "початкового коду."
 
-#: src/license.cpp:136
+#: src/license.cpp:138
 #, kde-format
 msgid "Network use is distribution"
 msgstr "Використання у мережі є поширенням"
 
-#: src/license.cpp:137
+#: src/license.cpp:139
 #, kde-format
 msgid ""
 "Users who interact with the licensed material via network are given the "
@@ -126,12 +116,12 @@ msgstr ""
 "Користувачам, які взаємодіють із ліцензованим матеріалом за допомогою "
 "мережі, надається право отримати копію початкового коду."
 
-#: src/license.cpp:141
+#: src/license.cpp:143
 #, kde-format
 msgid "Same license"
 msgstr "Збереження ліцензування"
 
-#: src/license.cpp:142
+#: src/license.cpp:144
 #, kde-format
 msgid ""
 "Modifications must be released under the same license when distributing the "
@@ -141,12 +131,12 @@ msgstr ""
 "при розповсюдженні ліцензованого матеріалу. У деяких випадках може бути "
 "використано подібні або пов'язані умови ліцензування."
 
-#: src/license.cpp:146
+#: src/license.cpp:148
 #, kde-format
 msgid "Same license (library)"
 msgstr "Збереження ліцензування (бібліотека)"
 
-#: src/license.cpp:147
+#: src/license.cpp:149
 #, kde-format
 msgid ""
 "Modifications must be released under the same license when distributing the "
@@ -160,12 +150,12 @@ msgstr ""
 "бути незастосовними до робіт, де ліцензований матеріал використано як "
 "бібліотеку."
 
-#: src/license.cpp:151
+#: src/license.cpp:153
 #, kde-format
 msgid "Same license (file)"
 msgstr "Збереження ліцензування (файл)"
 
-#: src/license.cpp:152
+#: src/license.cpp:154
 #, kde-format
 msgid ""
 "Modifications of existing files must be released under the same license when "
@@ -176,33 +166,33 @@ msgstr ""
 "ліцензування при розповсюдженні ліцензованого матеріалу. У деяких випадках "
 "може бути використано подібні або пов'язані умови ліцензування."
 
-#: src/license.cpp:164
+#: src/license.cpp:167
 #, kde-format
 msgid "Liability"
 msgstr "Зобов'язання"
 
-#: src/license.cpp:165
+#: src/license.cpp:168
 #, kde-format
 msgid "This license includes a limitation of liability."
 msgstr "Ці умови ліцензування включають обмеження відповідальності."
 
-#: src/license.cpp:169
+#: src/license.cpp:172
 #, kde-format
 msgid "Warranty"
 msgstr "Гарантія"
 
-#: src/license.cpp:170
+#: src/license.cpp:173
 #, kde-format
 msgid "This license explicitly states that it does NOT provide any warranty."
 msgstr ""
 "У цих умовах ліцензування напряму вказано, що НІЯКИХ гарантій не надається."
 
-#: src/license.cpp:174
+#: src/license.cpp:177
 #, kde-format
 msgid "Trademark use"
 msgstr "Використання товарного знаку"
 
-#: src/license.cpp:175
+#: src/license.cpp:178
 #, kde-format
 msgid ""
 "This license explicitly states that it does NOT grant trademark rights, even "
@@ -213,7 +203,7 @@ msgstr ""
 "торговельні марки, навіть хоча умови ліцензування без такого твердження, "
 "ймовірно, також не надають ніяких прав на торговельні марки неявним чином."
 
-#: src/license.cpp:180
+#: src/license.cpp:183
 #, kde-format
 msgid ""
 "This license explicitly states that it does NOT grant any rights in the "
@@ -222,7 +212,7 @@ msgstr ""
 "У цих умовах ліцензування напряму вказано, що вони не надають НІЯКИХ прав "
 "власності на патенти учасників розробки."
 
-#: src/license.cpp:190
+#: src/license.cpp:193
 #, kde-format
 msgid ""
 "For REUSE compliance, copy the text of the license into a file named %1.txt, "
@@ -232,7 +222,7 @@ msgstr ""
 "%1.txt. Цей файл має бути збережено у підкаталозі LICENSES/ кореневого "
 "каталогу вашого початкового коду."
 
-#: src/license.cpp:193
+#: src/license.cpp:196
 #, kde-format
 msgid ""
 "The Academic Free License is a variant of the Open Software License that "
@@ -245,7 +235,7 @@ msgstr ""
 "визначено авторські і патентні права та зарезервовано за автором торговельну "
 "марку."
 
-#: src/license.cpp:194
+#: src/license.cpp:197
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -259,7 +249,7 @@ msgstr ""
 "має бути включено нотатку «Licensed under the Academic Free License version "
 "3.0» десь поряд із повідомленням щодо авторських прав."
 
-#: src/license.cpp:196
+#: src/license.cpp:199
 #, kde-format
 msgid ""
 "A permissive license whose main conditions require preservation of copyright "
@@ -272,9 +262,9 @@ msgstr ""
 "щодо патентування вмісту. Ліцензовані роботи, змінені роботи та доповнені "
 "роботи можна поширювати за інших умов і без початкового коду."
 
-#: src/license.cpp:197 src/license.cpp:215 src/license.cpp:218
-#: src/license.cpp:227 src/license.cpp:230 src/license.cpp:236
-#: src/license.cpp:242 src/license.cpp:248 src/license.cpp:251
+#: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
+#: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
+#: src/license.cpp:245 src/license.cpp:251 src/license.cpp:254
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -284,7 +274,7 @@ msgstr ""
 "кореневій теці вашого початкового коду і скопіюйте текст повідомлення умов "
 "ліцензування до файла."
 
-#: src/license.cpp:199
+#: src/license.cpp:202
 #, kde-format
 msgid ""
 "The BSD Zero Clause license goes further than the BSD 2-Clause license to "
@@ -297,7 +287,7 @@ msgstr ""
 "включати повідомлення про авторські права, текст умов ліцензування або "
 "відмову від відповідальності до початкового або зібраного коду."
 
-#: src/license.cpp:200
+#: src/license.cpp:203
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -315,7 +305,7 @@ msgstr ""
 "власників авторських прав. Також можна зробити додатковий крок з вилучення "
 "повідомлення про авторські права."
 
-#: src/license.cpp:202
+#: src/license.cpp:205
 #, kde-format
 msgid ""
 "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
@@ -325,8 +315,8 @@ msgstr ""
 "BSD з трьома пунктами. Обидва варіанти зовсім трохи відрізняються від умов "
 "ліцензування MIT."
 
-#: src/license.cpp:203 src/license.cpp:206 src/license.cpp:209
-#: src/license.cpp:245
+#: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
+#: src/license.cpp:248
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -342,7 +332,7 @@ msgstr ""
 "ліцензування до файла. Замініть [year] на поточний рік, а [fullname] на ім'я "
 "(або імена) власників авторських прав."
 
-#: src/license.cpp:205
+#: src/license.cpp:208
 #, kde-format
 msgid ""
 "A permissive license similar to the BSD 2-Clause License, but with a 3rd "
@@ -354,7 +344,7 @@ msgstr ""
 "проєкту або імена його авторів для просування похідних продуктів без "
 "письмової згоди."
 
-#: src/license.cpp:208
+#: src/license.cpp:211
 #, kde-format
 msgid ""
 "A variant of the BSD 3-Clause License that explicitly does not grant any "
@@ -363,7 +353,7 @@ msgstr ""
 "Варіант умов ліцензування BSD із трьома пунктами, який явно вказує, що жодні "
 "патентні права не надаються."
 
-#: src/license.cpp:211
+#: src/license.cpp:214
 #, kde-format
 msgid ""
 "A permissive license similar to the BSD 3-Clause License, but with an "
@@ -374,7 +364,7 @@ msgstr ""
 "пунктами, але із «рекламною умовою», яка вимагає згадки про початковий "
 "матеріал в усіх рекламних матеріалах."
 
-#: src/license.cpp:212
+#: src/license.cpp:215
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -392,7 +382,7 @@ msgstr ""
 "(або імена) власників авторських прав. Замініть [project] записом "
 "організації, якщо така існує, яка фінансувала цю роботу."
 
-#: src/license.cpp:214
+#: src/license.cpp:217
 #, kde-format
 msgid ""
 "A simple permissive license only requiring preservation of copyright and "
@@ -405,7 +395,7 @@ msgstr ""
 "початкового (а не зібраного) коду. Ліцензовані роботи, змінені роботи та "
 "розширені роботи можуть поширюватися за інших умов та без початкового коду."
 
-#: src/license.cpp:217
+#: src/license.cpp:220
 #, kde-format
 msgid ""
 "The Creative Commons CC0 Public Domain Dedication waives copyright interest "
@@ -422,7 +412,7 @@ msgstr ""
 "забезпечення, CC0 проголошує відмову від гарантій. CC0 є дуже подібними до "
 "Unlicense."
 
-#: src/license.cpp:220
+#: src/license.cpp:223
 #, kde-format
 msgid ""
 "Permits almost any use subject to providing credit and license notice. "
@@ -436,7 +426,7 @@ msgstr ""
 "наукових публікацій із відкритим доступом. Не рекомендовано використовувати "
 "для програмного забезпечення."
 
-#: src/license.cpp:221 src/license.cpp:224
+#: src/license.cpp:224 src/license.cpp:227
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -449,7 +439,7 @@ msgstr ""
 "ліцензування до файла. Також прийнятним є надання лише посилання на копію "
 "умов ліцензування, зазвичай канонічну адресу умов ліцензування."
 
-#: src/license.cpp:223
+#: src/license.cpp:226
 #, kde-format
 msgid ""
 "Similar to CC-BY-4.0 but requires derivatives be distributed under the same "
@@ -463,7 +453,7 @@ msgstr ""
 "Попередня версія умов ліцензування є типовою для Вікіпедії та інших проєктів "
 "Wikimedia. Не рекомендовано до використання для програмного забезпечення."
 
-#: src/license.cpp:226
+#: src/license.cpp:229
 #, kde-format
 msgid ""
 "This commercially-friendly copyleft license provides the ability to "
@@ -477,7 +467,7 @@ msgstr ""
 "та можливість поширення скомпонованих робіт з використанням інших умов "
 "ліцензування, зокрема комерційних умов."
 
-#: src/license.cpp:229
+#: src/license.cpp:232
 #, kde-format
 msgid ""
 "The GNU GPL is the most widely used free software license and has a strong "
@@ -491,7 +481,7 @@ msgstr ""
 "на початковий код роботи. Існує декілька варіантів GNU GPL, кожен з яких "
 "містить різні вимоги."
 
-#: src/license.cpp:232
+#: src/license.cpp:235
 #, kde-format
 msgid ""
 "Permissions of this strong copyleft license are conditioned on making "
@@ -506,7 +496,7 @@ msgstr ""
 "початкових умов ліцензування. Має бути збережено повідомлення про авторські "
 "права та ліцензійні умови. Автори надають явний доступ до патентних прав."
 
-#: src/license.cpp:233
+#: src/license.cpp:236
 #, kde-format
 msgid ""
 "Create a text file (typically named COPYING, as per GNU conventions) in the "
@@ -516,7 +506,7 @@ msgstr ""
 "кореневій теці вашого початкового коду і скопіюйте текст повідомлення умов "
 "ліцензування до файла."
 
-#: src/license.cpp:235
+#: src/license.cpp:238
 #, kde-format
 msgid ""
 "Primarily used for software libraries, the GNU LGPL requires that derived "
@@ -529,7 +519,7 @@ msgstr ""
 "роботи, які лише компонуються із похідними роботами не підпадають під це "
 "обмеження. Існує дві широко розповсюджені версії GNU LGPL."
 
-#: src/license.cpp:238
+#: src/license.cpp:241
 #, kde-format
 msgid ""
 "Permissions of this copyleft license are conditioned on making available "
@@ -548,7 +538,7 @@ msgstr ""
 "використано ліцензовану роботу, може бути поширено за інших умов і без "
 "початкового коду файлів, які було додано у ширшій роботі."
 
-#: src/license.cpp:239
+#: src/license.cpp:242
 #, kde-format
 msgid ""
 "This license is an additional set of permissions to the GNU GPLv3 license. "
@@ -560,7 +550,7 @@ msgstr ""
 "кореневій теці початкового коду. Далі, додайте інший файл із назвою COPYING."
 "LESSER і скопіюйте текст."
 
-#: src/license.cpp:241
+#: src/license.cpp:244
 #, kde-format
 msgid ""
 "Permissions of this strongest copyleft license are conditioned on making "
@@ -579,7 +569,7 @@ msgstr ""
 "використано для надання послуг у мережі, має бути надано доступу до повного "
 "початкового коду зміненої версії."
 
-#: src/license.cpp:244
+#: src/license.cpp:247
 #, kde-format
 msgid ""
 "A short and simple permissive license with conditions only requiring "
@@ -592,7 +582,7 @@ msgstr ""
 "змінені роботи та розширені роботи можуть поширюватися за інших умов та без "
 "початкового коду."
 
-#: src/license.cpp:247
+#: src/license.cpp:250
 #, kde-format
 msgid ""
 "Permissions of this weak copyleft license are conditioned on making "
@@ -612,7 +602,7 @@ msgstr ""
 "поширено за інших умов і без початкового коду файлів, які було додано у "
 "ширшій роботі."
 
-#: src/license.cpp:250
+#: src/license.cpp:253
 #, kde-format
 msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
@@ -621,7 +611,7 @@ msgstr ""
 "Найпростіші умови ліцензування. Надають користувачеві право робити з кодом "
 "усе, що завгодно."
 
-#: src/license.cpp:253
+#: src/license.cpp:256
 #, kde-format
 msgid ""
 "A license with no conditions whatsoever which dedicates works to the public "
@@ -632,7 +622,7 @@ msgstr ""
 "загальний доступ. Неліцензовані роботи, змінені роботи та розширені роботи "
 "може бути поширено за інших умов та без початкового коду."
 
-#: src/license.cpp:254
+#: src/license.cpp:257
 #, kde-format
 msgid ""
 "Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root "
@@ -643,33 +633,45 @@ msgstr ""
 "кореневій теці вашого початкового коду і скопіюйте текст повідомлення умов "
 "ліцензування до файла."
 
-#: src/main.cpp:34
+#: src/main.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Licentia"
 msgstr "Licentia"
 
-#: src/main.cpp:38
+#: src/main.cpp:56
 #, kde-format
 msgid "Choose a license for your project"
 msgstr "Виберіть умови ліцензування вашого проєкту"
 
-#: src/main.cpp:42
+#: src/main.cpp:60
 #, kde-format
 msgid "© Felipe 2022"
 msgstr "© Felipe, 2022"
 
-#: src/main.cpp:43
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:43
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Автор"
+
+#: src/main.cpp:63
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#: src/main.cpp:63
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -707,59 +709,59 @@ msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Надіслати звіт про помилку…"
 
-#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:93
+#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:95
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Licentia"
 msgstr "Про Licentia"
 
-#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:97
+#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:99
 #, kde-format
 msgid "About Licentia"
 msgstr "Про Licentia"
 
-#: src/ui/LicensePanel.qml:59
+#: src/ui/LicensePanel.qml:68
 #, kde-format
 msgctxt "About [License SPDX identifier]"
 msgid "About %1"
 msgstr "Про %1"
 
-#: src/ui/LicensePanel.qml:69
+#: src/ui/LicensePanel.qml:74
 #, kde-format
 msgid "License Source"
 msgstr "Початковий текст умов ліцензування"
 
-#: src/ui/LicensePanel.qml:110
+#: src/ui/LicensePanel.qml:115
 #, kde-format
 msgid "How to:"
 msgstr "Рецепти:"
 
-#: src/ui/LicensePanel.qml:133
+#: src/ui/LicensePanel.qml:138
 #, kde-format
 msgid "Permissions:"
 msgstr "Права доступу:"
 
-#: src/ui/LicensePanel.qml:164
+#: src/ui/LicensePanel.qml:169
 #, kde-format
 msgid "Conditions:"
 msgstr "Погодні умови:"
 
-#: src/ui/LicensePanel.qml:172
+#: src/ui/LicensePanel.qml:177
 #, kde-format
 msgid "(no conditions)"
 msgstr "(немає умов)"
 
-#: src/ui/LicensePanel.qml:205
+#: src/ui/LicensePanel.qml:210
 #, kde-format
 msgid "Limitations:"
 msgstr "Обмеження:"
 
-#: src/ui/LicensePanel.qml:213
+#: src/ui/LicensePanel.qml:218
 #, kde-format
 msgid "(no limitations)"
 msgstr "(немає обмежень)"
 
-#: src/ui/LicensePanel.qml:248
+#: src/ui/LicensePanel.qml:253
 #, kde-format
 msgid "Projects using:"
 msgstr "Використання проєктів:"

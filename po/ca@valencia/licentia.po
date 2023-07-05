@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-29 00:50+0000\n"
+"POT-Creation-Date: 2023-07-05 01:03+0000\n"
 "PO-Revision-Date: 2022-11-15 18:09+0100\n"
 "Last-Translator: Antoni Bella <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -20,22 +20,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 20.12.0\n"
 
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Josep M. Ferrer"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "txemaq@gmail.com"
-
-#: src/license.cpp:88
+#: src/license.cpp:89
 #, kde-format
 msgid "Commercial use"
 msgstr "Ús comercial"
 
-#: src/license.cpp:89 src/license.cpp:122
+#: src/license.cpp:90 src/license.cpp:124
 #, kde-format
 msgid ""
 "The licensed material and derivatives may be used for commercial purposes."
@@ -43,42 +33,42 @@ msgstr ""
 "El material amb llicència i els derivats es poden utilitzar amb finalitats "
 "comercials."
 
-#: src/license.cpp:93
+#: src/license.cpp:94
 #, kde-format
 msgid "Modification"
 msgstr "Modificació"
 
-#: src/license.cpp:94
+#: src/license.cpp:95
 #, kde-format
 msgid "The licensed material may be modified."
 msgstr "El material amb llicència es pot modificar."
 
-#: src/license.cpp:98
+#: src/license.cpp:99
 #, kde-format
 msgid "Distribution"
 msgstr "Distribució"
 
-#: src/license.cpp:99
+#: src/license.cpp:100
 #, kde-format
 msgid "The licensed material may be distributed."
 msgstr "El material amb llicència es pot distribuir."
 
-#: src/license.cpp:103
+#: src/license.cpp:104
 #, kde-format
 msgid "Private use"
 msgstr "Ús privat"
 
-#: src/license.cpp:104
+#: src/license.cpp:105
 #, kde-format
 msgid "The licensed material may be used and modified in private."
 msgstr "El material amb llicència es pot utilitzar i modificar en privat."
 
-#: src/license.cpp:108 src/license.cpp:179
+#: src/license.cpp:109 src/license.cpp:182
 #, kde-format
 msgid "Patent use"
 msgstr "Ús de patents"
 
-#: src/license.cpp:109
+#: src/license.cpp:110
 #, kde-format
 msgid ""
 "The licensed provides and express grant of patent rights from contributors."
@@ -86,27 +76,27 @@ msgstr ""
 "El material amb llicència proporciona i atorga expressament drets de patents "
 "dels col·laboradors."
 
-#: src/license.cpp:121
+#: src/license.cpp:123
 #, kde-format
 msgid "License and copyright notice"
 msgstr "Avís de llicència i copyright"
 
-#: src/license.cpp:126
+#: src/license.cpp:128
 #, kde-format
 msgid "State changes"
 msgstr "Canvis de condicions"
 
-#: src/license.cpp:127
+#: src/license.cpp:129
 #, kde-format
 msgid "Changes made to the licensed material must be documented."
 msgstr "Els canvis efectuats al material amb llicència cal que es documenten."
 
-#: src/license.cpp:131
+#: src/license.cpp:133
 #, kde-format
 msgid "Disclose source"
 msgstr "Divulgar el codi font"
 
-#: src/license.cpp:132
+#: src/license.cpp:134
 #, kde-format
 msgid ""
 "Source code must be made available when the licensed material is distributed."
@@ -114,12 +104,12 @@ msgstr ""
 "Cal fer disponible el codi font quan es distribuïsca el material amb "
 "llicència."
 
-#: src/license.cpp:136
+#: src/license.cpp:138
 #, kde-format
 msgid "Network use is distribution"
 msgstr "L'ús de les xarxes és la distribució"
 
-#: src/license.cpp:137
+#: src/license.cpp:139
 #, kde-format
 msgid ""
 "Users who interact with the licensed material via network are given the "
@@ -128,12 +118,12 @@ msgstr ""
 "Els usuaris que interactuen amb el material amb llicència a través de les "
 "xarxes tenen el dret de rebre una còpia del codi font."
 
-#: src/license.cpp:141
+#: src/license.cpp:143
 #, kde-format
 msgid "Same license"
 msgstr "La mateixa llicència"
 
-#: src/license.cpp:142
+#: src/license.cpp:144
 #, kde-format
 msgid ""
 "Modifications must be released under the same license when distributing the "
@@ -143,12 +133,12 @@ msgstr ""
 "distribuïx el material amb llicència. En alguns casos es pot utilitzar una "
 "llicència pareixent o relacionada."
 
-#: src/license.cpp:146
+#: src/license.cpp:148
 #, kde-format
 msgid "Same license (library)"
 msgstr "La mateixa llicència (biblioteca)"
 
-#: src/license.cpp:147
+#: src/license.cpp:149
 #, kde-format
 msgid ""
 "Modifications must be released under the same license when distributing the "
@@ -161,12 +151,12 @@ msgstr ""
 "llicència pareixent o relacionada, o esta condició no és d'aplicació a "
 "treballs que utilitzen el material amb llicència com una biblioteca."
 
-#: src/license.cpp:151
+#: src/license.cpp:153
 #, kde-format
 msgid "Same license (file)"
 msgstr "La mateixa llicència (fitxer)"
 
-#: src/license.cpp:152
+#: src/license.cpp:154
 #, kde-format
 msgid ""
 "Modifications of existing files must be released under the same license when "
@@ -177,32 +167,32 @@ msgstr ""
 "llicència amb la qual es distribuïx el material amb llicència. En alguns "
 "casos es pot utilitzar una llicència pareixent o relacionada."
 
-#: src/license.cpp:164
+#: src/license.cpp:167
 #, kde-format
 msgid "Liability"
 msgstr "Responsabilitat"
 
-#: src/license.cpp:165
+#: src/license.cpp:168
 #, kde-format
 msgid "This license includes a limitation of liability."
 msgstr "Esta llicència inclou una limitació de responsabilitat."
 
-#: src/license.cpp:169
+#: src/license.cpp:172
 #, kde-format
 msgid "Warranty"
 msgstr "Garantia"
 
-#: src/license.cpp:170
+#: src/license.cpp:173
 #, kde-format
 msgid "This license explicitly states that it does NOT provide any warranty."
 msgstr "Esta llicència indica explícitament que NO proporciona cap garantia."
 
-#: src/license.cpp:174
+#: src/license.cpp:177
 #, kde-format
 msgid "Trademark use"
 msgstr "Ús de marques comercials"
 
-#: src/license.cpp:175
+#: src/license.cpp:178
 #, kde-format
 msgid ""
 "This license explicitly states that it does NOT grant trademark rights, even "
@@ -213,7 +203,7 @@ msgstr ""
 "comercial, tot i que les llicències sense esta declaració probablement no "
 "atorguen cap dret de marca comercial implícit."
 
-#: src/license.cpp:180
+#: src/license.cpp:183
 #, kde-format
 msgid ""
 "This license explicitly states that it does NOT grant any rights in the "
@@ -222,7 +212,7 @@ msgstr ""
 "Esta llicència indica explícitament que NO atorga cap dret de patent dels "
 "col·laboradors."
 
-#: src/license.cpp:190
+#: src/license.cpp:193
 #, kde-format
 msgid ""
 "For REUSE compliance, copy the text of the license into a file named %1.txt, "
@@ -232,7 +222,7 @@ msgstr ""
 "anomenat %1.txt, que s'ha de situar en el directori LICENSES/ en l'arrel del "
 "codi font."
 
-#: src/license.cpp:193
+#: src/license.cpp:196
 #, kde-format
 msgid ""
 "The Academic Free License is a variant of the Open Software License that "
@@ -245,7 +235,7 @@ msgstr ""
 "Conté drets d'autoria explícits i concessió de patents i reserva els drets "
 "de marca comercial a l'autor."
 
-#: src/license.cpp:194
+#: src/license.cpp:197
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -259,7 +249,7 @@ msgstr ""
 "the Academic Free License version 3.0» («Llicència segons la versió 3.0 de "
 "la Llicència lliure acadèmica») adjacent a la nota de copyright."
 
-#: src/license.cpp:196
+#: src/license.cpp:199
 #, kde-format
 msgid ""
 "A permissive license whose main conditions require preservation of copyright "
@@ -273,9 +263,9 @@ msgstr ""
 "òbrigues llicenciades, les modificacions i les òbrigues més grans es poden "
 "distribuir segons diferents termes i sense codi font."
 
-#: src/license.cpp:197 src/license.cpp:215 src/license.cpp:218
-#: src/license.cpp:227 src/license.cpp:230 src/license.cpp:236
-#: src/license.cpp:242 src/license.cpp:248 src/license.cpp:251
+#: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
+#: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
+#: src/license.cpp:245 src/license.cpp:251 src/license.cpp:254
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -284,7 +274,7 @@ msgstr ""
 "Creeu un fitxer de text (normalment anomenat LICENSE o LICENSE.txt) en "
 "l'arrel del codi font i copieu el text de la llicència en el fitxer."
 
-#: src/license.cpp:199
+#: src/license.cpp:202
 #, kde-format
 msgid ""
 "The BSD Zero Clause license goes further than the BSD 2-Clause license to "
@@ -297,7 +287,7 @@ msgstr ""
 "requisits per a incloure l'avís de copyright, el text de la llicència, o "
 "l'exempció de responsabilitat en forma de codi font o de binari."
 
-#: src/license.cpp:200
+#: src/license.cpp:203
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -315,7 +305,7 @@ msgstr ""
 "titulars dels drets d'autoria. Podeu fer el pas addicional d'eliminar l'avís "
 "de copyright."
 
-#: src/license.cpp:202
+#: src/license.cpp:205
 #, kde-format
 msgid ""
 "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
@@ -325,8 +315,8 @@ msgstr ""
 "clàusules i la versió BSD de 3 clàusules. Tots dos tenen diferències molt "
 "xicotetes amb la llicència del MIT."
 
-#: src/license.cpp:203 src/license.cpp:206 src/license.cpp:209
-#: src/license.cpp:245
+#: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
+#: src/license.cpp:248
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -342,7 +332,7 @@ msgstr ""
 "Substituïu [year] per l'any actual i [fullname] pel nom (o noms) dels "
 "titulars dels drets d'autoria."
 
-#: src/license.cpp:205
+#: src/license.cpp:208
 #, kde-format
 msgid ""
 "A permissive license similar to the BSD 2-Clause License, but with a 3rd "
@@ -354,7 +344,7 @@ msgstr ""
 "els seus col·laboradors per promocionar productes derivats sense un "
 "consentiment escrit."
 
-#: src/license.cpp:208
+#: src/license.cpp:211
 #, kde-format
 msgid ""
 "A variant of the BSD 3-Clause License that explicitly does not grant any "
@@ -363,7 +353,7 @@ msgstr ""
 "Una variant de la llicència BSD de 3 clàusules que explícitament no atorga "
 "cap dret de patent."
 
-#: src/license.cpp:211
+#: src/license.cpp:214
 #, kde-format
 msgid ""
 "A permissive license similar to the BSD 3-Clause License, but with an "
@@ -374,7 +364,7 @@ msgstr ""
 "una «clàusula de publicitat» que requerix un reconeixement del codi font "
 "original en tot el material publicitari."
 
-#: src/license.cpp:212
+#: src/license.cpp:215
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -392,7 +382,7 @@ msgstr ""
 "titulars dels drets d'autoria. Substituïu [project] per l'organització del "
 "projecte, si n'hi ha, que patrocina esta obra."
 
-#: src/license.cpp:214
+#: src/license.cpp:217
 #, kde-format
 msgid ""
 "A simple permissive license only requiring preservation of copyright and "
@@ -405,7 +395,7 @@ msgstr ""
 "el binari). Les òbrigues llicenciades, les modificacions i les òbrigues més "
 "grans es poden distribuir segons diferents termes i sense codi font."
 
-#: src/license.cpp:217
+#: src/license.cpp:220
 #, kde-format
 msgid ""
 "The Creative Commons CC0 Public Domain Dedication waives copyright interest "
@@ -422,7 +412,7 @@ msgstr ""
 "semblants, la CC0 té exempció de responsabilitat de garanties. La CC0 és "
 "molt similar a la «Unlicense»."
 
-#: src/license.cpp:220
+#: src/license.cpp:223
 #, kde-format
 msgid ""
 "Permits almost any use subject to providing credit and license notice. "
@@ -435,7 +425,7 @@ msgstr ""
 "educatius. La llicència més comuna per a publicacions científiques d'«Open "
 "Access». No es recomana per al programari."
 
-#: src/license.cpp:221 src/license.cpp:224
+#: src/license.cpp:224 src/license.cpp:227
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -448,7 +438,7 @@ msgstr ""
 "és acceptable subministrar únicament un enllaç a una còpia de la llicència, "
 "normalment a l'URL canònic de la llicència."
 
-#: src/license.cpp:223
+#: src/license.cpp:226
 #, kde-format
 msgid ""
 "Similar to CC-BY-4.0 but requires derivatives be distributed under the same "
@@ -462,7 +452,7 @@ msgstr ""
 "versió anterior és la llicència predeterminada de la Viquipèdia i altres "
 "projectes Wikimedia. No es recomana per al programari."
 
-#: src/license.cpp:226
+#: src/license.cpp:229
 #, kde-format
 msgid ""
 "This commercially-friendly copyleft license provides the ability to "
@@ -475,7 +465,7 @@ msgstr ""
 "de patent lliure de cànons; i la capacitat de les òbrigues enllaçades per a "
 "utilitzar altres llicències, incloses les comercials."
 
-#: src/license.cpp:229
+#: src/license.cpp:232
 #, kde-format
 msgid ""
 "The GNU GPL is the most widely used free software license and has a strong "
@@ -489,7 +479,7 @@ msgstr ""
 "llicència. Hi ha múltiples variants de la GPL de GNU, cadascuna amb "
 "requisits diferents."
 
-#: src/license.cpp:232
+#: src/license.cpp:235
 #, kde-format
 msgid ""
 "Permissions of this strong copyleft license are conditioned on making "
@@ -505,7 +495,7 @@ msgstr ""
 "llicència. Els col·laboradors proporcionen un atorgament exprés dels drets "
 "de patent."
 
-#: src/license.cpp:233
+#: src/license.cpp:236
 #, kde-format
 msgid ""
 "Create a text file (typically named COPYING, as per GNU conventions) in the "
@@ -515,7 +505,7 @@ msgstr ""
 "de GNU) en l'arrel del codi font i copieu el text de la llicència en el "
 "fitxer."
 
-#: src/license.cpp:235
+#: src/license.cpp:238
 #, kde-format
 msgid ""
 "Primarily used for software libraries, the GNU LGPL requires that derived "
@@ -528,7 +518,7 @@ msgstr ""
 "llicència, però les òbrigues que només enllacen amb ella no estan obligades "
 "a esta restricció. Hi ha dues versions d'ús habitual de la LGPL de GNU."
 
-#: src/license.cpp:238
+#: src/license.cpp:241
 #, kde-format
 msgid ""
 "Permissions of this copyleft license are conditioned on making available "
@@ -548,7 +538,7 @@ msgstr ""
 "pot distribuir segons termes diferents i sense codi font per a l'obra més "
 "gran."
 
-#: src/license.cpp:239
+#: src/license.cpp:242
 #, kde-format
 msgid ""
 "This license is an additional set of permissions to the GNU GPLv3 license. "
@@ -560,7 +550,7 @@ msgstr ""
 "del codi font. A continuació, afegiu un altre fitxer anomenat COPYING.LESSER "
 "i copieu el text."
 
-#: src/license.cpp:241
+#: src/license.cpp:244
 #, kde-format
 msgid ""
 "Permissions of this strongest copyleft license are conditioned on making "
@@ -580,7 +570,7 @@ msgstr ""
 "servei a través d'una xarxa, s'ha de posar a disposició el codi font complet "
 "de la versió modificada."
 
-#: src/license.cpp:244
+#: src/license.cpp:247
 #, kde-format
 msgid ""
 "A short and simple permissive license with conditions only requiring "
@@ -593,7 +583,7 @@ msgstr ""
 "llicenciades, les modificacions i les òbrigues més grans es poden distribuir "
 "segons diferents termes i sense codi font."
 
-#: src/license.cpp:247
+#: src/license.cpp:250
 #, kde-format
 msgid ""
 "Permissions of this weak copyleft license are conditioned on making "
@@ -613,7 +603,7 @@ msgstr ""
 "distribuir segons termes diferents i sense codi font per als fitxers afegits "
 "a l'obra més gran."
 
-#: src/license.cpp:250
+#: src/license.cpp:253
 #, kde-format
 msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
@@ -622,7 +612,7 @@ msgstr ""
 "La llicència més fàcil de totes. Dona permís a l'usuari per fer el que "
 "vullga amb el vostre codi."
 
-#: src/license.cpp:253
+#: src/license.cpp:256
 #, kde-format
 msgid ""
 "A license with no conditions whatsoever which dedicates works to the public "
@@ -633,7 +623,7 @@ msgstr ""
 "públic. Les òbrigues sense llicència, les modificacions i les òbrigues més "
 "grans es poden distribuir segons termes diferents i sense codi font."
 
-#: src/license.cpp:254
+#: src/license.cpp:257
 #, kde-format
 msgid ""
 "Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root "
@@ -644,33 +634,45 @@ msgstr ""
 "l'arrel del codi font i copieu el text de la renúncia de llicència en el "
 "fitxer."
 
-#: src/main.cpp:34
+#: src/main.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Licentia"
 msgstr "Licentia"
 
-#: src/main.cpp:38
+#: src/main.cpp:56
 #, kde-format
 msgid "Choose a license for your project"
 msgstr "Seleccioneu una llicència per al vostre projecte"
 
-#: src/main.cpp:42
+#: src/main.cpp:60
 #, kde-format
 msgid "© Felipe 2022"
 msgstr "© Felipe 2022"
 
-#: src/main.cpp:43
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:43
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autoria"
+
+#: src/main.cpp:63
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Josep M. Ferrer"
+
+#: src/main.cpp:63
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "txemaq@gmail.com"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -708,59 +710,59 @@ msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Informeu d'un error…"
 
-#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:93
+#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:95
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Licentia"
 msgstr "Quant a Licentia"
 
-#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:97
+#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:99
 #, kde-format
 msgid "About Licentia"
 msgstr "Quant a Licentia"
 
-#: src/ui/LicensePanel.qml:59
+#: src/ui/LicensePanel.qml:68
 #, kde-format
 msgctxt "About [License SPDX identifier]"
 msgid "About %1"
 msgstr "Quant a %1"
 
-#: src/ui/LicensePanel.qml:69
+#: src/ui/LicensePanel.qml:74
 #, kde-format
 msgid "License Source"
 msgstr "Llicència del codi font"
 
-#: src/ui/LicensePanel.qml:110
+#: src/ui/LicensePanel.qml:115
 #, kde-format
 msgid "How to:"
 msgstr "Com:"
 
-#: src/ui/LicensePanel.qml:133
+#: src/ui/LicensePanel.qml:138
 #, kde-format
 msgid "Permissions:"
 msgstr "Permisos:"
 
-#: src/ui/LicensePanel.qml:164
+#: src/ui/LicensePanel.qml:169
 #, kde-format
 msgid "Conditions:"
 msgstr "Condicions:"
 
-#: src/ui/LicensePanel.qml:172
+#: src/ui/LicensePanel.qml:177
 #, kde-format
 msgid "(no conditions)"
 msgstr "(sense cap condició)"
 
-#: src/ui/LicensePanel.qml:205
+#: src/ui/LicensePanel.qml:210
 #, kde-format
 msgid "Limitations:"
 msgstr "Limitacions:"
 
-#: src/ui/LicensePanel.qml:213
+#: src/ui/LicensePanel.qml:218
 #, kde-format
 msgid "(no limitations)"
 msgstr "(sense cap limitació)"
 
-#: src/ui/LicensePanel.qml:248
+#: src/ui/LicensePanel.qml:253
 #, kde-format
 msgid "Projects using:"
 msgstr "Projectes que l'utilitzen:"

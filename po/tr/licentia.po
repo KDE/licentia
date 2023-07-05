@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-29 00:50+0000\n"
+"POT-Creation-Date: 2023-07-05 01:03+0000\n"
 "PO-Revision-Date: 2023-06-04 01:21+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -17,63 +17,53 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 23.07.70\n"
 
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Emir SARI"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "emir_sari@icloud.com"
-
-#: src/license.cpp:88
+#: src/license.cpp:89
 #, kde-format
 msgid "Commercial use"
 msgstr "Ticari kullanım"
 
-#: src/license.cpp:89 src/license.cpp:122
+#: src/license.cpp:90 src/license.cpp:124
 #, kde-format
 msgid ""
 "The licensed material and derivatives may be used for commercial purposes."
 msgstr "Lisanslı materyal ve türevleri ticari amaçlarla kullanılabilir."
 
-#: src/license.cpp:93
+#: src/license.cpp:94
 #, kde-format
 msgid "Modification"
 msgstr "Değiştirme"
 
-#: src/license.cpp:94
+#: src/license.cpp:95
 #, kde-format
 msgid "The licensed material may be modified."
 msgstr "Lisanslı materyal değiştirilebilir."
 
-#: src/license.cpp:98
+#: src/license.cpp:99
 #, kde-format
 msgid "Distribution"
 msgstr "Dağıtma"
 
-#: src/license.cpp:99
+#: src/license.cpp:100
 #, kde-format
 msgid "The licensed material may be distributed."
 msgstr "Lisanslı materyal dağıtılabilir."
 
-#: src/license.cpp:103
+#: src/license.cpp:104
 #, kde-format
 msgid "Private use"
 msgstr "Özel kullanım"
 
-#: src/license.cpp:104
+#: src/license.cpp:105
 #, kde-format
 msgid "The licensed material may be used and modified in private."
 msgstr "Lisanslı materyal özel olarak kullanılabilir ve değiştirilebilir."
 
-#: src/license.cpp:108 src/license.cpp:179
+#: src/license.cpp:109 src/license.cpp:182
 #, kde-format
 msgid "Patent use"
 msgstr "Patent kullanımı"
 
-#: src/license.cpp:109
+#: src/license.cpp:110
 #, kde-format
 msgid ""
 "The licensed provides and express grant of patent rights from contributors."
@@ -81,27 +71,27 @@ msgstr ""
 "Lisanslı, katkıda bulunanlardan patent haklarının verilmesini sağlar ve "
 "açıklar."
 
-#: src/license.cpp:121
+#: src/license.cpp:123
 #, kde-format
 msgid "License and copyright notice"
 msgstr "Lisans ve telif hakkı bildirimi"
 
-#: src/license.cpp:126
+#: src/license.cpp:128
 #, kde-format
 msgid "State changes"
 msgstr "Durum değişiklikleri"
 
-#: src/license.cpp:127
+#: src/license.cpp:129
 #, kde-format
 msgid "Changes made to the licensed material must be documented."
 msgstr "Lisanslı malzemede yapılan değişiklikler belgelenmelidir."
 
-#: src/license.cpp:131
+#: src/license.cpp:133
 #, kde-format
 msgid "Disclose source"
 msgstr "Kaynağı ifşa et"
 
-#: src/license.cpp:132
+#: src/license.cpp:134
 #, kde-format
 msgid ""
 "Source code must be made available when the licensed material is distributed."
@@ -109,12 +99,12 @@ msgstr ""
 "Lisanslı materyal dağıtıldığında kaynak kodu kullanılabilir hale "
 "getirilmelidir."
 
-#: src/license.cpp:136
+#: src/license.cpp:138
 #, kde-format
 msgid "Network use is distribution"
 msgstr "Ağ üzerinden kullanım, dağıtımdır"
 
-#: src/license.cpp:137
+#: src/license.cpp:139
 #, kde-format
 msgid ""
 "Users who interact with the licensed material via network are given the "
@@ -123,12 +113,12 @@ msgstr ""
 "Ağ üzerinden lisanslı materyalle etkileşime giren kullanıcılara kaynak "
 "kodunun bir kopyasını alma hakkı verilir."
 
-#: src/license.cpp:141
+#: src/license.cpp:143
 #, kde-format
 msgid "Same license"
 msgstr "Aynı lisans"
 
-#: src/license.cpp:142
+#: src/license.cpp:144
 #, kde-format
 msgid ""
 "Modifications must be released under the same license when distributing the "
@@ -138,12 +128,12 @@ msgstr ""
 "yayımlanmalıdır. Bazı durumlarda benzer veya ilgili bir lisans "
 "kullanılabilir."
 
-#: src/license.cpp:146
+#: src/license.cpp:148
 #, kde-format
 msgid "Same license (library)"
 msgstr "Aynı lisans (kitaplık)"
 
-#: src/license.cpp:147
+#: src/license.cpp:149
 #, kde-format
 msgid ""
 "Modifications must be released under the same license when distributing the "
@@ -156,12 +146,12 @@ msgstr ""
 "kullanılabilir veya bu koşul lisanslı materyali kitaplık olarak kullanan "
 "eserler için geçerli olmayabilir."
 
-#: src/license.cpp:151
+#: src/license.cpp:153
 #, kde-format
 msgid "Same license (file)"
 msgstr "Aynı lisans (dosya)"
 
-#: src/license.cpp:152
+#: src/license.cpp:154
 #, kde-format
 msgid ""
 "Modifications of existing files must be released under the same license when "
@@ -172,32 +162,32 @@ msgstr ""
 "altında yayımlanmalıdır. Bazı durumlarda benzer veya ilgili bir lisans "
 "kullanılabilir."
 
-#: src/license.cpp:164
+#: src/license.cpp:167
 #, kde-format
 msgid "Liability"
 msgstr "Yükümlülük"
 
-#: src/license.cpp:165
+#: src/license.cpp:168
 #, kde-format
 msgid "This license includes a limitation of liability."
 msgstr "Bu lisans bir sorumluluk sınırlaması içerir."
 
-#: src/license.cpp:169
+#: src/license.cpp:172
 #, kde-format
 msgid "Warranty"
 msgstr "Garanti"
 
-#: src/license.cpp:170
+#: src/license.cpp:173
 #, kde-format
 msgid "This license explicitly states that it does NOT provide any warranty."
 msgstr "Bu lisans açıkça herhangi bir garanti VERMEDİĞİNİ belirtir."
 
-#: src/license.cpp:174
+#: src/license.cpp:177
 #, kde-format
 msgid "Trademark use"
 msgstr "Ticari marka kullanımı"
 
-#: src/license.cpp:175
+#: src/license.cpp:178
 #, kde-format
 msgid ""
 "This license explicitly states that it does NOT grant trademark rights, even "
@@ -208,7 +198,7 @@ msgstr ""
 "ticari marka hakkı vermese de, ticari marka hakları VERMEDİĞİNİ açıkça "
 "belirtir."
 
-#: src/license.cpp:180
+#: src/license.cpp:183
 #, kde-format
 msgid ""
 "This license explicitly states that it does NOT grant any rights in the "
@@ -217,7 +207,7 @@ msgstr ""
 "Bu lisans, katkıda bulunanların patentlerinde herhangi bir hak VERMEDEĞİNİ "
 "açıkça belirtir."
 
-#: src/license.cpp:190
+#: src/license.cpp:193
 #, kde-format
 msgid ""
 "For REUSE compliance, copy the text of the license into a file named %1.txt, "
@@ -226,7 +216,7 @@ msgstr ""
 "REUSE uyumluluğu için, lisans metnini %1.txt adlı bir dosyaya kopyalayın; "
 "kaynak kodunuzun kökündeki LICENSES/ dizinine yerleştirilmelidir."
 
-#: src/license.cpp:193
+#: src/license.cpp:196
 #, kde-format
 msgid ""
 "The Academic Free License is a variant of the Open Software License that "
@@ -238,7 +228,7 @@ msgstr ""
 "kodunun açıklanmasını gerektirmeyen bir çeşididir. Açık telif hakkı ve "
 "patent hibeleri içerir ve yazardaki ticari marka haklarını saklı tutar."
 
-#: src/license.cpp:194
+#: src/license.cpp:197
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -252,7 +242,7 @@ msgstr ""
 "\"Akademik Ücretsiz Lisans sürüm 3.0 kapsamında lisanslanmıştır\" "
 "bildirimini de içermelidir."
 
-#: src/license.cpp:196
+#: src/license.cpp:199
 #, kde-format
 msgid ""
 "A permissive license whose main conditions require preservation of copyright "
@@ -265,9 +255,9 @@ msgstr ""
 "şekilde verilmesini sağlar. Lisanslı çalışmalar, değişiklikler ve daha büyük "
 "çalışmalar, farklı koşullar altında ve kaynak kodu olmadan dağıtılabilir."
 
-#: src/license.cpp:197 src/license.cpp:215 src/license.cpp:218
-#: src/license.cpp:227 src/license.cpp:230 src/license.cpp:236
-#: src/license.cpp:242 src/license.cpp:248 src/license.cpp:251
+#: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
+#: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
+#: src/license.cpp:245 src/license.cpp:251 src/license.cpp:254
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -276,7 +266,7 @@ msgstr ""
 "Kaynak kodunuzun kökünde bir metin dosyası (genellikle LICENSE veya LICENSE."
 "txt olarak adlandırılır) oluşturun ve lisans metnini dosyaya kopyalayın."
 
-#: src/license.cpp:199
+#: src/license.cpp:202
 #, kde-format
 msgid ""
 "The BSD Zero Clause license goes further than the BSD 2-Clause license to "
@@ -289,7 +279,7 @@ msgstr ""
 "olmaksızın yazılımla sınırsız özgürlüğe izin vermek için BSD 2-Clause "
 "lisansından daha ileri gider."
 
-#: src/license.cpp:200
+#: src/license.cpp:203
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -307,7 +297,7 @@ msgstr ""
 "adları) ile değiştirin. Telif hakkı bildirimini kaldırmak için ek bir adım "
 "atabilirsiniz."
 
-#: src/license.cpp:202
+#: src/license.cpp:205
 #, kde-format
 msgid ""
 "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
@@ -316,8 +306,8 @@ msgstr ""
 "BSD 2-Clause ve BSD 3-Clause olmak üzere iki varyantta gelen izinli bir "
 "lisans. Her ikisinin de MIT lisansıyla çok küçük farklılıkları var."
 
-#: src/license.cpp:203 src/license.cpp:206 src/license.cpp:209
-#: src/license.cpp:245
+#: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
+#: src/license.cpp:248
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -333,7 +323,7 @@ msgstr ""
 "[year] yerine geçerli yıl ve [fullname]'ı telif hakkı sahiplerinin adı (veya "
 "adları) ile değiştirin."
 
-#: src/license.cpp:205
+#: src/license.cpp:208
 #, kde-format
 msgid ""
 "A permissive license similar to the BSD 2-Clause License, but with a 3rd "
@@ -344,14 +334,14 @@ msgstr ""
 "bulunanların türetilmiş ürünleri yazılı izin olmadan tanıtmasını yasaklayan "
 "bir 3. maddeye sahip izin veren bir lisans."
 
-#: src/license.cpp:208
+#: src/license.cpp:211
 #, kde-format
 msgid ""
 "A variant of the BSD 3-Clause License that explicitly does not grant any "
 "patent rights."
 msgstr "BSD 3-Clause Lisansının herhangi bir patent hakkı vermeyen bir çeşidi."
 
-#: src/license.cpp:211
+#: src/license.cpp:214
 #, kde-format
 msgid ""
 "A permissive license similar to the BSD 3-Clause License, but with an "
@@ -362,7 +352,7 @@ msgstr ""
 "kaynağın onaylanmasını gerektiren bir \"reklam maddesi\" içeren izin veren "
 "bir lisans."
 
-#: src/license.cpp:212
+#: src/license.cpp:215
 #, kde-format
 msgctxt ""
 "do not translate the placeholders e.g [year], [fullname] as they refer to "
@@ -380,7 +370,7 @@ msgstr ""
 "adları) ile değiştirin. [project]'i varsa bu işe sponsor olan proje "
 "organizasyonu ile değiştirin."
 
-#: src/license.cpp:214
+#: src/license.cpp:217
 #, kde-format
 msgid ""
 "A simple permissive license only requiring preservation of copyright and "
@@ -393,7 +383,7 @@ msgstr ""
 "çalışmalar, değişiklikler ve daha büyük çalışmalar, farklı koşullar altında "
 "ve kaynak kodu olmadan dağıtılabilir."
 
-#: src/license.cpp:217
+#: src/license.cpp:220
 #, kde-format
 msgid ""
 "The Creative Commons CC0 Public Domain Dedication waives copyright interest "
@@ -409,7 +399,7 @@ msgstr ""
 "kullanın. Lisanssız ve tipik yazılım lisanslarında olduğu gibi, CC0 "
 "garantileri reddeder. CC0, Lisanssız'a çok benzer."
 
-#: src/license.cpp:220
+#: src/license.cpp:223
 #, kde-format
 msgid ""
 "Permits almost any use subject to providing credit and license notice. "
@@ -422,7 +412,7 @@ msgstr ""
 "kullanılır. Açık Erişim bilimsel yayınlar için en yaygın lisans. Yazılım "
 "için önerilmez."
 
-#: src/license.cpp:221 src/license.cpp:224
+#: src/license.cpp:224 src/license.cpp:227
 #, kde-format
 msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
@@ -435,7 +425,7 @@ msgstr ""
 "Ayrıca, yalnızca lisansın bir kopyasına, genellikle lisansın standart "
 "URL'sine bir bağlantı sağlanması da kabul edilebilir."
 
-#: src/license.cpp:223
+#: src/license.cpp:226
 #, kde-format
 msgid ""
 "Similar to CC-BY-4.0 but requires derivatives be distributed under the same "
@@ -448,7 +438,7 @@ msgstr ""
 "için sıklıkla kullanılır. Önceki bir sürüm, Wikipedia ve diğer Wikimedia "
 "projeleri için varsayılan lisanstır. Yazılım için önerilmez."
 
-#: src/license.cpp:226
+#: src/license.cpp:229
 #, kde-format
 msgid ""
 "This commercially-friendly copyleft license provides the ability to "
@@ -461,7 +451,7 @@ msgstr ""
 "çalışmaların ticari olanlar da dahil olmak üzere diğer lisansları kullanma "
 "yeteneği sağlar."
 
-#: src/license.cpp:229
+#: src/license.cpp:232
 #, kde-format
 msgid ""
 "The GNU GPL is the most widely used free software license and has a strong "
@@ -474,7 +464,7 @@ msgstr ""
 "çalışmanın kaynak kodu aynı lisans altında sunulmalıdır. GNU GPL'nin her "
 "biri farklı gereksinimlere sahip birden çok çeşidi vardır."
 
-#: src/license.cpp:232
+#: src/license.cpp:235
 #, kde-format
 msgid ""
 "Permissions of this strong copyleft license are conditioned on making "
@@ -489,7 +479,7 @@ msgstr ""
 "lisans bildirimleri korunmalıdır. Katkıda bulunanlar, patent haklarının açık "
 "bir şekilde verilmesini sağlar."
 
-#: src/license.cpp:233
+#: src/license.cpp:236
 #, kde-format
 msgid ""
 "Create a text file (typically named COPYING, as per GNU conventions) in the "
@@ -498,7 +488,7 @@ msgstr ""
 "Kaynak kodunuzun kökünde bir metin dosyası (genelde GNU kurallarına göre "
 "COPYING olarak adlandırılır) oluşturun ve lisans metnini dosyaya kopyalayın."
 
-#: src/license.cpp:235
+#: src/license.cpp:238
 #, kde-format
 msgid ""
 "Primarily used for software libraries, the GNU LGPL requires that derived "
@@ -511,7 +501,7 @@ msgstr ""
 "ona bağlanan çalışmalar bu kısıtlamanın kapsamına girmez. GNU LGPL'nin "
 "yaygın olarak kullanılan iki sürümü vardır."
 
-#: src/license.cpp:238
+#: src/license.cpp:241
 #, kde-format
 msgid ""
 "Permissions of this copyleft license are conditioned on making available "
@@ -530,7 +520,7 @@ msgstr ""
 "çalışmayı kullanan daha büyük bir çalışma, daha büyük çalışma için kaynak "
 "kodu olmadan farklı koşullar altında dağıtılabilir."
 
-#: src/license.cpp:239
+#: src/license.cpp:242
 #, kde-format
 msgid ""
 "This license is an additional set of permissions to the GNU GPLv3 license. "
@@ -541,7 +531,7 @@ msgstr ""
 "kökündeki GNU GPLv3'ü uygulamak için talimatları izleyin. Ardından COPYING."
 "LESSER adlı başka bir dosya ekleyin ve metni kopyalayın."
 
-#: src/license.cpp:241
+#: src/license.cpp:244
 #, kde-format
 msgid ""
 "Permissions of this strongest copyleft license are conditioned on making "
@@ -560,7 +550,7 @@ msgstr ""
 "sağlamak için değiştirilmiş bir sürüm kullanıldığında, değiştirilmiş sürümün "
 "tam kaynak kodu kullanılabilir hale getirilmelidir."
 
-#: src/license.cpp:244
+#: src/license.cpp:247
 #, kde-format
 msgid ""
 "A short and simple permissive license with conditions only requiring "
@@ -573,7 +563,7 @@ msgstr ""
 "değişiklikler ve daha büyük çalışmalar, farklı koşullar altında ve kaynak "
 "kodu olmadan dağıtılabilir."
 
-#: src/license.cpp:247
+#: src/license.cpp:250
 #, kde-format
 msgid ""
 "Permissions of this weak copyleft license are conditioned on making "
@@ -592,14 +582,14 @@ msgstr ""
 "büyük bir çalışma, daha büyük çalışmaya eklenen dosyalar için kaynak kodu "
 "olmadan farklı koşullar altında dağıtılabilir."
 
-#: src/license.cpp:250
+#: src/license.cpp:253
 #, kde-format
 msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
 "they want with your code."
 msgstr "En kolay lisans. Kullanıcıya kodunuzla istediklerini yapma izni verir."
 
-#: src/license.cpp:253
+#: src/license.cpp:256
 #, kde-format
 msgid ""
 "A license with no conditions whatsoever which dedicates works to the public "
@@ -610,7 +600,7 @@ msgstr ""
 "Lisanssız çalışmalar, değişiklikler ve daha büyük çalışmalar, farklı "
 "koşullar altında ve kaynak kodu olmadan dağıtılabilir."
 
-#: src/license.cpp:254
+#: src/license.cpp:257
 #, kde-format
 msgid ""
 "Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root "
@@ -621,33 +611,45 @@ msgstr ""
 "UNLICENSE.txt olarak adlandırılır) oluşturun ve lisans metnini dosyaya "
 "kopyalayın."
 
-#: src/main.cpp:34
+#: src/main.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Licentia"
 msgstr "Licentia"
 
-#: src/main.cpp:38
+#: src/main.cpp:56
 #, kde-format
 msgid "Choose a license for your project"
 msgstr "Projeniz için bir lisans seçin"
 
-#: src/main.cpp:42
+#: src/main.cpp:60
 #, kde-format
 msgid "© Felipe 2022"
 msgstr "© Felipe 2022"
 
-#: src/main.cpp:43
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:43
+#: src/main.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Yazar"
+
+#: src/main.cpp:63
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Emir SARI"
+
+#: src/main.cpp:63
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "emir_sari@icloud.com"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -685,59 +687,59 @@ msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Hata Bildir…"
 
-#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:93
+#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:95
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Licentia"
 msgstr "Licentia Hakkında"
 
-#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:97
+#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:99
 #, kde-format
 msgid "About Licentia"
 msgstr "Licentia Hakkında"
 
-#: src/ui/LicensePanel.qml:59
+#: src/ui/LicensePanel.qml:68
 #, kde-format
 msgctxt "About [License SPDX identifier]"
 msgid "About %1"
 msgstr "%1 Hakkında"
 
-#: src/ui/LicensePanel.qml:69
+#: src/ui/LicensePanel.qml:74
 #, kde-format
 msgid "License Source"
 msgstr "Lisans Kaynağı"
 
-#: src/ui/LicensePanel.qml:110
+#: src/ui/LicensePanel.qml:115
 #, kde-format
 msgid "How to:"
 msgstr "Nasıl:"
 
-#: src/ui/LicensePanel.qml:133
+#: src/ui/LicensePanel.qml:138
 #, kde-format
 msgid "Permissions:"
 msgstr "İzinler:"
 
-#: src/ui/LicensePanel.qml:164
+#: src/ui/LicensePanel.qml:169
 #, kde-format
 msgid "Conditions:"
 msgstr "Koşullar:"
 
-#: src/ui/LicensePanel.qml:172
+#: src/ui/LicensePanel.qml:177
 #, kde-format
 msgid "(no conditions)"
 msgstr "(koşul yok)"
 
-#: src/ui/LicensePanel.qml:205
+#: src/ui/LicensePanel.qml:210
 #, kde-format
 msgid "Limitations:"
 msgstr "Sınırlamalar:"
 
-#: src/ui/LicensePanel.qml:213
+#: src/ui/LicensePanel.qml:218
 #, kde-format
 msgid "(no limitations)"
 msgstr "(sınırlama yok)"
 
-#: src/ui/LicensePanel.qml:248
+#: src/ui/LicensePanel.qml:253
 #, kde-format
 msgid "Projects using:"
 msgstr "Kullanan projeler:"
