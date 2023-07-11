@@ -10,6 +10,7 @@
   <name xml:lang="ca-valencia">Licentia</name>
   <name xml:lang="cs">Licentia</name>
   <name xml:lang="en-GB">Licentia</name>
+  <name xml:lang="eo">Licentia</name>
   <name xml:lang="es">Licentia</name>
   <name xml:lang="fi">Licentia</name>
   <name xml:lang="fr">Licentia</name>
@@ -32,6 +33,7 @@
   <summary xml:lang="ca-valencia">Seleccioneu una llicència per al vostre projecte</summary>
   <summary xml:lang="cs">Zvolte si licenci pro svůj projekt</summary>
   <summary xml:lang="en-GB">Choose a licence for your project</summary>
+  <summary xml:lang="eo">Elektu permesilon por via projekto</summary>
   <summary xml:lang="es">Escoja una licencia para su proyecto</summary>
   <summary xml:lang="fi">Valitse projektillesi lisenssi</summary>
   <summary xml:lang="fr">Sélectionner une licence pour votre projet</summary>
@@ -55,6 +57,7 @@
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="en-GB">KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="eo">KDE-Komunumo, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fi">KDE-yhteisö, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
@@ -101,6 +104,7 @@
       <caption xml:lang="ca-valencia">Vista principal</caption>
       <caption xml:lang="cs">Hlavní pohled</caption>
       <caption xml:lang="en-GB">Main View</caption>
+      <caption xml:lang="eo">Ĉefa Perspektivo</caption>
       <caption xml:lang="es">Vista principal</caption>
       <caption xml:lang="fi">Päänäkymä</caption>
       <caption xml:lang="fr">Vue principale</caption>
