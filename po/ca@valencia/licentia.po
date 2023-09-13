@@ -609,7 +609,7 @@ msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
 "they want with your code."
 msgstr ""
-"La llicència més fàcil de totes. Dona permís a l'usuari per fer el que "
+"La llicència més fàcil de totes. Dona permís a l'usuari per a fer el que "
 "vullga amb el vostre codi."
 
 #: src/license.cpp:256
