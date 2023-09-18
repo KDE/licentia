@@ -780,7 +780,7 @@ msgstr "Llicència original"
 #: src/ui/PageHeader.qml:35
 #, kde-format
 msgid "Copy License to Clipboard (Ctrl+C)"
-msgstr "Copia la llicència al porta-retalls (Ctrl+C)"
+msgstr "Copia la llicència al porta-retalls («Ctrl+C»)"
 
 #: src/ui/PageHeader.qml:58
 #, kde-format
