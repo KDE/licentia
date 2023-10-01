@@ -505,7 +505,7 @@ msgstr ""
 "A GNU LGPL, que se usa principalmente para bibliotecas de software, require "
 "que as obras derivadas teñan a mesma licenza, pero as obras que unicamente "
 "ligan con ela non teñen por que cumprir con esta restrición. Hai dúas "
-"versións comunmente utilizadas da GNU LGPL."
+"versións comunmente usadas da GNU LGPL."
 
 #: src/license.cpp:241
 #, kde-format
