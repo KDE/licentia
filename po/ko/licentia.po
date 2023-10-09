@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the licentia package.
-# Shinjo Park <kde@peremen.name>, 2022.
+# Shinjo Park <kde@peremen.name>, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-07-05 01:03+0000\n"
-"PO-Revision-Date: 2022-08-09 13:27+0200\n"
+"PO-Revision-Date: 2023-08-29 00:48+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -215,6 +215,9 @@ msgid ""
 "contains explicit copyright and patent grants and reserves trademark rights "
 "in the author."
 msgstr ""
+"아카데믹 프리 라이선스(AFL)는 오픈 소프트웨어 라이선스(OSL)의 파생형으로, 파"
+"생 저작물의 소스 코드를 공개할 필요가 없습니다. 명시적인 저작권 및 특허권 허"
+"가가 포함되어 있으며 저작권자가 상표권을 갖습니다."
 
 #: src/license.cpp:197
 #, kde-format
@@ -224,6 +227,10 @@ msgid ""
 "licensed under AFL 3.0 must also include the notice \"Licensed under the "
 "Academic Free License version 3.0\" adjacent to the copyright notice."
 msgstr ""
+"소스 코드의 루트 디렉터리에 텍스트 파일(대개 LICENSE 또는 LICENSE.txt)을 생성"
+"한 후 라이선스 원문을 파일에 붙여 넣으십시오. AFL 3.0으로 라이선스된 파일은 "
+"저작권 고지와 함께 \"Licensed under the Academic Free License version 3.0\" "
+"문구가 포함되어야 합니다."
 
 #: src/license.cpp:199
 #, kde-format
@@ -233,6 +240,9 @@ msgid ""
 "Licensed works, modifications, and larger works may be distributed under "
 "different terms and without source code."
 msgstr ""
+"주요 조건으로 저작권 및 라이선스 고지가 포함되어야 하는 허용적 라이선스입니"
+"다. 기여자는 명시적으로 특허권의 사용 허가를 받습니다. 라이선스된 저작물, 수"
+"정본, 집합 저작물은 소스 코드 없이 다른 라이선스로 배포될 수 있습니다."
 
 #: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
 #: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
@@ -242,6 +252,8 @@ msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
 "your source code and copy the text of the license into the file."
 msgstr ""
+"소스 코드의 루트 디렉터리에 텍스트 파일(대개 LICENSE 또는 LICENSE.txt)을 생성"
+"한 후 라이선스 원문을 파일에 붙여 넣으십시오."
 
 #: src/license.cpp:202
 #, kde-format
@@ -251,6 +263,9 @@ msgid ""
 "include the copyright notice, license text, or disclaimer in either source "
 "or binary forms."
 msgstr ""
+"0조항(Zero Clause) BSD 라이선스는 2조항(2-Clause) BSD 라이선스에서 더 나아가"
+"서 저작권 고지, 라이선스 텍스트, 소스 코드나 바이너리 형태의 고지 요구 사항 "
+"없이 소프트웨어를 무제한적으로 자유롭게 사용할 수 있습니다."
 
 #: src/license.cpp:203
 #, kde-format
@@ -264,6 +279,10 @@ msgid ""
 "copyright holders. You may take the additional step of removing the "
 "copyright notice."
 msgstr ""
+"소스 코드의 루트 디렉터리에 텍스트 파일(대개 LICENSE 또는 LICENSE.txt)을 생성"
+"한 후 라이선스 원문을 파일에 붙여 넣으십시오. [year]를 현재 연도, [fullname]"
+"을 (모든) 저작권자의 이름으로 대체하십시오. 필요에 따라서 저작권 고지를 삭제"
+"할 수도 있습니다."
 
 #: src/license.cpp:205
 #, kde-format
@@ -271,6 +290,8 @@ msgid ""
 "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
 "Clause. Both have very minute differences to the MIT license."
 msgstr ""
+"BSD 2조항(2-Clause) 및 3조항(3-Clause) 형태가 있는 허용적 라이선스입니다. 둘 "
+"다 MIT 라이선스와 매우 유사합니다."
 
 #: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
 #: src/license.cpp:248
@@ -284,6 +305,9 @@ msgid ""
 "[year] with the current year and [fullname] with the name (or names) of the "
 "copyright holders."
 msgstr ""
+"소스 코드의 루트 디렉터리에 텍스트 파일(대개 LICENSE 또는 LICENSE.txt)을 생성"
+"한 후 라이선스 원문을 파일에 붙여 넣으십시오. [year]를 현재 연도, [fullname]"
+"을 (모든) 저작권자의 이름으로 대체하십시오."
 
 #: src/license.cpp:208
 #, kde-format
@@ -292,6 +316,9 @@ msgid ""
 "clause that prohibits others from using the name of the project or its "
 "contributors to promote derived products without written consent."
 msgstr ""
+"BSD 2조항(2-Clause) 라이선스와 비슷한 허용적 라이선스이지만, 명시적인 동의 없"
+"이 프로젝트의 이름이나 그 기여자 목록을 파생 저작물의 홍보에 사용하는 것을 금"
+"지하는 세 번째 조항이 있습니다."
 
 #: src/license.cpp:211
 #, kde-format
@@ -299,6 +326,8 @@ msgid ""
 "A variant of the BSD 3-Clause License that explicitly does not grant any "
 "patent rights."
 msgstr ""
+"명시적으로 특허권을 허가하지 않는 BSD 3조항(3-Clause) 라이선스의 파생형입니"
+"다."
 
 #: src/license.cpp:214
 #, kde-format
@@ -307,6 +336,9 @@ msgid ""
 "\"advertising clause\" that requires an acknowledgment of the original "
 "source in all advertising material."
 msgstr ""
+"BSD 3조항(3-Clause) 라이선스와 유사한 허용적 라이선스이지만, 모든 홍보 자료"
+"에 원래 소스 코드를 사용했음을 명시해야 하는 \"홍보 조항\"이 포함되어 있습니"
+"다."
 
 #: src/license.cpp:215
 #, kde-format
@@ -320,6 +352,10 @@ msgid ""
 "copyright holders. Replace [project] with the project organization, if any, "
 "that sponsors this work."
 msgstr ""
+"소스 코드의 루트 디렉터리에 텍스트 파일(대개 LICENSE 또는 LICENSE.txt)을 생성"
+"한 후 라이선스 원문을 파일에 붙여 넣으십시오. [year]를 현재 연도, [fullname]"
+"을 (모든) 저작권자의 이름으로 대체하십시오. 이 작업물을 지원하는 조직이 있는 "
+"경우 [project]를 프로젝트 조직으로 대체하십시오."
 
 #: src/license.cpp:217
 #, kde-format
@@ -329,6 +365,9 @@ msgid ""
 "modifications, and larger works may be distributed under different terms and "
 "without source code."
 msgstr ""
+"소스 코드(바이너리 제외) 형태로 배포 시 저작권 및 라이선스 고지를 유지해야 하"
+"는 조건이 있는 간단한 허용적 라이선스입니다. 라이선스된 저작물, 수정본, 집합 "
+"저작물은 소스 코드를 제외하고 다른 조건으로 배포될 수 있습니다."
 
 #: src/license.cpp:220
 #, kde-format
@@ -339,6 +378,10 @@ msgid ""
 "reach. As with the Unlicense and typical software licenses, CC0 disclaims "
 "warranties. CC0 is very similar to the Unlicense."
 msgstr ""
+"크리에이티브 커먼즈 CC0 퍼블릭 도메인 기증은 생성한 저작물의 저작권을 전 세계"
+"적으로 포기하며 퍼블릭 도메인으로 기증합니다. CC0을 사용하면 저작권 일체를 포"
+"기하며 누구나 제약 없이 이용할 수 있습니다. 언라이선스와 다른 소프트웨어 라이"
+"선스처럼 CC0은 일체의 보증을 하지 않습니다. CC0은 언라이선스와 유사합니다."
 
 #: src/license.cpp:223
 #, kde-format
@@ -348,6 +391,9 @@ msgid ""
 "license for Open Access scientific publications. Not recommended for "
 "software."
 msgstr ""
+"저작자 표시와 라이선스 고지를 유지하는 조건으로 대부분의 사용을 보장합니다. "
+"미디어 자료 및 교육용 자료에 주로 사용됩니다. 대부분의 오픈 액세스 과학 출판"
+"물에 사용됩니다. 소프트웨어에 사용하는 것은 추천하지 않습니다."
 
 #: src/license.cpp:224 src/license.cpp:227
 #, kde-format
@@ -357,6 +403,9 @@ msgid ""
 "acceptable to solely supply a link to a copy of the license, usually to the "
 "canonical URL for the license."
 msgstr ""
+"소스 코드의 루트 디렉터리에 텍스트 파일(대개 LICENSE 또는 LICENSE.txt)을 생성"
+"한 후 라이선스 원문을 파일에 붙여 넣으십시오. 라이선스 복사본을 가리키는 링크"
+"(대개의 경우 라이선스의 정규 URL)를 추가할 수도 있습니다."
 
 #: src/license.cpp:226
 #, kde-format
@@ -366,6 +415,10 @@ msgid ""
 "educational materials. A previous version is the default license for "
 "Wikipedia and other Wikimedia projects. Not recommended for software."
 msgstr ""
+"CC-BY-4.0과 유사하지만 파생 저작물을 동일하거나 호환되는 라이선스로 배포해야 "
+"합니다. 미디어 자료 및 교육용 자료에 주로 사용됩니다. 이전 버전은 위키백과 "
+"및 다른 위키미디어 프로젝트의 기본 라이선스입니다. 소프트웨어에 사용하는 것"
+"은 추천하지 않습니다."
 
 #: src/license.cpp:229
 #, kde-format
@@ -375,6 +428,9 @@ msgid ""
 "and the ability for linked works to use other licenses, including commercial "
 "ones."
 msgstr ""
+"상업적 사용 친화적인 카피레프트 라이선스는 바이너리 파일을 상업적으로 라이선"
+"스하고, 로열티 없이 특허권 사용을 허가하며, 링크된 저작물이 상업적 라이선스"
+"를 포함한 다른 라이선스를 사용할 수 있도록 허용합니다."
 
 #: src/license.cpp:232
 #, kde-format
@@ -384,6 +440,9 @@ msgid ""
 "the work must be made available under the same license. There are multiple "
 "variants of the GNU GPL, each with different requirements."
 msgstr ""
+"GNU GPL은 폭넓게 사용되는 자유 소프트웨어 라이선스이며 강력한 카피레프트 조항"
+"이 있습니다. 파생 저작물을 배포할 때에는 소스 코드를 같은 라이선스로 배포해"
+"야 합니다. GNU GPL에는 조건이 다른 여러 파생형이 있습니다."
 
 #: src/license.cpp:235
 #, kde-format
@@ -394,6 +453,10 @@ msgid ""
 "Copyright and license notices must be preserved. Contributors provide an "
 "express grant of patent rights."
 msgstr ""
+"강력한 카피레프트 라이선스의 허용 조건은 라이선스된 저작물 및 이를 포함하는 "
+"집합 저작물과 수정본의 전체 소스 코드가 같은 라이선스로 배포되어야 한다는 것"
+"입니다. 저작권과 라이선스 공지는 유지되어야 합니다. 기여자에게는 명시적으로 "
+"특허 사용권이 주어집니다."
 
 #: src/license.cpp:236
 #, kde-format
@@ -401,6 +464,8 @@ msgid ""
 "Create a text file (typically named COPYING, as per GNU conventions) in the "
 "root of your source code and copy the text of the license into the file."
 msgstr ""
+"소스 코드의 루트 디렉터리에 텍스트 파일(대개 GNU 규칙에 따라서 COPYING)을 생"
+"성한 후 라이선스 원문을 파일에 붙여 넣으십시오."
 
 #: src/license.cpp:238
 #, kde-format
@@ -410,6 +475,9 @@ msgid ""
 "not fall under this restriction. There are two commonly used versions of the "
 "GNU LGPL."
 msgstr ""
+"GNU LGPL은 소프트웨어 라이브러리에 주로 사용되며, 파생 저작물은 같은 라이선스"
+"로 배포되어야 하지만, 단지 링크만 하는 파생 저작물은 이 조건을 만족하지 않아"
+"도 됩니다. GNU LGPL에는 자주 사용되는 두 가지 버전이 있습니다."
 
 #: src/license.cpp:241
 #, kde-format
@@ -422,6 +490,12 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "the larger work."
 msgstr ""
+"이 카피레프트 라이선스의 허용 조건은 라이선스된 저작물 및 이를 포함하는 집합 "
+"저작물과 수정본의 전체 소스 코드가 같은 라이선스 또는 GPLv3으로 배포되어야 한"
+"다는 것입니다. 저작권과 라이선스 공지는 유지되어야 합니다. 기여자에게는 명시"
+"적으로 특허 사용권이 주어집니다. 라이선스된 저작물을 인터페이스를 통해서 사용"
+"하는 집합 저작물은 배포 시 소스 코드를 포함하지 않아도 되며, 다른 라이선스로 "
+"배포될 수 있습니다."
 
 #: src/license.cpp:242
 #, kde-format
@@ -430,6 +504,9 @@ msgid ""
 "Follow the instructions to apply the GNU GPLv3, in the root of your source "
 "code. Then add another file named COPYING.LESSER and copy the text."
 msgstr ""
+"이 라이선스는 GNU GPLv3 라이선스의 추가 권한입니다. 소스 코드의 루트 디렉터리"
+"에 GNU GPLv3에 적용되는 지시 사항을 따르십시오. 그 다음 COPYING.LESSER 파일"
+"을 추가하여 원문을 붙여 넣으십시오."
 
 #: src/license.cpp:244
 #, kde-format
@@ -442,6 +519,11 @@ msgid ""
 "service over a network, the complete source code of the modified version "
 "must be made available."
 msgstr ""
+"이 강력한 카피레프트 라이선스의 조건은 라이선스된 저작물 및 이를 포함하는 집"
+"합 저작물과 수정본의 전체 소스 코드를 같은 라이선스로 배포하는 것입니다. 저작"
+"권과 라이선스 고지는 유지되어야 합니다. 기여자에게는 명시적인 특허권 사용이 "
+"허가됩니다. 수정된 버전이 네트워크 서비스를 실행하는 경우 수정된 버전의 전체 "
+"소스 코드를 공개해야 합니다."
 
 #: src/license.cpp:247
 #, kde-format
@@ -451,6 +533,9 @@ msgid ""
 "modifications, and larger works may be distributed under different terms and "
 "without source code."
 msgstr ""
+"저작권 및 라이선스 고지를 유지해야 하는 조건이 있는 짧고 간단한 허용적 라이선"
+"스입니다. 라이선스된 저작물, 수정본, 집합 저작물은 소스 코드를 제외하고 다른 "
+"조건으로 배포될 수 있습니다."
 
 #: src/license.cpp:250
 #, kde-format
@@ -463,6 +548,12 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "files added in the larger work."
 msgstr ""
+"이 약한 카피레프트 라이선스의 조건은 라이선스된 파일의 소스 코드와 해당 파일"
+"의 수정본을 같은 라이선스(특정 경우에는 GNU 라이선스 중 하나)로 배포하는 것입"
+"니다. 저작권과 라이선스 고지는 유지되어야 합니다. 기여자에게는 명시적인 특허"
+"권 사용이 허가됩니다. 라이선스된 저작물을 사용하는 집합 저작물은 다른 조건으"
+"로 배포될 수 있으며, 집합 저작물에 추가된 파일은 소스 코드 배포에 포함될 필요"
+"가 없습니다."
 
 #: src/license.cpp:253
 #, kde-format
@@ -470,6 +561,8 @@ msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
 "they want with your code."
 msgstr ""
+"가장 쉬운 라이선스입니다. 사용자가 코드를 가지고 무엇이든지 할 수 있는 권한"
+"을 부여합니다."
 
 #: src/license.cpp:256
 #, kde-format
@@ -478,6 +571,9 @@ msgid ""
 "domain. Unlicensed works, modifications, and larger works may be distributed "
 "under different terms and without source code."
 msgstr ""
+"어떠한 조건도 없는 라이선스이며 저작물을 퍼블릭 도메인으로 기증합니다. 라이선"
+"스되지 않은 저작물, 수정본, 집합 저작물은 다른 라이선스 조건이나 소스 코드 없"
+"이 배포될 수 있습니다."
 
 #: src/license.cpp:257
 #, kde-format
@@ -486,6 +582,8 @@ msgid ""
 "of your source code and copy the text of the license disclaimer into the "
 "file."
 msgstr ""
+"소스 코드의 루트 디렉터리에 텍스트 파일(UNLICENSE 또는 UNLICENSE.txt)을 생성"
+"한 후 라이선스 원문을 파일에 붙여 넣으십시오."
 
 #: src/main.cpp:52
 #, kde-format
