@@ -105,6 +105,7 @@ Keywords[sv]=licenser;copyright;
 Keywords[tr]=lisanslar;telif hakkı;
 Keywords[uk]=licenses;copyright;ліцензія;ліцензування;умови;авторські права;
 Keywords[x-test]=xxlicensesxx;xxcopyrightxx;
+Keywords[zh_CN]=licenses;copyright;许可证;版权;xukezheng;banquan;
 Keywords[zh_TW]=授權;授權條款;版權;著作權;
 Categories=Development;
 SingleMainWindow=true
