@@ -694,7 +694,7 @@ msgstr "Edita"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Copy license to clipboard"
-msgstr "Copia la llicència al porta-retalls"
+msgstr "Copia la llicència a dins del porta-retalls"
 
 #: src/ui/GlobalMenu.qml:42
 #, kde-format
@@ -778,7 +778,7 @@ msgstr "Llicència original"
 #: src/ui/PageHeader.qml:35
 #, kde-format
 msgid "Copy License to Clipboard (Ctrl+C)"
-msgstr "Copia la llicència al porta-retalls («Ctrl+C»)"
+msgstr "Copia la llicència a dins del porta-retalls («Ctrl+C»)"
 
 #: src/ui/PageHeader.qml:58
 #, kde-format
