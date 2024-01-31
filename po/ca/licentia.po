@@ -1,24 +1,24 @@
 # Translation of licentia.po to Catalan
-# Copyright (C) 2022 This_file_is_part_of_KDE
+# Copyright (C) 2022-2024 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2022.
+# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2024.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:38+0000\n"
-"PO-Revision-Date: 2022-11-15 18:09+0100\n"
-"Last-Translator: Antoni Bella <antonibella5@yahoo.com>\n"
+"PO-Revision-Date: 2024-01-30 10:21+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -284,8 +284,8 @@ msgid ""
 "or binary forms."
 msgstr ""
 "La llicència BSD de clàusula zero va més enllà de la llicència BSD de 2 "
-"clàusules per us permet una llibertat il·limitada amb el programari sense "
-"requisits per incloure l'avís de copyright, el text de la llicència, o "
+"clàusules per a permetre una llibertat il·limitada amb el programari sense "
+"requisits per a incloure l'avís de copyright, el text de la llicència, o "
 "l'exempció de responsabilitat en forma de codi font o de binari."
 
 #: src/license.cpp:203
@@ -341,7 +341,7 @@ msgid ""
 msgstr ""
 "Una llicència permissiva similar a la llicència BSD de 2 clàusules, però amb "
 "una tercera clàusula que prohibeix als altres utilitzar el nom del projecte "
-"o els seus col·laboradors per promocionar productes derivats sense un "
+"o els seus col·laboradors per a promocionar productes derivats sense un "
 "consentiment escrit."
 
 #: src/license.cpp:211
@@ -462,7 +462,7 @@ msgid ""
 msgstr ""
 "Aquesta llicència de «copyleft» comercial proporciona la capacitat de "
 "llicenciar comercialment fitxers binaris; un atorgament modern de llicència "
-"de patent lliure de cànons; i la capacitat de les obres enllaçades per "
+"de patent lliure de cànons; i la capacitat de les obres enllaçades per a "
 "utilitzar altres llicències, incloses les comercials."
 
 #: src/license.cpp:232
@@ -543,9 +543,9 @@ msgid ""
 "code. Then add another file named COPYING.LESSER and copy the text."
 msgstr ""
 "Aquesta llicència és un conjunt addicional de permisos per a la llicència "
-"GPLv3 de GNU. Seguiu les instruccions per aplicar la GPLv3 de GNU, a l'arrel "
-"del codi font. A continuació, afegiu un altre fitxer anomenat COPYING.LESSER "
-"i copieu el text."
+"GPLv3 de GNU. Seguiu les instruccions per a aplicar la GPLv3 de GNU, a "
+"l'arrel del codi font. A continuació, afegiu un altre fitxer anomenat "
+"COPYING.LESSER i copieu el text."
 
 #: src/license.cpp:244
 #, kde-format
@@ -592,7 +592,7 @@ msgid ""
 "files added in the larger work."
 msgstr ""
 "Els permisos d'aquesta llicència de «copyleft» feble estan condicionats per "
-"fer disponible el codi font dels fitxers llicenciats i les modificacions "
+"a fer disponible el codi font dels fitxers llicenciats i les modificacions "
 "d'aquests fitxers segons la mateixa llicència (o en certs casos, una de les "
 "llicències de GNU). Cal mantenir els drets d'autor i els avisos de "
 "llicència. Els col·laboradors proporcionen un atorgament exprés dels drets "
@@ -606,7 +606,7 @@ msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
 "they want with your code."
 msgstr ""
-"La llicència més fàcil de totes. Dona permís a l'usuari per fer el que "
+"La llicència més fàcil de totes. Dona permís a l'usuari per a fer el que "
 "vulgui amb el vostre codi."
 
 #: src/license.cpp:256
