@@ -1,24 +1,24 @@
 # Translation of licentia.po to Catalan (Valencian)
-# Copyright (C) 2022 This_file_is_part_of_KDE
+# Copyright (C) 2022-2024 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2022.
+# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2024.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:38+0000\n"
-"PO-Revision-Date: 2022-11-15 18:09+0100\n"
-"Last-Translator: Antoni Bella <antonibella5@yahoo.com>\n"
+"PO-Revision-Date: 2024-01-30 10:21+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -283,7 +283,7 @@ msgid ""
 "or binary forms."
 msgstr ""
 "La llicència BSD de clàusula zero va més enllà de la llicència BSD de 2 "
-"clàusules per us permet una llibertat il·limitada amb el programari sense "
+"clàusules per a permetre una llibertat il·limitada amb el programari sense "
 "requisits per a incloure l'avís de copyright, el text de la llicència, o "
 "l'exempció de responsabilitat en forma de codi font o de binari."
 
@@ -341,7 +341,7 @@ msgid ""
 msgstr ""
 "Una llicència permissiva similar a la llicència BSD de 2 clàusules, però amb "
 "una tercera clàusula que prohibix als altres utilitzar el nom del projecte o "
-"els seus col·laboradors per promocionar productes derivats sense un "
+"els seus col·laboradors per a promocionar productes derivats sense un "
 "consentiment escrit."
 
 #: src/license.cpp:211
@@ -592,14 +592,14 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "files added in the larger work."
 msgstr ""
-"Els permisos d'esta llicència de «copyleft» feble estan condicionats per fer "
-"disponible el codi font dels fitxers llicenciats i les modificacions d'estos "
-"fitxers segons la mateixa llicència (o en certs casos, una de les llicències "
-"de GNU). Cal mantindre els drets d'autoria i els avisos de llicència. Els "
-"col·laboradors proporcionen un atorgament exprés dels drets de patent. No "
-"obstant açò, una obra més gran que utilitze l'obra amb llicència es pot "
-"distribuir segons termes diferents i sense codi font per als fitxers afegits "
-"a l'obra més gran."
+"Els permisos d'esta llicència de «copyleft» feble estan condicionats per a "
+"fer disponible el codi font dels fitxers llicenciats i les modificacions "
+"d'estos fitxers segons la mateixa llicència (o en certs casos, una de les "
+"llicències de GNU). Cal mantindre els drets d'autoria i els avisos de "
+"llicència. Els col·laboradors proporcionen un atorgament exprés dels drets "
+"de patent. No obstant açò, una obra més gran que utilitze l'obra amb "
+"llicència es pot distribuir segons termes diferents i sense codi font per "
+"als fitxers afegits a l'obra més gran."
 
 #: src/license.cpp:253
 #, kde-format
