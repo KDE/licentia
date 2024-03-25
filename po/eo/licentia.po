@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:38+0000\n"
-"PO-Revision-Date: 2024-02-26 21:30+0100\n"
+"PO-Revision-Date: 2024-03-24 10:34+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo.org>\n"
 "Language: eo\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: src/license.cpp:89
 #, kde-format
 msgid "Commercial use"
-msgstr ""
+msgstr "Komerca uzo"
 
 #: src/license.cpp:90 src/license.cpp:124
 #, kde-format
@@ -37,7 +37,7 @@ msgstr "Modifo"
 #: src/license.cpp:95
 #, kde-format
 msgid "The licensed material may be modified."
-msgstr ""
+msgstr "La licencita materialo povas esti modifita."
 
 #: src/license.cpp:99
 #, kde-format
@@ -47,22 +47,22 @@ msgstr "Distribuo"
 #: src/license.cpp:100
 #, kde-format
 msgid "The licensed material may be distributed."
-msgstr ""
+msgstr "La licencita materialo povas esti distribuita."
 
 #: src/license.cpp:104
 #, kde-format
 msgid "Private use"
-msgstr ""
+msgstr "Privata uzo"
 
 #: src/license.cpp:105
 #, kde-format
 msgid "The licensed material may be used and modified in private."
-msgstr ""
+msgstr "La licencita materialo povas esti uzata kaj modifita private."
 
 #: src/license.cpp:109 src/license.cpp:182
 #, kde-format
 msgid "Patent use"
-msgstr ""
+msgstr "Uzo de patento"
 
 #: src/license.cpp:110
 #, kde-format
@@ -73,22 +73,22 @@ msgstr ""
 #: src/license.cpp:123
 #, kde-format
 msgid "License and copyright notice"
-msgstr ""
+msgstr "Noto pri permesilo kaj kopirajto"
 
 #: src/license.cpp:128
 #, kde-format
 msgid "State changes"
-msgstr ""
+msgstr "Stataj ŝanĝoj"
 
 #: src/license.cpp:129
 #, kde-format
 msgid "Changes made to the licensed material must be documented."
-msgstr ""
+msgstr "Ŝanĝoj faritaj al la licencita materialo devas esti dokumentitaj."
 
 #: src/license.cpp:133
 #, kde-format
 msgid "Disclose source"
-msgstr ""
+msgstr "Malkaŝi fonton"
 
 #: src/license.cpp:134
 #, kde-format
@@ -99,7 +99,7 @@ msgstr ""
 #: src/license.cpp:138
 #, kde-format
 msgid "Network use is distribution"
-msgstr ""
+msgstr "Reta uzo estas distribuo"
 
 #: src/license.cpp:139
 #, kde-format
@@ -111,7 +111,7 @@ msgstr ""
 #: src/license.cpp:143
 #, kde-format
 msgid "Same license"
-msgstr ""
+msgstr "Sama permesilo"
 
 #: src/license.cpp:144
 #, kde-format
@@ -123,7 +123,7 @@ msgstr ""
 #: src/license.cpp:148
 #, kde-format
 msgid "Same license (library)"
-msgstr ""
+msgstr "Sama permesilo (biblioteko)"
 
 #: src/license.cpp:149
 #, kde-format
@@ -137,7 +137,7 @@ msgstr ""
 #: src/license.cpp:153
 #, kde-format
 msgid "Same license (file)"
-msgstr ""
+msgstr "Sama permesilo (dosiero)"
 
 #: src/license.cpp:154
 #, kde-format
@@ -155,22 +155,23 @@ msgstr "Respondeco"
 #: src/license.cpp:168
 #, kde-format
 msgid "This license includes a limitation of liability."
-msgstr ""
+msgstr "Ĉi tiu permesilo inkluzivas limigon de respondeco."
 
 #: src/license.cpp:172
 #, kde-format
 msgid "Warranty"
-msgstr ""
+msgstr "Garantio"
 
 #: src/license.cpp:173
 #, kde-format
 msgid "This license explicitly states that it does NOT provide any warranty."
 msgstr ""
+"Ĉi tiu permesilo eksplicite deklaras, ke ĝi NE provizas ajnan garantion."
 
 #: src/license.cpp:177
 #, kde-format
 msgid "Trademark use"
-msgstr ""
+msgstr "Varmarkuzo"
 
 #: src/license.cpp:178
 #, kde-format
@@ -488,7 +489,7 @@ msgstr "Elektu permesilon por via projekto"
 #: src/main.cpp:60
 #, kde-format
 msgid "© Felipe 2022"
-msgstr ""
+msgstr "© Filipo 2022"
 
 #: src/main.cpp:61
 #, kde-format
@@ -536,7 +537,7 @@ msgstr "Redakti"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Copy license to clipboard"
-msgstr ""
+msgstr "Kopii permesilon al tondujo"
 
 #: src/ui/GlobalMenu.qml:42
 #, kde-format
@@ -554,12 +555,12 @@ msgstr "Raporti Cimon…"
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Licentia"
-msgstr ""
+msgstr "Pri Licentia"
 
 #: src/ui/GlobalMenu.qml:55 src/ui/main.qml:99
 #, kde-format
 msgid "About Licentia"
-msgstr ""
+msgstr "Pri Licentia"
 
 #: src/ui/LicensePanel.qml:68
 #, kde-format
@@ -570,12 +571,12 @@ msgstr "Pri %1"
 #: src/ui/LicensePanel.qml:74
 #, kde-format
 msgid "License Source"
-msgstr ""
+msgstr "Licenca Fonto"
 
 #: src/ui/LicensePanel.qml:115
 #, kde-format
 msgid "How to:"
-msgstr ""
+msgstr "Kiel:"
 
 #: src/ui/LicensePanel.qml:138
 #, kde-format
@@ -585,27 +586,27 @@ msgstr "Permesoj:"
 #: src/ui/LicensePanel.qml:169
 #, kde-format
 msgid "Conditions:"
-msgstr ""
+msgstr "Kondiĉoj:"
 
 #: src/ui/LicensePanel.qml:177
 #, kde-format
 msgid "(no conditions)"
-msgstr ""
+msgstr "(sen kondiĉoj)"
 
 #: src/ui/LicensePanel.qml:210
 #, kde-format
 msgid "Limitations:"
-msgstr ""
+msgstr "Limigoj:"
 
 #: src/ui/LicensePanel.qml:218
 #, kde-format
 msgid "(no limitations)"
-msgstr ""
+msgstr "(sen limoj)"
 
 #: src/ui/LicensePanel.qml:253
 #, kde-format
 msgid "Projects using:"
-msgstr ""
+msgstr "Projektoj uzante:"
 
 #: src/ui/main.qml:16
 #, kde-format
@@ -615,14 +616,14 @@ msgstr "Licentia"
 #: src/ui/PageHeader.qml:22
 #, kde-format
 msgid "Original License"
-msgstr ""
+msgstr "Origina Licenco"
 
 #: src/ui/PageHeader.qml:35
 #, kde-format
 msgid "Copy License to Clipboard (Ctrl+C)"
-msgstr ""
+msgstr "Kopii Permesilon al Tondujo (Ctrl+C)"
 
 #: src/ui/PageHeader.qml:58
 #, kde-format
 msgid "About License"
-msgstr ""
+msgstr "Pri Licenco"
