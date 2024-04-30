@@ -9,6 +9,7 @@
   <name xml:lang="ca">Licentia</name>
   <name xml:lang="ca-valencia">Licentia</name>
   <name xml:lang="cs">Licentia</name>
+  <name xml:lang="de">Licentia</name>
   <name xml:lang="en-GB">Licentia</name>
   <name xml:lang="eo">Licentia</name>
   <name xml:lang="es">Licentia</name>
@@ -33,6 +34,7 @@
   <summary xml:lang="ca">Trieu una llicència per al vostre projecte</summary>
   <summary xml:lang="ca-valencia">Seleccioneu una llicència per al vostre projecte</summary>
   <summary xml:lang="cs">Zvolte si licenci pro svůj projekt</summary>
+  <summary xml:lang="de">Wählen Sie eine Lizenz für Ihr Projekt</summary>
   <summary xml:lang="en-GB">Choose a licence for your project</summary>
   <summary xml:lang="eo">Elektu permesilon por via projekto</summary>
   <summary xml:lang="es">Escoja una licencia para su proyecto</summary>
@@ -58,6 +60,7 @@
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="en-GB">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="eo">KDE-Komunumo, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
@@ -82,6 +85,7 @@
     <p>Licentia helps you choose a license for your project, it allows you to check the license's permissions, conditions and limitations, how to add said license to your project and read the full license.</p>
     <p xml:lang="ca">El Licentia us ajuda a triar una llicència per al vostre projecte, permet comprovar els permisos, condicions i limitacions de la llicència, com afegir aquesta llicència al projecte i llegir la llicència completa.</p>
     <p xml:lang="ca-valencia">Licentia us ajuda a triar una llicència per al vostre projecte, permet comprovar els permisos, condicions i limitacions de la llicència, com afegir esta llicència al projecte i llegir la llicència completa.</p>
+    <p xml:lang="de">Licentia hilft Ihnen bei der Suche nach einer Lizenz für Ihr Projekt indem Sie die Berechtigungen, Konditionen und Einschränkungen überprüfen können, Informationen zum Hinzufügen der Lizenz gegeben werden und die vollständige Lizenz gelesen werden kann.</p>
     <p xml:lang="en-GB">Licentia helps you choose a licence for your project, it allows you to check the licence's permissions, conditions and limitations, how to add said licence to your project and read the full licence.</p>
     <p xml:lang="eo">Licentia helpas vin elekti permesilon por via projekto, ĝi permesas vin kontroli la permesojn, kondiĉojn kaj limigojn de la permesilo, kiel aldoni tiun permesilon al via projekto kaj legi la plenan permesilon.</p>
     <p xml:lang="es">Licentia le ayuda a escoger una licencia para su proyecto. Le permite comprobar los permisos, las condiciones y las limitaciones de la licencia, cómo añadir dicha licencia a su proyecto y leer la totalidad de la licencia.</p>
@@ -108,6 +112,7 @@
       <caption xml:lang="ca">Vista principal</caption>
       <caption xml:lang="ca-valencia">Vista principal</caption>
       <caption xml:lang="cs">Hlavní pohled</caption>
+      <caption xml:lang="de">Hauptansicht</caption>
       <caption xml:lang="en-GB">Main View</caption>
       <caption xml:lang="eo">Ĉefa Perspektivo</caption>
       <caption xml:lang="es">Vista principal</caption>
