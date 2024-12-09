@@ -1,21 +1,21 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the licentia package.
-# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2023.
+# SPDX-FileCopyrightText: 2024 Adrián Chaves (Gallaecio)
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:38+0000\n"
-"PO-Revision-Date: 2023-06-13 07:05+0200\n"
+"PO-Revision-Date: 2024-12-08 16:09+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.1\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -219,6 +219,7 @@ msgstr ""
 "txt» e colóqueo no cartafol «LICENSES/» dentro do cartafol raíz do código "
 "fonte."
 
+# skip-rule: rag-en-software, rag-gl-software
 #: src/license.cpp:196
 #, kde-format
 msgid ""
@@ -228,7 +229,7 @@ msgid ""
 "in the author."
 msgstr ""
 "A «Licenza libre académica» (Academic Free License) é unha variante da "
-"«Licenza de software aberto» (Open Software License) que non obriga a "
+"«Licenza de programas abertos» (Open Software License) que non obriga a "
 "publicar o código fonte dos traballos derivados. Concede explicitamente "
 "dereito de copia e de patentes e reserva os dereitos de marca para as "
 "persoas autoras."
@@ -281,7 +282,7 @@ msgid ""
 "or binary forms."
 msgstr ""
 "A licenza «BSD Zero Clause» (BSD sen cláusulas) vai alén da licenza BSD de "
-"dúas cláusulas e permítelle liberdade ilimitada co software sen requisitos "
+"dúas cláusulas e permítelle liberdade ilimitada co programa sen requisitos "
 "sobre a inclusión dunha nota sobre os dereitos de copia, do texto da "
 "licenza, ou de ningún aviso, nin nas fontes nin nos binarios."
 
@@ -401,7 +402,7 @@ msgstr ""
 "de dedicación ao dominio público) renuncia aos intereses de dereito de "
 "autoría da obra e dedícaa ao dominio público universal. Use CC0 para "
 "renunciar completamente aos dereitos de autoría e asegurarse de maximizar o "
-"alcance da obra. Igual que no caso de «Unlicense» e de licenzas de software "
+"alcance da obra. Igual que no caso de «Unlicense» e de licenzas de programas "
 "típicas, CC0 descarga garantías. CC0 é moi similar a «Unlicense»."
 
 #: src/license.cpp:223
@@ -415,7 +416,7 @@ msgstr ""
 "Permite case calquera uso sempre que se preserven as notas de atribución e "
 "licenza. Adoita usarse para contido multimedia e material educativo. É a "
 "licenza máis habitual das publicacións científicas de Open Access (acceso "
-"aberto). Non se recomenda para software."
+"aberto). Non se recomenda para programas."
 
 #: src/license.cpp:224 src/license.cpp:227
 #, kde-format
@@ -442,7 +443,7 @@ msgstr ""
 "a mesma licenza ou unha similar e compatíbel. Adoita usarse para contido "
 "multimedia e material educativo. É unha versión anterior da licenza "
 "predeterminada de Wikipedia e outros proxectos de Wikimedia. Non se "
-"recomenda para software."
+"recomenda para programas."
 
 #: src/license.cpp:229
 #, kde-format
@@ -464,10 +465,10 @@ msgid ""
 "the work must be made available under the same license. There are multiple "
 "variants of the GNU GPL, each with different requirements."
 msgstr ""
-"A GNU GPL é a licenza de software libre máis usada e ten un forte requisito "
-"de reciprocidade. Ao distribuír obras derivadas, o código fonte da obra debe "
-"publicarse coa mesma licenza. Existen moitas variantes da GNU GPL, cada unha "
-"con requisitos distintos."
+"A GNU GPL é a licenza de programas libres máis usada e ten un forte "
+"requisito de reciprocidade. Ao distribuír obras derivadas, o código fonte da "
+"obra debe publicarse coa mesma licenza. Existen moitas variantes da GNU GPL, "
+"cada unha con requisitos distintos."
 
 #: src/license.cpp:235
 #, kde-format
@@ -502,10 +503,10 @@ msgid ""
 "not fall under this restriction. There are two commonly used versions of the "
 "GNU LGPL."
 msgstr ""
-"A GNU LGPL, que se usa principalmente para bibliotecas de software, require "
-"que as obras derivadas teñan a mesma licenza, pero as obras que unicamente "
-"ligan con ela non teñen por que cumprir con esta restrición. Hai dúas "
-"versións comunmente usadas da GNU LGPL."
+"A GNU LGPL, que se usa principalmente para bibliotecas lóxicas, require que "
+"as obras derivadas teñan a mesma licenza, pero as obras que unicamente ligan "
+"con ela non teñen por que cumprir con esta restrición. Hai dúas versións "
+"comunmente usadas da GNU LGPL."
 
 #: src/license.cpp:241
 #, kde-format
