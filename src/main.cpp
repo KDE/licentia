@@ -2,15 +2,13 @@
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
 #include <QApplication>
-#include <QIcon>
-#include <QQmlApplicationEngine>
-#include <QUrl>
-#include <QtQml>
-#include <QQuickWindow>
 #include <QQuickStyle>
+#include <QQuickWindow>
+#include <QtQml>
 
 #include <KAboutData>
 #include <KLocalizedContext>
+#include <KLocalizedQmlContext>
 #include <KLocalizedString>
 
 #ifdef HAVE_KDBUSADDONS
@@ -18,7 +16,6 @@
 #endif
 
 #include "config.h"
-#include "licensesmodel.h"
 #include "version-licentia.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
@@ -59,7 +56,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.licentia")));
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    KLocalization::setupLocalizedContext(&engine);
     KLocalizedString::setApplicationDomain("licentia");
     engine.loadFromModule(QStringLiteral("org.kde.licentia"), QStringLiteral("Main"));
 
