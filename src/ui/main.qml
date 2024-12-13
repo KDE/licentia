@@ -9,6 +9,7 @@ import org.kde.kirigami 2.20 as Kirigami
 import org.kde.kitemmodels 1.0
 
 import org.kde.licentia 1.0
+import org.kde.config as KConfig
 
 Kirigami.ApplicationWindow {
     id: root
@@ -18,22 +19,8 @@ Kirigami.ApplicationWindow {
     minimumWidth: Kirigami.Units.gridUnit * 10
     minimumHeight: Kirigami.Units.gridUnit * 10
 
-    Timer {
-        id: saveWindowGeometryTimer
-        interval: 1000
-        onTriggered: App.saveWindowGeometry(root)
-    }
-
-    Connections {
-        id: saveWindowGeometryConnections
-        enabled: root.visible
-        target: root
-
-        function onClosing() { App.saveWindowGeometry(root); }
-        function onWidthChanged() { saveWindowGeometryTimer.restart(); }
-        function onHeightChanged() { saveWindowGeometryTimer.restart(); }
-        function onXChanged() { saveWindowGeometryTimer.restart(); }
-        function onYChanged() { saveWindowGeometryTimer.restart(); }
+    KConfig.WindowStateSaver {
+        configGroupName: "MainWindow"
     }
 
     Loader {

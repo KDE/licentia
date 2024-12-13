@@ -19,10 +19,9 @@
 
 constexpr auto APPLICATION_ID = "org.kde.licentia";
 
-#include "version-licentia.h"
 #include "config.h"
-#include "app.h"
 #include "licensesmodel.h"
+#include "version-licentia.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
@@ -66,10 +65,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
 
     auto config = Config::self();
-    App application;
 
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
     qmlRegisterType<LicensesModel>(APPLICATION_ID, 1, 0, "LicensesModel");
     qmlRegisterSingletonType(APPLICATION_ID, 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
         return engine->toScriptValue(KAboutData::applicationData());
@@ -86,18 +83,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 #ifdef HAVE_KDBUSADDONS
     KDBusService service(KDBusService::Unique);
 #endif
-
-    // Restore window size and position
-    const auto rootObjects = engine.rootObjects();
-    for (auto obj : rootObjects) {
-        auto view = qobject_cast<QQuickWindow *>(obj);
-        if (view) {
-            if (view->isVisible()) {
-                application.restoreWindowGeometry(view);
-            }
-            break;
-        }
-    }
 
     return app.exec();
 }

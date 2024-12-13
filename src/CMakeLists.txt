@@ -3,7 +3,6 @@
 
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
-    app.cpp
     license.cpp
     licensesmodel.cpp
     resources.qrc)
