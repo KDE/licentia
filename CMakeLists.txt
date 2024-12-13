@@ -25,6 +25,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMPoQmTools)
+include(ECMQmlModule)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX ${CMAKE_PROJECT_NAME_UPPERCASE}
@@ -41,8 +42,8 @@ if (NOT ANDROID)
     find_package(Qt6Widgets ${QT_MIN_VERSION} REQUIRED)
 endif()
 
-find_package(KF6 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n ItemModels)
-find_package(KF6KirigamiAddons 0.9.0 REQUIRED)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n ItemModels)
+find_package(KF6KirigamiAddons 1.6.0 REQUIRED)
 
 add_subdirectory(src)
 
