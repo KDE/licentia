@@ -133,19 +133,17 @@ Kirigami.ApplicationWindow {
                     model: KSortFilterProxyModel {
                         id: filteredModel
                         sourceModel: LicensesModel { id: licensesModel }
-                        filterRole: "name"
-                        sortRole: "name"
+                        filterRoleName: "name"
+                        sortRoleName: "name"
                         filterRegularExpression: {
                             if (searchField.text === "") return new RegExp()
                             return new RegExp("%1".arg(searchField.text), "i")
                         }
                     }
-                    delegate: Kirigami.BasicListItem {
+                    delegate: QQC2.ItemDelegate {
                         id: basiclistitem
 
-                        separatorVisible: false
-
-                        label: model.name
+                        text: model.name
 
                         onClicked: {
                             root.title = model.name
@@ -163,7 +161,7 @@ Kirigami.ApplicationWindow {
                             licensePanel.spdx = model.spdx
                         }
 
-                        QQC2.ToolTip.visible: hovered && labelItem.truncated
+                        QQC2.ToolTip.visible: hovered
                         QQC2.ToolTip.text: label
                         QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                     }
