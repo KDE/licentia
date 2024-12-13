@@ -131,6 +131,7 @@ Kirigami.ApplicationWindow {
                         id: basiclistitem
 
                         text: model.name
+                        width: ListView.view.width
 
                         onClicked: {
                             root.title = model.name
