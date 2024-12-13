@@ -4,8 +4,18 @@
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
     license.cpp
-    licensesmodel.cpp
-    resources.qrc)
+    licensesmodel.cpp)
+
+ecm_add_qml_module(${CMAKE_PROJECT_NAME} URI org.kde.licentia
+    QML_FILES
+    ui/GlobalMenu.qml
+    ui/LicensePanel.qml
+    ui/Main.qml
+    ui/PageHeader.qml)
+
+qt_add_resources(${CMAKE_PROJECT_NAME} resources
+        PREFIX "/"
+        FILES licenses.json)
 
 target_link_libraries(${CMAKE_PROJECT_NAME}
 PUBLIC

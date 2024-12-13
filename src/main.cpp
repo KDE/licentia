@@ -74,7 +74,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     KLocalizedString::setApplicationDomain("licentia");
-    engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
+    engine.loadFromModule(QStringLiteral("org.kde.licentia"), QStringLiteral("Main"));
 
     if (engine.rootObjects().isEmpty()) {
         return -1;
