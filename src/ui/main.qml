@@ -95,7 +95,7 @@ Kirigami.ApplicationWindow {
                             text: i18nc("@menu-action", "About Licentia")
                             icon.name: "help-about"
                             shortcut: StandardKey.HelpContents
-                            onTriggered: pageStack.pushDialogLayer(Qt.resolvedUrl("About.qml"), {}, {
+                            onTriggered: pageStack.pushDialogLayer(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"), {}, {
                                 title: i18n("About Licentia"),
                                 width: Kirigami.Units.gridUnit * 20,
                                 height: Kirigami.Units.gridUnit * 30

@@ -19,7 +19,6 @@
 
 constexpr auto APPLICATION_ID = "org.kde.licentia";
 
-#include "about.h"
 #include "version-licentia.h"
 #include "config.h"
 #include "app.h"
@@ -67,11 +66,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
 
     auto config = Config::self();
-    AboutType about;
     App application;
 
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
     qmlRegisterType<LicensesModel>(APPLICATION_ID, 1, 0, "LicensesModel");
     qmlRegisterSingletonType(APPLICATION_ID, 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
