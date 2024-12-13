@@ -17,16 +17,12 @@
 #include <KDBusService>
 #endif
 
-constexpr auto APPLICATION_ID = "org.kde.licentia";
-
 #include "config.h"
 #include "licensesmodel.h"
 #include "version-licentia.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
-    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
     QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
