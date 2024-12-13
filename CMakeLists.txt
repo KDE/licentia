@@ -26,6 +26,8 @@ include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 include(ECMQmlModule)
+include(KDEClangFormat)
+include(KDEGitCommitHooks)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX ${CMAKE_PROJECT_NAME_UPPERCASE}
@@ -54,3 +56,8 @@ install(FILES org.kde.${CMAKE_PROJECT_NAME}.svg DESTINATION ${KDE_INSTALL_FULL_I
 ki18n_install(po)
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
+file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES src/*.cpp src/*.h)
+kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
+
+kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
