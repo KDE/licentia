@@ -5,12 +5,14 @@
 
 #include <QAbstractListModel>
 #include <QJsonObject>
+#include <QQmlEngine>
 
 #include "license.h"
 
 class LicensesModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_ELEMENT
 
 public:
     enum Roles {

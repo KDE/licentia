@@ -6,7 +6,7 @@ import Qt.labs.platform 1.1 as Labs
 
 import org.kde.kirigami 2.20 as Kirigami
 
-import org.kde.licentia 1.0
+import org.kde.licentia
 
 Labs.MenuBar {
     id: menuBar

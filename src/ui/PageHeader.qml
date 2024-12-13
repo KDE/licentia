@@ -7,7 +7,7 @@ import QtQuick.Layouts 1.15
 
 import org.kde.kirigami 2.20 as Kirigami
 
-import org.kde.licentia 1.0
+import org.kde.licentia
 
 RowLayout {
     id: pageHeader

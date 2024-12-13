@@ -63,15 +63,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.licentia")));
 
     QQmlApplicationEngine engine;
-
-    auto config = Config::self();
-
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
-    qmlRegisterType<LicensesModel>(APPLICATION_ID, 1, 0, "LicensesModel");
-    qmlRegisterSingletonType(APPLICATION_ID, 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
-        return engine->toScriptValue(KAboutData::applicationData());
-    });
-
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     KLocalizedString::setApplicationDomain("licentia");
     engine.loadFromModule(QStringLiteral("org.kde.licentia"), QStringLiteral("Main"));
