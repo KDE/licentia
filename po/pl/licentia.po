@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:38+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2022-10-18 17:22+0200\n"
 "Last-Translator: Grzegorz Koryga <rehork@tutamail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -624,41 +624,41 @@ msgstr ""
 "katalogu głównym swojego kodu źródłowego i skopiuj do niego tekst  "
 "zrzeczenia się licencji."
 
-#: src/main.cpp:52
+#: src/main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Licentia"
 msgstr "Licentia"
 
-#: src/main.cpp:56
+#: src/main.cpp:47
 #, kde-format
 msgid "Choose a license for your project"
 msgstr "Wybierz licencję dla swojego projektu"
 
-#: src/main.cpp:60
+#: src/main.cpp:51
 #, kde-format
 msgid "© Felipe 2022"
 msgstr "© Felipe 2022"
 
-#: src/main.cpp:61
+#: src/main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:61
+#: src/main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
-#: src/main.cpp:63
+#: src/main.cpp:54
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Grzegorz Koryga"
 
-#: src/main.cpp:63
+#: src/main.cpp:54
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
@@ -700,13 +700,13 @@ msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Zgłoś błąd…"
 
-#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:95
+#: src/ui/GlobalMenu.qml:51 src/ui/Main.qml:82
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Licentia"
 msgstr "O programie Licentia"
 
-#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:99
+#: src/ui/GlobalMenu.qml:55 src/ui/Main.qml:86
 #, kde-format
 msgid "About Licentia"
 msgstr "O programie Licentia"
@@ -757,7 +757,7 @@ msgstr "(bez ograniczeń)"
 msgid "Projects using:"
 msgstr "Projekty z wykorzystaniem:"
 
-#: src/ui/main.qml:16
+#: src/ui/Main.qml:17
 #, kde-format
 msgid "Licentia"
 msgstr "Licentia"
