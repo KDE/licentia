@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-15 20:45+0200\n"
+"PO-Revision-Date: 2024-12-16 08:07+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -61,44 +61,44 @@ msgstr "החומר שכפוף לרישיון יכול לשמש להיערך למ
 #: src/license.cpp:109 src/license.cpp:182
 #, kde-format
 msgid "Patent use"
-msgstr ""
+msgstr "שימוש לפטנטים"
 
 #: src/license.cpp:110
 #, kde-format
 msgid ""
 "The licensed provides and express grant of patent rights from contributors."
-msgstr ""
+msgstr "מושא הרישיון מספק ומביע הענקה של זכויות הפטנט מצד התורמים."
 
 #: src/license.cpp:123
 #, kde-format
 msgid "License and copyright notice"
-msgstr ""
+msgstr "התראת זכויות יוצרים ורישיון"
 
 #: src/license.cpp:128
 #, kde-format
 msgid "State changes"
-msgstr ""
+msgstr "לציין את השינויים"
 
 #: src/license.cpp:129
 #, kde-format
 msgid "Changes made to the licensed material must be documented."
-msgstr ""
+msgstr "שינויים שנערכו בחומר שכפוף לרישיון חייבים להיות מתועדים."
 
 #: src/license.cpp:133
 #, kde-format
 msgid "Disclose source"
-msgstr ""
+msgstr "חשיפת המקור"
 
 #: src/license.cpp:134
 #, kde-format
 msgid ""
 "Source code must be made available when the licensed material is distributed."
-msgstr ""
+msgstr "קוד המקור חייב להיות זמין כאשר החומר שכפוף לרישיון מופץ."
 
 #: src/license.cpp:138
 #, kde-format
 msgid "Network use is distribution"
-msgstr ""
+msgstr "שימוש דרך הרשת היא הפצה"
 
 #: src/license.cpp:139
 #, kde-format
@@ -106,11 +106,13 @@ msgid ""
 "Users who interact with the licensed material via network are given the "
 "right to receive a copy of the source code."
 msgstr ""
+"משתמשים שמתפעלים את החומר שכפוף לרישיון דרך רשת מקבלים את הזכות לקבל עותק של "
+"קוד המקור."
 
 #: src/license.cpp:143
 #, kde-format
 msgid "Same license"
-msgstr ""
+msgstr "רישיון זהה"
 
 #: src/license.cpp:144
 #, kde-format
@@ -118,11 +120,13 @@ msgid ""
 "Modifications must be released under the same license when distributing the "
 "licensed material. In some cases a similar or related license may be used."
 msgstr ""
+"יש לשחרר שינויים תחת אותו הרישיון בעת הפצת החומר הכפוף לרישיון. בחלק מהמקרים "
+"אפשר להשתמש ברישיון דומה או נגזר."
 
 #: src/license.cpp:148
 #, kde-format
 msgid "Same license (library)"
-msgstr ""
+msgstr "רישיון זהה (ספרייה)"
 
 #: src/license.cpp:149
 #, kde-format
@@ -159,12 +163,12 @@ msgstr ""
 #: src/license.cpp:172
 #, kde-format
 msgid "Warranty"
-msgstr ""
+msgstr "אחריות"
 
 #: src/license.cpp:173
 #, kde-format
 msgid "This license explicitly states that it does NOT provide any warranty."
-msgstr ""
+msgstr "הרישיון הזה מציין באופן מפורש שאינו מספק שום אחריות."
 
 #: src/license.cpp:177
 #, kde-format
