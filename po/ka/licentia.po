@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-15 07:02+0100\n"
+"PO-Revision-Date: 2024-12-17 05:54+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -229,6 +229,10 @@ msgid ""
 "contains explicit copyright and patent grants and reserves trademark rights "
 "in the author."
 msgstr ""
+"აკადემიური თავისუფალი ლიცენზია ღია პროგრამული უზრუნველყოფის ლიცენზიის "
+"ვარიანტია, რომელსაც არ სჭირდება პროგრამიდან მიღებული კოდის წყარო კოდის "
+"გამოჩენა. ის შეიცავს მკაცრ საავტორო და პატენტის უფლებებს და საავტორო "
+"უფლებებს ავტორს უნარჩუნებს."
 
 #: src/license.cpp:197
 #, kde-format
@@ -290,6 +294,8 @@ msgid ""
 "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
 "Clause. Both have very minute differences to the MIT license."
 msgstr ""
+"დამშვები ლიცენზია, რომელიც არსებობს ორ ვარიანტში: 2-პუნქტიანი BSD და 3-"
+"პუნქტიანი BSD. ორივე ძალიან მცირედ განსხვავდება MIT ლიცენზიისგან."
 
 #: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
 #: src/license.cpp:248
