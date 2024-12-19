@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-17 05:54+0100\n"
+"PO-Revision-Date: 2024-12-18 03:55+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -256,6 +256,10 @@ msgid ""
 "Licensed works, modifications, and larger works may be distributed under "
 "different terms and without source code."
 msgstr ""
+"რბილი ლიცენზია, რომლის მთავარი პირობაა საავტორო უფლებების და ლიცენზიის "
+"შენიშვნების შენარჩუნება. მოხალისე მოგაწვდით უფლებებს პატენტებზე. "
+"ლიცენზირებული ნამუშევრების, ცვლილებების და დიდი ნამუშევრების განაწილება "
+"სხვადასხვა პირობებით და წყარო კოდის გარეშე შეიძლება, მოხდეს."
 
 #: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
 #: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
@@ -265,6 +269,8 @@ msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
 "your source code and copy the text of the license into the file."
 msgstr ""
+"შექმენით ტექსტური ფაილი (ჩვეულებრივ, სახელით LICENSE ან LICENSE.txt) თქვენი "
+"წყარო კოდის ძირითად საქაღალდეშ და ჩააკოპირეთ ლიცენზიის ტექსტი ამ ფაილში."
 
 #: src/license.cpp:202
 #, kde-format
@@ -287,6 +293,11 @@ msgid ""
 "copyright holders. You may take the additional step of removing the "
 "copyright notice."
 msgstr ""
+"შექმენით ტექსტური ფაილი (ჩვეულებრივ, სახელით LICENSE ან LICENSE.txt) თქვენი "
+"წყარო კოდის ძირითად საქაღალდეშ და ჩააკოპირეთ ლიცენზიის ტექსტი ამ ფაილში.  "
+"შეცვალეთ [year] მიმდნარე წლით და [fullname] საავტორო უფლებების მქონეების "
+"სახელ(ებ)-ით. შეგიძლიათ გადადგათ დამატებითი ნაბიჯი და წაშალოთ საავტორო "
+"უფლებების გაფრთხილება."
 
 #: src/license.cpp:205
 #, kde-format
@@ -309,6 +320,10 @@ msgid ""
 "[year] with the current year and [fullname] with the name (or names) of the "
 "copyright holders."
 msgstr ""
+"შექმენით ტექსტური ფაილი (ჩვეულებრივ, სახელით LICENSE ან LICENSE.txt) თქვენი "
+"წყარო კოდის ძირითად საქაღალდეშ და ჩააკოპირეთ ლიცენზიის ტექსტი ამ ფაილში.  "
+"შეცვალეთ [year] მიმდნარე წლით და [fullname] საავტორო უფლებების მქონეების "
+"სახელ(ებ)-ით."
 
 #: src/license.cpp:208
 #, kde-format
@@ -347,6 +362,11 @@ msgid ""
 "copyright holders. Replace [project] with the project organization, if any, "
 "that sponsors this work."
 msgstr ""
+"შექმენით ტექსტური ფაილი (ჩვეულებრივ, სახელით LICENSE ან LICENSE.txt) თქვენი "
+"წყარო კოდის ძირითად საქაღალდეშ და ჩააკოპირეთ ლიცენზიის ტექსტი ამ ფაილში.  "
+"შეცვალეთ [year] მიმდნარე წლით და [fullname] საავტორო უფლებების მქონეების "
+"სახელ(ებ)-ით. ჩაანაცვლეთ [project] პროექტის ორგანიზაციის სახელით. თუ "
+"არსებობს, სპონსორი."
 
 #: src/license.cpp:217
 #, kde-format
@@ -384,6 +404,9 @@ msgid ""
 "acceptable to solely supply a link to a copy of the license, usually to the "
 "canonical URL for the license."
 msgstr ""
+"შექმენით ტექსტური ფაილი (ჩვეულებრივ, სახელით LICENSE ან LICENSE.txt) თქვენი "
+"წყარო კოდის ძირითად საქაღალდეშ და ჩააკოპირეთ ლიცენზიის ტექსტი ამ ფაილში. "
+"ასევე მისაღებია, რომ მხოლოდ, გააყოლოთ ბმული ლიცენზიის ფაილამდე."
 
 #: src/license.cpp:226
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-17 08:18+0200\n"
+"PO-Revision-Date: 2024-12-18 08:44+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -203,6 +203,8 @@ msgid ""
 "For REUSE compliance, copy the text of the license into a file named %1.txt, "
 "it must be placed in the LICENSES/ directory in the root of your source code."
 msgstr ""
+"לתאימות עם שימוש מחדש/REUSE, יש להעתיק את תוכן הטקסט של הרישיון לקובץ בשם ‎%1."
+"txt, ולהציב אותו בתיקיית LICENSES/‎ בתיקיית העל של קוד המקור שלך."
 
 #: src/license.cpp:196
 #, kde-format
@@ -212,6 +214,9 @@ msgid ""
 "contains explicit copyright and patent grants and reserves trademark rights "
 "in the author."
 msgstr ""
+"הרישיון האקדמי החופשי הוא הגוון של רישיון התוכנה החופשית שלא דורש את חשיפת "
+"קוד המקור של היצירה הנגזרת. הוא מכיל זכויות יוצרים והענקת פטנטים מפורשת "
+"ושומר על זכויות סימני המסחר ליוצרים המקוריים."
 
 #: src/license.cpp:197
 #, kde-format
@@ -221,6 +226,10 @@ msgid ""
 "licensed under AFL 3.0 must also include the notice \"Licensed under the "
 "Academic Free License version 3.0\" adjacent to the copyright notice."
 msgstr ""
+"יש ליצור קובץ טקסט (בדרך כלל בשם LICENSE או LICENSE.txt) בתיקיית העל של קוד "
+"המקור שלך ולהעתיק את טקסט הרישיון לקובץ. קבצים שכפופים לרישיון AFL 3.0 "
+"חייבים לכלול גם את ההצהרה „Licensed under the Academic Free License version "
+"3.0” (כפופים לרישיון האקדמי החופשי בגרסה 3.0) ליד הצהרת זכויות היוצרים."
 
 #: src/license.cpp:199
 #, kde-format
@@ -230,6 +239,10 @@ msgid ""
 "Licensed works, modifications, and larger works may be distributed under "
 "different terms and without source code."
 msgstr ""
+"רישיון מתירני שהתנאים העיקריים שלו דורשים שימור של הצהרות זכויות יוצרים "
+"ורישיון. התורמים מספקים הענקה מפורשת של זכויות פטנטים. יצירות, שינויים "
+"ויצירות גדולות יותר שכפופים לרישיון אפשר להפיץ תחת תנאים שונים וללא קוד "
+"המקור."
 
 #: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
 #: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
@@ -263,6 +276,10 @@ msgid ""
 "copyright holders. You may take the additional step of removing the "
 "copyright notice."
 msgstr ""
+"יש ליצור קובץ טקסט (בדרך כלל בשם LICENSE או LICENSE.txt) בתיקיית העל של קוד "
+"המקור שלך ולהעתיק את טקסט הרישיון לקובץ. יש להחליף את [year] בשנה הנוכחית "
+"ואת [fullname] בשם (או בשמות) בעלי זכויות היוצרים. אפשר לנקוט בצעד נוסף "
+"ולהסיר את הצהרת זכויות היוצרים."
 
 #: src/license.cpp:205
 #, kde-format
@@ -270,6 +287,8 @@ msgid ""
 "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
 "Clause. Both have very minute differences to the MIT license."
 msgstr ""
+"רישיון מתירני שמגיע בשני נוסחים, BSD דו־סעיפי ו־BSD תלת־סעיפי. לשניהם "
+"שינויים מזעריים ביחס לרישיון MIT."
 
 #: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
 #: src/license.cpp:248
@@ -363,6 +382,9 @@ msgid ""
 "acceptable to solely supply a link to a copy of the license, usually to the "
 "canonical URL for the license."
 msgstr ""
+"יש ליצור קובץ טקסט (בדרך כלל בשם LICENSE או LICENSE.txt) בתיקיית העל של קוד "
+"המקור שלך ולהעתיק את טקסט הרישיון לקובץ. מותר גם לספק רק קישור לעותק של "
+"הרישיון, בדרך כלל לכתובת קנונית לרישיון."
 
 #: src/license.cpp:226
 #, kde-format
