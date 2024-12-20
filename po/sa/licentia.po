@@ -1,0 +1,741 @@
+# Sanskrit translations for licentia package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the licentia package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: licentia\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
+"PO-Revision-Date: 2024-12-19 20:32+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Sanskrit\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/license.cpp:89
+#, kde-format
+msgid "Commercial use"
+msgstr "व्यावसायिक उपयोग"
+
+#: src/license.cpp:90 src/license.cpp:124
+#, kde-format
+msgid ""
+"The licensed material and derivatives may be used for commercial purposes."
+msgstr "अनुज्ञापत्रं प्राप्तं सामग्रीं व्युत्पन्नं च व्यावसायिकप्रयोजनार्थं उपयोक्तुं शक्यते ।"
+
+#: src/license.cpp:94
+#, kde-format
+msgid "Modification"
+msgstr "परिवर्तनम्"
+
+#: src/license.cpp:95
+#, kde-format
+msgid "The licensed material may be modified."
+msgstr "अनुज्ञापत्रं प्राप्तं सामग्रीं परिवर्तयितुं शक्यते।"
+
+#: src/license.cpp:99
+#, kde-format
+msgid "Distribution"
+msgstr "आवंटन"
+
+#: src/license.cpp:100
+#, kde-format
+msgid "The licensed material may be distributed."
+msgstr "अनुज्ञापत्रं प्राप्तं सामग्रीं वितरितुं शक्यते।"
+
+#: src/license.cpp:104
+#, kde-format
+msgid "Private use"
+msgstr "निजी उपयोग"
+
+#: src/license.cpp:105
+#, kde-format
+msgid "The licensed material may be used and modified in private."
+msgstr "अनुज्ञापत्रं प्राप्तसामग्री निजीरूपेण उपयोक्तुं परिवर्तनं च कर्तुं शक्यते।"
+
+#: src/license.cpp:109 src/license.cpp:182
+#, kde-format
+msgid "Patent use"
+msgstr "पेटन्ट प्रयोग"
+
+#: src/license.cpp:110
+#, kde-format
+msgid ""
+"The licensed provides and express grant of patent rights from contributors."
+msgstr "अनुज्ञापत्रधारकः योगदातृभ्यः पेटन्ट-अधिकारस्य प्रदाति, स्पष्ट-अनुदानं च ददाति ।"
+
+#: src/license.cpp:123
+#, kde-format
+msgid "License and copyright notice"
+msgstr "अनुज्ञापत्रं प्रतिलिपिधर्मस्य च सूचना"
+
+#: src/license.cpp:128
+#, kde-format
+msgid "State changes"
+msgstr "राज्यं परिवर्तते"
+
+#: src/license.cpp:129
+#, kde-format
+msgid "Changes made to the licensed material must be documented."
+msgstr "अनुज्ञापत्रप्राप्तसामग्रीषु कृतानां परिवर्तनानां दस्तावेजीकरणं करणीयम्।"
+
+#: src/license.cpp:133
+#, kde-format
+msgid "Disclose source"
+msgstr "स्रोतः प्रकटयन्तु"
+
+#: src/license.cpp:134
+#, kde-format
+msgid ""
+"Source code must be made available when the licensed material is distributed."
+msgstr "अनुज्ञापत्रप्राप्तसामग्रीवितरितसमये स्रोतसङ्केतः अवश्यमेव उपलब्धः भवेत् ।"
+
+#: src/license.cpp:138
+#, kde-format
+msgid "Network use is distribution"
+msgstr "संजालस्य उपयोगः वितरणम् अस्ति"
+
+#: src/license.cpp:139
+#, kde-format
+msgid ""
+"Users who interact with the licensed material via network are given the "
+"right to receive a copy of the source code."
+msgstr ""
+"ये उपयोक्तारः संजालद्वारा अनुज्ञापत्रेण सह अन्तरक्रियां कुर्वन्ति तेषां स्रोतसङ्केतस्य प्रतिलिपिं "
+"प्राप्तुं अधिकारः दत्तः भवति ।"
+
+#: src/license.cpp:143
+#, kde-format
+msgid "Same license"
+msgstr "समान अनुज्ञापत्र"
+
+#: src/license.cpp:144
+#, kde-format
+msgid ""
+"Modifications must be released under the same license when distributing the "
+"licensed material. In some cases a similar or related license may be used."
+msgstr ""
+"अनुज्ञापत्रं प्राप्तसामग्रीवितरणं कुर्वन् तस्मिन् एव अनुज्ञापत्रे परिवर्तनं विमोचनीयम् । केषुचित् "
+"सन्दर्भेषु तत्सदृशं वा तत्सम्बद्धं वा अनुज्ञापत्रं प्रयोक्तुं शक्यते ।"
+
+#: src/license.cpp:148
+#, kde-format
+msgid "Same license (library)"
+msgstr "समान अनुज्ञापत्र (पुस्तकालय) ."
+
+#: src/license.cpp:149
+#, kde-format
+msgid ""
+"Modifications must be released under the same license when distributing the "
+"licensed material. In some cases a similar or related license may be used, "
+"or this condition may not apply to works that use the licensed material as a "
+"library."
+msgstr ""
+"अनुज्ञापत्रं प्राप्तसामग्रीवितरणं कुर्वन् तस्मिन् एव अनुज्ञापत्रे परिवर्तनं विमोचनीयम् । केषुचित् "
+"सन्दर्भेषु तत्सदृशं वा तत्सम्बद्धं वा अनुज्ञापत्रं प्रयुक्तं भवेत्, अथवा अनुज्ञापत्रं प्राप्तं सामग्रीं "
+"पुस्तकालयरूपेण उपयुज्यमानानाम् कार्याणां कृते एषा शर्तः न प्रवर्तते ।"
+
+#: src/license.cpp:153
+#, kde-format
+msgid "Same license (file)"
+msgstr "समान अनुज्ञापत्र (सञ्चिका) २."
+
+#: src/license.cpp:154
+#, kde-format
+msgid ""
+"Modifications of existing files must be released under the same license when "
+"distributing the licensed material. In some cases a similar or related "
+"license may be used."
+msgstr ""
+"अनुज्ञापत्रप्राप्तसामग्रीवितरणं कुर्वन् विद्यमानसञ्चिकानां परिवर्तनं समानानुज्ञापत्रस्य अन्तर्गतं "
+"मुक्तं भवितुमर्हति । केषुचित् सन्दर्भेषु तत्सदृशं वा तत्सम्बद्धं वा अनुज्ञापत्रं प्रयोक्तुं शक्यते ।"
+
+#: src/license.cpp:167
+#, kde-format
+msgid "Liability"
+msgstr "देय"
+
+#: src/license.cpp:168
+#, kde-format
+msgid "This license includes a limitation of liability."
+msgstr "अस्मिन् अनुज्ञापत्रे दायित्वस्य सीमा अन्तर्भवति ।"
+
+#: src/license.cpp:172
+#, kde-format
+msgid "Warranty"
+msgstr "वारण्टी"
+
+#: src/license.cpp:173
+#, kde-format
+msgid "This license explicitly states that it does NOT provide any warranty."
+msgstr "अस्मिन् अनुज्ञापत्रे स्पष्टतया उक्तं यत् एतत् किमपि वारण्टीं न ददाति।"
+
+#: src/license.cpp:177
+#, kde-format
+msgid "Trademark use"
+msgstr "व्यापारचिह्नस्य उपयोगः"
+
+#: src/license.cpp:178
+#, kde-format
+msgid ""
+"This license explicitly states that it does NOT grant trademark rights, even "
+"though licenses without such a statement probably do not grant any implicit "
+"trademark rights."
+msgstr ""
+"अस्मिन् अनुज्ञापत्रे स्पष्टतया उक्तं यत् एतत् व्यापारचिह्नाधिकारं न ददाति, यद्यपि एतादृशं वचनं "
+"विना अनुज्ञापत्राणि सम्भवतः किमपि अन्तर्निहितव्यापारचिह्नाधिकारं न ददति"
+
+#: src/license.cpp:183
+#, kde-format
+msgid ""
+"This license explicitly states that it does NOT grant any rights in the "
+"patents of contributors."
+msgstr ""
+"अस्मिन् अनुज्ञापत्रे स्पष्टतया उक्तं यत् एतत् योगदातृणां पेटन्ट्-पत्रेषु किमपि अधिकारं न ददाति ।"
+
+#: src/license.cpp:193
+#, kde-format
+msgid ""
+"For REUSE compliance, copy the text of the license into a file named %1.txt, "
+"it must be placed in the LICENSES/ directory in the root of your source code."
+msgstr ""
+"REUSE अनुपालनाय, अनुज्ञापत्रस्य पाठं %1.txt इति सञ्चिकायां प्रतिलिख्य, तत् भवतः "
+"स्रोतसङ्केतस्य मूले LICENSES/ निर्देशिकायां स्थापनीयम् ।"
+
+#: src/license.cpp:196
+#, kde-format
+msgid ""
+"The Academic Free License is a variant of the Open Software License that "
+"does not require that the source code of derivative works be disclosed. It "
+"contains explicit copyright and patent grants and reserves trademark rights "
+"in the author."
+msgstr ""
+"शैक्षणिकमुक्त-अनुज्ञापत्रः मुक्तसॉफ्टवेयर-अनुज्ञापत्रस्य एकः प्रकारः अस्ति यस्य व्युत्पन्न-कृतीनां "
+"स्रोत-सङ्केतः प्रकटीकरणस्य आवश्यकता नास्ति । अस्मिन् स्पष्टप्रतिलिपिधर्मः पेटन्ट-अनुदानं च "
+"अस्ति तथा च लेखके व्यापारचिह्न-अधिकारः सुरक्षितः अस्ति ।"
+
+#: src/license.cpp:197
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Files "
+"licensed under AFL 3.0 must also include the notice \"Licensed under the "
+"Academic Free License version 3.0\" adjacent to the copyright notice."
+msgstr ""
+"स्वस्य स्रोतसङ्केतस्य मूलमध्ये पाठसञ्चिकां (सामान्यतया LICENSE अथवा LICENSE.txt इति नाम) "
+"रचयन्तु तथा च अनुज्ञापत्रस्य पाठं सञ्चिकायां प्रतिलिपयन्तु । AFL 3.0 इत्यस्य अन्तर्गतं "
+"अनुज्ञापत्रं प्राप्तेषु सञ्चिकासु प्रतिलिपिधर्मसूचनायाः समीपे \"Academic Free License "
+"version 3.0 इत्यस्य अन्तर्गतं अनुज्ञापत्रं प्राप्तम्\" इति सूचना अपि अवश्यं समाविष्टा "
+"भवितुमर्हति ।"
+
+#: src/license.cpp:199
+#, kde-format
+msgid ""
+"A permissive license whose main conditions require preservation of copyright "
+"and license notices. Contributors provide an express grant of patent rights. "
+"Licensed works, modifications, and larger works may be distributed under "
+"different terms and without source code."
+msgstr ""
+"अनुमतं अनुज्ञापत्रं यस्य मुख्यशर्तैः प्रतिलिपिधर्मस्य अनुज्ञापत्रसूचनानां च संरक्षणं आवश्यकम् । "
+"योगदातारः पेटन्ट-अधिकारस्य स्पष्ट-अनुदानं ददति । अनुज्ञापत्राणि, परिवर्तनानि, बृहत्तराणि "
+"कार्याणि च भिन्नपदानां अन्तर्गतं स्रोतसङ्केतं विना च वितरितुं शक्यन्ते ।"
+
+#: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
+#: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
+#: src/license.cpp:245 src/license.cpp:251 src/license.cpp:254
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file."
+msgstr ""
+"स्वस्य स्रोतसङ्केतस्य मूलमध्ये पाठसञ्चिकां (सामान्यतया LICENSE अथवा LICENSE.txt इति नाम) "
+"रचयन्तु तथा च अनुज्ञापत्रस्य पाठं सञ्चिकायां प्रतिलिपयन्तु ।"
+
+#: src/license.cpp:202
+#, kde-format
+msgid ""
+"The BSD Zero Clause license goes further than the BSD 2-Clause license to "
+"allow you unlimited freedom with the software without requirements to "
+"include the copyright notice, license text, or disclaimer in either source "
+"or binary forms."
+msgstr ""
+"BSD शून्यखण्डस्य अनुज्ञापत्रं BSD 2-खण्डस्य अनुज्ञापत्रात् अधिकं गच्छति यत् प्रतिलिपिधर्मसूचना, "
+"अनुज्ञापत्रपाठं, अथवा अस्वीकरणं स्रोतः अथवा द्विचक्रीयरूपेण समावेशयितुं आवश्यकतां विना "
+"सॉफ्टवेयरेन सह असीमितस्वतन्त्रतां ददाति।"
+
+#: src/license.cpp:203
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file.  Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders. You may take the additional step of removing the "
+"copyright notice."
+msgstr ""
+"स्वस्य स्रोतसङ्केतस्य मूलमध्ये पाठसञ्चिकां (सामान्यतया LICENSE अथवा LICENSE.txt इति नाम) "
+"रचयन्तु तथा च अनुज्ञापत्रस्य पाठं सञ्चिकायां प्रतिलिपयन्तु । [year] इत्यस्य स्थाने "
+"वर्तमानवर्षं, [fullname] इत्यस्य स्थाने प्रतिलिपिधर्मधारकाणां नाम (अथवा नामानि) "
+"स्थापयन्तु । भवान् प्रतिलिपिधर्मसूचनाम् अपसारयितुं अतिरिक्तं पदं स्वीकुर्यात् ।"
+
+#: src/license.cpp:205
+#, kde-format
+msgid ""
+"A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
+"Clause. Both have very minute differences to the MIT license."
+msgstr ""
+"एकः अनुमतः अनुज्ञापत्रः यः द्वयोः प्रकारयोः आगच्छति, BSD 2-Clause तथा BSD 3-Clause "
+"इति । उभयोः एमआइटी-अनुज्ञापत्रेण सह अतीव सूक्ष्मभेदः अस्ति ।"
+
+#: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
+#: src/license.cpp:248
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders."
+msgstr ""
+"स्वस्य स्रोतसङ्केतस्य मूलमध्ये पाठसञ्चिकां (सामान्यतया LICENSE अथवा LICENSE.txt इति नाम) "
+"रचयन्तु तथा च अनुज्ञापत्रस्य पाठं सञ्चिकायां प्रतिलिपयन्तु । [year] इत्यस्य स्थाने "
+"वर्तमानवर्षं, [fullname] इत्यस्य स्थाने प्रतिलिपिधर्मधारकाणां नाम (अथवा नामानि) "
+"स्थापयन्तु ।"
+
+#: src/license.cpp:208
+#, kde-format
+msgid ""
+"A permissive license similar to the BSD 2-Clause License, but with a 3rd "
+"clause that prohibits others from using the name of the project or its "
+"contributors to promote derived products without written consent."
+msgstr ""
+"BSD 2-खण्ड-अनुज्ञापत्रस्य सदृशं अनुमत-अनुज्ञापत्रं, परन्तु तृतीय-खण्डेन सह यत् अन्येषां कृते लिखित-"
+"सहमतिं विना व्युत्पन्न-उत्पादानाम् प्रचारार्थं परियोजनायाः नाम वा तस्य योगदातृणां वा "
+"उपयोगं कर्तुं निषिद्धं भवति"
+
+#: src/license.cpp:211
+#, kde-format
+msgid ""
+"A variant of the BSD 3-Clause License that explicitly does not grant any "
+"patent rights."
+msgstr ""
+"BSD 3-Clause License इत्यस्य एकः प्रकारः यः स्पष्टतया किमपि पेटन्ट-अधिकारं न ददाति ।"
+
+#: src/license.cpp:214
+#, kde-format
+msgid ""
+"A permissive license similar to the BSD 3-Clause License, but with an "
+"\"advertising clause\" that requires an acknowledgment of the original "
+"source in all advertising material."
+msgstr ""
+"BSD 3-Clause License इत्यस्य सदृशः अनुमतः अनुज्ञापत्रः, परन्तु \"विज्ञापनखण्डः\" अस्ति "
+"यस्य कृते सर्वेषु विज्ञापनसामग्रीषु मूलस्रोतस्य स्वीकृतिः आवश्यकी भवति"
+
+#: src/license.cpp:215
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders. Replace [project] with the project organization, if any, "
+"that sponsors this work."
+msgstr ""
+"स्वस्य स्रोतसङ्केतस्य मूलमध्ये पाठसञ्चिकां (सामान्यतया LICENSE अथवा LICENSE.txt इति नाम) "
+"रचयन्तु तथा च अनुज्ञापत्रस्य पाठं सञ्चिकायां प्रतिलिपयन्तु । [year] इत्यस्य स्थाने "
+"वर्तमानवर्षं, [fullname] इत्यस्य स्थाने प्रतिलिपिधर्मधारकाणां नाम (अथवा नामानि) "
+"स्थापयन्तु । [परियोजना] इत्यस्य स्थाने परियोजनासङ्गठनं स्थापयन्तु, यदि अस्ति, यत् अस्य "
+"कार्यस्य प्रायोजकं भवति ।"
+
+#: src/license.cpp:217
+#, kde-format
+msgid ""
+"A simple permissive license only requiring preservation of copyright and "
+"license notices for source (and not binary) distribution. Licensed works, "
+"modifications, and larger works may be distributed under different terms and "
+"without source code."
+msgstr ""
+"केवलं स्रोतस्य (न तु द्विचक्रीयस्य) वितरणार्थं प्रतिलिपिधर्मस्य संरक्षणस्य अनुज्ञापत्रसूचनानां च "
+"आवश्यकतां विद्यमानः सरलः अनुमतः अनुज्ञापत्रः । अनुज्ञापत्राणि, परिवर्तनानि, बृहत्तराणि "
+"कार्याणि च भिन्नपदानां अन्तर्गतं स्रोतसङ्केतं विना च वितरितुं शक्यन्ते ।"
+
+#: src/license.cpp:220
+#, kde-format
+msgid ""
+"The Creative Commons CC0 Public Domain Dedication waives copyright interest "
+"in a work you've created and dedicates it to the world-wide public domain. "
+"Use CC0 to opt out of copyright entirely and ensure your work has the widest "
+"reach. As with the Unlicense and typical software licenses, CC0 disclaims "
+"warranties. CC0 is very similar to the Unlicense."
+msgstr ""
+"क्रिएटिव कॉमन्स CC0 सार्वजनिकक्षेत्रसमर्पणं भवता निर्मितस्य कार्यस्य प्रतिलिपिधर्मरुचिं माफं "
+"करोति तथा च विश्वव्यापी सार्वजनिकक्षेत्राय समर्पयति। प्रतिलिपिधर्मात् पूर्णतया बहिः गन्तुं "
+"CC0 इत्यस्य उपयोगं कुर्वन्तु तथा च भवतः कार्यस्य व्यापकतमं व्याप्तिम् सुनिश्चितं कुर्वन्तु। यथा "
+"Unlicense तथा विशिष्टसॉफ्टवेयर अनुज्ञापत्रेषु, CC0 वारण्टीं अङ्गीकुर्वति । CC0 इत्येतत् "
+"Unlicense इत्यस्य बहु सदृशम् अस्ति ।"
+
+#: src/license.cpp:223
+#, kde-format
+msgid ""
+"Permits almost any use subject to providing credit and license notice. "
+"Frequently used for media assets and educational materials. The most common "
+"license for Open Access scientific publications. Not recommended for "
+"software."
+msgstr ""
+"क्रेडिट् तथा अनुज्ञापत्रसूचना प्रदातुं अधीनं प्रायः कस्यापि उपयोगस्य अनुमतिं ददाति। "
+"मीडियासम्पत्त्याः शैक्षिकसामग्रीणां च कृते बहुधा उपयुज्यते । मुक्तप्रवेशवैज्ञानिकप्रकाशनानां कृते "
+"सर्वाधिकं सामान्यं अनुज्ञापत्रम् । सॉफ्टवेयरस्य कृते न अनुशंसितम्।"
+
+#: src/license.cpp:224 src/license.cpp:227
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. It is also "
+"acceptable to solely supply a link to a copy of the license, usually to the "
+"canonical URL for the license."
+msgstr ""
+"स्वस्य स्रोतसङ्केतस्य मूलमध्ये पाठसञ्चिकां (सामान्यतया LICENSE अथवा LICENSE.txt इति नाम) "
+"रचयन्तु तथा च अनुज्ञापत्रस्य पाठं सञ्चिकायां प्रतिलिपयन्तु । केवलं अनुज्ञापत्रस्य प्रतिलिपिं "
+"प्रति, प्रायः अनुज्ञापत्रस्य विहित-URL प्रति, लिङ्कं आपूर्तिः अपि स्वीकार्यम् ।"
+
+#: src/license.cpp:226
+#, kde-format
+msgid ""
+"Similar to CC-BY-4.0 but requires derivatives be distributed under the same "
+"or a similar, compatible license. Frequently used for media assets and "
+"educational materials. A previous version is the default license for "
+"Wikipedia and other Wikimedia projects. Not recommended for software."
+msgstr ""
+"CC-BY-4.0 इत्यस्य सदृशं किन्तु व्युत्पन्नस्य वितरणं समानस्य अथवा तत्सदृशस्य, संगतस्य "
+"अनुज्ञापत्रस्य अन्तर्गतं करणीयम् इति आवश्यकम् । मीडियासम्पत्त्याः शैक्षिकसामग्रीणां च कृते बहुधा "
+"उपयुज्यते । पूर्वसंस्करणं विकिपीडिया-अन्यविकिमीडिया-प्रकल्पानां पूर्वनिर्धारित-अनुज्ञापत्रम् "
+"अस्ति । सॉफ्टवेयरस्य कृते न अनुशंसितम्।"
+
+#: src/license.cpp:229
+#, kde-format
+msgid ""
+"This commercially-friendly copyleft license provides the ability to "
+"commercially license binaries; a modern royalty-free patent license grant; "
+"and the ability for linked works to use other licenses, including commercial "
+"ones."
+msgstr ""
+"इदं व्यावसायिकरूपेण-अनुकूलं प्रतिलिफ्ट-अनुज्ञापत्रं व्यावसायिकरूपेण द्विचक्रीय-अनुज्ञापत्रं दातुं "
+"क्षमतां प्रदाति; आधुनिकं रॉयल्टी-रहितं पेटन्ट-अनुज्ञापत्रं अनुदानं; तथा च लिङ्क्ड् कार्याणां कृते "
+"अन्येषां अनुज्ञापत्राणां उपयोगस्य क्षमता, यत्र व्यावसायिकाः अपि सन्ति ।"
+
+#: src/license.cpp:232
+#, kde-format
+msgid ""
+"The GNU GPL is the most widely used free software license and has a strong "
+"copyleft requirement. When distributing derived works, the source code of "
+"the work must be made available under the same license. There are multiple "
+"variants of the GNU GPL, each with different requirements."
+msgstr ""
+"GNU GPL सर्वाधिकं प्रयुक्तं मुक्तसॉफ्टवेयर-अनुज्ञापत्रम् अस्ति तथा च अस्य प्रबलं प्रतिलिफ्ट-"
+"आवश्यकता अस्ति । व्युत्पन्नकृतीनां वितरणकाले कार्यस्य स्रोतसङ्केतः समानानुज्ञापत्रेण उपलब्धः "
+"भवितुमर्हति । GNU GPL इत्यस्य बहुविधाः प्रकाराः सन्ति, प्रत्येकस्य भिन्नाः आवश्यकताः सन्ति "
+"।"
+
+#: src/license.cpp:235
+#, kde-format
+msgid ""
+"Permissions of this strong copyleft license are conditioned on making "
+"available complete source code of licensed works and modifications, which "
+"include larger works using a licensed work, under the same license. "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights."
+msgstr ""
+"अस्य सशक्तस्य प्रतिलिफ्ट-अनुज्ञापत्रस्य अनुमतिः अनुज्ञापत्र-कृतानां परिवर्तनानां च सम्पूर्ण-स्रोत-"
+"सङ्केतं उपलब्धं कर्तुं शर्तं भवति, येषु अनुज्ञापत्र-कृतस्य उपयोगेन बृहत्तराणि कार्याणि सन्ति, समान-"
+"अनुज्ञापत्रस्य अन्तर्गतम् प्रतिलिपिधर्मस्य अनुज्ञापत्रसूचनानां च संरक्षणं करणीयम्। योगदातारः "
+"पेटन्ट-अधिकारस्य स्पष्ट-अनुदानं ददति ।"
+
+#: src/license.cpp:236
+#, kde-format
+msgid ""
+"Create a text file (typically named COPYING, as per GNU conventions) in the "
+"root of your source code and copy the text of the license into the file."
+msgstr ""
+"स्वस्य स्रोतसङ्केतस्य मूलमध्ये पाठसञ्चिकां (सामान्यतया COPYING इति नाम, GNU रूढिनुसारम्) "
+"रचयन्तु तथा च अनुज्ञापत्रस्य पाठं सञ्चिकायां प्रतिलिपयन्तु ।"
+
+#: src/license.cpp:238
+#, kde-format
+msgid ""
+"Primarily used for software libraries, the GNU LGPL requires that derived "
+"works be licensed under the same license, but works that only link to it do "
+"not fall under this restriction. There are two commonly used versions of the "
+"GNU LGPL."
+msgstr ""
+"मुख्यतया सॉफ्टवेयरपुस्तकालयानां कृते उपयुज्यमानं GNU LGPL इत्यस्य आवश्यकता अस्ति यत् "
+"व्युत्पन्नकार्यस्य अनुज्ञापत्रं समानानुज्ञापत्रस्य अन्तर्गतं भवतु, परन्तु केवलं तया सह सम्बद्धानि "
+"कार्याणि अस्मिन् प्रतिबन्धे न पतन्ति GNU LGPL इत्यस्य सामान्यतया प्रयुक्तौ संस्करणौ स्तः ।"
+
+#: src/license.cpp:241
+#, kde-format
+msgid ""
+"Permissions of this copyleft license are conditioned on making available "
+"complete source code of licensed works and modifications under the same "
+"license or the GNU GPLv3. Copyright and license notices must be preserved. "
+"Contributors provide an express grant of patent rights. However, a larger "
+"work using the licensed work through interfaces provided by the licensed "
+"work may be distributed under different terms and without source code for "
+"the larger work."
+msgstr ""
+"अस्य प्रतिलिफ्ट-अनुज्ञापत्रस्य अनुमतिः तस्यैव अनुज्ञापत्रस्य अथवा GNU GPLv3 इत्यस्य अन्तर्गतं "
+"अनुज्ञापत्र-कृतानां परिवर्तनानां च सम्पूर्ण-स्रोत-सङ्केतं उपलब्धं कर्तुं शर्तं भवति । "
+"प्रतिलिपिधर्मस्य अनुज्ञापत्रसूचनानां च संरक्षणं करणीयम्। योगदातारः पेटन्ट-अधिकारस्य स्पष्ट-"
+"अनुदानं ददति । परन्तु अनुज्ञापत्रकृतकार्यद्वारा प्रदत्तस्य अन्तरफलकानां माध्यमेन "
+"अनुज्ञापत्रकार्यस्य उपयोगेन बृहत्तरं कार्यं भिन्नपदानां अन्तर्गतं बृहत्तरकार्यस्य स्रोतसङ्केतं विना "
+"च वितरितुं शक्यते"
+
+#: src/license.cpp:242
+#, kde-format
+msgid ""
+"This license is an additional set of permissions to the GNU GPLv3 license. "
+"Follow the instructions to apply the GNU GPLv3, in the root of your source "
+"code. Then add another file named COPYING.LESSER and copy the text."
+msgstr ""
+"इदं अनुज्ञापत्रं GNU GPLv3 अनुज्ञापत्रस्य अतिरिक्तसमुच्चयः अस्ति । GNU GPLv3 प्रयोक्तुं "
+"निर्देशान् अनुसृत्य, स्वस्य स्रोतसङ्केतस्य मूले । ततः COPYING.LESSER इति अन्यं सञ्चिकां "
+"योजयित्वा पाठस्य प्रतिलिपिं कुर्वन्तु ।"
+
+#: src/license.cpp:244
+#, kde-format
+msgid ""
+"Permissions of this strongest copyleft license are conditioned on making "
+"available complete source code of licensed works and modifications, which "
+"include larger works using a licensed work, under the same license. "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights. When a modified version is used to provide a "
+"service over a network, the complete source code of the modified version "
+"must be made available."
+msgstr ""
+"अस्य सशक्ततमस्य प्रतिलिफ्ट-अनुज्ञापत्रस्य अनुमतिः तस्यैव अनुज्ञापत्रस्य अन्तर्गतं अनुज्ञापत्र-"
+"कृतानां परिवर्तनानां च सम्पूर्ण-स्रोत-सङ्केतं उपलब्धं कर्तुं शर्तं भवति, येषु अनुज्ञापत्र-कृतस्य "
+"उपयोगेन बृहत्तराणि कार्याणि सन्ति प्रतिलिपिधर्मस्य अनुज्ञापत्रसूचनानां च संरक्षणं करणीयम्। "
+"योगदातारः पेटन्ट-अधिकारस्य स्पष्ट-अनुदानं ददति । यदा जालपुटेन सेवां दातुं परिवर्तितसंस्करणस्य "
+"उपयोगः भवति तदा परिवर्तितसंस्करणस्य सम्पूर्णः स्रोतसङ्केतः उपलब्धः भवितुमर्हति ।"
+
+#: src/license.cpp:247
+#, kde-format
+msgid ""
+"A short and simple permissive license with conditions only requiring "
+"preservation of copyright and license notices. Licensed works, "
+"modifications, and larger works may be distributed under different terms and "
+"without source code."
+msgstr ""
+"केवलं प्रतिलिपिधर्मस्य संरक्षणस्य आवश्यकतां जनयति इति शर्तैः सह लघुः सरलः च अनुमतः "
+"अनुज्ञापत्रः । अनुज्ञापत्राणि, परिवर्तनानि, बृहत्तराणि कार्याणि च भिन्नपदानां अन्तर्गतं "
+"स्रोतसङ्केतं विना च वितरितुं शक्यन्ते ।"
+
+#: src/license.cpp:250
+#, kde-format
+msgid ""
+"Permissions of this weak copyleft license are conditioned on making "
+"available source code of licensed files and modifications of those files "
+"under the same license (or in certain cases, one of the GNU licenses). "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights. However, a larger work using the licensed "
+"work may be distributed under different terms and without source code for "
+"files added in the larger work."
+msgstr ""
+"अस्य दुर्बलस्य प्रतिलिफ्ट-अनुज्ञापत्रस्य अनुमतिः अनुज्ञापत्र-सञ्चिकानां स्रोत-सङ्केतं उपलब्धं कर्तुं "
+"तथा च समान-अनुज्ञापत्रस्य (अथवा कतिपयेषु सन्दर्भेषु, GNU-अनुज्ञापत्रेषु एकस्य) अन्तर्गतं तासां "
+"सञ्चिकानां परिवर्तनं च शर्तं भवति प्रतिलिपिधर्मस्य अनुज्ञापत्रसूचनानां च संरक्षणं करणीयम्। "
+"योगदातारः पेटन्ट-अधिकारस्य स्पष्ट-अनुदानं ददति । परन्तु अनुज्ञापत्रं प्राप्तं कार्यं उपयुज्य "
+"बृहत्तरं कार्यं भिन्नपदानां अन्तर्गतं बृहत्तरे कार्ये योजितानां सञ्चिकानां स्रोतसङ्केतं विना च "
+"वितरितुं शक्यते ।"
+
+#: src/license.cpp:253
+#, kde-format
+msgid ""
+"The easiest license out there. It gives the user permissions to do whatever "
+"they want with your code."
+msgstr ""
+"तत्र बहिः सर्वाधिकं सुलभं अनुज्ञापत्रम्। एतत् उपयोक्त्रे भवतः कोडेन यत् इच्छति तत् कर्तुं अनुमतिं "
+"ददाति ।"
+
+#: src/license.cpp:256
+#, kde-format
+msgid ""
+"A license with no conditions whatsoever which dedicates works to the public "
+"domain. Unlicensed works, modifications, and larger works may be distributed "
+"under different terms and without source code."
+msgstr ""
+"एकं अनुज्ञापत्रं यस्य कस्यापि शर्ताः नास्ति यत् कार्याणि सार्वजनिकक्षेत्राय समर्पयति। "
+"अनुज्ञापत्रं विना कार्याणि, परिवर्तनानि, बृहत्तराणि कार्याणि च भिन्नशर्तैः स्रोतसङ्केतं विना "
+"च वितरितुं शक्यन्ते ।"
+
+#: src/license.cpp:257
+#, kde-format
+msgid ""
+"Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root "
+"of your source code and copy the text of the license disclaimer into the "
+"file."
+msgstr ""
+"स्वस्य स्रोतसङ्केतस्य मूलमध्ये पाठसञ्चिकां (सामान्यतया UNLICENSE अथवा UNLICENSE.txt इति "
+"नाम) रचयन्तु तथा च अनुज्ञापत्रस्य अस्वीकरणस्य पाठं सञ्चिकायां प्रतिलिख्यताम् ।"
+
+#: src/main.cpp:43
+#, kde-format
+msgctxt "@title"
+msgid "Licentia"
+msgstr "लाइसेंसिया"
+
+#: src/main.cpp:47
+#, kde-format
+msgid "Choose a license for your project"
+msgstr "स्वस्य परियोजनायाः कृते अनुज्ञापत्रं चिनुत"
+
+#: src/main.cpp:51
+#, kde-format
+msgid "© Felipe 2022"
+msgstr "© फेलिप 2022"
+
+#: src/main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "फेलिप किनोशिता"
+
+#: src/main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "लेखकः"
+
+#: src/main.cpp:54
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: src/main.cpp:54
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: src/ui/GlobalMenu.qml:15
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "संचिका"
+
+#: src/ui/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "परिजहातु"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "सम्पादन"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Copy license to clipboard"
+msgstr "अनुज्ञापत्रं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
+
+#: src/ui/GlobalMenu.qml:42
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "साहाय्यम्‌"
+
+#: src/ui/GlobalMenu.qml:45
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "बगस्य सूचनां ददातु..."
+
+#: src/ui/GlobalMenu.qml:51 src/ui/Main.qml:82
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Licentia"
+msgstr "लिसेन्शिया इत्यस्य विषये"
+
+#: src/ui/GlobalMenu.qml:55 src/ui/Main.qml:86
+#, kde-format
+msgid "About Licentia"
+msgstr "लिसेन्शिया इत्यस्य विषये"
+
+#: src/ui/LicensePanel.qml:68
+#, kde-format
+msgctxt "About [License SPDX identifier]"
+msgid "About %1"
+msgstr "%1 इत्यस्य विषये"
+
+#: src/ui/LicensePanel.qml:74
+#, kde-format
+msgid "License Source"
+msgstr "अनुज्ञापत्रस्य स्रोतः"
+
+#: src/ui/LicensePanel.qml:115
+#, kde-format
+msgid "How to:"
+msgstr "कथं : १."
+
+#: src/ui/LicensePanel.qml:138
+#, kde-format
+msgid "Permissions:"
+msgstr "अनुमतिः : १."
+
+#: src/ui/LicensePanel.qml:169
+#, kde-format
+msgid "Conditions:"
+msgstr "दशावस्था:"
+
+#: src/ui/LicensePanel.qml:177
+#, kde-format
+msgid "(no conditions)"
+msgstr "(न शर्ताः) २."
+
+#: src/ui/LicensePanel.qml:210
+#, kde-format
+msgid "Limitations:"
+msgstr "सीमाः : १."
+
+#: src/ui/LicensePanel.qml:218
+#, kde-format
+msgid "(no limitations)"
+msgstr "(कोऽपि सीमाः नास्ति) २."
+
+#: src/ui/LicensePanel.qml:253
+#, kde-format
+msgid "Projects using:"
+msgstr "उपयोगेन परियोजनानि : १."
+
+#: src/ui/Main.qml:17
+#, kde-format
+msgid "Licentia"
+msgstr "लाइसेंसिया"
+
+#: src/ui/PageHeader.qml:22
+#, kde-format
+msgid "Original License"
+msgstr "मूल अनुज्ञापत्र"
+
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "Copy License to Clipboard (Ctrl+C)"
+msgstr "क्लिप्बोर्ड् (Ctrl+C) इत्यत्र अनुज्ञापत्रस्य प्रतिलिपिं कुर्वन्तु ।"
+
+#: src/ui/PageHeader.qml:58
+#, kde-format
+msgid "About License"
+msgstr "अनुज्ञापत्रस्य विषये"
