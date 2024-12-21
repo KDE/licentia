@@ -7,15 +7,14 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-18 08:44+0200\n"
+"PO-Revision-Date: 2024-12-20 14:08+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
-"n % 10 == 0) ? 2 : 3));\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 24.12.0\n"
 
 #: src/license.cpp:89
@@ -321,6 +320,7 @@ msgid ""
 "A variant of the BSD 3-Clause License that explicitly does not grant any "
 "patent rights."
 msgstr ""
+"הגוון של רישיון BSD תלת־סעיפי שלא מעניק זכויות כלשהן על הפטנטים במפורש."
 
 #: src/license.cpp:214
 #, kde-format
@@ -329,6 +329,8 @@ msgid ""
 "\"advertising clause\" that requires an acknowledgment of the original "
 "source in all advertising material."
 msgstr ""
+"רישיון מתירני בדומה לרישיון 3 הסעיפים של BSD, אבל עם „פסקת פרסום” שדורשת "
+"הוקרה לקוד המקור בכל חומרי הפרסום."
 
 #: src/license.cpp:215
 #, kde-format
@@ -355,6 +357,9 @@ msgid ""
 "modifications, and larger works may be distributed under different terms and "
 "without source code."
 msgstr ""
+"רישיון מתירני פשוט שרק דורש שימור של זכויות יוצרים והכרזות רישוי להפצת קוד "
+"המקור (לא לתוצרים הבינריים). יצירות שכפופות לרישיון, שינויים ויצירות גדולות "
+"יותר ניתן להפיץ בכפוף לתנאים שונים וללא קוד המקור."
 
 #: src/license.cpp:220
 #, kde-format
@@ -413,6 +418,9 @@ msgid ""
 "the work must be made available under the same license. There are multiple "
 "variants of the GNU GPL, each with different requirements."
 msgstr ""
+"GPL מבית גנו הוא רישיון התוכנה החופשית הנפוץ ביותר ויש לו דרישות "
+"„קופילפט” (הבטחה לשמירה על חופש). בעת הפצת יצירות נגזרות, יש להנגיש את קוד "
+"תחת אותו הרישיון. יש מגוון הגוונים של GPL מבית גנו, לכל אחד מהם דרישות שונות."
 
 #: src/license.cpp:235
 #, kde-format
@@ -482,6 +490,9 @@ msgid ""
 "modifications, and larger works may be distributed under different terms and "
 "without source code."
 msgstr ""
+"רישיון קצר ומתירני פשוט שרק דורש שימור של זכויות יוצרים והכרזות רישוי. "
+"יצירות שכפופות לרישיון, שינויים ויצירות גדולות יותר ניתן להפיץ בכפוף לתנאים "
+"שונים וללא קוד המקור."
 
 #: src/license.cpp:250
 #, kde-format
@@ -501,6 +512,8 @@ msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
 "they want with your code."
 msgstr ""
+"הרישיון הכי פשוט שיש. הוא מספק למשתמש הרשאות לעשות על שעולה על רוחו עם הקוד "
+"שלך."
 
 #: src/license.cpp:256
 #, kde-format
