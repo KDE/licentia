@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-20 14:08+0200\n"
+"PO-Revision-Date: 2024-12-21 19:09+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -263,6 +263,9 @@ msgid ""
 "include the copyright notice, license text, or disclaimer in either source "
 "or binary forms."
 msgstr ""
+"רישיון BSD האפס־סעיפי מרחיק לכת מעבר לרישיון BSD הדו־סעיפי כדי להרשות לך "
+"חופש בלתי מוגבל עם התוכנה ללא דרישות לכלול הצהרת זכויות יוצרים, טקסט רישיון, "
+"או כתב ויתור כחלק מצורת קוד המקור או הבינרית."
 
 #: src/license.cpp:203
 #, kde-format
@@ -313,6 +316,8 @@ msgid ""
 "clause that prohibits others from using the name of the project or its "
 "contributors to promote derived products without written consent."
 msgstr ""
+"רישיון מתירני שדומה לרישיון BSD הדו־סעיפי, אבל עם סעיף שלישי שמונע מאחרים "
+"להשתמש בשם המיזם או במתנדבים שלו כדי לקדם מוצר נגזר ללא רשות."
 
 #: src/license.cpp:211
 #, kde-format
@@ -449,6 +454,9 @@ msgid ""
 "not fall under this restriction. There are two commonly used versions of the "
 "GNU LGPL."
 msgstr ""
+"משמש בעיקר לספריות תוכנה, LGPL מבית גנו דורש שיצירות נגזרות תהיינה כפופות "
+"לאותו הרישיון, אבל יצירות שרק מקשרות אליו לא נדרשות למגבלה הזאת. יש שתי "
+"גרסאות נפוצות של LGPL מבית גנו בשימוש."
 
 #: src/license.cpp:241
 #, kde-format

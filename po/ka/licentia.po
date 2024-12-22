@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-18 03:55+0100\n"
+"PO-Revision-Date: 2024-12-21 23:40+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -280,6 +280,10 @@ msgid ""
 "include the copyright notice, license text, or disclaimer in either source "
 "or binary forms."
 msgstr ""
+"BSD ნულპუნქტიანი ლიცენზია უფრო შორს მიდის, ვიდრე BSD 2-პუნქტიანი ლიცენზია, "
+"რომ მოგცეთ განუსაზღვრელი თავისუფლება პროგრამულ უზრუნველყოფაზე საავტორო "
+"უფლებების შესახებ გაფრთხილების, ლიცენზიის ტექსტის, ან პასუხისმგებლობის "
+"უარყოფის ტექსტური ან ბინარული სახით ჩასმის აუცილებლობის გარეშე."
 
 #: src/license.cpp:203
 #, kde-format
@@ -332,6 +336,9 @@ msgid ""
 "clause that prohibits others from using the name of the project or its "
 "contributors to promote derived products without written consent."
 msgstr ""
+"დაშვებადი ლიცენზია ჰგავს BSD 2-პუნქტიან ლიცენზიას, მაგრამ ამატებს მესამე "
+"პუნქტს, რომელიც უკრძალავს სხვებს, ამ პროექტის სახელი გამოიყენონ, ან მისმა "
+"მოხალისეებმა წაახალისონ მისგან მიღებული პროდუქტი წერილობით თანხმობის გარეშე."
 
 #: src/license.cpp:211
 #, kde-format
@@ -349,6 +356,9 @@ msgid ""
 "\"advertising clause\" that requires an acknowledgment of the original "
 "source in all advertising material."
 msgstr ""
+"დაშვებადი ლიცენზია, რომელიც BSD 3-პუნქტიან ლიცენზიას წააგავს, მაგრამ "
+"\"სარეკლამო პუნქტით\", რომელიც რეკლამის მასალაში ორიგინალური წყაროს "
+"აღიარებას მოითხოვს."
 
 #: src/license.cpp:215
 #, kde-format
@@ -376,6 +386,10 @@ msgid ""
 "modifications, and larger works may be distributed under different terms and "
 "without source code."
 msgstr ""
+"მარტივი დაშვებადი ლიცენზია, რომელიც, მხოლოდ, საავტორო უფლებებისა და "
+"ლიცენზიის შენარჩუნებას მოითხოვს წყაროს (და არა ბინარული ფორმის) "
+"გასავრცელებლად. დალიცენზებული სამუშაოები, ცვლილებები და დიდი ცვლილებები, "
+"შეიძლება, სხვა პირობებით და წყარო კოდის გარეშე გავრცელდეს."
 
 #: src/license.cpp:220
 #, kde-format
@@ -386,6 +400,12 @@ msgid ""
 "reach. As with the Unlicense and typical software licenses, CC0 disclaims "
 "warranties. CC0 is very similar to the Unlicense."
 msgstr ""
+"Creative Commons CC0 Public Domain Dedication უარს ამბობს საავტორო უფლებების "
+"ინტერესზე სამუშაოზე, რომელიც თქვენ შექმენით და უძღვნის მას საზოგადოებას "
+"მსოფლიო მასშტაბით. გამოიყენეთ CC0, რომ მთლიანად უარი თქვათ საავტორო "
+"უფლებებზე და დარწმუნდეთ, რომ თქვენი ნამუშევარი ყველას მაღწევს. როგორც ეს "
+"Unlicense-სთან და ტიპიური პროგრამის ლიცენზიებში ხდება, CC0 უარყოფს "
+"გარანტიას. CC0 ძალიან წააგავს Unlicense ლიცენზიას."
 
 #: src/license.cpp:223
 #, kde-format
@@ -395,6 +415,10 @@ msgid ""
 "license for Open Access scientific publications. Not recommended for "
 "software."
 msgstr ""
+"უშვებს სუბიექტის თითქმის ნებისმიერი გზის გამოყენებას ლიცენზიის და საავტორო "
+"უფლებების გადასაცემად. ხშირად გამოიყენება მედია აქტივებისა და "
+"საგანმანათლებლო მასალებისთვის. ყველაზე გავრცელებული ლიცენზია ღია წვდომის "
+"სამეცნიერო გამოცემებისთვის. პროგრამებისთვის რეკომენდებული არაა."
 
 #: src/license.cpp:224 src/license.cpp:227
 #, kde-format
@@ -416,6 +440,10 @@ msgid ""
 "educational materials. A previous version is the default license for "
 "Wikipedia and other Wikimedia projects. Not recommended for software."
 msgstr ""
+"ჰგავს CC-BY-4.0-ს, მაგრამ სჭირდება, რომ წარმოებული მასალები ვრცელდებოდეს "
+"იგივე, ან მსგავსი, თავსებადი ლიცენზიით. ხშირად გამოიყენება მედია და "
+"საგანმანათლებლო მასალებისთვის. წინა ვერსია ნაგულისხმევია ლიცენზიაა Wikipedia-"
+"ის და Wikimedia-ის სხვა პროექტებისთვის. პროგრამებისთვის რეკომენდებული არაა."
 
 #: src/license.cpp:229
 #, kde-format
@@ -425,6 +453,10 @@ msgid ""
 "and the ability for linked works to use other licenses, including commercial "
 "ones."
 msgstr ""
+"კომერციულ პროგრამებთან მეგობრული ლიცენზია, რომელიც გაძლევთ საშუალებას, "
+"ბინარულ ფაილების კომერციული ლიცენზია დაადოთ. თანამედროვე უჰონორარო პატენტის "
+"ლიცენზიის გადაცემა და შესაძლებლობა, მიბმულმა ნამუშევრებმა გამოიყენონ სხვა "
+"ლიცენზიები, კომერციულის ჩათვლით."
 
 #: src/license.cpp:232
 #, kde-format
@@ -434,6 +466,10 @@ msgid ""
 "the work must be made available under the same license. There are multiple "
 "variants of the GNU GPL, each with different requirements."
 msgstr ""
+"GNU GPL ყველაზე ხშირად გამოყენებული პროგრამული ლიცენზიაა და გააჩნია ძლიერი "
+"უკულიცენზირების მოთხოვნა. მიღებული ნამუშევრების გავრცელებისას, აუცილებელია, "
+"ამ ნამუშევრის კოდი ხელმისაწვდომი იყოს იგივე ლიცენზიით. არსებობს GNU GPL-ის "
+"სხვადასხვა ვარიანტები, თითოეული თავისი მოთხოვნებით."
 
 #: src/license.cpp:235
 #, kde-format
@@ -444,6 +480,11 @@ msgid ""
 "Copyright and license notices must be preserved. Contributors provide an "
 "express grant of patent rights."
 msgstr ""
+"წვდომები ამ ძლიერ ღია ლიცენზიაზე ითხოვს, რომ დალიცენზებული ნამუშევრების და "
+"ცვლილებების სრული წყარო კოდი ხელმისაწვდომი იყოს. ეს შეიცავს დიდ ნამუშევრებს, "
+"რომლებიც დალიცენზებულ ნამუშევარს იყენებენ, იგივე ლიცენზიის ქვეშ. საავტორო "
+"უფლებები და ლიცენზიის შენიშვნები შენარჩუნებული უნდა იყოს. კონტრიბუტორები "
+"უზრუნველყოფენ პატენტის უფლებების გამოხატულ გაცემას."
 
 #: src/license.cpp:236
 #, kde-format
@@ -451,6 +492,9 @@ msgid ""
 "Create a text file (typically named COPYING, as per GNU conventions) in the "
 "root of your source code and copy the text of the license into the file."
 msgstr ""
+"შექმენით ტექსტური ფაილი (ჩვეულებრივ, სახელით COPYING, GNU-ის წესების "
+"მიხედვით) თქვენი წყარო კოდის ძირითად საქაღალდეში და ლიცენზიის ტექსტი შიგნით "
+"ჩააკოპირეთ."
 
 #: src/license.cpp:238
 #, kde-format
@@ -476,6 +520,13 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "the larger work."
 msgstr ""
+"ამ ასლის მართვის მოწმობის ნებართვები განპირობებულია ლიცენზირებული "
+"სამუშაოებისა და მოდიფიკაციების სრული კოდის შექმნაზე იმავე ლიცენზიით ან GNU "
+"GPLv3. დაცული უნდა იყოს საავტორო და სალიცენზიო შეტყობინებები. კონტრიბუტორები "
+"უზრუნველყოფენ პატენტის უფლებების ექსპრეს გრანტს. ამასთან, ლიცენზირებული "
+"ნაწარმოების გამოყენებით ლიცენზირებული სამუშაოს გამოყენებით უფრო დიდი სამუშაო "
+"შეიძლება განაწილდეს სხვადასხვა პირობებით და უფრო დიდი სამუშაოსთვის კოდის "
+"გარეშე."
 
 #: src/license.cpp:242
 #, kde-format
@@ -500,6 +551,13 @@ msgid ""
 "service over a network, the complete source code of the modified version "
 "must be made available."
 msgstr ""
+"ამ უძლიერესი კოპირების ლიცენზიის ნებართვა განპირობებულია ლიცენზირებული "
+"სამუშაოებისა და მოდიფიკაციების სრული კოდის შექმნაზე, რომელიც მოიცავს უფრო "
+"დიდ ნამუშევრებს ლიცენზირებული სამუშაოს გამოყენებით, იმავე ლიცენზიით. დაცული "
+"უნდა იყოს საავტორო უფლებები და სალიცენზიო შეტყობინებები. კონტრიბუტორები "
+"უზრუნველყოფენ პატენტის უფლებების ექსპრეს გრანტს. როდესაც შეცვლილი ვერსია "
+"გამოიყენება ქსელის მომსახურების უზრუნველსაყოფად, ხელმისაწვდომი უნდა იყოს "
+"შეცვლილი ვერსიის სრული კოდი."
 
 #: src/license.cpp:247
 #, kde-format
@@ -525,6 +583,13 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "files added in the larger work."
 msgstr ""
+"ამ სუსტი ასლის ლიცენზიის ნებართვები განპირობებულია ლიცენზირებული ფაილების "
+"წყაროს კოდისა და იმავე ლიცენზიით გათვალისწინებული ფაილების მოდიფიკაციების "
+"(ან გარკვეულ შემთხვევებში, GNU ლიცენზიის ერთ-ერთი) შესახებ. დაცული უნდა იყოს "
+"საავტორო უფლებები და სალიცენზიო შეტყობინებები. კონტრიბუტორები უზრუნველყოფენ "
+"პატენტის უფლებების ექსპრეს გრანტს. ამასთან, ლიცენზირებული ნაწარმოების "
+"გამოყენებით უფრო დიდი სამუშაო შეიძლება განაწილდეს სხვადასხვა პირობებით და "
+"უფრო დიდ ნაწარმოებში დამატებული ფაილების კოდის გარეშე."
 
 #: src/license.cpp:253
 #, kde-format
