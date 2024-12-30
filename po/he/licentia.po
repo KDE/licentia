@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-21 19:09+0200\n"
+"PO-Revision-Date: 2024-12-29 19:05+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -376,6 +376,11 @@ msgid ""
 "reach. As with the Unlicense and typical software licenses, CC0 disclaims "
 "warranties. CC0 is very similar to the Unlicense."
 msgstr ""
+"הקדשת נחלת הכלל CC0 של Creative Commons מוותרת על זכויות היוצרים ביצירה "
+"שיצרת ומקדישה אותה לנחלת הכלל העולמית. יש להשתמש ב־CC0 כדי לוותר לחלוטין על "
+"זכויות יוצרים ולהבטיח שליצירה שלך תהיה התפוצה הרחבה ביותר. בדומה לרישיון "
+"Unlicense ולרישיונות תוכנה טיפוסיים, CC0 מתנער מאחריות. CC0 דומה מאוד ל־"
+"Unlicense."
 
 #: src/license.cpp:223
 #, kde-format
@@ -385,6 +390,8 @@ msgid ""
 "license for Open Access scientific publications. Not recommended for "
 "software."
 msgstr ""
+"מתיר כמעט כל שימוש בכפוף להוקרה והצהרת רישיון. נפוץ לנכסי מדיה וחומרי לימוד. "
+"הרישיון הנפוץ ביותר לפרסומים מדעיים בגישה פתוחה. לא מומלץ לתוכנה."
 
 #: src/license.cpp:224 src/license.cpp:227
 #, kde-format
@@ -406,6 +413,9 @@ msgid ""
 "educational materials. A previous version is the default license for "
 "Wikipedia and other Wikimedia projects. Not recommended for software."
 msgstr ""
+"בדומה ל־CC-BY-4.0 אבל דורש שיצירות נגזרות יופצו תחת אותו רישיון או רישיון "
+"דומה ותואם. נפוץ לנכסי מדיה וחומרי לימוד. הגרסה הקודמת לזו היא רישיון ברירת "
+"המחדל של ויקיפדיה ומיזמי ויקימדיה אחרים. לא מומלץ לתוכנה."
 
 #: src/license.cpp:229
 #, kde-format
@@ -415,6 +425,9 @@ msgid ""
 "and the ability for linked works to use other licenses, including commercial "
 "ones."
 msgstr ""
+"רישיון „קופילפט” (הבטחה לשמירה על חופש) ידידותי למסחר שמספק את היכולת לאכוף "
+"רישיון מסחרי על קבצים בינריים, הענקת רישיון פטנט מודרני ללא תמלוגים, והיכולת "
+"ליצירות מקושרות להשתמש ברישיונות אחרים, כולל מסחריים."
 
 #: src/license.cpp:232
 #, kde-format
@@ -437,6 +450,10 @@ msgid ""
 "Copyright and license notices must be preserved. Contributors provide an "
 "express grant of patent rights."
 msgstr ""
+"הרשאות של רישיון „קופילפט” (הבטחה לשמירה על חופש) חזק זה מותנות בהנגשת קוד "
+"המקור המלא של יצירות ושינויים שכפופים לרישיון, שכוללים יצירות גדולות יותר "
+"שמשתמשות ביצירה שכפופה לרישיון, תחת אותו הרישיון. יש לשמר את הצהרות זכויות "
+"היוצרים והרישיון. התורמים מספקים הענקה מפורשת של זכויות פטנטים."
 
 #: src/license.cpp:236
 #, kde-format
@@ -470,6 +487,12 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "the larger work."
 msgstr ""
+"הרשאות של רישיון „קופילפט” (הבטחה לשמירה על חופש) זה מותנות בהנגשת קוד המקור "
+"המלא של יצירות ושינויים שכפופים לרישיון תחת אותו הרישיון או תחת גרסה 3 של "
+"GPL מבית גנו. יש לשמר את הצהרות זכויות היוצרים והרישיון. התורמים מספקים "
+"הענקה מפורשת של זכויות פטנטים. עם זאת, יצירה גדולה יותר שמשתמשת ביצירה "
+"שכפופה לרישיון דרך ממשקים שמסופקים על ידי היצירה שכפופה לרישיון יכולה להיות "
+"מופצת תחת תנאים שונים וללא קוד המקור של היצירה הגדולה יותר."
 
 #: src/license.cpp:242
 #, kde-format
@@ -478,6 +501,9 @@ msgid ""
 "Follow the instructions to apply the GNU GPLv3, in the root of your source "
 "code. Then add another file named COPYING.LESSER and copy the text."
 msgstr ""
+"הרישיון הזה הוא ערכת הרשאות נוספת לגרסה 3 של רישיון GPL מבית גנו. יש לעקוב "
+"אחר ההנחיות כדי להחיל את גרסה 3 של GPL מבית גנו, בתיקיית העל של קוד המקור "
+"שלך. לאחר מכן להוסיף קובץ נוסף בשם COPYING.LESSER ולהעתיק את הטקסט."
 
 #: src/license.cpp:244
 #, kde-format
@@ -490,6 +516,12 @@ msgid ""
 "service over a network, the complete source code of the modified version "
 "must be made available."
 msgstr ""
+"הרשאות של רישיון ה„קופילפט” (הבטחה לשמירה על חופש) החזק ביותר הזה מותנות "
+"בהנגשת קוד המקור המלא של יצירות ושינויים שכפופים לרישיון, שכוללים יצירות "
+"גדולות יותר שמשתמשות ביצירה שכפופה לרישיון, תחת אותו הרישיון. יש לשמר את "
+"הצהרות זכויות היוצרים והרישיון. התורמים מספקים הענקה מפורשת של זכויות "
+"פטנטים. כאשר גרסה שעברה שינויים משמשת לאספקת שירות דרך רשת, יש להנגיש את קוד "
+"המקור המלא של הגרסה ששונתה."
 
 #: src/license.cpp:247
 #, kde-format
@@ -514,6 +546,12 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "files added in the larger work."
 msgstr ""
+"הרשאות של רישיון „קופילפט” (הבטחה לשמירה על חופש) חלש זה מותנות בהנגשת קוד "
+"המקור של קבצים שכפופים לרישיון ושינויים של הקבצים האלה תחת אותו הרישיון (או "
+"במקרים מסוימים, אחד מהרישיונות של גנו). יש לשמר את הצהרות זכויות היוצרים "
+"והרישיון. התורמים מספקים הענקה מפורשת של זכויות פטנטים. עם זאת, יצירה גדולה "
+"יותר שמשתמשת ביצירה שכפופה לרישיון יכולה להיות מופצת תחת תנאים שונים וללא "
+"קוד המקור עבור קבצים שנוספו ליצירה הגדולה יותר."
 
 #: src/license.cpp:253
 #, kde-format
@@ -531,6 +569,8 @@ msgid ""
 "domain. Unlicensed works, modifications, and larger works may be distributed "
 "under different terms and without source code."
 msgstr ""
+"רישיון בלי תנאים כלל מה שמשחרר את היצירה לרשות הציבור. יצירות ללא רישיון, "
+"שינויים ויצירות גדולות יותר ניתן להפיץ בתנאים אחרים וללא קוד המקור."
 
 #: src/license.cpp:257
 #, kde-format
