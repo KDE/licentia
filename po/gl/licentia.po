@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the licentia package.
-# SPDX-FileCopyrightText: 2024 Adrián Chaves (Gallaecio)
+# SPDX-FileCopyrightText: 2024, 2025 Adrián Chaves (Gallaecio)
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-17 22:34+0100\n"
+"PO-Revision-Date: 2025-01-12 15:49+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -479,11 +479,11 @@ msgid ""
 "Copyright and license notices must be preserved. Contributors provide an "
 "express grant of patent rights."
 msgstr ""
-"Os permisos desta licenza fortemente recíproca requiren dar acceso coa mesma "
-"licenza ao código fonte completo das obras coa licenza e modificacións, "
-"incluídas obras máis grandes que usen unha obra coa licenza. As notas de "
-"autoría e licenza deben manterse. As persoas contribuidoras conceden "
-"expresamente dereitos de patentes."
+"Os permisos desta licenza fortemente recíproca requiren poñer a disposición "
+"coa mesma licenza ao código fonte completo das obras coa licenza e "
+"modificacións, incluídas obras máis grandes que usen unha obra coa licenza. "
+"As notas de autoría e licenza deben manterse. As persoas contribuidoras "
+"conceden expresamente dereitos de patentes."
 
 #: src/license.cpp:236
 #, kde-format
@@ -519,12 +519,13 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "the larger work."
 msgstr ""
-"Os permisos desta licenza recíproca requiren dar acceso coa mesma licenza ou "
-"coa GNU GPLv3 ao código completo de obras coa licenza e modificacións. As "
-"notas de autoría e licenza deben manterse. As persoas contribuidoras "
-"conceden expresamente os dereitos de patentes. Porén, unha obra máis grande "
-"que usa a obra coa licenza mediante a interface fornecida pode publicarse "
-"cunha licenza distinta e sen o código fonte desa obra máis grande."
+"Os permisos desta licenza recíproca requiren poñer a disposición coa mesma "
+"licenza ou coa GNU GPLv3 ao código completo de obras coa licenza e "
+"modificacións. As notas de autoría e licenza deben manterse. As persoas "
+"contribuidoras conceden expresamente os dereitos de patentes. Porén, unha "
+"obra máis grande que usa a obra coa licenza mediante a interface fornecida "
+"pode publicarse cunha licenza distinta e sen o código fonte desa obra máis "
+"grande."
 
 #: src/license.cpp:242
 #, kde-format
@@ -553,8 +554,8 @@ msgstr ""
 "modificacións, incluídas obras máis grandes que usen a obra coa licenza. As "
 "notas de autoría e licenza deben manterse. As persoas contribuidoras "
 "conceden expresamente os dereitos de patentes. Cando se usa unha versión "
-"modificada para fornecer un servizo mediante unha rede, debe darse acceso ao "
-"código fonte completo da versión modificada."
+"modificada para fornecer un servizo mediante unha rede, debe poñerse a "
+"disposición o código fonte completo da versión modificada."
 
 #: src/license.cpp:247
 #, kde-format
@@ -579,13 +580,13 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "files added in the larger work."
 msgstr ""
-"Os permisos desta licenza, de baixa reciprocidade, requiren dar acceso ao "
-"código fonte dos ficheiros coa licenza e modificacións dos mesmos coa mesma "
-"licenza (ou, en certos casos, cunha das licenzas de GNU). As notas de "
-"autoría e licenza deben manterse. As persoas colaboradoras conceden "
-"explicitamente os dereitos de patentes. Porén, as obras máis grandes que "
-"usen a obra coa licenza poden distribuírse cunha licenza distinta e sen o "
-"código fonte dos ficheiros incluídos nesa outra obra."
+"Os permisos desta licenza, de baixa reciprocidade, requiren poñer a "
+"disposición o código fonte dos ficheiros coa licenza e modificacións dos "
+"mesmos coa mesma licenza (ou, en certos casos, cunha das licenzas de GNU). "
+"As notas de autoría e licenza deben manterse. As persoas colaboradoras "
+"conceden explicitamente os dereitos de patentes. Porén, as obras máis "
+"grandes que usen a obra coa licenza poden distribuírse cunha licenza "
+"distinta e sen o código fonte dos ficheiros incluídos nesa outra obra."
 
 #: src/license.cpp:253
 #, kde-format

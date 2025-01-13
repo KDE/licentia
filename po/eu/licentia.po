@@ -1,16 +1,16 @@
 # Translation for licentia.po to Euskara/Basque (eu).
-# Copyright (C) 2024 This file is copyright:
+# Copyright (C) 2024-2025 This file is copyright:
 # This file is distributed under the same license as the licentia package.
-# KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>.
+# SPDX-FileCopyrightText: 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
-# SPDX-FileCopyrightText: 2024 Iñigo Salvador Azurmendi <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2024, 2025 Iñigo Salvador Azurmendi <xalba@ni.eus>
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-12-15 11:45+0100\n"
+"PO-Revision-Date: 2025-01-12 10:29+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -61,12 +61,12 @@ msgstr "Erabilera pribatua"
 #: src/license.cpp:105
 #, kde-format
 msgid "The licensed material may be used and modified in private."
-msgstr ""
+msgstr "Lizentzia duen materiala pribatuan erabil eta alda daiteke."
 
 #: src/license.cpp:109 src/license.cpp:182
 #, kde-format
 msgid "Patent use"
-msgstr ""
+msgstr "Patentearen erabilera"
 
 #: src/license.cpp:110
 #, kde-format
@@ -77,33 +77,36 @@ msgstr ""
 #: src/license.cpp:123
 #, kde-format
 msgid "License and copyright notice"
-msgstr ""
+msgstr "Lizentzia eta egile eskubideen oharra"
 
 #: src/license.cpp:128
 #, kde-format
 msgid "State changes"
-msgstr ""
+msgstr "Egoera aldaketak"
 
 #: src/license.cpp:129
 #, kde-format
 msgid "Changes made to the licensed material must be documented."
 msgstr ""
+"Lizentziatutako materialari eginiko aldaketak dokumentatu beharra dago."
 
 #: src/license.cpp:133
 #, kde-format
 msgid "Disclose source"
-msgstr ""
+msgstr "Sorburua zabaltzea"
 
 #: src/license.cpp:134
 #, kde-format
 msgid ""
 "Source code must be made available when the licensed material is distributed."
 msgstr ""
+"Sorburu-kodeak eskuragarri egon behar du lizentziatutako materiala banatzen "
+"denean."
 
 #: src/license.cpp:138
 #, kde-format
 msgid "Network use is distribution"
-msgstr ""
+msgstr "Sarearen erabilera banaketa da"
 
 #: src/license.cpp:139
 #, kde-format
@@ -111,11 +114,13 @@ msgid ""
 "Users who interact with the licensed material via network are given the "
 "right to receive a copy of the source code."
 msgstr ""
+"Lizentziatutako materialarekin sare bidez elkar eragiten duten "
+"erabiltzaileei sorburu-kodearen kopia bat jasotzeko eskubide aitortzen zaie."
 
 #: src/license.cpp:143
 #, kde-format
 msgid "Same license"
-msgstr ""
+msgstr "Lizentzia bera"
 
 #: src/license.cpp:144
 #, kde-format
@@ -123,11 +128,14 @@ msgid ""
 "Modifications must be released under the same license when distributing the "
 "licensed material. In some cases a similar or related license may be used."
 msgstr ""
+"Lizentziatutako materiala banatzean aldaketak, aldaketak, lizentzia "
+"berarekin askatu behar dira. Kasu batzuetan antzeko edo erlazionatutako "
+"lizentzia bat erabil liteke."
 
 #: src/license.cpp:148
 #, kde-format
 msgid "Same license (library)"
-msgstr ""
+msgstr "Lizentzia bera (liburutegia)"
 
 #: src/license.cpp:149
 #, kde-format
@@ -137,11 +145,15 @@ msgid ""
 "or this condition may not apply to works that use the licensed material as a "
 "library."
 msgstr ""
+"Lizentziatutako materiala banatzean aldaketak, aldaketak, lizentzia "
+"berarekin askatu behar dira. Kasu askotan antzeko edo erlazionatutako "
+"lizentzia bat erabil liteke, edo lizentziatutako materiala liburutegi gisa "
+"erabiltzen duten lanetarako baliteke baldintza hau ez aplikatzea."
 
 #: src/license.cpp:153
 #, kde-format
 msgid "Same license (file)"
-msgstr ""
+msgstr "Lizentzia bera (fitxategia)"
 
 #: src/license.cpp:154
 #, kde-format
@@ -150,31 +162,35 @@ msgid ""
 "distributing the licensed material. In some cases a similar or related "
 "license may be used."
 msgstr ""
+"Lizentziatutako materiala banatzean, lehendik dauden fitxategien aldaketak "
+"lizentzia berarekin askatu behar dira. Kasu batzuetan antzeko edo "
+"erlazionatutako lizentzia bat erabil liteke."
 
 #: src/license.cpp:167
 #, kde-format
 msgid "Liability"
-msgstr ""
+msgstr "Erantzukizuna"
 
 #: src/license.cpp:168
 #, kde-format
 msgid "This license includes a limitation of liability."
-msgstr ""
+msgstr "Lizentzia honek erantzukizun muga bat dakar."
 
 #: src/license.cpp:172
 #, kde-format
 msgid "Warranty"
-msgstr ""
+msgstr "Bermea"
 
 #: src/license.cpp:173
 #, kde-format
 msgid "This license explicitly states that it does NOT provide any warranty."
 msgstr ""
+"Lizentzia honek esplizituki adierazten du EZ duela inolako bermerik ematen."
 
 #: src/license.cpp:177
 #, kde-format
 msgid "Trademark use"
-msgstr ""
+msgstr "Marka erregistratuen erabilera"
 
 #: src/license.cpp:178
 #, kde-format
@@ -482,12 +498,12 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Licentia"
-msgstr ""
+msgstr "Licentia"
 
 #: src/main.cpp:47
 #, kde-format
 msgid "Choose a license for your project"
-msgstr ""
+msgstr "Zure proiekturako lizentzia bat aukeratu"
 
 #: src/main.cpp:51
 #, kde-format
@@ -574,7 +590,7 @@ msgstr "%1(e)ri buruz"
 #: src/ui/LicensePanel.qml:74
 #, kde-format
 msgid "License Source"
-msgstr ""
+msgstr "Lizentziaren sorburua"
 
 #: src/ui/LicensePanel.qml:115
 #, kde-format
@@ -609,7 +625,7 @@ msgstr "(mugarik ez)"
 #: src/ui/LicensePanel.qml:253
 #, kde-format
 msgid "Projects using:"
-msgstr ""
+msgstr "Erabiltzen duten proiektuak:"
 
 #: src/ui/Main.qml:17
 #, kde-format
