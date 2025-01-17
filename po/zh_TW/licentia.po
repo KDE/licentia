@@ -4,114 +4,116 @@
 # This file is distributed under the same license as the licentia package.
 # Automatically generated, 2022.
 #
+# SPDX-FileCopyrightText: 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2022-07-10 00:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-01-17 03:41+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #: src/license.cpp:89
 #, kde-format
 msgid "Commercial use"
-msgstr ""
+msgstr "商業使用"
 
 #: src/license.cpp:90 src/license.cpp:124
 #, kde-format
 msgid ""
 "The licensed material and derivatives may be used for commercial purposes."
-msgstr ""
+msgstr "授權的內容與其衍生著作可用於商業用途。"
 
 #: src/license.cpp:94
 #, kde-format
 msgid "Modification"
-msgstr ""
+msgstr "修改"
 
 #: src/license.cpp:95
 #, kde-format
 msgid "The licensed material may be modified."
-msgstr ""
+msgstr "授權的內容可進行修改。"
 
 #: src/license.cpp:99
 #, kde-format
 msgid "Distribution"
-msgstr ""
+msgstr "散布"
 
 #: src/license.cpp:100
 #, kde-format
 msgid "The licensed material may be distributed."
-msgstr ""
+msgstr "授權的內容可進行散布。"
 
 #: src/license.cpp:104
 #, kde-format
 msgid "Private use"
-msgstr ""
+msgstr "私下使用"
 
 #: src/license.cpp:105
 #, kde-format
 msgid "The licensed material may be used and modified in private."
-msgstr ""
+msgstr "授權的內容可私下使用或修改。"
 
 #: src/license.cpp:109 src/license.cpp:182
 #, kde-format
 msgid "Patent use"
-msgstr ""
+msgstr "專利使用"
 
 #: src/license.cpp:110
 #, kde-format
 msgid ""
 "The licensed provides and express grant of patent rights from contributors."
-msgstr ""
+msgstr "授權的內容提供並表達貢獻者提供專利權。"
 
 #: src/license.cpp:123
 #, kde-format
 msgid "License and copyright notice"
-msgstr ""
+msgstr "授權條款與著作權聲明"
 
 #: src/license.cpp:128
 #, kde-format
 msgid "State changes"
-msgstr ""
+msgstr "表示變更處"
 
 #: src/license.cpp:129
 #, kde-format
 msgid "Changes made to the licensed material must be documented."
-msgstr ""
+msgstr "必須寫明對於授權的內容進行的修改。"
 
 #: src/license.cpp:133
 #, kde-format
 msgid "Disclose source"
-msgstr ""
+msgstr "提供原始碼"
 
 #: src/license.cpp:134
 #, kde-format
 msgid ""
 "Source code must be made available when the licensed material is distributed."
-msgstr ""
+msgstr "將授權的內容散布時必須提供原始碼。"
 
 #: src/license.cpp:138
 #, kde-format
 msgid "Network use is distribution"
-msgstr ""
+msgstr "網路使用視為散布"
 
 #: src/license.cpp:139
 #, kde-format
 msgid ""
 "Users who interact with the licensed material via network are given the "
 "right to receive a copy of the source code."
-msgstr ""
+msgstr "透過網路與授權的內容互動的使用者也有權取得原始碼副複本。"
 
 #: src/license.cpp:143
 #, kde-format
 msgid "Same license"
-msgstr ""
+msgstr "相同授權條款"
 
 #: src/license.cpp:144
 #, kde-format
@@ -119,11 +121,13 @@ msgid ""
 "Modifications must be released under the same license when distributing the "
 "licensed material. In some cases a similar or related license may be used."
 msgstr ""
+"散布授權的內容的時候修改部分必須以相同的授權條款釋出。有些時候可以使用類似或"
+"相關的授權條款。"
 
 #: src/license.cpp:148
 #, kde-format
 msgid "Same license (library)"
-msgstr ""
+msgstr "相同授權條款（函式庫）"
 
 #: src/license.cpp:149
 #, kde-format
@@ -133,11 +137,14 @@ msgid ""
 "or this condition may not apply to works that use the licensed material as a "
 "library."
 msgstr ""
+"散布授權的內容的時候修改部分必須以相同的授權條款釋出。有些時候可以使用類似或"
+"相關的授權條款；有些時候這個條件也可能不適用於將授權的內容作為函式庫使用的作"
+"品。"
 
 #: src/license.cpp:153
 #, kde-format
 msgid "Same license (file)"
-msgstr ""
+msgstr "相同授權條款（檔案）"
 
 #: src/license.cpp:154
 #, kde-format
@@ -146,31 +153,33 @@ msgid ""
 "distributing the licensed material. In some cases a similar or related "
 "license may be used."
 msgstr ""
+"散布授權的內容的時候對於現有的檔案的修改必須以相同的授權條款釋出。有些時候可"
+"以使用類似或相關的授權條款。"
 
 #: src/license.cpp:167
 #, kde-format
 msgid "Liability"
-msgstr ""
+msgstr "責任"
 
 #: src/license.cpp:168
 #, kde-format
 msgid "This license includes a limitation of liability."
-msgstr ""
+msgstr "這個授權條款包含限制責任條款。"
 
 #: src/license.cpp:172
 #, kde-format
 msgid "Warranty"
-msgstr ""
+msgstr "擔保"
 
 #: src/license.cpp:173
 #, kde-format
 msgid "This license explicitly states that it does NOT provide any warranty."
-msgstr ""
+msgstr "這個授權條款明確表示它不提供擔保。"
 
 #: src/license.cpp:177
 #, kde-format
 msgid "Trademark use"
-msgstr ""
+msgstr "商標使用"
 
 #: src/license.cpp:178
 #, kde-format
@@ -179,13 +188,15 @@ msgid ""
 "though licenses without such a statement probably do not grant any implicit "
 "trademark rights."
 msgstr ""
+"這個授權條款明確表示它不提供商標權利，雖然沒有如此聲明的授權條款應該也不會默"
+"示提供任何商標權利。"
 
 #: src/license.cpp:183
 #, kde-format
 msgid ""
 "This license explicitly states that it does NOT grant any rights in the "
 "patents of contributors."
-msgstr ""
+msgstr "這個授權條款明確表示它不提供對於任何貢獻者專利的權利。"
 
 #: src/license.cpp:193
 #, kde-format
@@ -193,6 +204,8 @@ msgid ""
 "For REUSE compliance, copy the text of the license into a file named %1.txt, "
 "it must be placed in the LICENSES/ directory in the root of your source code."
 msgstr ""
+"要遵照 REUSE 常規，請將授權條款文字複製到名為 %1.txt 的檔案，並且必須將其放在"
+"原始碼頂層目錄的 LICENSES/ 目錄中。"
 
 #: src/license.cpp:196
 #, kde-format
@@ -202,6 +215,8 @@ msgid ""
 "contains explicit copyright and patent grants and reserves trademark rights "
 "in the author."
 msgstr ""
+"Academic Free License（學術自由授權條款）是一個不要求衍生作品告知原始碼的開源"
+"授權條款。它包含明言的著作權與專利授權，並為作者保留商標權。"
 
 #: src/license.cpp:197
 #, kde-format
@@ -211,6 +226,10 @@ msgid ""
 "licensed under AFL 3.0 must also include the notice \"Licensed under the "
 "Academic Free License version 3.0\" adjacent to the copyright notice."
 msgstr ""
+"在原始碼頂層目錄建立一個文字檔案（通常叫做 LICENSE 或 LICENSE.txt），然後將授"
+"權條款文字複製到該檔案當中。以 AFL 3.0 授權的檔案也必須在著作權聲明旁包含 "
+"\"Licensed under the Academic Free License version 3.0\"（意思：以《學術自由"
+"授權條款》第三版授權）聲明。"
 
 #: src/license.cpp:199
 #, kde-format
@@ -229,6 +248,8 @@ msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
 "your source code and copy the text of the license into the file."
 msgstr ""
+"在原始碼頂層目錄建立一個文字檔案（通常叫做 LICENSE 或 LICENSE.txt），然後將授"
+"權條款文字複製到該檔案當中。"
 
 #: src/license.cpp:202
 #, kde-format
@@ -251,6 +272,9 @@ msgid ""
 "copyright holders. You may take the additional step of removing the "
 "copyright notice."
 msgstr ""
+"在原始碼頂層目錄建立一個文字檔案（通常叫做 LICENSE 或 LICENSE.txt），然後將授"
+"權條款文字複製到該檔案當中。將 [year] 替換為目前年份、[fullname] 替換為著作權"
+"人（們）的名字。您可以選擇將著作權聲明拿掉。"
 
 #: src/license.cpp:205
 #, kde-format
@@ -271,6 +295,9 @@ msgid ""
 "[year] with the current year and [fullname] with the name (or names) of the "
 "copyright holders."
 msgstr ""
+"在原始碼頂層目錄建立一個文字檔案（通常叫做 LICENSE 或 LICENSE.txt），然後將授"
+"權條款文字複製到該檔案當中。將 [year] 替換為目前年份、[fullname] 替換為著作權"
+"人（們）的名字。"
 
 #: src/license.cpp:208
 #, kde-format
@@ -307,6 +334,9 @@ msgid ""
 "copyright holders. Replace [project] with the project organization, if any, "
 "that sponsors this work."
 msgstr ""
+"在原始碼頂層目錄建立一個文字檔案（通常叫做 LICENSE 或 LICENSE.txt），然後將授"
+"權條款文字複製到該檔案當中。將 [year] 替換為目前年份、[fullname] 替換為著作權"
+"人（們）的名字。如果有資助此工作的專案組織的話，也將 [project] 替換為該組織。"
 
 #: src/license.cpp:217
 #, kde-format
@@ -344,6 +374,9 @@ msgid ""
 "acceptable to solely supply a link to a copy of the license, usually to the "
 "canonical URL for the license."
 msgstr ""
+"在原始碼頂層目錄建立一個文字檔案（通常叫做 LICENSE 或 LICENSE.txt），然後將授"
+"權條款文字複製到該檔案當中。只提供授權條款複本的連結也是可以接受的，通常會連"
+"結到授權條款的標準網址。"
 
 #: src/license.cpp:226
 #, kde-format
@@ -388,6 +421,8 @@ msgid ""
 "Create a text file (typically named COPYING, as per GNU conventions) in the "
 "root of your source code and copy the text of the license into the file."
 msgstr ""
+"在原始碼頂層目錄建立一個文字檔案（通常依 GNU 慣例叫做 COPYING），然後將授權條"
+"款文字複製到該檔案當中。"
 
 #: src/license.cpp:238
 #, kde-format
@@ -456,7 +491,7 @@ msgstr ""
 msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
 "they want with your code."
-msgstr ""
+msgstr "最簡單的授權條款。它授權使用者用您的程式碼做任何想做的事。"
 
 #: src/license.cpp:256
 #, kde-format
@@ -465,6 +500,8 @@ msgid ""
 "domain. Unlicensed works, modifications, and larger works may be distributed "
 "under different terms and without source code."
 msgstr ""
+"一個完全沒有任何條件的授權條款，目的是將作品放入公衆領域。使用 Unlicense 的作"
+"品、修改等等能夠用不同條款散布，不用包含原始碼。"
 
 #: src/license.cpp:257
 #, kde-format
@@ -473,156 +510,158 @@ msgid ""
 "of your source code and copy the text of the license disclaimer into the "
 "file."
 msgstr ""
+"在原始碼頂層目錄建立一個文字檔案（通常叫做 UNLICENSE 或 UNLICENSE.txt），然後"
+"將授權條款放棄書 (disclaimer) 文字複製到該檔案當中。"
 
 #: src/main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Licentia"
-msgstr ""
+msgstr "Licentia"
 
 #: src/main.cpp:47
 #, kde-format
 msgid "Choose a license for your project"
-msgstr ""
+msgstr "選擇適合您專案的授權條款"
 
 #: src/main.cpp:51
 #, kde-format
 msgid "© Felipe 2022"
-msgstr ""
+msgstr "© Felipe 2022"
 
 #: src/main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "Felipe Kinoshita"
 
 #: src/main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr ""
+msgstr "作者"
 
 #: src/main.cpp:54
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Kisaragi Hiu"
 
 #: src/main.cpp:54
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "mail@kisaragi-hiu.com"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr ""
+msgstr "檔案"
 
 #: src/ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr ""
+msgstr "離開"
 
 #: src/ui/GlobalMenu.qml:26
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: src/ui/GlobalMenu.qml:29
 #, kde-format
 msgctxt "@menu-action"
 msgid "Copy license to clipboard"
-msgstr ""
+msgstr "將授權條款複製到剪貼簿"
 
 #: src/ui/GlobalMenu.qml:42
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr ""
+msgstr "說明"
 
 #: src/ui/GlobalMenu.qml:45
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr ""
+msgstr "回報問題…"
 
 #: src/ui/GlobalMenu.qml:51 src/ui/Main.qml:82
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Licentia"
-msgstr ""
+msgstr "關於 Licentia"
 
 #: src/ui/GlobalMenu.qml:55 src/ui/Main.qml:86
 #, kde-format
 msgid "About Licentia"
-msgstr ""
+msgstr "關於 Licentia"
 
 #: src/ui/LicensePanel.qml:68
 #, kde-format
 msgctxt "About [License SPDX identifier]"
 msgid "About %1"
-msgstr ""
+msgstr "關於 %1"
 
 #: src/ui/LicensePanel.qml:74
 #, kde-format
 msgid "License Source"
-msgstr ""
+msgstr "授權條款來源"
 
 #: src/ui/LicensePanel.qml:115
 #, kde-format
 msgid "How to:"
-msgstr ""
+msgstr "使用方式："
 
 #: src/ui/LicensePanel.qml:138
 #, kde-format
 msgid "Permissions:"
-msgstr ""
+msgstr "權利："
 
 #: src/ui/LicensePanel.qml:169
 #, kde-format
 msgid "Conditions:"
-msgstr ""
+msgstr "條件："
 
 #: src/ui/LicensePanel.qml:177
 #, kde-format
 msgid "(no conditions)"
-msgstr ""
+msgstr "（無條件）"
 
 #: src/ui/LicensePanel.qml:210
 #, kde-format
 msgid "Limitations:"
-msgstr ""
+msgstr "限制："
 
 #: src/ui/LicensePanel.qml:218
 #, kde-format
 msgid "(no limitations)"
-msgstr ""
+msgstr "（無限制）"
 
 #: src/ui/LicensePanel.qml:253
 #, kde-format
 msgid "Projects using:"
-msgstr ""
+msgstr "使用的專案："
 
 #: src/ui/Main.qml:17
 #, kde-format
 msgid "Licentia"
-msgstr ""
+msgstr "Licentia"
 
 #: src/ui/PageHeader.qml:22
 #, kde-format
 msgid "Original License"
-msgstr ""
+msgstr "原始授權"
 
 #: src/ui/PageHeader.qml:35
 #, kde-format
 msgid "Copy License to Clipboard (Ctrl+C)"
-msgstr ""
+msgstr "將授權條款複製到剪貼簿 (Ctrl+C)"
 
 #: src/ui/PageHeader.qml:58
 #, kde-format
 msgid "About License"
-msgstr ""
+msgstr "關於授權條款"
