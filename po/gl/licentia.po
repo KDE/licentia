@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2025-01-12 15:49+0100\n"
+"PO-Revision-Date: 2025-01-26 21:06+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.0\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -402,7 +402,8 @@ msgstr ""
 "autoría da obra e dedícaa ao dominio público universal. Use CC0 para "
 "renunciar completamente aos dereitos de autoría e asegurarse de maximizar o "
 "alcance da obra. Igual que no caso de «Unlicense» e de licenzas de programas "
-"típicas, CC0 descarga garantías. CC0 é moi similar a «Unlicense»."
+"típicas, CC0 inclúe a exención de responsabilidade de garantías. CC0 é moi "
+"similar a «Unlicense»."
 
 #: src/license.cpp:223
 #, kde-format
@@ -614,7 +615,8 @@ msgid ""
 "file."
 msgstr ""
 "Cree un ficheiro de texto (adoita chamarse «UNLICENSE» ou «UNLICENSE.txt») "
-"no cartafol raíz do código fonte e copie nel o texto da descarga de licenza."
+"no cartafol raíz do código fonte e copie nel o texto da exención de "
+"responsabilidade da licenza."
 
 #: src/main.cpp:43
 #, kde-format
