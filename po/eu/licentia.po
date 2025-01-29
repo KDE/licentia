@@ -4,13 +4,13 @@
 # SPDX-FileCopyrightText: 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
-# SPDX-FileCopyrightText: 2024, 2025 Iñigo Salvador Azurmendi <xalba@ni.eus>
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2025-01-12 10:29+0100\n"
+"PO-Revision-Date: 2025-01-28 20:59+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.0\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -73,6 +73,8 @@ msgstr "Patentearen erabilera"
 msgid ""
 "The licensed provides and express grant of patent rights from contributors."
 msgstr ""
+"Lizentziaren titularrak kolaboratzaileen patente eskubideak ematen eta "
+"berariaz aitortzen ditu."
 
 #: src/license.cpp:123
 #, kde-format
@@ -199,6 +201,10 @@ msgid ""
 "though licenses without such a statement probably do not grant any implicit "
 "trademark rights."
 msgstr ""
+"Lizentzia honek era esplizituan adierazten du EZ duela marka erregistratuen "
+"gaineko eskubiderik aitortzen, nahiz eta horrelako adierazpenik gabeko "
+"lizentziek ziurrenik ez duten marka erregistratuen gaineko eskubide "
+"inpliziturik aitortzen."
 
 #: src/license.cpp:183
 #, kde-format
@@ -206,6 +212,8 @@ msgid ""
 "This license explicitly states that it does NOT grant any rights in the "
 "patents of contributors."
 msgstr ""
+"Lizentzia honek era esplizituan adierazten du EZ duela kolaboratzaileen "
+"patenteen gaineko inolako eskubiderik aitortzen."
 
 #: src/license.cpp:193
 #, kde-format
@@ -231,6 +239,10 @@ msgid ""
 "licensed under AFL 3.0 must also include the notice \"Licensed under the "
 "Academic Free License version 3.0\" adjacent to the copyright notice."
 msgstr ""
+"Sortu testu-fitxategi bat (LICENSE edo LICENSE.txt deitu ohi zaio) zure "
+"sorburu-kodearen erroan eta kopiatu lizentziaren testua fitxategian. AFL 3.0 "
+"lizentziapean dauden fitxategiek \"Licensed under the Academic Free License "
+"version 3.0\" oharra ere izan behar dute copyright oharraren ondoan."
 
 #: src/license.cpp:199
 #, kde-format
@@ -249,6 +261,8 @@ msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
 "your source code and copy the text of the license into the file."
 msgstr ""
+"Sortu testu-fitxategi bat (LICENSE edo LICENSE.txt deitu ohi zaio) zure "
+"sorburu-kodearen erroan eta kopiatu lizentziaren testua fitxategian."
 
 #: src/license.cpp:202
 #, kde-format
@@ -271,6 +285,12 @@ msgid ""
 "copyright holders. You may take the additional step of removing the "
 "copyright notice."
 msgstr ""
+"Sortu testu-fitxategi bat (LICENSE edo LICENSE.txt deitu ohi zaio) zure "
+"sorburu-kodearen erroan eta kopiatu lizentziaren testua fitxategian. "
+"Ordezkatu [year] egungo urtearekin eta [fullname] kopia eskubide jabeen "
+"izenekin. Ordezkatu [project] lan hau babesten duen proiektuaren "
+"erakundearekin, hala badagokio. Copyright-oharra kentzeko urrats gehigarria "
+"eman dezakezu."
 
 #: src/license.cpp:205
 #, kde-format
@@ -291,6 +311,10 @@ msgid ""
 "[year] with the current year and [fullname] with the name (or names) of the "
 "copyright holders."
 msgstr ""
+"Sortu testu-fitxategi bat (LICENSE edo LICENSE.txt deitu ohi zaio) zure "
+"sorburu-kodearen erroan eta kopiatu lizentziaren testua fitxategian. "
+"Ordezkatu [year] egungo urtearekin eta [fullname] kopia eskubide jabeen "
+"izenekin."
 
 #: src/license.cpp:208
 #, kde-format
@@ -327,6 +351,11 @@ msgid ""
 "copyright holders. Replace [project] with the project organization, if any, "
 "that sponsors this work."
 msgstr ""
+"Sortu testu-fitxategi bat (LICENSE edo LICENSE.txt deitu ohi zaio) zure "
+"sorburu-kodearen erroan eta kopiatu lizentziaren testua fitxategian. "
+"Ordezkatu [year] egungo urtearekin eta [fullname] kopia eskubide jabeen "
+"izenekin. Ordezkatu [project] lan hau babesten duen proiektuaren "
+"erakundearekin, hala badagokio."
 
 #: src/license.cpp:217
 #, kde-format
@@ -364,6 +393,10 @@ msgid ""
 "acceptable to solely supply a link to a copy of the license, usually to the "
 "canonical URL for the license."
 msgstr ""
+"Sortu testu-fitxategi bat (LICENSE edo LICENSE.txt deitu ohi zaio) zure "
+"sorburu-kodearen erroan eta kopiatu lizentziaren testua fitxategian. "
+"Onargarria da lizentziaren kopia batera daraman esteka bat ematea, normalean "
+"lizentziaren URL kanoniko erakusten duena."
 
 #: src/license.cpp:226
 #, kde-format
@@ -408,6 +441,8 @@ msgid ""
 "Create a text file (typically named COPYING, as per GNU conventions) in the "
 "root of your source code and copy the text of the license into the file."
 msgstr ""
+"Sortu testu-fitxategi bat (COPYING deitu ohi zaio, GNU ohituren arabera) "
+"zure sorburu-kodearen erroan eta kopiatu lizentziaren testua fitxategian."
 
 #: src/license.cpp:238
 #, kde-format
@@ -477,6 +512,8 @@ msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
 "they want with your code."
 msgstr ""
+"Dagoen lizentziarik errazena. Erabiltzaileari zure kodearekin nahi duena "
+"egiteko baimena ematen dio."
 
 #: src/license.cpp:256
 #, kde-format
@@ -493,6 +530,9 @@ msgid ""
 "of your source code and copy the text of the license disclaimer into the "
 "file."
 msgstr ""
+"Sortu testu-fitxategi bat (UNLICENSE edo UNLICENSE.txt deitu ohi zaio) zure "
+"sorburu-kodearen erroan eta kopiatu lizentziaren erantzukizun ukoaren testua "
+"fitxategian."
 
 #: src/main.cpp:43
 #, kde-format
