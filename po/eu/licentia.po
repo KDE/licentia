@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2025-01-28 20:59+0100\n"
+"PO-Revision-Date: 2025-02-02 00:15+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -203,8 +203,7 @@ msgid ""
 msgstr ""
 "Lizentzia honek era esplizituan adierazten du EZ duela marka erregistratuen "
 "gaineko eskubiderik aitortzen, nahiz eta horrelako adierazpenik gabeko "
-"lizentziek ziurrenik ez duten marka erregistratuen gaineko eskubide "
-"inpliziturik aitortzen."
+"lizentziek ziurrenik ez duten marka eskubide inpliziturik aitortzen."
 
 #: src/license.cpp:183
 #, kde-format
@@ -221,6 +220,9 @@ msgid ""
 "For REUSE compliance, copy the text of the license into a file named %1.txt, "
 "it must be placed in the LICENSES/ directory in the root of your source code."
 msgstr ""
+"REUSE estandarra betetzeko, kopiatu lizentziaren testua %1.txt izeneko "
+"fitxategi batean, zure sorburu-kodearen erroko LICENSES/ direktorioan kokatu "
+"behar da."
 
 #: src/license.cpp:196
 #, kde-format
@@ -230,6 +232,10 @@ msgid ""
 "contains explicit copyright and patent grants and reserves trademark rights "
 "in the author."
 msgstr ""
+"AFL (Academic Free License) lizentzia OSL (Open Software License) "
+"lizentziaren aldaera bat da, eta ez du lan eratorrien sorburu-kodea "
+"ezagutaraztea eskatzen. Kopia- eta patente-eskubideen aitortza esplizituak "
+"ditu, eta egilearen marka-eskubideak erreserbatzen ditu."
 
 #: src/license.cpp:197
 #, kde-format
@@ -252,6 +258,11 @@ msgid ""
 "Licensed works, modifications, and larger works may be distributed under "
 "different terms and without source code."
 msgstr ""
+"Bere baldintza nagusiek kopia-eskubideen eta lizentzien oharren "
+"kontserbazioa eskatzen duten lizentzia permisibo bat. Parte-hartzaileek "
+"patenteen eskubideen aitortza esplizitua eskaintzen dute. Lizentziatutako "
+"lanak, aldaketak eta lan handiagoak beste baldintza batzuen pean eta sorburu-"
+"koderik gabe bana daitezke."
 
 #: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
 #: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
@@ -272,6 +283,10 @@ msgid ""
 "include the copyright notice, license text, or disclaimer in either source "
 "or binary forms."
 msgstr ""
+"«BSD Zero Clause» (0BSD) lizentzia «BSD 2-Clause» lizentzia baina haratago "
+"doa, softwarearekin askatasun mugagabea emanez, kopia-eskubide oharra, "
+"lizentziaren testua, edo erantzukizun-oharrak sartzeko betekizunik gabe, ez "
+"sorburuan ez eta bitarretan ere."
 
 #: src/license.cpp:203
 #, kde-format
@@ -298,6 +313,9 @@ msgid ""
 "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
 "Clause. Both have very minute differences to the MIT license."
 msgstr ""
+"Lizentzia permisibo bat da, eta bi aldaera ditu, «BSD 2-Clause» eta «BSD 3-"
+"Clause». Biek oso ezberdintasun txikiak dituzte MIT lizentziarekin "
+"alderatuta."
 
 #: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
 #: src/license.cpp:248
@@ -323,6 +341,10 @@ msgid ""
 "clause that prohibits others from using the name of the project or its "
 "contributors to promote derived products without written consent."
 msgstr ""
+"Lizentzia permisibo bat da, «BSD 2-Clause» lizentziaren antzekoa, baina "
+"beste batzuek, idatzizko baimenik gabe, eratorritako produktuak sustatzeko, "
+"proiektuaren izena edo haren parte-hartzaileena erabiltzea debekatzen duen "
+"3. klausula batekin."
 
 #: src/license.cpp:211
 #, kde-format
@@ -330,6 +352,8 @@ msgid ""
 "A variant of the BSD 3-Clause License that explicitly does not grant any "
 "patent rights."
 msgstr ""
+"«BSD 3-Clause» lizentziaren aldaera bat da, patente-eskubideen inolako "
+"aitortza egiten ez duena, esplizituki."
 
 #: src/license.cpp:214
 #, kde-format
@@ -338,6 +362,9 @@ msgid ""
 "\"advertising clause\" that requires an acknowledgment of the original "
 "source in all advertising material."
 msgstr ""
+"Lizentzia permisibo bat da, «BSD 3-Clause» lizentziaren antzekoa, baina "
+"publizitate-material guztietan jatorrizko sorburua aipatzea eskatzen duen "
+"\"publizitate-klausula\" bat duena."
 
 #: src/license.cpp:215
 #, kde-format
@@ -365,6 +392,10 @@ msgid ""
 "modifications, and larger works may be distributed under different terms and "
 "without source code."
 msgstr ""
+"Lizentzia permisibo sinple bat da, sorburu-banaketarako (bitarrenerako ez) "
+"kopia-eskubide oharrak eta lizentzia-oharrak mantentzea bakarrik eskatzen "
+"duena. Lizentziatutako lanak, aldaketak, eta lan handiagoak baldintza "
+"ezberdinen pean eta sorburu-koderik gabe bana daitezke."
 
 #: src/license.cpp:220
 #, kde-format
@@ -406,6 +437,11 @@ msgid ""
 "educational materials. A previous version is the default license for "
 "Wikipedia and other Wikimedia projects. Not recommended for software."
 msgstr ""
+"«CC-BY-4.0»aren antzekoa, baina eratorritakoak lizentzia beraren edo "
+"antzeko, lizentzia bateragarrien pean banatzea eskatzen du. Maiz hedabide-"
+"baliabideetarako eta material hezitzaileetarako erabilia. Aurreko bertsio "
+"bat da Wikipedia eta Wikimedia-ren beste proiektu batzuen lizentzia "
+"lehenetsia. Ez da softwarerako gomendatzen."
 
 #: src/license.cpp:229
 #, kde-format
@@ -415,6 +451,11 @@ msgid ""
 "and the ability for linked works to use other licenses, including commercial "
 "ones."
 msgstr ""
+"Merkataritzarekin bateragarria den («copyleft») kopia-eskubideari uko "
+"egiteko lizentzia honek ematen du, bitarrak komertzialki lizentziatzeko "
+"aukera; royaltyrik gabeko patente-lizentziaren aitortza moderno bat; eta "
+"estekatutako lanek beste lizentzia batzuk erabiltzeko gaitasuna, "
+"komertzialak barne."
 
 #: src/license.cpp:232
 #, kde-format
@@ -424,6 +465,10 @@ msgid ""
 "the work must be made available under the same license. There are multiple "
 "variants of the GNU GPL, each with different requirements."
 msgstr ""
+"GNU GPL software aske lizentzia hedatuena da eta («copyleft») kopia-"
+"eskubideari uko egiteko betekizun irmoa du. Eratorritako lanak banatzean, "
+"lanaren sorburua lizentzia beraren pean eskuragarri egin behar da. GNU "
+"GPLaren aldaera ugari daude, bakoitzak betekizun ezberdinak ditu."
 
 #: src/license.cpp:235
 #, kde-format
@@ -434,6 +479,11 @@ msgid ""
 "Copyright and license notices must be preserved. Contributors provide an "
 "express grant of patent rights."
 msgstr ""
+"Kopia-eskubideari uko egiteko («copyleft») lizentzia irmo honen baimenak, "
+"lizentziatutako lanen eta aldaketen sorburu-kode osoa, lizentziatutako lan "
+"bat erabiltzen duten lan handiagoena barne, lizentzia beraren pean jartzean "
+"baldintzatuta daude. Parte-hartzaileek patente-eskubideen berariazko "
+"aitortza ematen dute."
 
 #: src/license.cpp:236
 #, kde-format
@@ -452,6 +502,10 @@ msgid ""
 "not fall under this restriction. There are two commonly used versions of the "
 "GNU LGPL."
 msgstr ""
+"Batez ere software-liburutegietarako erabilia, GNU LGPLak lan eratorriak "
+"lizentzia beraren pean lizentziatzea eskatzen du, baina harekin estekatu "
+"baino egiten ez duten lanak ez dira murrizketa horren pean sartzen. GNU "
+"LGPLaren bi bertsio erabili ohi dira."
 
 #: src/license.cpp:241
 #, kde-format
@@ -472,6 +526,9 @@ msgid ""
 "Follow the instructions to apply the GNU GPLv3, in the root of your source "
 "code. Then add another file named COPYING.LESSER and copy the text."
 msgstr ""
+"Lizentzia hau GNU GPLv3 lizentziarekiko baimen multzo gehigarri bat da. "
+"Jarraitu GNU GPLv3 aplikatzeko jarraibideak, zure sorburu-kodearen erroan. "
+"Ondoren gehitu COPYING.LESSER izeneko beste fitxategi bat eta testua kopiatu."
 
 #: src/license.cpp:244
 #, kde-format
@@ -493,6 +550,10 @@ msgid ""
 "modifications, and larger works may be distributed under different terms and "
 "without source code."
 msgstr ""
+"Lizentzia permisibo sinple eta labur bat da, kopia-eskubide oharrak eta "
+"lizentzia-oharrak mantentzea bakarrik eskatzen duena. Lizentziatutako lanak, "
+"aldaketak, eta lan handiagoak baldintza ezberdinen pean eta sorburu-koderik "
+"gabe bana daitezke."
 
 #: src/license.cpp:250
 #, kde-format
@@ -522,6 +583,9 @@ msgid ""
 "domain. Unlicensed works, modifications, and larger works may be distributed "
 "under different terms and without source code."
 msgstr ""
+"Inolako baldintzarik gabeko lizentzia, lanak jabari publikoari eskaintzen "
+"dizkiona. Lizentziatu gabeko lanak, aldaketak, eta lan handiagoak bana "
+"litezke baldintza ezberdinen pean eta sorburu-koderik gabe."
 
 #: src/license.cpp:257
 #, kde-format
@@ -531,7 +595,7 @@ msgid ""
 "file."
 msgstr ""
 "Sortu testu-fitxategi bat (UNLICENSE edo UNLICENSE.txt deitu ohi zaio) zure "
-"sorburu-kodearen erroan eta kopiatu lizentziaren erantzukizun ukoaren testua "
+"sorburu-kodearen erroan eta kopiatu lizentziaren erantzukizun-oharren testua "
 "fitxategian."
 
 #: src/main.cpp:43
