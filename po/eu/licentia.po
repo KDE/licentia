@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2025-02-02 00:15+0100\n"
+"PO-Revision-Date: 2025-02-02 21:15+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -406,6 +406,12 @@ msgid ""
 "reach. As with the Unlicense and typical software licenses, CC0 disclaims "
 "warranties. CC0 is very similar to the Unlicense."
 msgstr ""
+"«Creative Commons CC0 Public Domain Dedication»ek zuk sortu duzun lan baten "
+"kopia-eskubideari uko egin eta mundu osoko jabari publikoari eskaintzen dio. "
+"Erabili CC0 kopia-eskubidetik erabat irteteko hautua egiteko eta ziurtatu "
+"zure lanak hedapen zabalena duela. «Unlicense» eta software lizentzia "
+"tipikoekin bezala, CC0k bermeak ukatzen ditu. CC0 «Unlicense»ren oso "
+"antzekoa da."
 
 #: src/license.cpp:223
 #, kde-format
@@ -415,6 +421,10 @@ msgid ""
 "license for Open Access scientific publications. Not recommended for "
 "software."
 msgstr ""
+"Ia edozein erabilera baimentzen du, kreditu- eta lizentzia-oharra emanez "
+"gero. Maiz hedabide-baliabideetarako eta material hezitzaileetarako "
+"erabilia. «Open Access scientific publications»erako lizentzia ohikoena. Ez "
+"da softwarerako gomendatzen."
 
 #: src/license.cpp:224 src/license.cpp:227
 #, kde-format
