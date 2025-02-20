@@ -1,0 +1,763 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the licentia package.
+#
+# SPDX-FileCopyrightText: 2025 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: licentia\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
+"PO-Revision-Date: 2025-02-15 14:08+0200\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 24.12.2\n"
+
+#: src/license.cpp:89
+#, kde-format
+msgid "Commercial use"
+msgstr "Komerciālam lietojumam"
+
+#: src/license.cpp:90 src/license.cpp:124
+#, kde-format
+msgid ""
+"The licensed material and derivatives may be used for commercial purposes."
+msgstr ""
+"Licencētos materiālus un no tā atvasinātos materiālus drīkst izmantot "
+"komerciāliem nolūkiem."
+
+#: src/license.cpp:94
+#, kde-format
+msgid "Modification"
+msgstr "Modifikācija"
+
+#: src/license.cpp:95
+#, kde-format
+msgid "The licensed material may be modified."
+msgstr "Licencēto materiālu drīkst modificēt."
+
+#: src/license.cpp:99
+#, kde-format
+msgid "Distribution"
+msgstr "Izplatīšana"
+
+#: src/license.cpp:100
+#, kde-format
+msgid "The licensed material may be distributed."
+msgstr "Licencētos materiālus drīkst izplatīt tālāk."
+
+#: src/license.cpp:104
+#, kde-format
+msgid "Private use"
+msgstr "Privātai lietošanai"
+
+#: src/license.cpp:105
+#, kde-format
+msgid "The licensed material may be used and modified in private."
+msgstr "Licencētos materiālus drīkst lietot un modificēt privāti."
+
+#: src/license.cpp:109 src/license.cpp:182
+#, kde-format
+msgid "Patent use"
+msgstr "Patentu lietošana"
+
+#: src/license.cpp:110
+#, kde-format
+msgid ""
+"The licensed provides and express grant of patent rights from contributors."
+msgstr "Licence sniedz atļauju dalībniekiem izmantot savas patentu tiesības."
+
+#: src/license.cpp:123
+#, kde-format
+msgid "License and copyright notice"
+msgstr "Licence un autortiesību paziņojums"
+
+#: src/license.cpp:128
+#, kde-format
+msgid "State changes"
+msgstr "Jānorāda izmaiņas"
+
+#: src/license.cpp:129
+#, kde-format
+msgid "Changes made to the licensed material must be documented."
+msgstr "Izmaiņas licencētajā materiālā ir jādokumentē."
+
+#: src/license.cpp:133
+#, kde-format
+msgid "Disclose source"
+msgstr "Jāatklāj pirmkods"
+
+#: src/license.cpp:134
+#, kde-format
+msgid ""
+"Source code must be made available when the licensed material is distributed."
+msgstr "Pirmkodam jābūt pieejamam kopā ar izplatītu licencēto materiālu."
+
+#: src/license.cpp:138
+#, kde-format
+msgid "Network use is distribution"
+msgstr "Lietojums tīklā nozīmē izplatīšanu"
+
+#: src/license.cpp:139
+#, kde-format
+msgid ""
+"Users who interact with the licensed material via network are given the "
+"right to receive a copy of the source code."
+msgstr ""
+"Lietotājiem, kuri ar licencēto materiālu saskaras caur tīklu, ir tiesības "
+"iegūt pirmkoda kopiju."
+
+#: src/license.cpp:143
+#, kde-format
+msgid "Same license"
+msgstr "Tāda pati licence"
+
+#: src/license.cpp:144
+#, kde-format
+msgid ""
+"Modifications must be released under the same license when distributing the "
+"licensed material. In some cases a similar or related license may be used."
+msgstr ""
+"Modificētu licencēto materiālu tālāk drīkst izplatīt tikai ar tādu pašu "
+"licenci. Dažos gadījumos ir iespējams izmantot līdzīgu vai saistītu licenci."
+
+#: src/license.cpp:148
+#, kde-format
+msgid "Same license (library)"
+msgstr "Tāda pati licence (bibliotēka)"
+
+#: src/license.cpp:149
+#, kde-format
+msgid ""
+"Modifications must be released under the same license when distributing the "
+"licensed material. In some cases a similar or related license may be used, "
+"or this condition may not apply to works that use the licensed material as a "
+"library."
+msgstr ""
+"Modificētu licencēto materiālu tālāk drīkst izplatīt tikai ar tādu pašu "
+"licenci. Dažos gadījumos ir iespējams izmantot līdzīgu vai saistītu licenci. "
+"Šis noteikums var nebūt spēkā darbiem, kas licencēto materiālu izmanto kā "
+"bibliotēku."
+
+#: src/license.cpp:153
+#, kde-format
+msgid "Same license (file)"
+msgstr "Tāda pati licence (datne)"
+
+#: src/license.cpp:154
+#, kde-format
+msgid ""
+"Modifications of existing files must be released under the same license when "
+"distributing the licensed material. In some cases a similar or related "
+"license may be used."
+msgstr ""
+"Modificētu licencēto datni tālāk drīkst izplatīt tikai ar tādu pašu licenci. "
+"Dažos gadījumos ir iespējams izmantot līdzīgu vai saistītu licenci."
+
+#: src/license.cpp:167
+#, kde-format
+msgid "Liability"
+msgstr "Atbildība"
+
+#: src/license.cpp:168
+#, kde-format
+msgid "This license includes a limitation of liability."
+msgstr "Šī licence satur ierobežotu atbildību."
+
+#: src/license.cpp:172
+#, kde-format
+msgid "Warranty"
+msgstr "Garantijas"
+
+#: src/license.cpp:173
+#, kde-format
+msgid "This license explicitly states that it does NOT provide any warranty."
+msgstr "Šī licence īpaši norāda, ka tā nesniedz NEKĀDAS garantijas."
+
+#: src/license.cpp:177
+#, kde-format
+msgid "Trademark use"
+msgstr "Preču zīmes lietojums"
+
+#: src/license.cpp:178
+#, kde-format
+msgid ""
+"This license explicitly states that it does NOT grant trademark rights, even "
+"though licenses without such a statement probably do not grant any implicit "
+"trademark rights."
+msgstr ""
+"Šī licence īpaši norāda, ka NEPIEŠĶIR tiesības uz preču zīmi. Lai gan "
+"licences bez šāda paziņojuma visdrīzāk arī neļautu izmantot preču zīmes."
+
+#: src/license.cpp:183
+#, kde-format
+msgid ""
+"This license explicitly states that it does NOT grant any rights in the "
+"patents of contributors."
+msgstr ""
+"Šī licence īpaši norāda, ka NEPIEŠĶIR nekādas tiesības saistībā ar "
+"dalībnieku patentiem."
+
+#: src/license.cpp:193
+#, kde-format
+msgid ""
+"For REUSE compliance, copy the text of the license into a file named %1.txt, "
+"it must be placed in the LICENSES/ directory in the root of your source code."
+msgstr ""
+"Lai atbilstu ATKĀRTOTAS LIETOŠANAS noteikumiem, kopējiet licences tekstu "
+"datnē ar nosaukumu %1.txt. Šai datnei ir jāatrodas jūsu pirmkoda pamata "
+"mapes LICENSES/ mapē."
+
+#: src/license.cpp:196
+#, kde-format
+msgid ""
+"The Academic Free License is a variant of the Open Software License that "
+"does not require that the source code of derivative works be disclosed. It "
+"contains explicit copyright and patent grants and reserves trademark rights "
+"in the author."
+msgstr ""
+"„Academic Free License“ ir atvērtā koda licence, kas nepieprasa, lai "
+"atvasināto darbu pirmkods tiktu atklāts. Tā satur īpašas autortiesību un "
+"patentu piešķīrumus, bet preču zīmes rezervē tās autoram."
+
+#: src/license.cpp:197
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Files "
+"licensed under AFL 3.0 must also include the notice \"Licensed under the "
+"Academic Free License version 3.0\" adjacent to the copyright notice."
+msgstr ""
+"Pirmkoda pamata mapē izveidojiet teksta datni (parasti to sauc LICENSE vai "
+"LICENSE.txt) un tajā iekopējiet licences tekstu. Datnēm, kas ir licencētas "
+"ar AFL 3.0, blakus autortiesību paziņojumam ir jāsatur arī paziņojums "
+"„Licensed under the Academic Free License version 3.0“."
+
+#: src/license.cpp:199
+#, kde-format
+msgid ""
+"A permissive license whose main conditions require preservation of copyright "
+"and license notices. Contributors provide an express grant of patent rights. "
+"Licensed works, modifications, and larger works may be distributed under "
+"different terms and without source code."
+msgstr ""
+"Liberālo licenču pamata noteikums ir saglabāt autortiesības un licences "
+"paziņojumus. Dalībnieki sniedz īpašu atļauju izmantot viņu patentus. "
+"Licencētos darbus, modifikācijas un lielākos darbus drīkst izplatīt arī ar "
+"citu licenci, nesniedzot pirmkodu."
+
+#: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
+#: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
+#: src/license.cpp:245 src/license.cpp:251 src/license.cpp:254
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file."
+msgstr ""
+"Pirmkoda pamata mapē izveidojiet teksta datni (paraksti tā saucas LICENSE "
+"vai LICENSE.txt) un tajā iekopējiet licences tekstu."
+
+#: src/license.cpp:202
+#, kde-format
+msgid ""
+"The BSD Zero Clause license goes further than the BSD 2-Clause license to "
+"allow you unlimited freedom with the software without requirements to "
+"include the copyright notice, license text, or disclaimer in either source "
+"or binary forms."
+msgstr ""
+"„BSD Zero Clause“ licence iet tālāk par „BSD 2-Clause“ licenci, atļaujot "
+"neierobežotu brīvību ar programmatūru un neprasot iekļaut paziņojumu par "
+"autortiesībām, licences tekstu vai par jebkādu paziņojumu pirmkodā vai "
+"binārā formā."
+
+#: src/license.cpp:203
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file.  Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders. You may take the additional step of removing the "
+"copyright notice."
+msgstr ""
+"Pirmkoda mapē izveidojiet teksta datni (parasti tā saucas LICENSE vai "
+"LICENSE.txt) un tajā iekopējiet licences tekstu. Aizvietojiet [year] ar "
+"pašreizējo gadu un [fullname] ar autortiesību turētāju vārdu vai vārdiem. "
+"Varat arī veikt papildu soļus, lai noņemt autortiesību paziņojumu."
+
+#: src/license.cpp:205
+#, kde-format
+msgid ""
+"A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
+"Clause. Both have very minute differences to the MIT license."
+msgstr ""
+"Liberāla licence divos variantos — „BSD 2-Clause“ un „BSD 3-Clause“. Abas "
+"satur ļoti nelielas atšķirības no MIT licences."
+
+#: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
+#: src/license.cpp:248
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders."
+msgstr ""
+"Pirmkoda pamata mapē izveidojiet teksta datni (paraksti tā saucas LICENSE "
+"vai LICENSE.txt) un tajā iekopējiet licences tekstu. Aizvietojiet [year] ar "
+"pašreizējo gadu un [fullname] ar autortiesību turētāju vārdu (vai vārdiem)."
+
+#: src/license.cpp:208
+#, kde-format
+msgid ""
+"A permissive license similar to the BSD 2-Clause License, but with a 3rd "
+"clause that prohibits others from using the name of the project or its "
+"contributors to promote derived products without written consent."
+msgstr ""
+"Liberāla licence, kas ir līdzīga „BSD 2-Clause“ licencei, bet satur trešo "
+"noteikumu, kas aizliedz bez rakstveida atļaujas citiem lietot projekta "
+"nosaukumu vai tā dalībniekus, lai reklamētu atvasinātos produktus."
+
+#: src/license.cpp:211
+#, kde-format
+msgid ""
+"A variant of the BSD 3-Clause License that explicitly does not grant any "
+"patent rights."
+msgstr ""
+"„BSD-3 Clause“ licences variants, kas īpaši norāda, ka nepiešķir nekādas "
+"patentu tiesības."
+
+#: src/license.cpp:214
+#, kde-format
+msgid ""
+"A permissive license similar to the BSD 3-Clause License, but with an "
+"\"advertising clause\" that requires an acknowledgment of the original "
+"source in all advertising material."
+msgstr ""
+"Liberāla licence, kas ir līdzīga „BSD 3-Clause“ licencei, bet ar "
+"„reklamēšanas punktu“, kas pieprasa visos reklāmas materiālos nosaukt "
+"oriģinālo avotu."
+
+#: src/license.cpp:215
+#, kde-format
+msgctxt ""
+"do not translate the placeholders e.g [year], [fullname] as they refer to "
+"the untranslated original license"
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. Replace "
+"[year] with the current year and [fullname] with the name (or names) of the "
+"copyright holders. Replace [project] with the project organization, if any, "
+"that sponsors this work."
+msgstr ""
+"Pirmkoda pamata mapē izveidojiet teksta datni (paraksti tā saucas LICENSE "
+"vai LICENSE.txt) un tajā iekopējiet licences tekstu. Aizvietojiet [year] ar "
+"pašreizējo gadu un [fullname] ar autortiesību turētāju vārdu (vai vārdiem). "
+"Aizvietojiet [project] ar projekta organizāciju, kas darbu ir sponsorējusi, "
+"ja tāda ir."
+
+#: src/license.cpp:217
+#, kde-format
+msgid ""
+"A simple permissive license only requiring preservation of copyright and "
+"license notices for source (and not binary) distribution. Licensed works, "
+"modifications, and larger works may be distributed under different terms and "
+"without source code."
+msgstr ""
+"Vienkārša liberāla licence, kas nosaka tikai autortiesību un licences "
+"paziņojumu saglabāšanu, izplatot pirmkodu, bet ne bināras datnes. Šādu "
+"materiālu licencētos darbus, modifikācijas un lielākos darbus var izplatīt "
+"ar citiem noteikumiem un bez pirmkoda."
+
+#: src/license.cpp:220
+#, kde-format
+msgid ""
+"The Creative Commons CC0 Public Domain Dedication waives copyright interest "
+"in a work you've created and dedicates it to the world-wide public domain. "
+"Use CC0 to opt out of copyright entirely and ensure your work has the widest "
+"reach. As with the Unlicense and typical software licenses, CC0 disclaims "
+"warranties. CC0 is very similar to the Unlicense."
+msgstr ""
+"„Creative Commons CC0 Public Domain Dedication“ atceļ autortiesības uz jūsu "
+"darbu un to velta sabiedrībai visā pasaulē. Izmantojiet CC0, lai pilnībā "
+"izvairītos no autortiesībām un nodrošinātu, ka šo darbu sasniedz visplašākā "
+"auditorija. Līdzīgi kā ar „Unlicense“ un tipiskām programmatūras licencēm, "
+"CC0 neuzņemas nekādas garantijas. CC0 ir ļoti līdzīgas „Unlicense“."
+
+#: src/license.cpp:223
+#, kde-format
+msgid ""
+"Permits almost any use subject to providing credit and license notice. "
+"Frequently used for media assets and educational materials. The most common "
+"license for Open Access scientific publications. Not recommended for "
+"software."
+msgstr ""
+"Atļauj gandrīz jebkādu lietojumu, atsaucoties uz autoru un licenci. To bieži "
+"lieto plašsaziņas līdzekļu un izglītības materiālos. Tā ir visbiežākā "
+"licence atvērtas piekļuves zinātniskajām publikācijām. To nav ieteicams "
+"lietot programmatūrai."
+
+#: src/license.cpp:224 src/license.cpp:227
+#, kde-format
+msgid ""
+"Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
+"your source code and copy the text of the license into the file. It is also "
+"acceptable to solely supply a link to a copy of the license, usually to the "
+"canonical URL for the license."
+msgstr ""
+"Pirmkoda pamata mapē izveidojiet teksta datni (paraksti tā saucas LICENSE "
+"vai LICENSE.txt) un tajā iekopējiet licences tekstu. Tāpat ir pieņemami "
+"vienkārši ievietot saiti uz licences kopiju — parasti saiti uz licences "
+"teksta kanonisko URL."
+
+#: src/license.cpp:226
+#, kde-format
+msgid ""
+"Similar to CC-BY-4.0 but requires derivatives be distributed under the same "
+"or a similar, compatible license. Frequently used for media assets and "
+"educational materials. A previous version is the default license for "
+"Wikipedia and other Wikimedia projects. Not recommended for software."
+msgstr ""
+"Līdzīga CC-BY-4.0, bet pieprasa, lai visi atvasinātie darbi būtu licencēti "
+"ar to pašu vai līdzīgu (saderīgu) licenci. To bieži lieto plašsaziņas "
+"līdzekļu un izglītības materiāliem. Iepriekšējā licence ir noklusējuma "
+"licence Vikipēdijas un citiem „Wikimedia“ projektiem. To nav ieteicams "
+"lietot programmatūrai."
+
+#: src/license.cpp:229
+#, kde-format
+msgid ""
+"This commercially-friendly copyleft license provides the ability to "
+"commercially license binaries; a modern royalty-free patent license grant; "
+"and the ability for linked works to use other licenses, including commercial "
+"ones."
+msgstr ""
+"Šī ir komerciālai lietošanai draudzīga „copyleft“ licence, kas sniedz "
+"iespēju bināras datnes licencēt komerciāli, sniedz modernu bezatlīdzības "
+"patentu licenci, kā arī saistītajos darbos izmantot cietas licences — "
+"tostarp komerciālas."
+
+#: src/license.cpp:232
+#, kde-format
+msgid ""
+"The GNU GPL is the most widely used free software license and has a strong "
+"copyleft requirement. When distributing derived works, the source code of "
+"the work must be made available under the same license. There are multiple "
+"variants of the GNU GPL, each with different requirements."
+msgstr ""
+"GNU GPL ir visplašāk izmantotā brīvās programmatūras licence ar izteiktām "
+"„copyleft“ prasībām. Izplatot atvasinātus darbus, to pirmkodam ir jābūt "
+"pieejamam ar to pašu licenci. Pastāv vairāki GNU GPL licences varianti ar "
+"dažādām prasībām."
+
+#: src/license.cpp:235
+#, kde-format
+msgid ""
+"Permissions of this strong copyleft license are conditioned on making "
+"available complete source code of licensed works and modifications, which "
+"include larger works using a licensed work, under the same license. "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights."
+msgstr ""
+"Šīs stiprās „copyleft“ licences noteikumi nosaka, ka visam licencēto darbu "
+"un to modifikāciju pirmkodam ir jābūt pieejamam ar šo pašu licenci, kas "
+"ietver arī lielākos darbus, kas izmanto ar šo licencēto licencētu darbu. Ir "
+"jāsaglabā autortiesības un licences. Dalībnieki piešķir īpašas tiesības "
+"izmantot viņu patentu tiesības."
+
+#: src/license.cpp:236
+#, kde-format
+msgid ""
+"Create a text file (typically named COPYING, as per GNU conventions) in the "
+"root of your source code and copy the text of the license into the file."
+msgstr ""
+"Pirmkoda pamata mapē izveidojiet teksta datni (paraksti tā saskaņā ar GNU "
+"pieņemto saucas COPYING) un tajā iekopējiet licences tekstu."
+
+#: src/license.cpp:238
+#, kde-format
+msgid ""
+"Primarily used for software libraries, the GNU LGPL requires that derived "
+"works be licensed under the same license, but works that only link to it do "
+"not fall under this restriction. There are two commonly used versions of the "
+"GNU LGPL."
+msgstr ""
+"GNU LGPL parasti izmanto programmatūras bibliotēkām. Tā pieprasa, lai ar šo "
+"pašu licenci būtu licencēti atvasinātie darbi, bet nosaka, ka tikai "
+"saitēšana uz materiālu, kas licencēts ar GNU LGPL, saitējamo materiālu nekā "
+"neietekmē. Pastāv divi biežāki GNU LGPL varianti."
+
+#: src/license.cpp:241
+#, kde-format
+msgid ""
+"Permissions of this copyleft license are conditioned on making available "
+"complete source code of licensed works and modifications under the same "
+"license or the GNU GPLv3. Copyright and license notices must be preserved. "
+"Contributors provide an express grant of patent rights. However, a larger "
+"work using the licensed work through interfaces provided by the licensed "
+"work may be distributed under different terms and without source code for "
+"the larger work."
+msgstr ""
+"Šī „copyleft“ licence nosaka, ka visi ar to licencētie darbi un to "
+"modifikācijas ir jāsniedz kopā ar pilnīgu pirmkodu, kas ir licencēts ar šo "
+"pašu licenci vai „GNU GPLv3“. Ir jāsaglabā visi autortiesību un licences "
+"paziņojumi. Dalībnieki īpaši nodot tiesības izmantot viņu patentu tiesības. "
+"Tomēr lielāks darbs, kas ir veidots caur saskarni, ko nodrošina licencētais "
+"darbs, var tikt izplatīts ar citiem noteikumiem un bez lielākā  darba "
+"pirmkoda."
+
+#: src/license.cpp:242
+#, kde-format
+msgid ""
+"This license is an additional set of permissions to the GNU GPLv3 license. "
+"Follow the instructions to apply the GNU GPLv3, in the root of your source "
+"code. Then add another file named COPYING.LESSER and copy the text."
+msgstr ""
+"Šī licence ir „GNU GPLv3“ licences papildu atļauju kopums. Ievērojiet "
+"instrukcijas, kā pievienot „GNU GPLv3“ licenci pirmkoda saknes mapei. Pēc "
+"tam pievienojiet vēl vienu datni ar nosaukumu COPYING.LESSER un tajā "
+"iekopējiet tekstu."
+
+#: src/license.cpp:244
+#, kde-format
+msgid ""
+"Permissions of this strongest copyleft license are conditioned on making "
+"available complete source code of licensed works and modifications, which "
+"include larger works using a licensed work, under the same license. "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights. When a modified version is used to provide a "
+"service over a network, the complete source code of the modified version "
+"must be made available."
+msgstr ""
+"Šīs stiprākās „copyleft“ licences atļaujas un noteikumi nosaka, ka licencēto "
+"darbu un modifikāciju (tostarp lielākiem darbiem, kas izmanto licencēto "
+"darbu) pirmkodam ir jābūt pieejamam ar to pašu licenci. Ir jāsaglabā "
+"autortiesību un licences paziņojumi. Dalībnieki īpaši piešķir tiesības "
+"izmantot viņu patentus tiesības. Kad tiek izmantota modificēta versija, lai "
+"nodrošinātu pakalpojumu caur tīklu, ir jābūt pieejamam pilnīgam modificētās "
+"versijas pirmkodam."
+
+#: src/license.cpp:247
+#, kde-format
+msgid ""
+"A short and simple permissive license with conditions only requiring "
+"preservation of copyright and license notices. Licensed works, "
+"modifications, and larger works may be distributed under different terms and "
+"without source code."
+msgstr ""
+"Īsa un vienkārša liberālā licence, kuras noteikumi pieprasa tikai "
+"autortiesību un licences paziņojuma saglabāšanu. Licencētos darbus, to "
+"modifikācijas un lielākos darbus var izplatīt ar citiem noteikumiem un bez "
+"pirmkoda."
+
+#: src/license.cpp:250
+#, kde-format
+msgid ""
+"Permissions of this weak copyleft license are conditioned on making "
+"available source code of licensed files and modifications of those files "
+"under the same license (or in certain cases, one of the GNU licenses). "
+"Copyright and license notices must be preserved. Contributors provide an "
+"express grant of patent rights. However, a larger work using the licensed "
+"work may be distributed under different terms and without source code for "
+"files added in the larger work."
+msgstr ""
+"Šīs vājās „copyleft“ licences noteikumi nosaka, ka licencētajām datnēm un to "
+"modifikācijām ir jābūt pieejamām ar pirmkodu un to pašu licenci (dažos "
+"gadījumos — kādu no GNU licencēm). Ir jāsaglabā autortiesību un licences "
+"paziņojumi. Dalībnieki īpaši piešķirt tiesības izmantot viņu patentu "
+"tiesības. Tomēr lielāki darbi, kas izmanto ar šo licenci licencēto darbu, "
+"var tikt izplatīti ar citiem noteikumiem, kā arī lielākajā darbā "
+"pievienotajām datnēm drīkst nebūt pieejams pirmkods."
+
+#: src/license.cpp:253
+#, kde-format
+msgid ""
+"The easiest license out there. It gives the user permissions to do whatever "
+"they want with your code."
+msgstr ""
+"Pati vienkāršākā licence. Tā lietotājam sniedz atļauju ar kodu darīt pilnīgi "
+"jebko."
+
+#: src/license.cpp:256
+#, kde-format
+msgid ""
+"A license with no conditions whatsoever which dedicates works to the public "
+"domain. Unlicensed works, modifications, and larger works may be distributed "
+"under different terms and without source code."
+msgstr ""
+"Licence bez jebkādiem noteikumiem, kas darbus nodot sabiedrības lietošanai. "
+"Darbi, kas ir licencēti ar „Unlicense“, kā arī to modifikācijas un lielākie "
+"darbi var tikt izplatīti ar citiem noteikumiem un bez pirmkoda."
+
+#: src/license.cpp:257
+#, kde-format
+msgid ""
+"Create a text file (typically named UNLICENSE or UNLICENSE.txt) in the root "
+"of your source code and copy the text of the license disclaimer into the "
+"file."
+msgstr ""
+"Pirmkoda pamata mapē izveidojiet teksta datni (paraksti tā saucas UNLICENSE "
+"vai UNLICENSE.txt) un tajā iekopējiet licences tekstu."
+
+#: src/main.cpp:43
+#, kde-format
+msgctxt "@title"
+msgid "Licentia"
+msgstr "Licentia"
+
+#: src/main.cpp:47
+#, kde-format
+msgid "Choose a license for your project"
+msgstr "Izvēlieties projekta licenci"
+
+#: src/main.cpp:51
+#, kde-format
+msgid "© Felipe 2022"
+msgstr "© Felipe 2022"
+
+#: src/main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autors"
+
+#: src/main.cpp:54
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Toms Trasūns"
+
+#: src/main.cpp:54
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "toms.trasuns@posteo.net"
+
+#: src/ui/GlobalMenu.qml:15
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Datne"
+
+#: src/ui/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Iziet"
+
+#: src/ui/GlobalMenu.qml:26
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Rediģēt"
+
+#: src/ui/GlobalMenu.qml:29
+#, kde-format
+msgctxt "@menu-action"
+msgid "Copy license to clipboard"
+msgstr "Kopēt licenci starpliktuvē"
+
+#: src/ui/GlobalMenu.qml:42
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Palīdzība"
+
+#: src/ui/GlobalMenu.qml:45
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Ziņot par kļūdu…"
+
+#: src/ui/GlobalMenu.qml:51 src/ui/Main.qml:82
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Licentia"
+msgstr "Par „Licentia“"
+
+#: src/ui/GlobalMenu.qml:55 src/ui/Main.qml:86
+#, kde-format
+msgid "About Licentia"
+msgstr "Par „Licentia“"
+
+#: src/ui/LicensePanel.qml:68
+#, kde-format
+msgctxt "About [License SPDX identifier]"
+msgid "About %1"
+msgstr "Par „%1“"
+
+#: src/ui/LicensePanel.qml:74
+#, kde-format
+msgid "License Source"
+msgstr "Licences avots"
+
+#: src/ui/LicensePanel.qml:115
+#, kde-format
+msgid "How to:"
+msgstr "Kā:"
+
+#: src/ui/LicensePanel.qml:138
+#, kde-format
+msgid "Permissions:"
+msgstr "Atļaujas:"
+
+#: src/ui/LicensePanel.qml:169
+#, kde-format
+msgid "Conditions:"
+msgstr "Nosacījumi:"
+
+#: src/ui/LicensePanel.qml:177
+#, kde-format
+msgid "(no conditions)"
+msgstr "(bez nosacījumiem)"
+
+#: src/ui/LicensePanel.qml:210
+#, kde-format
+msgid "Limitations:"
+msgstr "Ierobežojumi:"
+
+#: src/ui/LicensePanel.qml:218
+#, kde-format
+msgid "(no limitations)"
+msgstr "(bez ierobežojumiem)"
+
+#: src/ui/LicensePanel.qml:253
+#, kde-format
+msgid "Projects using:"
+msgstr "Projekti, kas to lieto:"
+
+#: src/ui/Main.qml:17
+#, kde-format
+msgid "Licentia"
+msgstr "Licentia"
+
+#: src/ui/PageHeader.qml:22
+#, kde-format
+msgid "Original License"
+msgstr "Oriģinālā licence"
+
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "Copy License to Clipboard (Ctrl+C)"
+msgstr "Kopēt licenci starpliktuvē (Ctrl+C)"
+
+#: src/ui/PageHeader.qml:58
+#, kde-format
+msgid "About License"
+msgstr "Par licenci"
