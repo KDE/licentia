@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2025-01-11 17:11+0300\n"
+"PO-Revision-Date: 2025-03-13 22:28+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.03.70\n"
+"X-Generator: Lokalize 25.07.70\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -213,7 +213,7 @@ msgid ""
 "For REUSE compliance, copy the text of the license into a file named %1.txt, "
 "it must be placed in the LICENSES/ directory in the root of your source code."
 msgstr ""
-"REUSE uyumluluğu için, lisans metnini %1.txt adlı bir dosyaya kopyalayın; "
+"REUSE uyumluluğu için lisans metnini %1.txt adlı bir dosyaya kopyalayın; "
 "kaynak kodunuzun kökündeki LICENSES/ dizinine yerleştirilmelidir."
 
 #: src/license.cpp:196
@@ -239,8 +239,8 @@ msgstr ""
 "Kaynak kodunuzun kökünde bir metin dosyası (genellikle LICENSE veya LICENSE."
 "txt olarak adlandırılır) oluşturun ve lisans metnini dosyaya kopyalayın. AFL "
 "3.0 kapsamında lisanslanan dosyalar, telif hakkı bildiriminin bitişiğinde "
-"\"Akademik Ücretsiz Lisans sürüm 3.0 kapsamında lisanslanmıştır\" "
-"bildirimini de içermelidir."
+"“Akademik Ücretsiz Lisans sürüm 3.0 kapsamında lisanslanmıştır” bildirimini "
+"de içermelidir."
 
 #: src/license.cpp:199
 #, kde-format
@@ -293,7 +293,7 @@ msgid ""
 msgstr ""
 "Kaynak kodunuzun kökünde bir metin dosyası (genellikle LICENSE veya LICENSE."
 "txt olarak adlandırılır) oluşturun ve lisans metnini dosyaya kopyalayın. "
-"[year] yerine geçerli yıl ve [fullname]'ı telif hakkı sahiplerinin adı (veya "
+"[year] yerine geçerli yıl ve [fullname]’i telif hakkı sahiplerinin adı (veya "
 "adları) ile değiştirin. Telif hakkı bildirimini kaldırmak için ek bir adım "
 "atabilirsiniz."
 
@@ -304,7 +304,7 @@ msgid ""
 "Clause. Both have very minute differences to the MIT license."
 msgstr ""
 "BSD 2-Clause ve BSD 3-Clause olmak üzere iki varyantta gelen izinli bir "
-"lisans. Her ikisinin de MIT lisansıyla çok küçük farklılıkları var."
+"lisans. Her ikisinin de MIT lisansıyla çok küçük farklılıkları vardır."
 
 #: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
 #: src/license.cpp:248
@@ -320,7 +320,7 @@ msgid ""
 msgstr ""
 "Kaynak kodunuzun kökünde bir metin dosyası (genellikle LICENSE veya LICENSE."
 "txt olarak adlandırılır) oluşturun ve lisans metnini dosyaya kopyalayın. "
-"[year] yerine geçerli yıl ve [fullname]'ı telif hakkı sahiplerinin adı (veya "
+"[year] yerine geçerli yıl ve [fullname]’i telif hakkı sahiplerinin adı (veya "
 "adları) ile değiştirin."
 
 #: src/license.cpp:208
@@ -330,7 +330,7 @@ msgid ""
 "clause that prohibits others from using the name of the project or its "
 "contributors to promote derived products without written consent."
 msgstr ""
-"BSD 2-Clause Lisansına benzer, ancak başkalarının projenin veya katkıda "
+"BSD 2-Clause Lisansına benzer; ancak başkalarının projenin veya katkıda "
 "bulunanların türetilmiş ürünleri yazılı izin olmadan tanıtmasını yasaklayan "
 "bir 3. maddeye sahip izin veren bir lisans."
 
@@ -348,9 +348,9 @@ msgid ""
 "\"advertising clause\" that requires an acknowledgment of the original "
 "source in all advertising material."
 msgstr ""
-"BSD 3-Clause Lisansına benzer, ancak tüm reklâm materyallerinde orijinal "
-"kaynağın onaylanmasını gerektiren bir \"reklâm maddesi\" içeren izin veren "
-"bir lisans."
+"BSD 3-Clause Lisansına benzer; ancak tüm reklâm materyallerinde orijinal "
+"kaynağın onaylanmasını gerektiren bir “reklâm maddesi” içeren izin veren bir "
+"lisans."
 
 #: src/license.cpp:215
 #, kde-format
@@ -366,8 +366,8 @@ msgid ""
 msgstr ""
 "Kaynak kodunuzun kökünde bir metin dosyası (genellikle LICENSE veya LICENSE."
 "txt olarak adlandırılır) oluşturun ve lisans metnini dosyaya kopyalayın. "
-"[year] yerine geçerli yıl ve [fullname]'ı telif hakkı sahiplerinin adı (veya "
-"adları) ile değiştirin. [project]'i varsa bu işe sponsor olan proje "
+"[year] yerine geçerli yıl ve [fullname]’i telif hakkı sahiplerinin adı (veya "
+"adları) ile değiştirin. [project]’i varsa bu işe sponsor olan proje "
 "organizasyonu ile değiştirin."
 
 #: src/license.cpp:217
@@ -395,9 +395,9 @@ msgstr ""
 "Creative Commons CC0 Public Domain Dedication, oluşturduğunuz bir "
 "çalışmadaki telif hakkı ilgisinden feragat eder ve onu dünya çapındaki kamu "
 "malı olarak tahsis eder. Telif hakkını tamamen devre dışı bırakmak ve "
-"çalışmanızın en geniş erişime sahip olduğundan emin olmak için CC0'ı "
+"çalışmanızın en geniş erişime sahip olduğundan emin olmak için CC0’ı "
 "kullanın. Lisanssız ve tipik yazılım lisanslarında olduğu gibi, CC0 "
-"garantileri reddeder. CC0, Lisanssız'a çok benzer."
+"garantileri reddeder. CC0, Lisanssız’a çok benzer."
 
 #: src/license.cpp:223
 #, kde-format
@@ -423,7 +423,7 @@ msgstr ""
 "Kaynak kodunuzun kökünde bir metin dosyası (genellikle LICENSE veya LICENSE."
 "txt olarak adlandırılır) oluşturun ve lisans metnini dosyaya kopyalayın. "
 "Ayrıca, yalnızca lisansın bir kopyasına, genellikle lisansın standart "
-"URL'sine bir bağlantı sağlanması da kabul edilebilir."
+"URL’sine bir bağlantı sağlanması da kabul edilebilir."
 
 #: src/license.cpp:226
 #, kde-format
@@ -433,7 +433,7 @@ msgid ""
 "educational materials. A previous version is the default license for "
 "Wikipedia and other Wikimedia projects. Not recommended for software."
 msgstr ""
-"CC-BY-4.0'a benzer, ancak türevlerin aynı veya benzer, uyumlu bir lisans "
+"CC-BY-4.0’a benzer, ancak türevlerin aynı veya benzer, uyumlu bir lisans "
 "altında dağıtılmasını gerektirir. Medya varlıkları ve eğitim materyalleri "
 "için sıklıkla kullanılır. Önceki bir sürüm, Wikipedia ve diğer Wikimedia "
 "projeleri için varsayılan lisanstır. Yazılım için önerilmez."
@@ -461,7 +461,7 @@ msgid ""
 msgstr ""
 "GNU GPL, en yaygın olarak kullanılan özgür yazılım lisansıdır ve güçlü bir "
 "copyleft gereksinimine sahiptir. Türetilmiş çalışmalar dağıtılırken, "
-"çalışmanın kaynak kodu aynı lisans altında sunulmalıdır. GNU GPL'nin her "
+"çalışmanın kaynak kodu aynı lisans altında sunulmalıdır. GNU GPL’nin her "
 "biri farklı gereksinimlere sahip birden çok çeşidi vardır."
 
 #: src/license.cpp:235
@@ -498,7 +498,7 @@ msgid ""
 msgstr ""
 "Öncelikle yazılım kitaplıkları için kullanılan GNU LGPL, türetilmiş "
 "çalışmaların aynı lisans altında lisanslanmasını gerektirir; ancak yalnızca "
-"ona bağlanan çalışmalar bu kısıtlamanın kapsamına girmez. GNU LGPL'nin "
+"ona bağlanan çalışmalar bu kısıtlamanın kapsamına girmez. GNU LGPL’nin "
 "yaygın olarak kullanılan iki sürümü vardır."
 
 #: src/license.cpp:241
@@ -528,7 +528,7 @@ msgid ""
 "code. Then add another file named COPYING.LESSER and copy the text."
 msgstr ""
 "Bu lisans, GNU GPLv3 lisansına ek bir dizi izindir. Kaynak kodunuzun "
-"kökündeki GNU GPLv3'ü uygulamak için talimatları izleyin. Ardından COPYING."
+"kökündeki GNU GPLv3’ü uygulamak için talimatları izleyin. Ardından COPYING."
 "LESSER adlı başka bir dosya ekleyin ve metni kopyalayın."
 
 #: src/license.cpp:244
