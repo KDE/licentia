@@ -1,16 +1,16 @@
 # Translation of licentia.po to Catalan (Valencian)
-# Copyright (C) 2022-2024 This_file_is_part_of_KDE
+# Copyright (C) 2022-2025 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2024.
+# Josep M. Ferrer <txemaq@gmail.com>, 2022, 2024, 2025.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-15 00:43+0000\n"
-"PO-Revision-Date: 2024-07-05 19:06+0200\n"
+"PO-Revision-Date: 2025-03-13 12:34+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -190,7 +190,7 @@ msgstr "Esta llicència indica explícitament que NO proporciona cap garantia."
 #: src/license.cpp:177
 #, kde-format
 msgid "Trademark use"
-msgstr "Ús de marques comercials"
+msgstr "Ús de marques registrades"
 
 #: src/license.cpp:178
 #, kde-format
@@ -200,7 +200,7 @@ msgid ""
 "trademark rights."
 msgstr ""
 "Esta llicència indica explícitament que NO atorga cap dret de marca "
-"comercial, tot i que les llicències sense esta declaració probablement no "
+"registrada, tot i que les llicències sense esta declaració probablement no "
 "atorguen cap dret de marca comercial implícit."
 
 #: src/license.cpp:183
@@ -233,7 +233,7 @@ msgstr ""
 "La Llicència Lliure Acadèmica és una variant de la Llicència de Programari "
 "Obert que no requerix que el codi font d'obris derivades es divulgui. Conté "
 "drets d'autoria explícits i concessió de patents i reserva els drets de "
-"marca comercial a l'autor."
+"marca registrada a l'autor."
 
 #: src/license.cpp:197
 #, kde-format
