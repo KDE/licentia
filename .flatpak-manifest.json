@@ -2,7 +2,7 @@
     "id": "org.kde.licentia",
     "branch": "master",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "licentia",
     "tags": [
@@ -24,11 +24,12 @@
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "buildsystem": "cmake-ninja",
+            "builddir": true,
             "sources": [
                 {
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.7.0.tar.xz",
+                    "sha256": "7d854975185cf740de486d84f1e2ec3e4eadb66ac9fb897214cba9ab8cc492b1",
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.9.0.tar.xz",
-                    "sha256": "56d8073cd9797d4adf5a75f5dc0d2385fc2e896ab6e6106131a6f0d6a976d8a2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -36,6 +37,9 @@
                         "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
                     }
                 }
+            ],
+            "cleanup": [
+                "/lib/cmake"
             ]
         },
         {
