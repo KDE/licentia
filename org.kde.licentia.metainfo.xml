@@ -27,6 +27,7 @@
   <name xml:lang="nl">Licentia</name>
   <name xml:lang="pl">Licentia</name>
   <name xml:lang="pt">Licentia</name>
+  <name xml:lang="pt-BR">Licentia</name>
   <name xml:lang="sa">लाइसेंसिया</name>
   <name xml:lang="sk">Licentia</name>
   <name xml:lang="sl">Licentia</name>
@@ -57,6 +58,7 @@
   <summary xml:lang="nl">Kies een licentie voor uw project</summary>
   <summary xml:lang="pl">Wybierz licencję dla swojego projektu</summary>
   <summary xml:lang="pt">Escolha uma licença para o seu projecto</summary>
+  <summary xml:lang="pt-BR">Escolha uma licença para seu projeto</summary>
   <summary xml:lang="sa">स्वस्य परियोजनायाः कृते अनुज्ञापत्रं चिनुत</summary>
   <summary xml:lang="sk">Vyberte licenciu pre váš projekt</summary>
   <summary xml:lang="sl">Izberite licenco za vaš projekt</summary>
@@ -88,6 +90,7 @@
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pt-BR">Comunidade do KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sa">केडीई समुदाय, फेलिप किनोशिता</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
@@ -118,6 +121,7 @@
     <p xml:lang="nl">Licentia helpt u bij het kiezen van een licentie voor uw project, het biedt u het controleren van de toestemmingen, bepalingen en beperkingen gegeven in de licentie, hoe de gekozen licentie aan uw project toevoegen en de volledige licentie te lezen.</p>
     <p xml:lang="pl">Licentia pomaga wybrać licencję dla swojego projektu, pozwala sprawdzić uprawnienia, warunki i ograniczenia licencji, jak dodać daną licencję do swojego projektu oraz przeczytać pełną licencję.</p>
     <p xml:lang="pt">O Licentia ajuda-o a escolher uma licença para o seu projecto; permite-lhe verificar as permissões, condições e limitações, como adicionar a dita licença ao seu projecto e ler a licença completa.</p>
+    <p xml:lang="pt-BR">O Licentia ajuda você a escolher uma licença para seu projeto, permitindo que você verifique as permissões, condições e limitações da licença, como adicionar essa licença ao seu projeto e leia a licença completa.</p>
     <p xml:lang="sa">Licentia भवतः परियोजनायाः कृते अनुज्ञापत्रं चयनं कर्तुं साहाय्यं करोति, एतत् भवन्तं अनुज्ञापत्रस्य अनुमतिः, शर्ताः, सीमाः च परीक्षितुं, उक्तं अनुज्ञापत्रं भवतः परियोजनायां कथं योजयितुं पूर्णं अनुज्ञापत्रं पठितुं च शक्नोति।</p>
     <p xml:lang="sl">Licentia vam pomaga izbrati licenco za vaš projekt, omogoča preverjanje dovoljenj, pogojev in omejitev licence, kako dodati zahtevano licenco za vaš projekt in prebrati celotno licenco.</p>
     <p xml:lang="sv">Licentia hjälper dig välja en licens för ditt projekt. Det låter dig kontrollera licensens rättigheter, villkor och begränsningar, hur nämnda licens kan läggas till i ditt projekt och läsa den fullständiga licensen.</p>
@@ -151,6 +155,7 @@
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="pl">Widok główny</caption>
       <caption xml:lang="pt">Janela Principal</caption>
+      <caption xml:lang="pt-BR">Visualização principal</caption>
       <caption xml:lang="sa">मुख्य दृश्य</caption>
       <caption xml:lang="sk">Hlavný pohľad</caption>
       <caption xml:lang="sl">Glavni pogled</caption>
