@@ -3,6 +3,7 @@
 
 [Desktop Entry]
 Name=Licentia
+Name[ar]=ليسينتيا
 Name[ca]=Licentia
 Name[ca@valencia]=Licentia
 Name[cs]=Licentia
@@ -33,6 +34,7 @@ Name[tr]=Licentia
 Name[uk]=Licentia
 Name[zh_TW]=Licentia
 GenericName=License Chooser
+GenericName[ar]=مساعدك لتختار رخصة
 GenericName[ca]=Tria de llicència
 GenericName[ca@valencia]=Tria de llicència
 GenericName[de]=Lizenzwähler
@@ -63,6 +65,7 @@ GenericName[uk]=Засіб для вибору ліцензування
 GenericName[zh_CN]=许可证选择器
 GenericName[zh_TW]=授權條款選擇工具
 Comment=Choose a license for your project
+Comment[ar]=اختر ترخيصًا لمشروعك
 Comment[ca]=Trieu una llicència per al vostre projecte
 Comment[ca@valencia]=Seleccioneu una llicència per al vostre projecte
 Comment[cs]=Zvolte si licenci pro svůj projekt
@@ -98,6 +101,7 @@ Icon=org.kde.licentia
 Type=Application
 Terminal=false
 Keywords=licenses;copyright;
+Keywords[ar]=التراخيص;حقوق النشر;
 Keywords[ca]=llicència;llicències;copyright;drets d'autor;
 Keywords[ca@valencia]=llicència;llicències;copyright;drets d'autoria;
 Keywords[de]=lizenzen;
