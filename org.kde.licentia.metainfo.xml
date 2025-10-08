@@ -6,6 +6,7 @@
   -->
   <id>org.kde.licentia</id>
   <name>Licentia</name>
+  <name xml:lang="ar">ليسينتيا</name>
   <name xml:lang="ca">Licentia</name>
   <name xml:lang="ca-valencia">Licentia</name>
   <name xml:lang="cs">Licentia</name>
@@ -36,6 +37,7 @@
   <name xml:lang="uk">Licentia</name>
   <name xml:lang="zh-TW">Licentia</name>
   <summary>Choose a license for your project</summary>
+  <summary xml:lang="ar">اختر ترخيصًا لمشروعك</summary>
   <summary xml:lang="ca">Trieu una llicència per al vostre projecte</summary>
   <summary xml:lang="ca-valencia">Seleccioneu una llicència per al vostre projecte</summary>
   <summary xml:lang="cs">Zvolte si licenci pro svůj projekt</summary>
@@ -68,6 +70,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ar">فيليبي كينوشيتا، مجتمع كيدي</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
@@ -98,6 +101,7 @@
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
     <p>Licentia helps you choose a license for your project, it allows you to check the license's permissions, conditions and limitations, how to add said license to your project and read the full license.</p>
+    <p xml:lang="ar">تساعدك ليسينتيا في اختيار ترخيص لمشروعك، وتتيح لك التحقق من أذونات الترخيص وشروطه وقيوده، وكيفية إضافة الترخيص المذكور إلى مشروعك وقراءة الترخيص بالكامل.</p>
     <p xml:lang="ca">El Licentia us ajuda a triar una llicència per al vostre projecte, permet comprovar els permisos, condicions i limitacions de la llicència, com afegir aquesta llicència al projecte i llegir la llicència completa.</p>
     <p xml:lang="ca-valencia">Licentia us ajuda a triar una llicència per al vostre projecte, permet comprovar els permisos, condicions i limitacions de la llicència, com afegir esta llicència al projecte i llegir la llicència completa.</p>
     <p xml:lang="de">Licentia hilft Ihnen bei der Suche nach einer Lizenz für Ihr Projekt indem Sie die Berechtigungen, Konditionen und Einschränkungen überprüfen können, Informationen zum Hinzufügen der Lizenz gegeben werden und die vollständige Lizenz gelesen werden kann.</p>
@@ -130,6 +134,7 @@
     <screenshot type="default">
       <image>https://cdn.kde.org/screenshots/licentia/licentia.png</image>
       <caption>Main View</caption>
+      <caption xml:lang="ar">النافذة الرئيسة</caption>
       <caption xml:lang="ca">Vista principal</caption>
       <caption xml:lang="ca-valencia">Vista principal</caption>
       <caption xml:lang="cs">Hlavní pohled</caption>
