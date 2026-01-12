@@ -209,7 +209,7 @@ msgid ""
 "This license explicitly states that it does NOT grant any rights in the "
 "patents of contributors."
 msgstr ""
-"Esta llicència indica explícitament que NO atorga cap dret de patent dels "
+"Esta llicència indica explícitament que NO atorga cap dret en la patent dels "
 "col·laboradors."
 
 #: src/license.cpp:193
