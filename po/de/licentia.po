@@ -4,20 +4,21 @@
 # SPDX-FileCopyrightText: 2022 Frederik Schwarzer <schwarzer@kde.org>
 # SPDX-FileCopyrightText: 2024 Johannes Obermayr <johannesobermayr@gmx.de>
 # SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
+# SPDX-FileCopyrightText: 2026 Alexander Becker <alex-at-kde-l10n-de@freenet.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2025-02-22 03:02+0100\n"
-"Last-Translator: Flori G <Renner03@protonmail.com>\n"
+"PO-Revision-Date: 2026-05-13 17:58+0200\n"
+"Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.2\n"
+"X-Generator: Lokalize 26.04.0\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -78,33 +79,35 @@ msgstr ""
 #: src/license.cpp:123
 #, kde-format
 msgid "License and copyright notice"
-msgstr ""
+msgstr "Lizenz und Urheberrechtsvermerk"
 
 #: src/license.cpp:128
 #, kde-format
 msgid "State changes"
-msgstr ""
+msgstr "Änderungen dokumentieren"
 
 #: src/license.cpp:129
 #, kde-format
 msgid "Changes made to the licensed material must be documented."
-msgstr ""
+msgstr "Änderungen am lizenzierten Material müssen dokumentiert werden."
 
 #: src/license.cpp:133
 #, kde-format
 msgid "Disclose source"
-msgstr ""
+msgstr "Quellen offenlegen"
 
 #: src/license.cpp:134
 #, kde-format
 msgid ""
 "Source code must be made available when the licensed material is distributed."
 msgstr ""
+"Quelltext muss zur Verfügung gestellt werden, wenn das lizenzierte Material "
+"verteilt wird."
 
 #: src/license.cpp:138
 #, kde-format
 msgid "Network use is distribution"
-msgstr ""
+msgstr "Nutzung im Netzwerk ist Verteilung"
 
 #: src/license.cpp:139
 #, kde-format
@@ -112,11 +115,13 @@ msgid ""
 "Users who interact with the licensed material via network are given the "
 "right to receive a copy of the source code."
 msgstr ""
+"Benutzer, die mit dem lizenzierten Material per Netzwerk interagieren, haben "
+"das Recht, eine Kopie des Quelltextes zu erhalten."
 
 #: src/license.cpp:143
 #, kde-format
 msgid "Same license"
-msgstr ""
+msgstr "Gleiche Lizenz"
 
 #: src/license.cpp:144
 #, kde-format
@@ -124,6 +129,9 @@ msgid ""
 "Modifications must be released under the same license when distributing the "
 "licensed material. In some cases a similar or related license may be used."
 msgstr ""
+"Beim Verteilen des lizenzierten Materials müssen Änderungen unter der "
+"gleichen Lizenz veröffentlicht werden wie das lizenzierte Material selbst. "
+"In manchen Fällen darf eine ähnliche oder verwandte Lizenz verwendet werden."
 
 #: src/license.cpp:148
 #, kde-format
@@ -142,7 +150,7 @@ msgstr ""
 #: src/license.cpp:153
 #, kde-format
 msgid "Same license (file)"
-msgstr ""
+msgstr "Gleiche Lizenz (Datei)"
 
 #: src/license.cpp:154
 #, kde-format
@@ -151,16 +159,20 @@ msgid ""
 "distributing the licensed material. In some cases a similar or related "
 "license may be used."
 msgstr ""
+"Beim Verteilen des lizenzierten Materials müssen Änderungen an bestehenden "
+"Dateien unter der gleichen Lizenz veröffentlicht werden wie das lizenzierte "
+"Material selbst. In manchen Fällen darf eine ähnliche oder verwandte Lizenz "
+"verwendet werden."
 
 #: src/license.cpp:167
 #, kde-format
 msgid "Liability"
-msgstr "Verbindlichkeiten"
+msgstr "Haftung"
 
 #: src/license.cpp:168
 #, kde-format
 msgid "This license includes a limitation of liability."
-msgstr ""
+msgstr "Diese Lizenz enthält eine Haftungsbeschränkung."
 
 #: src/license.cpp:172
 #, kde-format
@@ -171,6 +183,8 @@ msgstr "Gewährleistung"
 #, kde-format
 msgid "This license explicitly states that it does NOT provide any warranty."
 msgstr ""
+"In dieser Lizenz wird ausdrücklich darauf hingewiesen, dass sie KEINE "
+"Gewährleistung gewährt."
 
 #: src/license.cpp:177
 #, kde-format
@@ -553,7 +567,7 @@ msgstr "Hilfe"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Problem melden …"
+msgstr "Problem melden …"
 
 #: src/ui/GlobalMenu.qml:51 src/ui/Main.qml:82
 #, kde-format
