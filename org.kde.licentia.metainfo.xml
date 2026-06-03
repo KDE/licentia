@@ -34,6 +34,7 @@
   <name xml:lang="sl">Licentia</name>
   <name xml:lang="sv">Licentia</name>
   <name xml:lang="tr">Licentia</name>
+  <name xml:lang="ug">Licentia</name>
   <name xml:lang="uk">Licentia</name>
   <name xml:lang="zh-TW">Licentia</name>
   <summary>Choose a license for your project</summary>
@@ -65,6 +66,7 @@
   <summary xml:lang="sl">Izberite licenco za vaš projekt</summary>
   <summary xml:lang="sv">Välj en licens för ditt projekt</summary>
   <summary xml:lang="tr">Projeniz için bir lisans seçin</summary>
+  <summary xml:lang="ug">قۇرۇلۇشقا ئىجازەتنامە تاللىنىدۇ</summary>
   <summary xml:lang="uk">Виберіть умови ліцензування вашого проєкту</summary>
   <summary xml:lang="zh-TW">選擇適合您專案的授權條款</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -97,6 +99,7 @@
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ug">KDE جامائىتى، Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
@@ -163,6 +166,7 @@
       <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="sv">Huvudvy</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
+      <caption xml:lang="ug">ئاساسىي كۆرۈنۈش</caption>
       <caption xml:lang="uk">Головне вікно</caption>
       <caption xml:lang="zh-TW">主檢視</caption>
     </screenshot>
