@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the licentia package.
-# SPDX-FileCopyrightText: 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2025-10-06 12:13+0400\n"
+"PO-Revision-Date: 2026-08-10 18:44+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -451,7 +451,7 @@ msgid ""
 "Copyright and license notices must be preserved. Contributors provide an "
 "express grant of patent rights."
 msgstr ""
-"تتوقف أذونات ترخيص النسخ المتروك القوي هذا على إتاحة شيفرة المصدر الكاملة "
+"تتوقف أذون ترخيص النسخ المتروك القوي هذا على إتاحة شيفرة المصدر الكاملة "
 "للأعمال المرخصة والتعديلات، والتي تشمل الأعمال الأكبر التي تستخدم عملًا "
 "مرخصًا، بموجب الترخيص نفسه. يجب الحفاظ على حقوق النشر وإشعارات الترخيص. يوفر "
 "المساهمون منحة صريحة لحقوق براءات الاختراع."
@@ -488,7 +488,7 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "the larger work."
 msgstr ""
-"تتوقف أذونات ترخيص النسخ المتروك هذا على إتاحة شيفرة المصدر الكاملة للأعمال "
+"تتوقف أذون ترخيص النسخ المتروك هذا على إتاحة شيفرة المصدر الكاملة للأعمال "
 "المرخصة والتعديلات بموجب الترخيص نفسه أو GNU GPLv3. يجب الحفاظ على حقوق "
 "النشر وإشعارات الترخيص. يوفر المساهمون منحة صريحة لحقوق براءات الاختراع. ومع "
 "ذلك، يمكن توزيع عمل أكبر يستخدم العمل المرخص من خلال واجهات يوفرها العمل "
@@ -501,9 +501,9 @@ msgid ""
 "Follow the instructions to apply the GNU GPLv3, in the root of your source "
 "code. Then add another file named COPYING.LESSER and copy the text."
 msgstr ""
-"هذا الترخيص هو مجموعة إضافية من الأذونات لترخيص GNU GPLv3. اتبع الدليل "
-"لتطبيق GNU GPLv3، في جذر شيفرة المصدر الخاصة بك. ثم أضف ملفًا آخر اسمه "
-"COPYING.LESSER وانسخ النص."
+"هذا الترخيص هو مجموعة إضافية من الأذون لترخيص GNU GPLv3. اتبع الدليل لتطبيق "
+"GNU GPLv3، في جذر شيفرة المصدر الخاصة بك. ثم أضف ملفًا آخر اسمه COPYING."
+"LESSER وانسخ النص."
 
 #: src/license.cpp:244
 #, kde-format
@@ -516,7 +516,7 @@ msgid ""
 "service over a network, the complete source code of the modified version "
 "must be made available."
 msgstr ""
-"تتوقف أذونات ترخيص النسخ المتروك الأقوى هذا على إتاحة شيفرة المصدر الكاملة "
+"تتوقف أذون ترخيص النسخ المتروك الأقوى هذا على إتاحة شيفرة المصدر الكاملة "
 "للأعمال المرخصة والتعديلات، والتي تشمل الأعمال الأكبر التي تستخدم عملًا "
 "مرخصًا، بموجب الترخيص نفسه. يجب الحفاظ على حقوق النشر وإشعارات الترخيص. يوفر "
 "المساهمون منحة صريحة لحقوق براءات الاختراع. عند استخدام إصدار معدل لتقديم "
@@ -545,7 +545,7 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "files added in the larger work."
 msgstr ""
-"تتوقف أذونات ترخيص النسخ المتروك الضعيف هذا على إتاحة شيفرة مصدر الملفات "
+"تتوقف أذون ترخيص النسخ المتروك الضعيف هذا على إتاحة شيفرة مصدر الملفات "
 "المرخصة وتعديلات تلك الملفات بموجب الترخيص نفسه (أو في حالات معينة، أحد "
 "تراخيص GNU). يجب الحفاظ على حقوق النشر وإشعارات الترخيص. يوفر المساهمون منحة "
 "صريحة لحقوق براءات الاختراع. ومع ذلك، يمكن توزيع عمل أكبر يستخدم العمل "
@@ -556,7 +556,7 @@ msgstr ""
 msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
 "they want with your code."
-msgstr "أسهل ترخيص موجود. يمنح المستخدم أذونات للقيام بكل ما يريده بشيفرتك."
+msgstr "أسهل ترخيص موجود. يمنح المستخدم أذون للقيام بكل ما يريده بشيفرتك."
 
 #: src/license.cpp:256
 #, kde-format
@@ -684,7 +684,7 @@ msgstr "كيفية:"
 #: src/ui/LicensePanel.qml:138
 #, kde-format
 msgid "Permissions:"
-msgstr "الأذونات:"
+msgstr "الأذون:"
 
 #: src/ui/LicensePanel.qml:169
 #, kde-format
