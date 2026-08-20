@@ -1,21 +1,22 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2026 This file is copyright:
 # This file is distributed under the same license as the licentia package.
 # Vit Pelcak <vit@pelcak.org>, 2022, 2023.
+# SPDX-FileCopyrightText: 2026 Libor Filípek <libor.filipek@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2023-01-05 13:40+0100\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-08-19 21:08+0200\n"
+"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: src/license.cpp:89
 #, kde-format
@@ -27,16 +28,17 @@ msgstr "Komerční použití"
 msgid ""
 "The licensed material and derivatives may be used for commercial purposes."
 msgstr ""
+"Licencovaný materiál a jeho odvozená díla lze používat pro komerční účely."
 
 #: src/license.cpp:94
 #, kde-format
 msgid "Modification"
-msgstr "Změna"
+msgstr "Úprava"
 
 #: src/license.cpp:95
 #, kde-format
 msgid "The licensed material may be modified."
-msgstr ""
+msgstr "Licencovaný materiál lze upravovat."
 
 #: src/license.cpp:99
 #, kde-format
@@ -46,7 +48,7 @@ msgstr "Distribuce"
 #: src/license.cpp:100
 #, kde-format
 msgid "The licensed material may be distributed."
-msgstr ""
+msgstr "Licencovaný materiál lze šířit."
 
 #: src/license.cpp:104
 #, kde-format
@@ -56,49 +58,51 @@ msgstr "Soukromé využití"
 #: src/license.cpp:105
 #, kde-format
 msgid "The licensed material may be used and modified in private."
-msgstr ""
+msgstr "Licencovaný materiál lze používat a upravovat pro soukromé účely."
 
 #: src/license.cpp:109 src/license.cpp:182
 #, kde-format
 msgid "Patent use"
-msgstr ""
+msgstr "Využití patentu"
 
 #: src/license.cpp:110
 #, kde-format
 msgid ""
 "The licensed provides and express grant of patent rights from contributors."
 msgstr ""
+"Licence obsahuje výslovné udělení patentových práv ze strany přispěvatelů."
 
 #: src/license.cpp:123
 #, kde-format
 msgid "License and copyright notice"
-msgstr ""
+msgstr "Upozornění ohledně licence a autorských práv"
 
 #: src/license.cpp:128
 #, kde-format
 msgid "State changes"
-msgstr ""
+msgstr "Změny stavu"
 
 #: src/license.cpp:129
 #, kde-format
 msgid "Changes made to the licensed material must be documented."
-msgstr ""
+msgstr "Změny provedené v licencovaném materiálu musí být zdokumentovány."
 
 #: src/license.cpp:133
 #, kde-format
 msgid "Disclose source"
-msgstr ""
+msgstr "Zveřejnit zdroj"
 
 #: src/license.cpp:134
 #, kde-format
 msgid ""
 "Source code must be made available when the licensed material is distributed."
 msgstr ""
+"Při distribuci licencovaného materiálu musí být zpřístupněn zdrojový kód."
 
 #: src/license.cpp:138
 #, kde-format
 msgid "Network use is distribution"
-msgstr ""
+msgstr "Využití sítě je distribuce"
 
 #: src/license.cpp:139
 #, kde-format
@@ -106,11 +110,13 @@ msgid ""
 "Users who interact with the licensed material via network are given the "
 "right to receive a copy of the source code."
 msgstr ""
+"Uživatelé, kteří s licencovaným materiálem pracují prostřednictvím sítě, "
+"mají právo obdržet kopii zdrojového kódu."
 
 #: src/license.cpp:143
 #, kde-format
 msgid "Same license"
-msgstr ""
+msgstr "Stejná licence"
 
 #: src/license.cpp:144
 #, kde-format
@@ -118,11 +124,13 @@ msgid ""
 "Modifications must be released under the same license when distributing the "
 "licensed material. In some cases a similar or related license may be used."
 msgstr ""
+"Úpravy musí být při šíření licencovaného materiálu uvolněny pod stejnou "
+"licencí. V některých případech lze použít podobnou nebo související licenci."
 
 #: src/license.cpp:148
 #, kde-format
 msgid "Same license (library)"
-msgstr ""
+msgstr "Stejná licence (knihovna)"
 
 #: src/license.cpp:149
 #, kde-format
@@ -132,11 +140,15 @@ msgid ""
 "or this condition may not apply to works that use the licensed material as a "
 "library."
 msgstr ""
+"Úpravy musí být při šíření licencovaného materiálu uvolněny pod stejnou "
+"licencí. V některých případech lze použít podobnou nebo související licenci, "
+"případně se tato podmínka nemusí vztahovat na díla, která licencovaný "
+"materiál využívají jako knihovnu."
 
 #: src/license.cpp:153
 #, kde-format
 msgid "Same license (file)"
-msgstr ""
+msgstr "Stejná licence (soubor)"
 
 #: src/license.cpp:154
 #, kde-format
@@ -145,31 +157,34 @@ msgid ""
 "distributing the licensed material. In some cases a similar or related "
 "license may be used."
 msgstr ""
+"Úpravy stávajících souborů musí být při šíření licencovaného materiálu "
+"uvolněny pod stejnou licencí. V některých případech lze použít podobnou nebo "
+"související licenci."
 
 #: src/license.cpp:167
 #, kde-format
 msgid "Liability"
-msgstr "Pasiva"
+msgstr "Odpovědnost"
 
 #: src/license.cpp:168
 #, kde-format
 msgid "This license includes a limitation of liability."
-msgstr ""
+msgstr "Tato licence obsahuje ustanovení o omezení odpovědnosti."
 
 #: src/license.cpp:172
 #, kde-format
 msgid "Warranty"
-msgstr ""
+msgstr "Záruka"
 
 #: src/license.cpp:173
 #, kde-format
 msgid "This license explicitly states that it does NOT provide any warranty."
-msgstr ""
+msgstr "Tato licence výslovně uvádí, že neposkytuje žádnou záruku."
 
 #: src/license.cpp:177
 #, kde-format
 msgid "Trademark use"
-msgstr ""
+msgstr "Používání ochranné známky"
 
 #: src/license.cpp:178
 #, kde-format
@@ -178,6 +193,9 @@ msgid ""
 "though licenses without such a statement probably do not grant any implicit "
 "trademark rights."
 msgstr ""
+"Tato licence výslovně uvádí, že neuděluje práva k ochranným známkám, i když "
+"licence bez takového prohlášení pravděpodobně neudělují žádná implicitní "
+"práva k ochranným známkám."
 
 #: src/license.cpp:183
 #, kde-format
@@ -185,6 +203,8 @@ msgid ""
 "This license explicitly states that it does NOT grant any rights in the "
 "patents of contributors."
 msgstr ""
+"Tato licence výslovně stanoví, že neuděluje žádná práva k patentům "
+"přispěvatelů."
 
 #: src/license.cpp:193
 #, kde-format
@@ -192,6 +212,9 @@ msgid ""
 "For REUSE compliance, copy the text of the license into a file named %1.txt, "
 "it must be placed in the LICENSES/ directory in the root of your source code."
 msgstr ""
+"Aby byly splněny podmínky opětovného použití, zkopírujte text licence do "
+"souboru s názvem %1.txt; tento soubor musí být umístěn v adresáři LICENSES/ "
+"v kořenovém adresáři vašeho zdrojového kódu."
 
 #: src/license.cpp:196
 #, kde-format
@@ -201,6 +224,10 @@ msgid ""
 "contains explicit copyright and patent grants and reserves trademark rights "
 "in the author."
 msgstr ""
+"Akademická volná licence (Academic Free License) je variantou licence Open "
+"Software License, která nevyžaduje zveřejnění zdrojového kódu odvozených "
+"děl. Obsahuje výslovná udělení autorských práv a patentů a vyhrazuje si "
+"práva k ochranným známkám pro autora."
 
 #: src/license.cpp:197
 #, kde-format
@@ -210,6 +237,11 @@ msgid ""
 "licensed under AFL 3.0 must also include the notice \"Licensed under the "
 "Academic Free License version 3.0\" adjacent to the copyright notice."
 msgstr ""
+"V kořenovém adresáři zdrojového kódu vytvořte textový soubor (obvykle s "
+"názvem LICENSE nebo LICENSE.txt) a zkopírujte do něj text licence. Soubory "
+"licencované pod licencí AFL 3.0 musí také obsahovat upozornění \"Licencováno "
+"pod licencí Academic Free License verze 3.0\" umístěné hned vedle upozornění "
+"o autorských právech."
 
 #: src/license.cpp:199
 #, kde-format
@@ -219,6 +251,10 @@ msgid ""
 "Licensed works, modifications, and larger works may be distributed under "
 "different terms and without source code."
 msgstr ""
+"Liberální licence, jejíž hlavní podmínky vyžadují zachování upozornění na "
+"autorská práva a licenční podmínky. Přispěvatelé výslovně udělují patentová "
+"práva. Licencovaná díla, úpravy a rozsáhlejší díla mohou být šířena za "
+"odlišných podmínek a bez zdrojového kódu."
 
 #: src/license.cpp:200 src/license.cpp:218 src/license.cpp:221
 #: src/license.cpp:230 src/license.cpp:233 src/license.cpp:239
@@ -228,6 +264,8 @@ msgid ""
 "Create a text file (typically named LICENSE or LICENSE.txt) in the root of "
 "your source code and copy the text of the license into the file."
 msgstr ""
+"V kořenovém adresáři vašeho zdrojového kódu vytvořte textový soubor (obvykle "
+"s názvem LICENSE nebo LICENSE.txt) a zkopírujte do něj text licence."
 
 #: src/license.cpp:202
 #, kde-format
@@ -237,6 +275,10 @@ msgid ""
 "include the copyright notice, license text, or disclaimer in either source "
 "or binary forms."
 msgstr ""
+"Licence BSD Zero Clause jde ještě dále než licence BSD 2-Clause a poskytuje "
+"vám neomezenou svobodu při používání softwaru, aniž by vyžadovala uvedení "
+"oznámení o autorských právech, textu licence nebo prohlášení o vyloučení "
+"odpovědnosti, a to ani ve zdrojové, ani v binární podobě."
 
 #: src/license.cpp:203
 #, kde-format
@@ -250,6 +292,10 @@ msgid ""
 "copyright holders. You may take the additional step of removing the "
 "copyright notice."
 msgstr ""
+"V kořenovém adresáři vašeho zdrojového kódu vytvořte textový soubor (obvykle "
+"s názvem LICENSE nebo LICENSE.txt) a zkopírujte do něj text licence. "
+"Nahraďte [year] aktuálním rokem a [fullname] jménem (nebo jmény) držitelů "
+"autorských práv. Můžete také odstranit oznámení o autorských právech."
 
 #: src/license.cpp:205
 #, kde-format
@@ -257,6 +303,8 @@ msgid ""
 "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-"
 "Clause. Both have very minute differences to the MIT license."
 msgstr ""
+"Liberální licence, která existuje ve dvou variantách: BSD s dvěma klauzulemi "
+"a BSD se třemi klauzulemi. Obě se od licence MIT liší jen nepatrně."
 
 #: src/license.cpp:206 src/license.cpp:209 src/license.cpp:212
 #: src/license.cpp:248
@@ -270,6 +318,10 @@ msgid ""
 "[year] with the current year and [fullname] with the name (or names) of the "
 "copyright holders."
 msgstr ""
+"V kořenovém adresáři vašeho zdrojového kódu vytvořte textový soubor (obvykle "
+"s názvem LICENSE nebo LICENSE.txt) a zkopírujte do něj text licence. "
+"Nahraďte [year] aktuálním rokem a [fullname] jménem (nebo jmény) držitelů "
+"autorských práv."
 
 #: src/license.cpp:208
 #, kde-format
@@ -278,6 +330,9 @@ msgid ""
 "clause that prohibits others from using the name of the project or its "
 "contributors to promote derived products without written consent."
 msgstr ""
+"Liberální licence podobná licenci BSD s dvěma klauzulemi, avšak s třetí "
+"klauzulí, která zakazuje ostatním používat název projektu nebo jména jeho "
+"přispěvatelů k propagaci odvozených produktů bez písemného souhlasu."
 
 #: src/license.cpp:211
 #, kde-format
@@ -285,6 +340,8 @@ msgid ""
 "A variant of the BSD 3-Clause License that explicitly does not grant any "
 "patent rights."
 msgstr ""
+"Varianta licence BSD s třemi ustanoveními, která výslovně neuděluje žádná "
+"patentová práva."
 
 #: src/license.cpp:214
 #, kde-format
@@ -293,6 +350,9 @@ msgid ""
 "\"advertising clause\" that requires an acknowledgment of the original "
 "source in all advertising material."
 msgstr ""
+"Liberální licence podobná licenci BSD s třemi klauzulemi, avšak obsahující "
+"\"reklamní klauzuli\", která vyžaduje uvedení původního zdroje ve všech "
+"reklamních materiálech."
 
 #: src/license.cpp:215
 #, kde-format
@@ -306,6 +366,11 @@ msgid ""
 "copyright holders. Replace [project] with the project organization, if any, "
 "that sponsors this work."
 msgstr ""
+"V kořenovém adresáři zdrojového kódu vytvořte textový soubor (obvykle s "
+"názvem LICENSE nebo LICENSE.txt) a zkopírujte do něj text licence. Nahraďte "
+"[year] aktuálním rokem a [fullname] jménem (nebo jmény) držitelů autorských "
+"práv. Nahraďte [project] názvem organizace projektu, pokud existuje, která "
+"toto dílo sponzoruje."
 
 #: src/license.cpp:217
 #, kde-format
@@ -315,6 +380,10 @@ msgid ""
 "modifications, and larger works may be distributed under different terms and "
 "without source code."
 msgstr ""
+"Jednoduchá liberální licence, která vyžaduje pouze zachování upozornění o "
+"autorských právech a licenčních podmínkách při distribuci zdrojového kódu "
+"(nikoli binárních souborů). Licencovaná díla, úpravy a rozsáhlejší díla "
+"mohou být šířena za odlišných podmínek a bez zdrojového kódu."
 
 #: src/license.cpp:220
 #, kde-format
@@ -325,6 +394,12 @@ msgid ""
 "reach. As with the Unlicense and typical software licenses, CC0 disclaims "
 "warranties. CC0 is very similar to the Unlicense."
 msgstr ""
+"Licence Creative Commons CC0 Public Domain Dedication zbavuje autora "
+"autorských práv k jím vytvořenému dílu a převádí jej do celosvětové veřejné "
+"domény. Použijte licenci CC0, pokud se chcete zcela vzdát autorských práv a "
+"zajistit, aby vaše dílo mělo co nejširší dosah. Stejně jako v případě "
+"licence Unlicense a běžných softwarových licencí se i v licenci CC0 vylučují "
+"jakékoli záruky. Licence CC0 je velmi podobná licenci Unlicense."
 
 #: src/license.cpp:223
 #, kde-format
@@ -334,6 +409,10 @@ msgid ""
 "license for Open Access scientific publications. Not recommended for "
 "software."
 msgstr ""
+"Umožňuje téměř jakékoli použití za předpokladu uvedení zdroje a licenčního "
+"oznámení. Často se používá pro mediální soubory a vzdělávací materiály. "
+"Nejběžnější licence pro vědecké publikace s otevřeným přístupem. "
+"Nedoporučuje se pro software."
 
 #: src/license.cpp:224 src/license.cpp:227
 #, kde-format
@@ -343,6 +422,10 @@ msgid ""
 "acceptable to solely supply a link to a copy of the license, usually to the "
 "canonical URL for the license."
 msgstr ""
+"V kořenovém adresáři vašeho zdrojového kódu vytvořte textový soubor (obvykle "
+"s názvem LICENSE nebo LICENSE.txt) a zkopírujte do něj text licence. Je "
+"rovněž přípustné uvést pouze odkaz na kopii licence, obvykle na její "
+"kanonickou URL adresu."
 
 #: src/license.cpp:226
 #, kde-format
@@ -352,6 +435,11 @@ msgid ""
 "educational materials. A previous version is the default license for "
 "Wikipedia and other Wikimedia projects. Not recommended for software."
 msgstr ""
+"Je podobná licenci CC-BY-4.0, avšak vyžaduje, aby odvozená díla byla šířena "
+"pod stejnou nebo podobnou, kompatibilní licencí. Často se používá pro "
+"mediální soubory a vzdělávací materiály. Její předchozí verze je výchozí "
+"licencí pro Wikipedii a další projekty Wikimedia. Pro software se "
+"nedoporučuje."
 
 #: src/license.cpp:229
 #, kde-format
@@ -361,6 +449,10 @@ msgid ""
 "and the ability for linked works to use other licenses, including commercial "
 "ones."
 msgstr ""
+"Tato komerčně příznivá licence typu copyleft umožňuje poskytovat komerční "
+"licence na binární soubory; zahrnuje moderní udělení patentové licence bez "
+"licenčních poplatků; a umožňuje, aby propojená díla využívala jiné licence, "
+"včetně komerčních."
 
 #: src/license.cpp:232
 #, kde-format
@@ -370,6 +462,10 @@ msgid ""
 "the work must be made available under the same license. There are multiple "
 "variants of the GNU GPL, each with different requirements."
 msgstr ""
+"Licence GNU GPL je nejrozšířenější licencí pro svobodný software a obsahuje "
+"přísné požadavky na copyleft. Při šíření odvozených děl musí být zdrojový "
+"kód daného díla zpřístupněn pod stejnou licencí. Existuje několik variant "
+"licence GNU GPL, z nichž každá má odlišné požadavky."
 
 #: src/license.cpp:235
 #, kde-format
@@ -380,6 +476,11 @@ msgid ""
 "Copyright and license notices must be preserved. Contributors provide an "
 "express grant of patent rights."
 msgstr ""
+"Oprávnění vyplývající z této licence se silným copyleftem jsou podmíněna "
+"tím, že bude pod stejnou licencí zpřístupněn kompletní zdrojový kód "
+"licencovaných děl a jejich úprav, včetně rozsáhlejších děl, která "
+"licencované dílo využívají. Je nutné zachovat upozornění o autorských "
+"právech a licenci. Přispěvatelé výslovně udělují patentová práva."
 
 #: src/license.cpp:236
 #, kde-format
@@ -387,6 +488,9 @@ msgid ""
 "Create a text file (typically named COPYING, as per GNU conventions) in the "
 "root of your source code and copy the text of the license into the file."
 msgstr ""
+"V kořenovém adresáři vašeho zdrojového kódu vytvořte textový soubor (obvykle "
+"s názvem COPYING, v souladu s konvencemi GNU) a zkopírujte do něj text "
+"licence."
 
 #: src/license.cpp:238
 #, kde-format
@@ -396,6 +500,10 @@ msgid ""
 "not fall under this restriction. There are two commonly used versions of the "
 "GNU LGPL."
 msgstr ""
+"Licence GNU LGPL, která se používá především pro softwarové knihovny, "
+"vyžaduje, aby odvozená díla byla licencována pod stejnou licencí; díla, "
+"která na ni pouze odkazují, však tomuto omezení nepodléhají. Existují dvě "
+"běžně používané verze licence GNU LGPL."
 
 #: src/license.cpp:241
 #, kde-format
@@ -408,6 +516,13 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "the larger work."
 msgstr ""
+"Oprávnění vyplývající z této licence typu copyleft jsou podmíněna "
+"zpřístupněním úplného zdrojového kódu licencovaných děl a jejich úprav pod "
+"stejnou licencí nebo pod licencí GNU GPLv3. Je nutné zachovat upozornění o "
+"autorských právech a licenčních podmínkách. Přispěvatelé výslovně udělují "
+"patentová práva. Rozsáhlejší dílo, které využívá licencované dílo "
+"prostřednictvím rozhraní jím poskytovaných, však může být šířeno za "
+"odlišných podmínek a bez zdrojového kódu tohoto rozsáhlejšího díla."
 
 #: src/license.cpp:242
 #, kde-format
@@ -416,6 +531,10 @@ msgid ""
 "Follow the instructions to apply the GNU GPLv3, in the root of your source "
 "code. Then add another file named COPYING.LESSER and copy the text."
 msgstr ""
+"Tato licence představuje doplňkový soubor oprávnění k licenci GNU GPLv3. "
+"Postupujte podle pokynů k použití licence GNU GPLv3, které se nacházejí v "
+"kořenovém adresáři vašeho zdrojového kódu. Poté přidejte další soubor s "
+"názvem COPYING.LESSER a zkopírujte do něj tento text."
 
 #: src/license.cpp:244
 #, kde-format
@@ -428,6 +547,13 @@ msgid ""
 "service over a network, the complete source code of the modified version "
 "must be made available."
 msgstr ""
+"Podmínkou pro uplatnění této nejpřísnější licence typu copyleft je "
+"zpřístupnění úplného zdrojového kódu licencovaných děl a jejich úprav, "
+"včetně rozsáhlejších děl využívajících licencované dílo, a to pod stejnou "
+"licencí. Je nutné zachovat upozornění o autorských právech a licenčních "
+"podmínkách. Přispěvatelé výslovně udělují patentová práva. Pokud se upravená "
+"verze používá k poskytování služby přes síť, musí být zpřístupněn úplný "
+"zdrojový kód této upravené verze."
 
 #: src/license.cpp:247
 #, kde-format
@@ -437,6 +563,10 @@ msgid ""
 "modifications, and larger works may be distributed under different terms and "
 "without source code."
 msgstr ""
+"Krátká a jednoduchá liberální licence, jejíž podmínky vyžadují pouze "
+"zachování upozornění na autorská práva a licenčních upozornění. Licencovaná "
+"díla, jejich úpravy i rozsáhlejší díla mohou být šířena za odlišných "
+"podmínek a bez zdrojového kódu."
 
 #: src/license.cpp:250
 #, kde-format
@@ -449,6 +579,13 @@ msgid ""
 "work may be distributed under different terms and without source code for "
 "files added in the larger work."
 msgstr ""
+"Oprávnění vyplývající z této licence se slabým copyleftem jsou podmíněna "
+"tím, že zdrojový kód licencovaných souborů a jejich úprav bude zpřístupněn "
+"pod stejnou licencí (nebo v určitých případech pod jednou z licencí GNU). Je "
+"nutné zachovat upozornění o autorských právech a licenčních podmínkách. "
+"Přispěvatelé výslovně udělují patentová práva. Rozsáhlejší dílo, které "
+"využívá licencované dílo, však může být šířeno za odlišných podmínek a bez "
+"zdrojového kódu souborů, které byly do tohoto rozsáhlejšího díla přidány."
 
 #: src/license.cpp:253
 #, kde-format
@@ -456,6 +593,8 @@ msgid ""
 "The easiest license out there. It gives the user permissions to do whatever "
 "they want with your code."
 msgstr ""
+"Nejjednodušší licence, jaká existuje. Umožňuje uživateli dělat s vaším "
+"kódem, co se mu zlíbí."
 
 #: src/license.cpp:256
 #, kde-format
@@ -464,6 +603,9 @@ msgid ""
 "domain. Unlicensed works, modifications, and larger works may be distributed "
 "under different terms and without source code."
 msgstr ""
+"Licence bez jakýchkoli podmínek, která převádí díla do veřejné domény. "
+"Nelicencovaná díla, úpravy a komplexnější díla mohou být šířena za jiných "
+"podmínek a bez zdrojového kódu."
 
 #: src/license.cpp:257
 #, kde-format
@@ -472,6 +614,9 @@ msgid ""
 "of your source code and copy the text of the license disclaimer into the "
 "file."
 msgstr ""
+"V kořenovém adresáři vašeho zdrojového kódu vytvořte textový soubor (obvykle "
+"s názvem UNLICENSE nebo UNLICENSE.txt) a zkopírujte do něj text licenčního "
+"prohlášení."
 
 #: src/main.cpp:43
 #, kde-format
@@ -505,13 +650,13 @@ msgstr "Autor"
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Vít Pelčák"
+msgstr "Vít Pelčák,Libor Filípek"
 
 #: src/main.cpp:54
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "vit@pelcak.org"
+msgstr "vit@pelcak.org,libor.filipek@gmail.com"
 
 #: src/ui/GlobalMenu.qml:15
 #, kde-format
@@ -535,7 +680,7 @@ msgstr "Upravit"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Copy license to clipboard"
-msgstr ""
+msgstr "Zkopírovat licenci do schránky"
 
 #: src/ui/GlobalMenu.qml:42
 #, kde-format
@@ -569,12 +714,12 @@ msgstr "O aplikaci %1"
 #: src/ui/LicensePanel.qml:74
 #, kde-format
 msgid "License Source"
-msgstr ""
+msgstr "Zdroj licence"
 
 #: src/ui/LicensePanel.qml:115
 #, kde-format
 msgid "How to:"
-msgstr ""
+msgstr "Návod:"
 
 #: src/ui/LicensePanel.qml:138
 #, kde-format
@@ -604,7 +749,7 @@ msgstr "(žádná omezení)"
 #: src/ui/LicensePanel.qml:253
 #, kde-format
 msgid "Projects using:"
-msgstr ""
+msgstr "Projekty využívající:"
 
 #: src/ui/Main.qml:17
 #, kde-format
@@ -614,12 +759,12 @@ msgstr "Licentia"
 #: src/ui/PageHeader.qml:22
 #, kde-format
 msgid "Original License"
-msgstr ""
+msgstr "Původní licence"
 
 #: src/ui/PageHeader.qml:35
 #, kde-format
 msgid "Copy License to Clipboard (Ctrl+C)"
-msgstr ""
+msgstr "Zkopírovat licenci do schránky (Ctrl+C)"
 
 #: src/ui/PageHeader.qml:58
 #, kde-format
