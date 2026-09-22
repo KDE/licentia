@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:54+0000\n"
-"PO-Revision-Date: 2026-05-31 20:21-0400\n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -478,7 +478,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Licentia"
-msgstr "Licentia"
+msgstr ""
 
 #: src/main.cpp:47
 #, kde-format
@@ -494,7 +494,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr "Felipe Kinoshita"
+msgstr ""
 
 #: src/main.cpp:52
 #, kde-format
@@ -548,7 +548,7 @@ msgstr "ياردەم"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr ""
+msgstr "كەمتۈك مەلۇم قىل…"
 
 #: src/ui/GlobalMenu.qml:51 src/ui/Main.qml:82
 #, kde-format
@@ -610,7 +610,7 @@ msgstr ""
 #: src/ui/Main.qml:17
 #, kde-format
 msgid "Licentia"
-msgstr "Licentia"
+msgstr ""
 
 #: src/ui/PageHeader.qml:22
 #, kde-format
